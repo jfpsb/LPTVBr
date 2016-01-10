@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+.videos-header {
+	font-family: "Courier New", Courier, monospace;
+	background: white;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin: 2px;
+	display: block;
+}
+
+.header {
+	padding-left: 15px;
+	margin: none !important;
+	color: black;
+	display: block;
+}
+
+.index-article {
+	position: relative;
+	background: gray;
+	margin: 7px;
+	padding: 1px;
+	margin-top: 5px;
+	padding-top: -5px;
+	border-radius: 5px;
+	display: block;
+}

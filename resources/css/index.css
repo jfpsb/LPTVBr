@@ -2,7 +2,7 @@
 
 .videos-header {
 	font-family: "Courier New", Courier, monospace;
-	background: white;
+	background: #E0E0E0;
 	border-radius: 3px;
 	border: 1px solid black;
 	margin: 2px;
@@ -18,11 +18,69 @@
 
 .index-article {
 	position: relative;
-	background: gray;
+	background: white;
 	margin: 7px;
 	padding: 1px;
 	margin-top: 5px;
 	padding-top: -5px;
 	border-radius: 5px;
 	display: block;
+}
+
+.myUploads {
+	list-style-type: none;
+	columns: 4;
+	-webkit-columns: 4;
+	-moz-columns: 4;
+	padding: 5px;
+	margin: 0;
+}
+
+.videoLink {
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+}
+
+.videoThumb {
+	max-width:100%;
+	max-height:100%;
+	border-radius : 5px;
+	margin: none;
+	padding: none;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.videoLi {
+	height: 250px;
+}
+
+.videoTitle {
+	text-align: center;
+	font-weight: bold;
+}
+
+@media all and (max-width: 600px) and (min-width: 380px){
+	.myUploads {
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+	}
+}
+
+@media all and (max-width: 900px) and (min-width: 600px){
+	.myUploads {
+		columns: 3;
+		-webkit-columns: 3;
+		-moz-columns: 3;
+	}
+}
+
+@media all and (max-width: 380px){
+	.myUploads {
+		columns: 1;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+	}
 }

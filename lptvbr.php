@@ -55,15 +55,6 @@
 			echo date("Y");
 		?>
 	</ul>
-<!-- 		<p:panelGrid columns="1"> -->
-<!-- 			<p:outputLabel value="LinkinParkTVBr" class="footerLabel" /> -->
-<!-- 			<p:outputLabel value="linkinparktvbr@gmail.com" class="footerLabel" /> -->
-<!-- 			<p:outputLabel value="2015" class="footerLabel" /> -->
-			<!--<f:facet name="footer">
-<!-- 				<a href="#{request.contextPath}/reportarErro.xhtml" -->
-<!-- 					class="footerLink">Reporte Erros</a> -->
-<!-- 			</f:facet>-->
-<!-- 		</p:panelGrid> -->
 	</div>
 
 </body>

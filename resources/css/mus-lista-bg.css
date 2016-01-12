@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+
+#thp-article {
+	background-image: url("../../resources/imagens/albuns/thp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

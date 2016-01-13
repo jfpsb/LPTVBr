@@ -6,3 +6,31 @@
 	background-size: cover;
 	background-position: center;
 }
+
+#lt-article {
+	background-image: url("../../resources/imagens/albuns/living-things.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#ats-article {
+	background-image: url("../../resources/imagens/albuns/ats.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#rtr-article {
+	background-image: url("../../resources/imagens/albuns/rtr.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#mtm-article {
+	background-image: url("../../resources/imagens/albuns/mtm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

@@ -11,13 +11,6 @@ define ( 'ROOT', 'http://localhost/LPTVBr' )?>
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
-<?php
-if (isset ( $pageTitle )) {
-	echo $pageTitle;
-} else {
-	echo "LinkinParkTVBr";
-}
-?>
 </head>
 
 <body>
@@ -30,7 +23,7 @@ if (isset ( $pageTitle )) {
 					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
 				<form class="template-form">
 					<a href="/LPTVBr/index.php" class="button">Página Inicial</a> <a
-						href="/LPTVBr/mus-leg.php" class="button">Músicas Traduzidas</a> <a
+						href="/LPTVBr/musicas/mus-leg.php" class="button">Músicas Traduzidas</a> <a
 						href="/LPTVBr/teste.php" class="button">Vídeos Legendados</a> <a
 						href="index.php" class="button">Redes Sociais</a> <a
 						href="index.php" class="button">Sobre</a>

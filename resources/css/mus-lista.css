@@ -6,9 +6,10 @@ tr, td {
 	color: white;
 	font-weight: bold;
 	text-align: center;
-	padding-bottom: 15px;
+	padding: 10px;
 	font-size: 25px;
 	text-shadow: 2px 2px 3px black;
+	border-bottom: 1px groove #E0E0E0;
 }
 
 #button-td {
@@ -23,6 +24,7 @@ tr, td {
 
 .trad-button {
 	width: 100%;
+	min-width: 150px;
 	font-family: "Courier New", Courier, monospace;
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;

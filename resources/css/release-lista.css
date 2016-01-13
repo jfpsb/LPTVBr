@@ -98,7 +98,6 @@ td {
 	font-weight: bold;
 	text-shadow: 2px 2px 2px black;
 	margin: 0 auto !important;
-	padding-bottom: 5px !important;
 	position: absolute;
 	bottom: 5px;
 	left: 0;
@@ -131,7 +130,7 @@ td {
 	background: #E0E0E0 !important;
 }
 
-a:hover>p {
+.link:hover p {
 	visibility: visible;
 	opacity: 1;
 	background: rgb(0, 0, 0);

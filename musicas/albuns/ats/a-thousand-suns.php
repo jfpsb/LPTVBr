@@ -2,10 +2,10 @@
 	$page = $_GET['page'];
 	
 	if(isset($_GET['mus'])) {
-		$musTitle = 'The Hunting Party : '.$_GET['mus'].' (Tradução)';
+		$musTitle = 'A Thousand Suns : '.$_GET['mus'].' (Tradução)';
 	}
 	else {
-		$musTitle = 'The Hunting Party';
+		$musTitle = 'A Thousand Suns';
 	}
 ?>
 

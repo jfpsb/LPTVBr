@@ -21,8 +21,8 @@ try {
 	// Call the search.list method to retrieve results matching the specified
 	// query term.
 	$searchResponse = $youtube->search->listSearch ( 'id,snippet', array (
-			'q' => 'Linkin Park '.$_GET['page'].' live',
-			'maxResults' => 15 
+			'q' => 'Linkin Park ' . $_GET ['mus'] . ' live',
+			'maxResults' => 18
 	) );
 	$videos = '';
 	// Add each result to the appropriate list, and then display the lists of
@@ -30,11 +30,8 @@ try {
 	foreach ( $searchResponse ['items'] as $searchResult ) {
 		switch ($searchResult ['id'] ['kind']) {
 			case 'youtube#video' :
-				$videos .= sprintf ( "<li class='videosLi'><div><a href='http://www.youtube.com/watch/%s' target='_blank'>
-						<img src='%s'class='videoImg'/><p>%s</p></a></div></li>", 
-				$searchResult ['id'] ['videoId'], 
-				$searchResult ['snippet'] ['thumbnails'] ['medium'] ['url'], 
-				$searchResult ['snippet'] ['title']);
+				$videos .= sprintf ( "<li class='videosLi'><div><a class='videoLink' href='http://www.youtube.com/watch/%s' target='_blank'>
+						<img src='%s'class='videoImg'/><p>%s</p></a></div></li>", $searchResult ['id'] ['videoId'], $searchResult ['snippet'] ['thumbnails'] ['medium'] ['url'], $searchResult ['snippet'] ['title'] );
 				break;
 		}
 	}

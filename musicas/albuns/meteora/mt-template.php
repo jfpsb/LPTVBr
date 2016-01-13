@@ -19,6 +19,8 @@
 	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/letramusica.js"></script>
 <script type="text/javascript">
 	$(function() {
@@ -26,7 +28,7 @@
 	});
 
 	$(document).ready(function(){
-		loadLetra('thp', getParameterByName('page'));
+		loadLetra('meteora', getParameterByName('page'));
 	});
 </script>
 </head>
@@ -63,45 +65,44 @@
 
 		<aside class="album-aside">
 			<div class="album-panel">
-				<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
+				<img src="/LPTVBr/resources/imagens/albuns/mt250.jpg"
 					class="album-cover"> <a class="album-link"
-					href="the-hunting-party.php?page=thp-main">Voltar ao The Hunting Party</a>
+					href="meteora.php?page=mt-main">Voltar ao Meteora</a>
 				<ol class="album-lista">
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=keys-to-the-kingdom&mus=Keys To The Kingdom">1.
-							Keys To The Kingdom</a></li>
+						href="meteora.php?page=foreword&mus=Foreword">1. Foreword</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=all-for-nothing&mus=All For Nothing (Feat. Page Hamilton)">2.
-							All For Nothing (Feat. Page Hamilton)</a></li>
+						href="meteora.php?page=dont-stay&mus=Don't Stay">2. Don't
+							Stay</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=guilty-all-the-same&mus=Guilty All The Same">3.
-							Guilty All The Same</a></li>
+						href="meteora.php?page=somewhere-i-belong&mus=Somewhere I Belong">3.
+							Somewhere I Belong</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=the-summoning&mus=The Summoning">4.
-							The Summoning</a></li>
+						href="meteora.php?page=lying-from-you&mus=Lying From You">4.
+							Lying From You</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=war&mus=War">5. War</a></li>
+						href="meteora.php?page=hit-the-floor&mus=Hit The Floor">5.
+							Hit The Floor</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=wastelands&mus=Wastelands">6.
-							Wastelands</a></li>
+						href="meteora.php?page=easier-to-run&mus=Easier To Run">6.
+							Easier To Run</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=until-its-gone&mus=Until It's Gone">7.
-							Until It's Gone</a></li>
+						href="meteora.php?page=faint&mus=Faint">7. Faint</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=rebellion&mus=Rebellion (Feat. Daron Malakian">8.
-							Rebellion (Feat. Daron Malakian)</a></li>
+						href="meteora.php?page=figure09&mus=Figure.09">8. Figure.09</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=mark-the-graves&mus=Mark The Graves">9.
-							Mark The Graves</a></li>
+						href="meteora.php?page=breaking-the-habit&mus=Breaking The Habit">9.
+							Breaking The Habit</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=drawbar&mus=Drawbar (Feat. Tom Morello)">10.
-							Drawbar (Feat. Tom Morello)</a></li>
+						href="meteora.php?page=from-the-inside&mus=From The Inside">10.
+							From The Inside</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=final-masquerade&mus=Final Masquerade">11.
-							Final Masquerade</a></li>
+						href="meteora.php?page=nobodys-listening&mus=Nobody's Listening">11.
+							Nobody's Listening</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=a-line-in-the-sand&mus=A Line In The Sand">12.
-							A Line In The Sand</a></li>
+						href="meteora.php?page=session&mus=Session">12. Session</a></li>
+					<li><a class="album-text"
+						href="meteora.php?page=numb&mus=Numb">13. Numb</a></li>
 				</ol>
 			</div>
 		</aside>

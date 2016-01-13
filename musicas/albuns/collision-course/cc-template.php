@@ -19,6 +19,8 @@
 	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/letramusica.js"></script>
 <script type="text/javascript">
 	$(function() {
@@ -26,7 +28,7 @@
 	});
 
 	$(document).ready(function(){
-		loadLetra('thp', getParameterByName('page'));
+		loadLetra('collision-course', getParameterByName('page'));
 	});
 </script>
 </head>
@@ -63,45 +65,27 @@
 
 		<aside class="album-aside">
 			<div class="album-panel">
-				<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
+				<img src="/LPTVBr/resources/imagens/albuns/cc250.jpg"
 					class="album-cover"> <a class="album-link"
-					href="the-hunting-party.php?page=thp-main">Voltar ao The Hunting Party</a>
+					href="collision-course.php?page=cc-main">Voltar ao Collision Course</a>
 				<ol class="album-lista">
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=keys-to-the-kingdom&mus=Keys To The Kingdom">1.
-							Keys To The Kingdom</a></li>
+						href="collision-course.php?page=dirt-off-your-shoulder&mus=Dirt Off Your Shoulder/Lying From You">1.
+							Dirt Off Your Shoulder/Lying From You</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=all-for-nothing&mus=All For Nothing (Feat. Page Hamilton)">2.
-							All For Nothing (Feat. Page Hamilton)</a></li>
+						href="collision-course.php?page=big-pimpin&mus=Big Pimpin'/Papercut">2.
+							Big Pimpin'/Papercut</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=guilty-all-the-same&mus=Guilty All The Same">3.
-							Guilty All The Same</a></li>
+						href="collision-course.php?page=jigga-what&mus=Jigga What/Faint">3.
+							Jigga What/Faint</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=the-summoning&mus=The Summoning">4.
-							The Summoning</a></li>
+						href="collision-course.php?page=numb-encore&mus=Numb/Encore">4.
+							Numb/Encore</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=war&mus=War">5. War</a></li>
+						href="collision-course.php?page=izzo&mus=Izzo/In The End">5. Izzo/In The End</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=wastelands&mus=Wastelands">6.
-							Wastelands</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=until-its-gone&mus=Until It's Gone">7.
-							Until It's Gone</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=rebellion&mus=Rebellion (Feat. Daron Malakian">8.
-							Rebellion (Feat. Daron Malakian)</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=mark-the-graves&mus=Mark The Graves">9.
-							Mark The Graves</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=drawbar&mus=Drawbar (Feat. Tom Morello)">10.
-							Drawbar (Feat. Tom Morello)</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=final-masquerade&mus=Final Masquerade">11.
-							Final Masquerade</a></li>
-					<li><a class="album-text"
-						href="the-hunting-party.php?page=a-line-in-the-sand&mus=A Line In The Sand">12.
-							A Line In The Sand</a></li>
+						href="collision-course.php?page=points&mus=Points Of Authority/99 Problems/One Step Closer">6.
+							Points Of Authority/99 Problems/One Step Closer</a></li>
 				</ol>
 			</div>
 		</aside>

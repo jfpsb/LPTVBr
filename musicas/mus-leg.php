@@ -24,13 +24,18 @@
 	});
 
 	$(document).ready(function() {
-		$("#btn").click(function(){
-	    	$(".tabs.nav").toggle();
+		$(".mobile-btn").click(function(){
+	    	$(".tabs.nav").toggle('hide');
 		});
 
-		$(".mobile-li").click(function(){
-	    	$(".tabs.nav").toggle();
-		});
+		window.onclick = function(event) {
+			var isVisible = $(".tabs.nav").is(":visible");
+			var buttonClicked = event.target.matches(".mobile-btn");
+			var imageClicked = event.target.matches("#btn-img");
+			if (!buttonClicked && isVisible && !imageClicked) {
+					$(".tabs.nav").toggle('hide');
+			}
+		};
 	});
 </script>
 </head>
@@ -110,8 +115,9 @@
 							<tr>
 								<td>
 									<div class="linkPanel">
-										<a href="/LPTVBR/musicas/albuns/mtm/minutes-to-midnight.php?page=mtm-main" class="link"> <img
-											class="linkImg"
+										<a
+											href="/LPTVBR/musicas/albuns/mtm/minutes-to-midnight.php?page=mtm-main"
+											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/mtm.jpg"
 											alt="Capa Minutes to Midnight" />
 											<p class="nomeLink">Minutes To Midnight</p>
@@ -120,7 +126,8 @@
 								</td>
 								<td>
 									<div class="linkPanel">
-										<a href="albuns/collision-course/collision-course.php"
+										<a
+											href="/LPTVBR/musicas/albuns/collision-course/collision-course.php?page=cc-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/collision-course.jpg"
 											alt="Capa Collision Course" />
@@ -132,8 +139,9 @@
 							<tr>
 								<td>
 									<div class="linkPanel">
-										<a href="albuns/live-in-texas/live-in-texas.php" class="link">
-											<img class="linkImg"
+										<a
+											href="/LPTVBR/musicas/albuns/live-in-texas/meteora.php?page=lit-main"
+											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/lit.jpg"
 											alt="Capa Live In Texas" />
 											<p class="nomeLink">Live In Texas</p>
@@ -142,8 +150,9 @@
 								</td>
 								<td>
 									<div class="linkPanel">
-										<a href="albuns/meteora/meteora.php" class="link"> <img
-											class="linkImg"
+										<a
+											href="/LPTVBR/musicas/albuns/meteora/meteora.php?page=mt-main"
+											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/meteora.jpg"
 											alt="Capa Meteora" />
 											<p class="nomeLink">Meteora</p>
@@ -154,8 +163,9 @@
 							<tr>
 								<td>
 									<div class="linkPanel">
-										<a href="albuns/hybrid-theory/hybrid-theory.php" class="link">
-											<img class="linkImg"
+										<a
+											href="/LPTVBR/musicas/albuns/hybrid-theory/hybrid-theory.php?page=ht-main"
+											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/hybrid-theory.jpg"
 											alt="Capa Hybrid Theory" />
 											<p class="nomeLink">Hybrid Theory</p>

@@ -4,6 +4,7 @@
 	width: 100%;
 	float: left;
 	overflow: auto;
+	padding-bottom: 10px;
 }
 
 .wrapper {
@@ -148,7 +149,6 @@ li {
 	.album-aside {
 		float: none;
 		width: 100%;
-		margin-top: 10px;
 	}
 	
 	.letra-div {

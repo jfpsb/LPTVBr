@@ -28,7 +28,7 @@ td {
 	position: absolute !important;
 	z-index: 10;
 	top: 10px;
-	left: 1px;
+	right: 10px;
 }
 
 .tabs.nav li {
@@ -45,6 +45,11 @@ td {
 	border-bottom: 1px solid white !important;
 	border-radius: 5px !important;
 	position: relative: !important;
+}
+
+.tabs.nav.pui-tabview-nav {
+	top: -25px;
+	left: -13px;
 }
 
 #btn {
@@ -156,10 +161,6 @@ td {
 		columns: 1;
 		-webkit-columns: 1;
 		-moz-columns: 1;
-	}
-	.tabs.nav.pui-tabview-nav {
-		top: -25px;
-		left: -1px;
 	}
 	.nomeLink {
 		bottom: 5px;

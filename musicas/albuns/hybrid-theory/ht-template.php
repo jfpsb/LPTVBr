@@ -19,6 +19,8 @@
 	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/letramusica.js"></script>
 <script type="text/javascript">
 	$(function() {
@@ -26,7 +28,7 @@
 	});
 
 	$(document).ready(function(){
-		loadLetra('thp', getParameterByName('page'));
+		loadLetra('hybrid-theory', getParameterByName('page'));
 	});
 </script>
 </head>
@@ -63,45 +65,41 @@
 
 		<aside class="album-aside">
 			<div class="album-panel">
-				<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
+				<img src="/LPTVBr/resources/imagens/albuns/ht250.jpg"
 					class="album-cover"> <a class="album-link"
-					href="the-hunting-party.php?page=thp-main">Voltar ao The Hunting Party</a>
+					href="hybrid-theory.php?page=ht-main">Voltar ao Hybrid Theory</a>
 				<ol class="album-lista">
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=keys-to-the-kingdom&mus=Keys To The Kingdom">1.
-							Keys To The Kingdom</a></li>
+						href="hybrid-theory.php?page=papercut&mus=Papercut">1. Papercut</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=all-for-nothing&mus=All For Nothing (Feat. Page Hamilton)">2.
-							All For Nothing (Feat. Page Hamilton)</a></li>
+						href="hybrid-theory.php?page=one-step-closer&mus=One Step Closer">2. One Step Closer</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=guilty-all-the-same&mus=Guilty All The Same">3.
-							Guilty All The Same</a></li>
+						href="hybrid-theory.php?page=with-you&mus=With You">3.
+							With You</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=the-summoning&mus=The Summoning">4.
-							The Summoning</a></li>
+						href="hybrid-theory.php?page=points-of-authority&mus=Points Of Authority">4.
+							Points Of Authority</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=war&mus=War">5. War</a></li>
+						href="hybrid-theory.php?page=crawling&mus=Crawling">5.
+							Crawling</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=wastelands&mus=Wastelands">6.
-							Wastelands</a></li>
+						href="hybrid-theory.php?page=runaway&mus=Runaway">6.
+							Runaway</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=until-its-gone&mus=Until It's Gone">7.
-							Until It's Gone</a></li>
+						href="hybrid-theory.php?page=by-myself&mus=By Myself">7. By Myself</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=rebellion&mus=Rebellion (Feat. Daron Malakian">8.
-							Rebellion (Feat. Daron Malakian)</a></li>
+						href="hybrid-theory.php?page=in-the-end&mus=In The End">8. In The End</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=mark-the-graves&mus=Mark The Graves">9.
-							Mark The Graves</a></li>
+						href="hybrid-theory.php?page=a-place-for-my-head&mus=A Place For My Head">9.
+							A Place For My Head</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=drawbar&mus=Drawbar (Feat. Tom Morello)">10.
-							Drawbar (Feat. Tom Morello)</a></li>
+						href="hybrid-theory.php?page=forgotten&mus=Forgotten">10.
+							Forgotten</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=final-masquerade&mus=Final Masquerade">11.
-							Final Masquerade</a></li>
+						href="hybrid-theory.php?page=cure-for-the-itch&mus=Cure For The Itch">11.
+							Cure For The Itch</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=a-line-in-the-sand&mus=A Line In The Sand">12.
-							A Line In The Sand</a></li>
+						href="hybrid-theory.php?page=pushing-me-away&mus=Pushing Me Away">12. Pushing Me Away</a></li>
 				</ol>
 			</div>
 		</aside>

@@ -10,8 +10,8 @@
 	border-width: 1px;
 	border-radius: 3px;
 	background: rgb(0, 0, 0);
-  	background: rgba(0, 0, 0, 0.8);
-  	margin: 15px auto;
+	background: rgba(0, 0, 0, 0.8);
+	margin: 15px auto;
 }
 
 pre {
@@ -49,12 +49,11 @@ body {
 	text-align: center !important;
 	margin: auto;
 	-webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    border-radius: 10px !important;
-
-    text-decoration: none;
-    padding: 5px;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius: 10px !important;
+	text-decoration: none;
+	padding: 5px;
 }
 
 .footer-lista {
@@ -71,6 +70,44 @@ body {
 
 a:hover {
 	color: blue;
+}
+
+.mobile-button {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+	min-width: 100px;
+}
+
+.button-wrapper {
+	margin: 5px;
+}
+
+.mobile-menu {
+	display: none;
+	list-style-type: none;
+	margin-top: 0;
+	padding-top: 0;
+	padding: 0;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	min-width: 200px;
+}
+
+.mobile-li {
+	padding: 5px;
+	margin: 1px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background: black;
+	font-weight: bold;
+}
+
+.mobile-link {
+	color: white;
+	text-decoration: none;
 }
 
 #container-nav {
@@ -132,6 +169,10 @@ a:hover {
 #mobile-nav {
 	display: none;
 	position: relative;
+}
+
+.mobile-form {
+	padding: 15px;
 }
 
 .ui-menubutton .ui-button {

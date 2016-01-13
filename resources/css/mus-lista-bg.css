@@ -34,3 +34,31 @@
 	background-size: cover;
 	background-position: center;
 }
+
+#cc-article {
+	background-image: url("../../resources/imagens/albuns/cc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#lit-article {
+	background-image: url("../../resources/imagens/albuns/lit.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#mt-article {
+	background-image: url("../../resources/imagens/albuns/mt.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#ht-article {
+	background-image: url("../../resources/imagens/albuns/ht.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

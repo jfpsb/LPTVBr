@@ -19,15 +19,15 @@
 	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/letramusica.js"></script>
 <script type="text/javascript">
 	$(function() {
 		$('#thp-tabView').puitabview();
 	});
 
-	$(document).ready(function(){
-		loadLetra('thp', getParameterByName('page'));
-	});
+	//As músicas são carregas nas páginas das músicas.
 </script>
 </head>
 <body>
@@ -63,45 +63,44 @@
 
 		<aside class="album-aside">
 			<div class="album-panel">
-				<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
+				<img src="/LPTVBr/resources/imagens/albuns/lit250.jpg"
 					class="album-cover"> <a class="album-link"
-					href="the-hunting-party.php?page=thp-main">Voltar ao The Hunting Party</a>
+					href="live-in-texas.php?page=lit-main">Voltar ao Live In Texas</a>
 				<ol class="album-lista">
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=keys-to-the-kingdom&mus=Keys To The Kingdom">1.
-							Keys To The Kingdom</a></li>
+						href="live-in-texas.php?page=somewhere-i-belong&mus=Somewhere I Belong">1.
+							Somewhere I Belong</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=all-for-nothing&mus=All For Nothing (Feat. Page Hamilton)">2.
-							All For Nothing (Feat. Page Hamilton)</a></li>
+						href="live-in-texas.php?page=lying-from-you&mus=Lying From You">2.
+							Lying From You</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=guilty-all-the-same&mus=Guilty All The Same">3.
-							Guilty All The Same</a></li>
+						href="live-in-texas.php?page=papercut&mus=Papercut">3.
+							Papercut</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=the-summoning&mus=The Summoning">4.
-							The Summoning</a></li>
+						href="live-in-texas.php?page=points-of-authority&mus=Points Of Authority">4.
+							Points Of Authority</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=war&mus=War">5. War</a></li>
+						href="live-in-texas.php?page=runaway&mus=Runaway">5.
+							Runaway</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=wastelands&mus=Wastelands">6.
-							Wastelands</a></li>
+						href="live-in-texas.php?page=faint&mus=Faint">6. Faint</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=until-its-gone&mus=Until It's Gone">7.
-							Until It's Gone</a></li>
+						href="live-in-texas.php?page=from-the-inside&mus=From The Inside">7.
+							From The Inside</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=rebellion&mus=Rebellion (Feat. Daron Malakian">8.
-							Rebellion (Feat. Daron Malakian)</a></li>
+						href="live-in-texas.php?page=pushing-me-away&mus=P5hng Me A*wy">8.
+							P5hng Me A*wy</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=mark-the-graves&mus=Mark The Graves">9.
-							Mark The Graves</a></li>
+						href="live-in-texas.php?page=numb&mus=Numb">9. Numb</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=drawbar&mus=Drawbar (Feat. Tom Morello)">10.
-							Drawbar (Feat. Tom Morello)</a></li>
+						href="live-in-texas.php?page=crawling&mus=Crawling">10.
+							Crawling</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=final-masquerade&mus=Final Masquerade">11.
-							Final Masquerade</a></li>
+						href="live-in-texas.php?page=in-the-end&mus=In The End">11.
+							In The End</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=a-line-in-the-sand&mus=A Line In The Sand">12.
-							A Line In The Sand</a></li>
+						href="live-in-texas.php?page=one-step-closer&mus=One Step Closer">12.
+							One Step Closer</a></li>
 				</ol>
 			</div>
 		</aside>

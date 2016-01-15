@@ -42,7 +42,7 @@ body {
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bold;
 	font-size: 17px;
-	min-width: 100px;
+	min-width: 80px;
 	color: black;
 	background: #ECECEC;
 	border: 1px solid !important;
@@ -51,9 +51,11 @@ body {
 	-webkit-appearance: button;
 	-moz-appearance: button;
 	appearance: button;
-	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz--border-radius: 10px;
+	border-radius: 10px;
 	text-decoration: none;
-	padding: 5px;
+	padding: 5px 3px 5px 3px;
 }
 
 .footer-lista {
@@ -196,11 +198,12 @@ a:hover {
 	background: white !important;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
 	#mobile-nav {
 		display: block;
 	}
 	.mobile-form {
+		display: block;
 		position: absolute;
 		padding: 0;
 		margin: 0;
@@ -216,5 +219,14 @@ a:hover {
 	body {
 		padding: 0;
 		background-image: url("../imagens/background320.jpg");
+	}
+	.button-wrapper {
+		display: block;
+	}
+}
+
+@media all and (max-width: 887px) {
+	.button {
+		font-size: calc(28% + 1vw);
 	}
 }

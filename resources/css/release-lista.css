@@ -78,7 +78,7 @@ td {
 }
 
 .linkImg {
-	max-width: 100%;
+	width: 100%;
 	border-radius: 20px;
 	border: 1px groove #C0C0C0;
 }
@@ -142,7 +142,7 @@ td {
 	background: rgba(0, 0, 0, 0.7);
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
 	.nomeLink {
 		visibility: visible;
 		opacity: 1;
@@ -150,9 +150,6 @@ td {
 	}
 	#mus-tabView {
 		padding: 0 !important;
-	}
-	.button-wrapper {
-		display: block;
 	}
 	.tabs {
 		display: none;

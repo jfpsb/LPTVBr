@@ -1,5 +1,6 @@
 @CHARSET "ISO-8859-1";
 
+/* The Hunting Party */
 #thp-article {
 	background-image: url("../../resources/imagens/albuns/thp.jpg");
 	background-repeat: no-repeat;
@@ -7,6 +8,8 @@
 	background-position: center;
 }
 
+
+/* Living Things */
 #lt-article {
 	background-image: url("../../resources/imagens/albuns/living-things.jpg");
 	background-repeat: no-repeat;
@@ -14,6 +17,7 @@
 	background-position: center;
 }
 
+/* A Thousand Suns */
 #ats-article {
 	background-image: url("../../resources/imagens/albuns/ats.jpg");
 	background-repeat: no-repeat;
@@ -21,6 +25,7 @@
 	background-position: center;
 }
 
+/* Road To Revolution */
 #rtr-article {
 	background-image: url("../../resources/imagens/albuns/rtr.jpg");
 	background-repeat: no-repeat;
@@ -28,6 +33,7 @@
 	background-position: center;
 }
 
+/* Minutes To Midnight */
 #mtm-article {
 	background-image: url("../../resources/imagens/albuns/mtm.jpg");
 	background-repeat: no-repeat;
@@ -35,6 +41,7 @@
 	background-position: center;
 }
 
+/* Collision Course */
 #cc-article {
 	background-image: url("../../resources/imagens/albuns/cc.jpg");
 	background-repeat: no-repeat;
@@ -42,6 +49,7 @@
 	background-position: center;
 }
 
+/* Live In Texas */
 #lit-article {
 	background-image: url("../../resources/imagens/albuns/lit.jpg");
 	background-repeat: no-repeat;
@@ -49,6 +57,7 @@
 	background-position: center;
 }
 
+/* Meteora */
 #mt-article {
 	background-image: url("../../resources/imagens/albuns/mt.jpg");
 	background-repeat: no-repeat;
@@ -56,8 +65,33 @@
 	background-position: center;
 }
 
+/* Hybrid Theory */
 #ht-article {
 	background-image: url("../../resources/imagens/albuns/ht.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* A Decade Underground*/
+#adu-article {
+	background-image: url("../../resources/imagens/lpu/cover/a-decade-underground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 15*/
+#lpu15-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu15.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 14*/
+#lpu14-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpuxiv.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

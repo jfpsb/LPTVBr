@@ -71,7 +71,7 @@
 							<tr>
 								<td><div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/thp/the-hunting-party.php?page=thp-main"
+											href="/LPTVBr/musicas/albuns/thp/the-hunting-party.php?page=thp-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/thp.jpg"
 											alt="Capa The Hunting Party" />
@@ -80,7 +80,7 @@
 									</div></td>
 								<td><div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/living-things/living-things.php?page=lt-main"
+											href="/LPTVBr/musicas/albuns/living-things/living-things.php?page=lt-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/lt.jpg"
 											alt="Capa Living Things" />
@@ -92,7 +92,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/ats/a-thousand-suns.php?page=ats-main"
+											href="/LPTVBr/musicas/albuns/ats/a-thousand-suns.php?page=ats-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/ats.jpg"
 											alt="Capa A Thousand Suns" />
@@ -103,7 +103,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/road-to-revolution/road-to-revolution.php?page=rtr-main"
+											href="/LPTVBr/musicas/albuns/road-to-revolution/road-to-revolution.php?page=rtr-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/road-to-revolution.jpg"
 											alt="Capa Road To Revolution" />
@@ -116,7 +116,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/mtm/minutes-to-midnight.php?page=mtm-main"
+											href="/LPTVBr/musicas/albuns/mtm/minutes-to-midnight.php?page=mtm-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/mtm.jpg"
 											alt="Capa Minutes to Midnight" />
@@ -127,7 +127,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/collision-course/collision-course.php?page=cc-main"
+											href="/LPTVBr/musicas/albuns/collision-course/collision-course.php?page=cc-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/collision-course.jpg"
 											alt="Capa Collision Course" />
@@ -140,7 +140,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/live-in-texas/meteora.php?page=lit-main"
+											href="/LPTVBr/musicas/albuns/live-in-texas/meteora.php?page=lit-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/lit.jpg"
 											alt="Capa Live In Texas" />
@@ -151,7 +151,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/meteora/meteora.php?page=mt-main"
+											href="/LPTVBr/musicas/albuns/meteora/meteora.php?page=mt-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/meteora.jpg"
 											alt="Capa Meteora" />
@@ -164,7 +164,7 @@
 								<td>
 									<div class="linkPanel">
 										<a
-											href="/LPTVBR/musicas/albuns/hybrid-theory/hybrid-theory.php?page=ht-main"
+											href="/LPTVBr/musicas/albuns/hybrid-theory/hybrid-theory.php?page=ht-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/albuns/cover/hybrid-theory.jpg"
 											alt="Capa Hybrid Theory" />
@@ -537,7 +537,7 @@
 						<table>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="remixes/a-light-that-never-comes/altnc-page.xhtml"
+										<a href="remixes/a-light-that-never-comes/altnc-page.php"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/remixes/cover/a-light-that-never-comes.jpg"
 											alt="Capa Remix ALTNCR" />
@@ -545,7 +545,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="remixes/recharged/recharged-page.xhtml" class="link">
+										<a href="remixes/recharged/recharged-page.php" class="link">
 											<img class="linkImg"
 											src="/LPTVBr/resources/imagens/remixes/cover/recharged.jpg"
 											alt="Capa Remix Recharged" />
@@ -553,7 +553,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="remixes/8bit-rebellion/8bit-page.xhtml" class="link">
+										<a href="remixes/8bit-rebellion/8bit-page.php" class="link">
 											<img class="linkImg"
 											src="/LPTVBr/resources/imagens/remixes/cover/8bit-rebellion.jpg"
 											alt="Capa Remix 8BR" />
@@ -563,7 +563,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="remixes/reanimation/reanimation-page.xhtml"
+										<a href="remixes/reanimation/reanimation-page.php"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/remixes/cover/reanimation.jpg"
 											alt="Capa Remix Reanimation" />
@@ -578,7 +578,7 @@
 						<table>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu15/lpu15-page.xhtml" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu15/lpu15.php?page=lpu15-main" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu15.jpg"
 											alt="Capa Single LPU15" />
@@ -586,7 +586,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu14/lpu14-page.xhtml" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu14/lpu14.php?page=lpu14-main" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpuxiv.png"
 											alt="Capa Single LPUXIV" />
@@ -594,7 +594,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu13/lpu13-page.xhtml" class="link"> <img
+										<a href="lpu/lpu13/lpu13-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpuxiii.jpg"
 											alt="Capa Single LPUXIII" />
@@ -604,7 +604,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu12/lpu12-page.xhtml" class="link"> <img
+										<a href="lpu/lpu12/lpu12-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu12.jpg"
 											alt="Capa Single LPU12" />
@@ -612,7 +612,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu11/lpu11-page.xhtml" class="link"> <img
+										<a href="lpu/lpu11/lpu11-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu11.jpg"
 											alt="Capa Single LPU11" />
@@ -620,7 +620,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/a-decade-underground/decade-page.xhtml"
+										<a href="/LPTVBr/musicas/lpu/a-decade-underground/a-decade-underground.php?page=adu-main"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/a-decade-underground.jpg"
 											alt="Capa Single ADU" />
@@ -630,7 +630,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/songs-from-the-underground/sftu-page.xhtml"
+										<a href="lpu/songs-from-the-underground/sftu-page.php"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/songs-from-the-underground.jpg"
 											alt="Capa Single SFTU" />
@@ -638,7 +638,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu10/lpu10-page.xhtml" class="link"> <img
+										<a href="lpu/lpu10/lpu10-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpux.jpg"
 											alt="Capa Single LPUX" />
@@ -646,7 +646,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu9/lpu9-page.xhtml" class="link"> <img
+										<a href="lpu/lpu9/lpu9-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu9.jpg"
 											alt="Capa Single LPU9" />
@@ -656,7 +656,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu8/lpu8-page.xhtml" class="link"> <img
+										<a href="lpu/lpu8/lpu8-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu8.jpg"
 											alt="Capa Single LPU8" />
@@ -664,7 +664,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu7/lpu7-page.xhtml" class="link"> <img
+										<a href="lpu/lpu7/lpu7-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu7.jpg"
 											alt="Capa Single LPU7" />
@@ -672,7 +672,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu6/lpu6-page.xhtml" class="link"> <img
+										<a href="lpu/lpu6/lpu6-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu6.jpg"
 											alt="Capa Single LPU6" />
@@ -682,7 +682,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu5/lpu5-page.xhtml" class="link"> <img
+										<a href="lpu/lpu5/lpu5-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu5.jpg"
 											alt="Capa Single LPU5" />
@@ -690,7 +690,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu4/lpu4-page.xhtml" class="link"> <img
+										<a href="lpu/lpu4/lpu4-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu4.jpg"
 											alt="Capa Single LPU4" />
@@ -698,7 +698,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu3/lpu3-page.xhtml" class="link"> <img
+										<a href="lpu/lpu3/lpu3-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu3.jpg"
 											alt="Capa Single LPU3" />
@@ -708,7 +708,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu2/lpu2-page.xhtml" class="link"> <img
+										<a href="lpu/lpu2/lpu2-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu2.jpg"
 											alt="Capa Single LPU2" />
@@ -716,7 +716,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu1/lpu1-page.xhtml" class="link"> <img
+										<a href="lpu/lpu1/lpu1-page.php" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu1.jpg"
 											alt="Capa Single LPU1" />

@@ -29,8 +29,8 @@ tr, td {
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;
 	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	align: right;
+	padding: 5px !important;
 	margin: 0 auto;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -43,7 +43,6 @@ tr, td {
     transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
-
     text-decoration: none;
     color: initial;
 }
@@ -73,8 +72,8 @@ tr, td {
 
 .mus-table {
 	width: 100%;
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 @media all and (max-width: 600px) {

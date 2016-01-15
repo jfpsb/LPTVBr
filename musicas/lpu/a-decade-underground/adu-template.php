@@ -63,40 +63,42 @@
 
 		<aside class="album-aside">
 			<div class="album-panel">
-				<img src="/LPTVBr/resources/imagens/singles/adu250.jpg"
+				<img
+					src="/LPTVBr/resources/imagens/lpu/cover250/a-decade-underground.jpg"
 					class="album-cover"> <a class="album-link"
 					href="a-decade-underground.php?page=adu-main">Voltar ao A Decade
 					Underground</a>
 				<ol class="album-lista">
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=announcement&mus=Announcement Service Public">1.
+						href="a-decade-underground.php?page=announcement&mus=Announcement Service Public">1.
 							Announcement Service Public</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=qwerty&mus=QWERTY (Studio Version)">2.
+						href="a-decade-underground.php?page=qwerty&mus=QWERTY (Studio Version)">2.
 							QWERTY (Studio Version)</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=and-one&mus=And One">3. And One</a></li>
+						href="a-decade-underground.php?page=and-one&mus=And One">3. And
+							One</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=sold-my-soul-to-yo-mama&mus=Sold My Soul To Yo Mama">4.
+						href="a-decade-underground.php?page=sold-my-soul-to-yo-mama&mus=Sold My Soul To Yo Mama">4.
 							Sold My Soul To Yo Mama</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=dedicated&mus=Dedicated (DEMO 1999)">5.
+						href="a-decade-underground.php?page=dedicated&mus=Dedicated (DEMO 1999)">5.
 							Dedicated (DEMO 1999)</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=hunger-strike&mus=Hunger Strike (Live From Projekt Revolution 2008) - Chris Cornell Feat. Chester Bennington">6.
+						href="a-decade-underground.php?page=hunger-strike&mus=Hunger Strike (Live From Projekt Revolution 2008) - Chris Cornell Feat. Chester Bennington">6.
 							Hunger Strike (Live From Projekt Revolution 2008) - Chris Cornell
 							Feat. Chester Bennington</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=my-december&mus=My December (Live 2008)">7.
+						href="a-decade-underground.php?page=my-december&mus=My December (Live 2008)">7.
 							My December (Live 2008)</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=part-of-me&mus=Part Of Me">8.
+						href="a-decade-underground.php?page=part-of-me&mus=Part Of Me">8.
 							Part Of Me</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=across-the-line&mus=Across The Line (Unreleased DEMO 2007)">9.
+						href="a-decade-underground.php?page=across-the-line&mus=Across The Line (Unreleased DEMO 2007)">9.
 							Across The Line (Unreleased DEMO 2007)</a></li>
 					<li><a class="album-text"
-						href="the-hunting-party.php?page=pretend-to-be&mus=Pretend To Be (Unreleased DEMO 2008)">10.
+						href="a-decade-underground.php?page=pretend-to-be&mus=Pretend To Be (Unreleased DEMO 2008)">10.
 							Pretend To Be (Unreleased DEMO 2008)</a></li>
 				</ol>
 			</div>

@@ -2,16 +2,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript">
-	$(document).ready(function(){
-		loadLetra('mtm', '<?php echo $_GET['page']?>');
-	});
-</script>
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
 </head>
 <body>
 	<?php
-		$videoId = 'LvbxMAYkKlw';
-		include_once 'rtr-template.php';
+	$videoId = 'LvbxMAYkKlw';
+	$page_title = "Road To Revolution : Leave Out All The Rest (Tradução)";
+	$musica = "leave-out-all-the-rest";
+	$nomeMusica = "Leave Out All The Rest";
+	$aside = "road-to-revolution.php";
+	$album = 'mtm';
+	include_once '../../traducao-template.php';
 	?>
 </body>
 </html>

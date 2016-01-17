@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" /><link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"></link>
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
@@ -22,7 +22,7 @@
 <script type="text/javascript" src="/LPTVBr/resources/js/letramusica.js"></script>
 <script type="text/javascript">
 	$(function() {
-		$('#thp-tabView').puitabview();
+		$('#traducao-tabView').puitabview();
 	});
 
 	$(document).ready(function(){
@@ -34,7 +34,7 @@
 	<article class="wrapper">
 		<div class="letra-div">
 			<article class="letra-article">
-				<div id="thp-tabView">
+				<div id="traducao-tabView">
 					<ul class="album-tabs">
 						<li><a href="#traducao">Tradução</a></li>
 						<li><a href="#original">Original</a></li>

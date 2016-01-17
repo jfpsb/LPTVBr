@@ -21,8 +21,9 @@ try {
 	// Call the search.list method to retrieve results matching the specified
 	// query term.
 	$searchResponse = $youtube->search->listSearch ( 'id,snippet', array (
-			'q' => 'Linkin Park ' . $_GET ['mus'] . ' live',
+			'q' => 'Linkin Park '.$nomeMusica.' live',
 			'maxResults' => 18
+			
 	) );
 	$videos = '';
 	// Add each result to the appropriate list, and then display the lists of

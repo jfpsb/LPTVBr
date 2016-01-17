@@ -2,16 +2,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript">
-	$(document).ready(function(){
-		loadLetra('hybrid-theory', '<?php echo $_GET['page']?>');
-	});
-</script>
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
 </head>
 <body>
 	<?php
-		$videoId = 'gl30eSQuPE0';
-		include_once 'rtr-template.php';
+	$videoId = 'gl30eSQuPE0';
+	$page_title = "Road To Revolution : In The End (Tradução)";
+	$musica = "in-the-end";
+	$nomeMusica = "In The End";
+	$aside = "road-to-revolution.php";
+	$album = 'hybrid-theory';
+	include_once '../../traducao-template.php';
 	?>
 </body>
 </html>

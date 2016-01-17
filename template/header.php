@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" /><link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"></link>
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/template.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,10 +35,10 @@
 				<img id="banner-default" class="img-banner"
 					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
 				<form class="template-form">
-					<a href="/LPTVBr/index.php" class="button">Página Inicial</a> <a
-						href="/LPTVBr/musicas/mus-leg.php" class="button">Músicas
-						Traduzidas</a> <a href="/LPTVBr/teste.php" class="button">Vídeos
-						Legendados</a> <a href="/LPTVBr/index.php" class="button">Redes Sociais</a>
+					<a href="/LPTVBr/index.php" class="button">Página Inicial</a> 
+					<a href="/LPTVBr/musicas/musicas.php" class="button">Músicas Traduzidas</a> 
+					<a href="/LPTVBr/videos/videos.php" class="button">Vídeos Legendados</a> 
+					<a href="/LPTVBr/index.php" class="button">Redes Sociais</a>
 					<a href="/LPTVBr/index.php" class="button">Sobre</a>
 				</form>
 			</nav>
@@ -56,9 +56,9 @@
 						<li class="mobile-li"><a class="mobile-link"
 							href="/LPTVBr/index.php">Página Inicial</a></li>
 						<li class="mobile-li"><a class="mobile-link"
-							href="/LPTVBr/musicas/mus-leg.php">Músicas Traduzidas</a></li>
+							href="/LPTVBr/musicas/musicas.php">Músicas Traduzidas</a></li>
 						<li class="mobile-li"><a class="mobile-link"
-							href="/LPTVBr/videos/videos-trad.php">Vídeos Legendados</a></li>
+							href="/LPTVBr/videos/videos.php">Vídeos Legendados</a></li>
 						<li class="mobile-li"><a class="mobile-link"
 							href="/LPTVBr/redes-sociais.php">Redes Sociais</a></li>
 						<li class="mobile-li"><a class="mobile-link"

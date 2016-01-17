@@ -2,16 +2,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript">
-	$(document).ready(function(){
-		loadLetra('hybrid-theory', getParameterByName('page'));
-	});
-</script>
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
 </head>
 <body>
 	<?php
-		$videoId = 'nWWeTIc1l6s';
-		include_once 'lit-template.php';
+	$videoId = 'nWWeTIc1l6s';
+	$page_title = "Live In Texas : Runaway (Tradução)";
+	// Nome da música de forma para buscar a letra
+	$musica = "runaway";
+	$nomeMusica = "Runaway";
+	$aside = "live-in-texas.php";
+	$album = 'hybrid-theory';
+	include_once '../../traducao-template.php';
 	?>
 </body>
 </html>

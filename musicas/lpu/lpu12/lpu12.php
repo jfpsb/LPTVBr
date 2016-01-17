@@ -1,14 +1,3 @@
-<?php 
-	$page = $_GET['page'];
-	
-	if(isset($_GET['mus'])) {
-		$musTitle = 'LP Underground 12 : '.$_GET['mus'].' (Tradução)';
-	}
-	else {
-		$musTitle = 'LP Underground 12';
-	}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +15,7 @@
 	href="/LPTVBr/resources/css/global.css">
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
-<title><?php
-echo $musTitle?></title>
+<title>LP Underground 12</title>
 </head>
 <body>
 	<?php
@@ -35,9 +23,84 @@ echo $musTitle?></title>
 	?>
 	
  	<section id="main-section" class="body-section">
-		<?php 
- 			include_once ($page.'.php');
- 		?>
+		<article id="lpu12-article" class="table-article">
+	<div class="table">
+		<div class="panel-header">
+			<h2 class="header">LP Underground 12</h2>
+		</div>
+		<table class="mus-table">
+			<tr>
+				<td>1.</td>
+				<td>Homecoming (Minutes To Midnight DEMO)</td>
+				<td id="button-td"><a class="trad-button"
+					href="/LPTVBr/musicas/lpu/lpu12/homecoming.php">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Points Of Authority (DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/points-of-authority.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Clarity (Minutes To Midnight DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/clarity.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Asbestos (Minutes To Midnight DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/asbestos.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>Bunker (Minutes To Midnight DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/bunker.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>So Far Away (Unreleased 1998)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/so-far-away.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>Pepper (Meteora DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/pepper.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>Debris (Minutes To Midnight DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/debris.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>Ominous (Meteora DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/ominous.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>Forgotten (DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu12/forgotten.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+		</table>
+	</div>
+</article>
  	</section>
 	
 	<?php include_once '../../../template/footer.php';?>

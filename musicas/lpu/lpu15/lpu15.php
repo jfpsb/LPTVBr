@@ -1,14 +1,3 @@
-<?php 
-	$page = $_GET['page'];
-	
-	if(isset($_GET['mus'])) {
-		$musTitle = 'LP Underground 15: '.$_GET['mus'].' (Tradução)';
-	}
-	else {
-		$musTitle = 'LP Underground 15';
-	}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +15,7 @@
 	href="/LPTVBr/resources/css/global.css">
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
-<title><?php
-echo $musTitle?></title>
+<title>LP Underground 15</title>
 </head>
 <body>
 	<?php
@@ -35,9 +23,56 @@ echo $musTitle?></title>
 	?>
 	
  	<section id="main-section" class="body-section">
-		<?php 
- 			include_once ($page.'.php');
- 		?>
+		<article id="lpu15-article" class="table-article">
+	<div class="table">
+		<div class="panel-header">
+			<h2 class="header">LP Underground 15</h2>
+		</div>
+		<table class="mus-table">
+			<tr>
+				<td>1.</td>
+				<td>Animals</td>
+				<td id="button-td"><a class="trad-button"
+					href="/LPTVBr/musicas/lpu/lpu15/animals.php">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Basil (2008 DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu15/basil.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Pods 1 of 3 (1998 DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu15/pods1.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>Pods 2 of 3 (1998 DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu15/pods2.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>Pods 3 of 3 (1998 DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu15/pods3.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>Chance Of Rain (2006 DEMO)</td>
+				<td id="button-td"><a
+					href="/LPTVBr/musicas/lpu/lpu15/chance-of-rain.php"
+					class="trad-button">Tradução</a></td>
+			</tr>
+		</table>
+	</div>
+</article>
  	</section>
 	
 	<?php include_once '../../../template/footer.php';?>

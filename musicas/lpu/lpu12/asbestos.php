@@ -6,7 +6,12 @@
 <body>
 	<?php
 		$videoId = 'UyuhtI9Pjpg';
-		include_once 'lpu12-template.php';
+		$page_title = "LP Underground 12 : Asbestos (Minutes To Midnight DEMO) (Tradução)";
+		$musica = "asbestos";
+		$nomeMusica = "Asbestos (Minutes To Midnight DEMO)";
+		$aside = "lpu/lpu12.php";
+		$album = 'lpu';
+		include_once '../../traducao-template.php';
 	?>
 </body>
 </html>

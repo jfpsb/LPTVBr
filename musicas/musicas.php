@@ -572,7 +572,7 @@
 						<table>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="/LPTVBr/musicas/lpu/lpu15/lpu15.php?page=lpu15-main"
+										<a href="/LPTVBr/musicas/lpu/lpu15"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu15.jpg"
 											alt="Capa Single LPU15" />
@@ -580,7 +580,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="/LPTVBr/musicas/lpu/lpu14/lpu14.php?page=lpu14-main"
+										<a href="/LPTVBr/musicas/lpu/lpu14"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpuxiv.png"
 											alt="Capa Single LPUXIV" />
@@ -588,7 +588,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="/LPTVBr/musicas/lpu/lpu13/lpu13.php?page=lpu13-main"
+										<a href="/LPTVBr/musicas/lpu/lpu13"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpuxiii.jpg"
 											alt="Capa Single LPUXIII" />
@@ -598,7 +598,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="/LPTVBr/musicas/lpu/lpu12/lpu12.php?page=lpu12-main"
+										<a href="/LPTVBr/musicas/lpu/lpu12"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu12.jpg"
 											alt="Capa Single LPU12" />
@@ -606,7 +606,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="/LPTVBr/musicas/lpu/lpu11/lpu11.php?page=lpu11-main"
+										<a href="/LPTVBr/musicas/lpu/lpu11"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu11.jpg"
 											alt="Capa Single LPU11" />
@@ -615,7 +615,7 @@
 									</div></td>
 								<td><div class="linkPanel">
 										<a
-											href="/LPTVBr/musicas/lpu/a-decade-underground/a-decade-underground.php?page=adu-main"
+											href="/LPTVBr/musicas/lpu/a-decade-underground"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/a-decade-underground.jpg"
 											alt="Capa Single ADU" />
@@ -625,7 +625,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/songs-from-the-underground/sftu-page.php"
+										<a href="/LPTVBr/musicas/lpu/songs-from-the-underground"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/songs-from-the-underground.jpg"
 											alt="Capa Single SFTU" />

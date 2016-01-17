@@ -7,8 +7,8 @@
 </head>
 <body>
 	<?php
-		$page_title = "The Hunting Party : A Line In The Sand (Tradução)";
 		$videoId = 'FkDrVL8Tsuw';
+		$page_title = "The Hunting Party : A Line In The Sand (Tradução)";
 		$musica = "a-line-in-the-sand";
 		$nomeMusica = "A Line In The Sand";
 		$aside = "the-hunting-party.php";

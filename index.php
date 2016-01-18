@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" href="<favicon.ico" type="image/x-icon" />
-<link id="favicon" href="favicon.ico" rel="shortcut icon"
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
 <link rel="stylesheet" type="text/css" href="resources/css/index.css">
 <link rel="stylesheet" type="text/css" href="resources/css/global.css">
@@ -14,7 +14,7 @@
 	<?php
 	include_once 'template/header.php';
 	?>
-	<section class="body-section">
+	<section id="main-section" class="body-section">
 		<article class="index-article">
 			<div class="panel-header">
 				<h2 class="header">Vídeos Recentes</h2>

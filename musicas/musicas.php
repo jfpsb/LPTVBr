@@ -8,7 +8,7 @@
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
-<title>Músicas Legendadas</title>
+<title>Músicas Traduzidas</title>
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/release-lista.css">
 <link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
@@ -633,7 +633,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu10/lpu10-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu10" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpux.jpg"
 											alt="Capa Single LPUX" />
@@ -641,7 +641,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu9/lpu9-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu9" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu9.jpg"
 											alt="Capa Single LPU9" />
@@ -651,7 +651,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu8/lpu8-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu8" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu8.jpg"
 											alt="Capa Single LPU8" />
@@ -659,7 +659,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu7/lpu7-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu7" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu7.jpg"
 											alt="Capa Single LPU7" />
@@ -667,7 +667,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu6/lpu6-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu6" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu6.jpg"
 											alt="Capa Single LPU6" />
@@ -677,7 +677,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu5/lpu5-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu5" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu5.jpg"
 											alt="Capa Single LPU5" />
@@ -685,7 +685,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu4/lpu4-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu4" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu4.jpg"
 											alt="Capa Single LPU4" />
@@ -693,7 +693,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu3/lpu3-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu3" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu3.jpg"
 											alt="Capa Single LPU3" />
@@ -703,7 +703,7 @@
 							</tr>
 							<tr>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu2/lpu2-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu2" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu2.jpg"
 											alt="Capa Single LPU2" />
@@ -711,7 +711,7 @@
 										</a>
 									</div></td>
 								<td><div class="linkPanel">
-										<a href="lpu/lpu1/lpu1-page.php" class="link"> <img
+										<a href="/LPTVBr/musicas/lpu/lpu1" class="link"> <img
 											class="linkImg"
 											src="/LPTVBr/resources/imagens/lpu/cover/lpu1.jpg"
 											alt="Capa Single LPU1" />

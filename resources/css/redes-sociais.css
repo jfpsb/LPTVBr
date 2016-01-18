@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+#article-facebook, #article-youtube, #article-twitter {	
+  	margin:	0px 0px 15px 0px;
+  	padding: 15px 0px 0px 0px;
+  	border: 1px solid white;
+  	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.body-section {
+	background: none !important;
+	border: none !important;
+}
+
+#redes-section {
+	background: 0;
+	border: none;
+}
+
+.texto {
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	align: center;
+}
+
+.link-wrapper {
+	padding: 15px;
+	align: center;
+}
+
+.texto.link {
+	font-weight: bold;
+}
+
+.redes-amostra, .texto-wrapper {
+	width: 70%;
+	margin: auto;
+}
+
+@media all and (max-width: 600px) {
+	.texto.descricao {
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 17px;
+	}
+	
+	.redes-amostra {
+		width: 95%;
+	}
+	
+	.redes-img {
+		width: 30%;
+	}
+	
+	.redes-amostra, .texto-wrapper {
+		width: 99%;
+		margin: auto;
+	}
+	
+	.redes-amostra {
+		display: none;
+	}
+}

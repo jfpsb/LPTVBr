@@ -42,7 +42,7 @@
 						<td>2.</td>
 						<td>Holding Company - 2011 DEMO</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/lpu/lpu13/homecoming-company.php"
+							href="/LPTVBr/musicas/lpu/lpu13/holding-company.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>

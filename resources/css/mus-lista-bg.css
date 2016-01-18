@@ -114,8 +114,8 @@
 }
 
 /* LP Underground 11 */
-#lpu11-article {
-	background-image: url("../../resources/imagens/lpu/cover/lpu11.jpg");
+#lpu10-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu10.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -123,7 +123,7 @@
 
 /* LP Underground 10 */
 #lpu10-article {
-	background-image: url("../../resources/imagens/lpu/cover/lpu10.jpg");
+	background-image: url("../../resources/imagens/lpu/cover/lpux.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -156,6 +156,46 @@
 /* LP Underground 6 */
 #lpu6-article {
 	background-image: url("../../resources/imagens/lpu/cover/lpu6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 5 */
+#lpu5-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 4 */
+#lpu4-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 3 */
+#lpu3-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 2 */
+#lpu2-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* LP Underground 1 */
+#lpu1-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

@@ -11,7 +11,7 @@
 	margin: 10px;
 }
 
-li {
+.traducao-li {
 	text-align: center;
 }
 
@@ -86,6 +86,7 @@ li {
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;
 	font-size: 15px;
+	background: white !important;
 	margin-top: 5px;
 	text-align: center;
 	border-radius: 3px;
@@ -94,8 +95,6 @@ li {
 	-webkit-appearance: button;
 	-moz-appearance: button;
 	appearance: button;
-	background: #E0E0E0;
-	color: #E0E0E0;
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	-moz-transition-duration: 0.2s;
@@ -103,6 +102,16 @@ li {
 	color: initial;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+/* Para Firefox */
+@-moz-document url-prefix() {
+    .album-link {
+        padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+    }
 }
 
 .destaque-panel, .video-container {

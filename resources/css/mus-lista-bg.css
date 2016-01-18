@@ -200,3 +200,11 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* A Light That Never Comes */
+#altnc-article {
+	background-image: url("../../resources/imagens/singles/cover/a-light-that-never-comes.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

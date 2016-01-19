@@ -15,5 +15,7 @@
 			href="/LPTVBr/musicas/lpu/lpu2/high-voltage-remix.php">5. High Voltage Remix (Live)</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu2/my-december.php">6. My December</a></li>
-	</ol>
+	</ol><p class="album-copyright" align="center">
+	Linkin Park Underground Nov 18, 2002 Machine Shop
+	</p>
 </div>

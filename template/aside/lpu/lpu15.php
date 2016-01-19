@@ -22,4 +22,7 @@
 			href="/LPTVBr/musicas/lpu/lpu15/chance-of-rain.php">6.
 				Chance Of Rain (2006 DEMO)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 25, 2015 Linkin Park
+	</p>
 </div>

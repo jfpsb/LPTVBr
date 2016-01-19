@@ -6,4 +6,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/singles/final-masquerade/final-masquerade.php">1. Final Masquerade</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Jun 8, 2014 Warner Bros.
+	</p>
 </div>

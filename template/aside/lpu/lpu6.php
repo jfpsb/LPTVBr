@@ -19,4 +19,7 @@
 			href="/LPTVBr/musicas/lpu/lpu6/reading-my-eyes.php">6. Reading My
 				Eyes (Live)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Dec 5, 2006 Machine Shop
+	</p>
 </div>

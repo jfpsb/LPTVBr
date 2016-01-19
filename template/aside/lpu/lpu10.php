@@ -29,4 +29,7 @@
 		<li class="traducao-li"><a class="album-text" href="/LPTVBr/musicas/lpu/lpu10/halo.php">10.
 				Halo (Unreleased DEMO 2002)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 17, 2010 Machine Shop
+	</p>
 </div>

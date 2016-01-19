@@ -36,4 +36,7 @@
 			href="/LPTVBr/musicas/lpu/a-decade-underground/pretend-to-be.php">10.
 				Pretend To Be (Unreleased DEMO 2008)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Jan 4, 2011 Machine Shop
+	</p>
 </div>

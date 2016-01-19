@@ -6,4 +6,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/singles/wastelands/wastelands.php">1. Wastelands</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Jun 1, 2014 Warner Bros
+	</p>
 </div>

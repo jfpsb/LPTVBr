@@ -30,4 +30,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu11/blue.php">10. Blue (1998 Unreleased Hybrid Theory DEMO)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground May 4, 2011 Machine Shop
+	</p>
 </div>

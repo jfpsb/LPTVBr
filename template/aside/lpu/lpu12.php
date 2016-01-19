@@ -34,4 +34,7 @@
 			href="/LPTVBr/musicas/lpu/lpu12/forgotten.php">10. Forgotten
 				(DEMO)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 15, 2012 Machine Shop
+	</p>
 </div>

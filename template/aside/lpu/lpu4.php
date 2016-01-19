@@ -18,4 +18,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu4/one-step-closer.php">6. One Step Closer (Feat. Jonathan Davis Of Korn) (Live)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 22, 2004 Machine Shop
+	</p>
 </div>

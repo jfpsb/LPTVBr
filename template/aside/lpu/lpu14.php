@@ -33,4 +33,7 @@
 			href="/LPTVBr/musicas/lpu/lpu14/after-canada.php">10.
 				After Canada (2005 DEMO)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 20, 2014 Machine Shop
+	</p>
 </div>

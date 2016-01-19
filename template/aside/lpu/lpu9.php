@@ -25,4 +25,7 @@
 		<li class="traducao-li"><a class="album-text" href="/LPTVBr/musicas/lpu/lpu9/drum-song.php">9.
 				Drum Song (The Little Things Give You Away DEMO 2006)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 23, 2009 Machine Shop
+	</p>
 </div>

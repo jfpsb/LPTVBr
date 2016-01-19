@@ -16,4 +16,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu5/jigga-what.php">6. Jigga What / Faint (Live)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 21, 2005 Machine Shop
+	</p>
 </div>

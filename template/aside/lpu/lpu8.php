@@ -18,4 +18,7 @@
 			href="/LPTVBr/musicas/lpu/lpu8/26-lettaz.php">6. 26 Lettaz In Da
 				Alphabet</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Aug 10, 2009 Machine Shop
+	</p>
 </div>

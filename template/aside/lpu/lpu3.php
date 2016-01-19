@@ -14,4 +14,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu3/a-place-for-my-head.php">5. A Place For My Head (Live In Texas)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 17, 2003 Machine Shop
+	</p>
 </div>

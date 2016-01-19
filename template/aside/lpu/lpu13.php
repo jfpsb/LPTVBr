@@ -40,4 +40,7 @@
 			href="/LPTVBr/musicas/lpu/lpu13/change.php">12.
 				Change - By Beta State - LPU Session 2013</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Nov 18, 2013 Machine Shop
+	</p>
 </div>

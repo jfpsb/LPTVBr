@@ -16,4 +16,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu1/part-of-me.php">6. Part Of Me</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground May 1, 1999 Mix Media
+	</p>
 </div>

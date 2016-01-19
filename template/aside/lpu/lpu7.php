@@ -28,4 +28,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu7/faint.php">10. Faint (Live)</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Underground Dec 5, 2007 Warner Bros. / Machine Shop
+	</p>
 </div>

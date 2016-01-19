@@ -33,4 +33,7 @@
 			href="/LPTVBr/musicas/albuns/hybrid-theory/pushing-me-away.php">12.
 				Pushing Me Away</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Oct 24, 2000 Ⓟ Warner Bros. Records Inc.
+	</p>
 </div>

@@ -46,4 +46,7 @@
 			href="/LPTVBr/musicas/albuns/a-thousand-suns/the-messenger.php">15.
 				The Messenger</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Sep 14, 2010 Ⓟ Warner Bros. Records Inc.
+	</p>
 </div>

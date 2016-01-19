@@ -35,4 +35,7 @@
 			href="/LPTVBr/musicas/albuns/live-in-texas/one-step-closer.php">12.
 				One Step Closer</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Nov 18, 2003 Ⓟ Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S.
+	</p>
 </div>

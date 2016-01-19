@@ -37,4 +37,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/albuns/living-things/powerless.php">12. POWERLESS</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Jun 26, 2012 Ⓟ Warner Bros. Records Inc.
+	</p>
 </div>

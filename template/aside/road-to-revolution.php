@@ -56,4 +56,7 @@
 			href="/LPTVBr/musicas/albuns/road-to-revolution/bleed-it-out.php">18.
 				Bleed It Out</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Nov 24, 2008 Ⓟ Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S.
+	</p>
 </div>

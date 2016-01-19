@@ -39,4 +39,7 @@
 			href="/LPTVBr/musicas/albuns/the-hunting-party/a-line-in-the-sand.php">12.
 				A Line In The Sand</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Jun 17, 2014 Ⓟ: Warner Bros. Records Inc.
+	</p>
 </div>

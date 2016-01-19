@@ -37,4 +37,7 @@
 		<li class="traducao-li"><a class="album-text" href="/LPTVBr/musicas/albuns/meteora/numb.php">13.
 				Numb</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Mar 25, 2003 Ⓟ Warner Bros. Records Inc.
+	</p>
 </div>

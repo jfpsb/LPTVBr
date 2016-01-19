@@ -39,4 +39,7 @@
 			href="/LPTVBr/musicas/albuns/minutes-to-midnight/the-little-things-give-you-away.php">12.
 				The Little Things Give You Away</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park May 17, 2007 Ⓟ Warner Bros. Records Inc.
+	</p>
 </div>

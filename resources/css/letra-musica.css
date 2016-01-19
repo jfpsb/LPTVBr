@@ -57,6 +57,18 @@
 	font-weight: bold;
 }
 
+.album-copyright {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px white;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px groove white;
+	border-radius: 3px;
+}
+
 .body-section {
 	overflow: auto;
 }

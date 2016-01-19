@@ -22,4 +22,7 @@
 			href="/LPTVBr/musicas/albuns/collision-course/points.php">6.
 				Points Of Authority/99 Problems/One Step Closer</a></li>
 	</ol>
+	<p class="album-copyright" align="center">
+	Linkin Park Nov 30, 2004 Ⓟ Warner Bros. Records Inc. and Roc-A-Fella Records, LLC.
+	</p>
 </div>

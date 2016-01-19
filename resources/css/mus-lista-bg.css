@@ -208,3 +208,27 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* Final Masquerade */
+#fm-article {
+	background-image: url("../../resources/imagens/singles/cover/final-masquerade.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Rebellion */
+#rebellion-article {
+	background-image: url("../../resources/imagens/singles/cover/rebellion.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Wastelands */
+#wastelands-article {
+	background-image: url("../../resources/imagens/singles/cover/wastelands.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

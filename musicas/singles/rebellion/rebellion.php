@@ -8,12 +8,12 @@
 </head>
 <body>
 	<?php
-	$videoId = 'ToHo29kD9Go';
-	$page_title = "A Light That Never Comes (Tradução)";
-	$musica = "a-light-that-never-comes";
-	$nomeMusica = "A Light That Never Comes";
-	$aside = "singles/a-light-that-never-comes.php";
-	$album = '';
+	$videoId = 'OCy5461BtTg';
+	$page_title = "Rebellion (Tradução)";
+	$musica = "rebellion";
+	$nomeMusica = "Rebellion";
+	$aside = "singles/rebellion.php";
+	$album = 'thp';
 	include_once '../../traducao-template.php';
 	?>
 </body>

@@ -16,7 +16,7 @@
 	href="/LPTVBr/resources/css/mus-lista-bg.css">
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/global.css">
-<title>Singles : A Light That Never Comes</title>
+<title>Singles : Wastelands</title>
 </head>
 <body>
 	<?php
@@ -24,17 +24,17 @@
 	?>
 	
  	<section id="main-section" class="body-section">
-		<article id="altnc-article" class="table-article">
+		<article id="wastelands-article" class="table-article">
 			<div class="table">
 				<div class="panel-header">
-					<h2 class="header">A Light That Never Comes</h2>
+					<h2 class="header">Wastelands</h2>
 				</div>
 				<table class="mus-table">
 					<tr>
 						<td>1.</td>
-						<td>A Light That Never Comes</td>
+						<td>Wastelands</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/musicas/singles/a-light-that-never-comes/a-light-that-never-comes.php">Tradução</a></td>
+							href="/LPTVBr/musicas/singles/wastelands/wastelands.php">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

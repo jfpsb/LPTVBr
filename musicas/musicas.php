@@ -205,7 +205,7 @@
 							<tr>
 								<td>
 									<div class="linkPanel">
-										<a href="singles/until-its-gone/until-its-gone-page.php"
+										<a href="singles/until-its-gone/uig-page.php"
 											class="link"> <img class="linkImg"
 											src="/LPTVBr/resources/imagens/singles/cover/until-its-gone.jpg"
 											alt="Capa Single UIG" />

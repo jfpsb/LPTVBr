@@ -232,3 +232,35 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* Until It`s Gone */
+#uig-article {
+	background-image: url("../../resources/imagens/singles/cover/until-its-gone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Guilty All The Same */
+#gats-article {
+	background-image: url("../../resources/imagens/singles/cover/guilty-all-the-same.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Castle Of Glass */
+#cog-article {
+	background-image: url("../../resources/imagens/singles/cover/castle-of-glass.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Powerless */
+#powerless-article {
+	background-image: url("../../resources/imagens/singles/cover/powerless.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

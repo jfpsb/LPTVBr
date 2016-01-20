@@ -264,3 +264,19 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* Lost In The Echo */
+#lite-article {
+	background-image: url("../../resources/imagens/singles/cover/lost-in-the-echo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Burn It Down */
+#bid-article {
+	background-image: url("../../resources/imagens/singles/cover/burn-it-down.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

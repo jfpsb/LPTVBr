@@ -16,7 +16,7 @@
 	href="/LPTVBr/resources/css/mus-lista-bg.css">
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/global.css">
-<title>Singles : Rebellion</title>
+<title>Singles : The Catalyst</title>
 </head>
 <body>
 	<?php
@@ -24,17 +24,17 @@
 	?>
 	
  	<section id="main-section" class="body-section">
-		<article id="rebellion-article" class="table-article">
+		<article id="catalyst-article" class="table-article">
 			<div class="table">
 				<div class="panel-header">
-					<h2 class="header">Rebellion</h2>
+					<h2 class="header">The Catalyst</h2>
 				</div>
 				<table class="mus-table">
 					<tr>
 						<td>1.</td>
-						<td>Rebellion</td>
+						<td>The Catalyst</td>
 						<td id="button-td"><a class="trad-button"
-							href="rebellion.php">Tradução</a></td>
+							href="the-catalyst.php">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

@@ -304,3 +304,59 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* Waiting For The End */
+#wfte-article {
+	background-image: url("../../resources/imagens/singles/cover/waiting-for-the-end.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* The Catalyst */
+#catalyst-article {
+	background-image: url("../../resources/imagens/singles/cover/the-catalyst.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Download To Donate For Haiti */
+#haiti-article {
+	background-image: url("../../resources/imagens/singles/cover/download-haiti.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* New Divide */
+#divide-article {
+	background-image: url("../../resources/imagens/singles/cover/new-divide.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Leave Out All The Rest */
+#loatr-article {
+	background-image: url("../../resources/imagens/singles/cover/leave-out-all-the-rest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Given Up */
+#gu-article {
+	background-image: url("../../resources/imagens/singles/cover/given-up.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Shadow Of The Day */
+#sotd-article {
+	background-image: url("../../resources/imagens/singles/cover/shadow-of-the-day.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

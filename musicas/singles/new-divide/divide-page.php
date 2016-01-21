@@ -16,7 +16,7 @@
 	href="/LPTVBr/resources/css/mus-lista-bg.css">
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/global.css">
-<title>Singles : Rebellion</title>
+<title>Singles : New Divide</title>
 </head>
 <body>
 	<?php
@@ -24,17 +24,35 @@
 	?>
 	
  	<section id="main-section" class="body-section">
-		<article id="rebellion-article" class="table-article">
+		<article id="divide-article" class="table-article">
 			<div class="table">
 				<div class="panel-header">
-					<h2 class="header">Rebellion</h2>
+					<h2 class="header">New Divide</h2>
 				</div>
 				<table class="mus-table">
 					<tr>
 						<td>1.</td>
-						<td>Rebellion</td>
+						<td>New Divide</td>
 						<td id="button-td"><a class="trad-button"
-							href="rebellion.php">Tradução</a></td>
+							href="new-divide.php">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>New Divide (Instrumental)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-instrumental.php">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>New Divide (Acapella)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-acapella.php">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td>New Divide (Live)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-live.php">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

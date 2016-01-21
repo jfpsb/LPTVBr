@@ -16,7 +16,7 @@
 	href="/LPTVBr/resources/css/mus-lista-bg.css">
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/global.css">
-<title>Singles : Rebellion</title>
+<title>Singles : Leave Out All The Rest</title>
 </head>
 <body>
 	<?php
@@ -24,17 +24,29 @@
 	?>
 	
  	<section id="main-section" class="body-section">
-		<article id="rebellion-article" class="table-article">
+		<article id="loatr-article" class="table-article">
 			<div class="table">
 				<div class="panel-header">
-					<h2 class="header">Rebellion</h2>
+					<h2 class="header">Leave Out All The Rest</h2>
 				</div>
 				<table class="mus-table">
 					<tr>
 						<td>1.</td>
-						<td>Rebellion</td>
+						<td>Leave Out All The Rest</td>
 						<td id="button-td"><a class="trad-button"
-							href="rebellion.php">Tradução</a></td>
+							href="leave-out-all-the-rest.php">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>In Pieces (Live From Projekt Revolution, Washington DC, 19/08/07)</td>
+						<td id="button-td"><a class="trad-button"
+							href="in-pieces.php">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>Leave Out All The Rest (Live From Projekt Revolution, Detroit MI, 22/08/07)</td>
+						<td id="button-td"><a class="trad-button"
+							href="leave-out-all-the-rest-live.php">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

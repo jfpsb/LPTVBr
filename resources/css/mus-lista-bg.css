@@ -114,8 +114,8 @@
 }
 
 /* LP Underground 11 */
-#lpu10-article {
-	background-image: url("../../resources/imagens/lpu/cover/lpu10.jpg");
+#lpu11-article {
+	background-image: url("../../resources/imagens/lpu/cover/lpu11.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -276,6 +276,30 @@
 /* Burn It Down */
 #bid-article {
 	background-image: url("../../resources/imagens/singles/cover/burn-it-down.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Iridescent */
+#iridescent-article {
+	background-image: url("../../resources/imagens/singles/cover/iridescent.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Download To Donate: Tsunami Relief */
+#tsunami-article {
+	background-image: url("../../resources/imagens/singles/cover/download-tsunami.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Burning In The Skies */
+#bits-article {
+	background-image: url("../../resources/imagens/singles/cover/burning-in-the-skies.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

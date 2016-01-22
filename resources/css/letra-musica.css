@@ -74,7 +74,7 @@
 }
 
 .letra-div {
-	width: 74%;	
+	width: 74%;
 }
 
 .album-aside {
@@ -114,16 +114,7 @@
 	color: initial;
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
-/* Para Firefox */
-@-moz-document url-prefix() {
-    .album-link {
-        padding-left: 15px;
-		padding-right: 15px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-    }
+	display: block;
 }
 
 .destaque-panel, .video-container {
@@ -140,7 +131,8 @@
 	overflow: hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
+.video-container iframe, .video-container object, .video-container embed
+	{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -152,7 +144,7 @@
 	margin: 15px;
 }
 
-@media all and (max-width: 900px) and (min-width: 600px){
+@media all and (max-width: 900px) and (min-width: 600px) {
 	.videos-lista {
 		columns: 2;
 		-webkit-columns: 2;
@@ -160,23 +152,20 @@
 	}
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 600px) {
 	.videos-lista {
 		columns: 1;
 		-webkit-columns: 1;
 		-moz-columns: 1;
 	}
-	
 	.album-aside {
 		float: none;
 		width: 100%;
 	}
-	
 	.letra-div {
 		width: 100%;
 		padding: 0px;
 	}
-	
 	.letra-article {
 		float: none;
 	}

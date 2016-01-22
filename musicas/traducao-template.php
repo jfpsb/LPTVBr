@@ -70,11 +70,21 @@ include_once '../../../youtube/search.php';
 										<div class="panel-header">
 											<h2 class="header">Em Destaque</h2>
 										</div>
-
+										
 										<div class="video-container">
+											<?php 
+												if($videoId == "empty") {
+													echo "<h2 style=\"text-align: center\">Não há vídeo disponível.</h2>";
+												}
+												else {
+											?>
 											<iframe width="560" height="315"
 												src="https://www.youtube.com/embed/<?php echo $videoId?>"
 												allowfullscreen> </iframe>
+											<?php
+												//Fechando else
+												}
+											?>
 										</div>
 									</div>
 								</article>

@@ -360,3 +360,35 @@
 	background-size: cover;
 	background-position: center;
 }
+
+/* Bleed It Out */
+#bio-article {
+	background-image: url("../../resources/imagens/singles/cover/bleed-it-out.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* What I've Done */
+#wid-article {
+	background-image: url("../../resources/imagens/singles/cover/what-ive-done.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Numb/Encore */
+#ne-article {
+	background-image: url("../../resources/imagens/singles/cover/numb-encore.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Numb/Encore (iTunes EP)*/
+#nei-article {
+	background-image: url("../../resources/imagens/singles/cover/numb-encore-itunesep.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

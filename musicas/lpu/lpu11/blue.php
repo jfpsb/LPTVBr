@@ -8,7 +8,7 @@
 </head>
 <body>
 	<?php
-	$videoId = 'UyuhtI9Pjpg';
+	$videoId = '1wa-6QpB2V0';
 	$page_title = "LP Underground 11 : Blue (1998 Unreleased Hybrid Theory DEMO) (Tradução)";
 	$musica = "blue";
 	$nomeMusica = "Blue (1998 Unreleased Hybrid Theory DEMO)";

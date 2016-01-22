@@ -36,84 +36,84 @@
 						<td>1.</td>
 						<td>LOST IN THE ECHO</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/musicas/albuns/living-things/lost-in-the-echo.php">
+							href="lost-in-the-echo.php">
 								Tradução </a></td>
 					</tr>
 					<tr>
 						<td>2.</td>
 						<td>IN MY REMAINS</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/in-my-remains.php"
+							href="in-my-remains.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>3.</td>
 						<td>BURN IT DOWN</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/burn-it-down.php"
+							href="burn-it-down.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>4.</td>
 						<td>LIES GREED MISERY</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/lies-greed-misery.php"
+							href="lies-greed-misery.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>5.</td>
 						<td>I'LL BE GONE</td>
 						<td id="button-td"><a
-							href="'/LPTVBr/musicas/albuns/living-things/ill-be-gone.php"
+							href="ill-be-gone.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>6.</td>
 						<td>CASTLE OF GLASS</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/castle-of-glass.php"
+							href="castle-of-glass.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>7.</td>
 						<td>VICTIMIZED</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/victimized.php"
+							href="victimized.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>8.</td>
 						<td>ROADS UNTRAVELED</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/roads-untraveled.php"
+							href="roads-untraveled.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>9.</td>
 						<td>SKIN TO BONE</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/skin-to-bone.php"
+							href="skin-to-bone.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>10.</td>
 						<td>UNTIL IT BREAKS</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/until-it-breaks.php"
+							href="until-it-breaks.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>11.</td>
 						<td>TINFOIL</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/tinfoil.php"
+							href="tinfoil.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>12.</td>
 						<td>POWERLESS</td>
 						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/living-things/powerless.php"
+							href="powerless.php"
 							class="trad-button">Tradução</a></td>
 					</tr>
 				</table>

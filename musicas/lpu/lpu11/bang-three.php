@@ -8,7 +8,7 @@
 </head>
 <body>
 	<?php
-	$videoId = 'UyuhtI9Pjpg';
+	$videoId = 'nFunvMNisM0';
 	$page_title = "LP Underground 11 : Bang Three (What I've Done Original DEMO) (Tradução)";
 	$musica = "bang-three";
 	$nomeMusica = "Bang Three (What I've Done Original DEMO)";

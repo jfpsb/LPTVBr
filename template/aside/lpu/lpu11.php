@@ -12,7 +12,7 @@
 			href="/LPTVBr/musicas/lpu/lpu11/soundtrack.php">3.
 				Soundtrack (Meteora DEMO)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/lpu/lpu11/in-the-end.php)">4.
+			href="/LPTVBr/musicas/lpu/lpu11/in-the-end.php">4.
 				In The End (DEMO)</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="/LPTVBr/musicas/lpu/lpu11/program.php">5.

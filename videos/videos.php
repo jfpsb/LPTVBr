@@ -5,6 +5,8 @@
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
 <title>Vídeos Legendados</title>
 </head>
 <body>

@@ -24,9 +24,9 @@
 				<img id="banner-default" class="img-banner"
 					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
 				<form class="template-form">
-					<a href="/LPTVBr/index.php" class="button">Página Inicial</a> <a
-						href="/LPTVBr/musicas/musicas.php" class="button">Músicas
-						Traduzidas</a> <a href="/LPTVBr/videos/videos.php" class="button">Vídeos
+					<a href="/LPTVBr" class="button">Página Inicial</a> <a
+						href="/LPTVBr/musicas" class="button">Músicas
+						Traduzidas</a> <a href="/LPTVBr/videos" class="button">Vídeos
 						Legendados</a> <a href="/LPTVBr/redes-sociais.php" class="button">Redes
 						Sociais</a> <a href="/LPTVBr/sobre.php" class="button">Sobre</a>
 				</form>
@@ -43,11 +43,11 @@
 						</button>
 						<ol class="mobile-menu">
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/index.php">Página Inicial</a></li>
+								href="/LPTVBr">Página Inicial</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/musicas/musicas.php">Músicas Traduzidas</a></li>
+								href="/LPTVBr/musicas">Músicas Traduzidas</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/videos/videos.php">Vídeos Legendados</a></li>
+								href="/LPTVBr/videos">Vídeos Legendados</a></li>
 							<li class="mobile-li"><a class="mobile-link"
 								href="/LPTVBr/redes-sociais.php">Redes Sociais</a></li>
 							<li class="mobile-li"><a class="mobile-link"

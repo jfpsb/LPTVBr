@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+.galleria {
+	width: 85%;
+	height: 550px;
+	background: white;
+	margin: 15px auto;
+	border: 1px groove white;
+}
+
+.powered-by {
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 1px black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.video-link {
+	color: white;
+}
+
+.descricao {
+	max-width: 93%;
+	margin: 0 auto;
+}
+
+.descricao.texto {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+@media all and (max-width: 600px) {
+	.galleria {
+		width: 97%;
+		height: 300px;
+		margin: 5px auto;
+	}
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+	document.title = "Linkin Park : Shows (Legendas)";
+
+	$(function() {
+		$('#show-tabView').puitabview();
+	});
+</script>
+</head>
+<body>
+	<article>
+		<div id="show-tabView" class="tabView">
+			<ul class="tabs">
+				<li><a href="#oficiais">DVDs/Blu-Rays Oficiais</a></li>
+				<li><a href="#outros">Outros</a></li>
+			</ul>
+
+			<div>
+				<div id="oficiais">
+					<table class="panelGrid">
+						<tr>
+							<td>
+								<div class="panel">
+									<a class="link" href="live-in-texas"> <img class="linkImg"
+										src="../../resources/imagens/videos/shows/live-in-texas.jpg" alt="LPTV" /> <label
+										class="nomeLink">Live In Texas</label>
+									</a>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="outros">
+					<div align="center">
+						<h2 style="font-family: 'Courier New', Courier, monospace; color: white;">Ainda não há conteúdo nesta seção.<br>Volte em breve.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</body>
+</html>

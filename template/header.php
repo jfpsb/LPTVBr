@@ -12,11 +12,17 @@
 				<img id="banner-default" class="img-banner"
 					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
 				<form class="template-form">
-					<a href="/LPTVBr" class="button">Página Inicial</a> <a
-						href="/LPTVBr/musicas/" class="button">Músicas Traduzidas</a> <a
-						href="/LPTVBr/videos/" class="button">Vídeos Legendados</a> <a
-						href="/LPTVBr/redes-sociais/" class="button">Redes Sociais</a> <a
-						href="/LPTVBr/sobre/" class="button">Sobre</a>
+					<a
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>"
+						class="button">Página Inicial</a> <a
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'musicas/'?>"
+						class="button">Músicas Traduzidas</a> <a
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'videos/'?>"
+						class="button">Vídeos Legendados</a> <a
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'redes-sociais/'?>"
+						class="button">Redes Sociais</a> <a
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'sobre/'?>"
+						class="button">Sobre</a>
 				</form>
 			</nav>
 
@@ -30,16 +36,20 @@
 								src="/LPTVBr/resources/imagens/menu-arrow.png">Menu
 						</button>
 						<ol class="mobile-menu">
-							<li class="mobile-li"><a class="mobile-link" href="/LPTVBr">Página
+							<li class="mobile-li"><a class="mobile-link"
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>">Página
 									Inicial</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/musicas/">Músicas Traduzidas</a></li>
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/musicas/'?>">Músicas
+									Traduzidas</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/videos/">Vídeos Legendados</a></li>
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/videos/'?>">Vídeos
+									Legendados</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/redes-sociais/">Redes Sociais</a></li>
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/redes-sociais/'?>">Redes
+									Sociais</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="/LPTVBr/sobre/">Sobre</a></li>
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/sobre/'?>">Sobre</a></li>
 						</ol>
 					</div>
 				</div>

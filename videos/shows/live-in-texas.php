@@ -9,26 +9,26 @@
 <body>
 		<?php 
 		$imgList = <<<END
-		<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas1.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas3.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas4.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas5.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas6.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas7.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas8.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas9.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas10.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas11.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas12.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas13.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas14.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas15.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas16.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas17.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas18.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas19.jpg">
-			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas20.jpg">
+		<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas1.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas3.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas4.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas5.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas6.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas7.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas8.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas9.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas10.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas11.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas12.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas13.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas14.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas15.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas16.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas17.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas18.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas19.jpg">
+			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas/live-in-texas20.jpg">
 END;
 		$descricao = <<<END
 		<p class="descricao texto">Live in Texas é um álbum ao vivo gravado
@@ -38,7 +38,7 @@ END;
 				DVD tem as dezessete canções tocadas, enquanto o CD tem doze faixas.</p>
 			<p class="descricao texto">
 				A lista de músicas, vídeos e traduções podem ser encontradas <a
-					class="video-link" href="/LPTVBr/musicas/albuns/live-in-texas/">clicando
+					class="video-link" href="../../musicas/albuns/live-in-texas/">clicando
 					aqui</a>
 			</p>
 			<p class="descricao texto">

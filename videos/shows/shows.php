@@ -19,7 +19,7 @@
 <body>
 	<article>
 		<div id="show-tabView" class="tabView">
-			<ul class="tabs">
+			<ul class="tabs-shows">
 				<li><a href="#oficiais">DVDs/Blu-Rays Oficiais</a></li>
 				<li><a href="#outros">Outros</a></li>
 			</ul>

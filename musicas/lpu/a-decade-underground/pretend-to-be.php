@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : Pretend To Be (Unreleased DEMO 2008) (Tradução)";
 	$musica = "pretend-to-be";
 	$nomeMusica = "Pretend To Be (Unreleased DEMO 2008)";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

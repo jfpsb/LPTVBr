@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'q91mhXJU8nI';
-	$page_title = "What I've Done : From The Inside (Live From Japan) (Tradução)";
+	$page_title = "What I\'ve Done : From The Inside (Live From Japan) (Tradução)";
 	$musica = "from-the-inside";
 	$nomeMusica = "From The Inside";
-	$aside = "singles/what-ive-done.php";
+	$aside = "singles/what-ive-done";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

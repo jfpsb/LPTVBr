@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : Hunger Strike (Live From Projekt Revolution 2008) - Chris	Cornell Feat. Chester Bennington (Tradução)";
 	$musica = "hunger-strike";
 	$nomeMusica = "Hunger Strike (Live From Projekt Revolution 2008) - Chris Cornell Feat. Chester Bennington";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

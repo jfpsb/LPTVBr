@@ -12,9 +12,9 @@
 		$page_title = "The Hunting Party : All For Nothing (Feat. Page Hamilton) (Tradução)";
 		$musica = "all-for-nothing";
 		$nomeMusica = "All For Nothing";
-		$aside = "the-hunting-party.php";
+		$aside = "the-hunting-party";
 		$album = 'thp';
-		include_once '../../traducao-template.php';
+		include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

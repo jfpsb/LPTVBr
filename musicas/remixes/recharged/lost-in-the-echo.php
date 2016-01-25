@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Lost In The Echo (Killsonik Remix) (Tradução)";
 	$musica = "lost-in-the-echo";
 	$nomeMusica = "Lost In The Echo";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

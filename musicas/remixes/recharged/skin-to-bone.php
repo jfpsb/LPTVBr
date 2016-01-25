@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Skin To Bone (Nick Catchdubs Remix) [Feat. Cody B. Ware &amp; Ryu] (Tradução)";
 	$musica = "skin-to-bone";
 	$nomeMusica = "Skin To Bone";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

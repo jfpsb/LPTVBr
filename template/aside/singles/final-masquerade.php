@@ -1,10 +1,10 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/final-masquerade.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/final-masquerade">Final Masquerade</a>
+		href="/LPTVBr/musicas/singles/final-masquerade/">Voltar a Final Masquerade</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/singles/final-masquerade/final-masquerade.php">1. Final Masquerade</a></li>
+			href="final-masquerade-mus">1. Final Masquerade</a></li>
 	</ol>
 	<p class="album-copyright" align="center">
 	Linkin Park Jun 8, 2014 Warner Bros.

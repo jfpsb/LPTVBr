@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'oWfGOVWrueo';
-	$page_title = "Meteora : Don't Stay (Tradução)";
+	$page_title = "Meteora : Don\'t Stay (Tradução)";
 	$musica = "dont-stay";
 	$nomeMusica = "Don't Stay";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

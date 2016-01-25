@@ -94,7 +94,7 @@ a:hover {
 	padding: 0;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 2;
+	z-index: 20;
 	min-width: 200px;
 }
 
@@ -203,7 +203,7 @@ a:hover {
 		display: block;
 	}
 	.mobile-form {
-		display: block;
+		
 		position: absolute;
 		padding: 0;
 		margin: 0;

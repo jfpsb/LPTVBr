@@ -12,9 +12,9 @@
 	$page_title = "From The Inside (Live In Texas) (Tradução)";
 	$musica = "from-the-inside";
 	$nomeMusica = "From The Inside";
-	$aside = "singles/from-the-inside.php";
+	$aside = "singles/from-the-inside";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

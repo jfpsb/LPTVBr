@@ -12,9 +12,9 @@
 	$page_title = "Valentine's Day (Tradução)";
 	$musica = "valentines-day";
 	$nomeMusica = "Valentine's Day";
-	$aside = "singles/given-up.php";
+	$aside = "singles/given-up";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

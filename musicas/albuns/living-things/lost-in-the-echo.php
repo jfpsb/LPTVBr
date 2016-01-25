@@ -12,9 +12,9 @@
 	$page_title = "Living Things : Lost In The Echo (Tradução)";
 	$musica = "lost-in-the-echo";
 	$nomeMusica = "Lost In The Echo";
-	$aside = "living-things.php";
+	$aside = "living-things";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

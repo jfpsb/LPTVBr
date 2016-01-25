@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : And One (Tradução)";
 	$musica = "and-one";
 	$nomeMusica = "And One";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

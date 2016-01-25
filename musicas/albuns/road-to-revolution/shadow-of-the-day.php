@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Shadow Of The Day (Tradução)";
 	$musica = "shadow-of-the-day";
 	$nomeMusica = "Shadow Of The Day";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

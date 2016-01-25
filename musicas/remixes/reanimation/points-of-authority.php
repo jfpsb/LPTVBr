@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : Pts.OF.Athrty (Tradução)";
 	$musica = "points-of-authority";
 	$nomeMusica = "Pts.OF.Athrty";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

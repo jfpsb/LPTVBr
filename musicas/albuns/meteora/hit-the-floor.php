@@ -12,9 +12,9 @@
 	$page_title = "Meteora : Hit The Floor (Tradução)";
 	$musica = "hit-the-floor";
 	$nomeMusica = "Hit The Floor";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

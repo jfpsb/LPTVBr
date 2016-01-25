@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : Dedicated (DEMO 1999) (Tradução)";
 	$musica = "dedicated";
 	$nomeMusica = "Dedicated (DEMO 1999)";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

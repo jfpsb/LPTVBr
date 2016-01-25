@@ -12,9 +12,9 @@
 	$page_title = "Minutes To Midnight : Bleed It Out (Tradução)";
 	$musica = "bleed-it-out";
 	$nomeMusica = "Bleed It Out";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -13,9 +13,9 @@
 		//Nome da música de forma para buscar a letra
 		$musica = "guilty-all-the-same";
 		$nomeMusica = "Guilty All The Same";
-		$aside = "the-hunting-party.php";
+		$aside = "the-hunting-party";
 		$album = 'thp';
-		include_once '../../traducao-template.php';
+		include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

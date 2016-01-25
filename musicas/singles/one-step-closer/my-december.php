@@ -12,9 +12,9 @@
 	$page_title = "One Step Closer : My December (Tradução)";
 	$musica = "my-december";
 	$nomeMusica = "My December";
-	$aside = "singles/one-step-closer.php";
+	$aside = "singles/one-step-closer";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

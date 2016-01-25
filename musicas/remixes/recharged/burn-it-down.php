@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Burn It Down (Tom Swoon Remix) [Feat. Bun B] (Tradução)";
 	$musica = "burn-it-down";
 	$nomeMusica = "Burn It Down";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

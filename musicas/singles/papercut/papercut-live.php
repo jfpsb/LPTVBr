@@ -12,9 +12,9 @@
 	$page_title = "Papercut (Live) (Tradução)";
 	$musica = "papercut";
 	$nomeMusica = "Papercut";
-	$aside = "singles/papercut.php";
+	$aside = "singles/papercut";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

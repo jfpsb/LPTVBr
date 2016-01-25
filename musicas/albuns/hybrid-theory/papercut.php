@@ -13,9 +13,9 @@
 	// Nome da música de forma para buscar a letra
 	$musica = "papercut";
 	$nomeMusica = "Papercut";
-	$aside = "live-in-texas.php";
+	$aside = "live-in-texas";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "New Divide (Acapella) (Tradução)";
 	$musica = "new-divide";
 	$nomeMusica = "New Divide";
-	$aside = "singles/new-divide.php";
+	$aside = "singles/new-divide";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

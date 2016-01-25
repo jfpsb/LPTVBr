@@ -81,6 +81,14 @@
 	background-position: center;
 }
 
+/* Songs From The Underground*/
+#sftu-article {
+	background-image: url("../../resources/imagens/lpu/cover/songs-from-the-underground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 /* LP Underground 15*/
 #lpu15-article {
 	background-image: url("../../resources/imagens/lpu/cover/lpu15.jpg");

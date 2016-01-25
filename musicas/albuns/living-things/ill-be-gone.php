@@ -9,13 +9,13 @@
 <body>
 	<?php
 	$videoId = 'Y1wM5ljye28';
-	$page_title = "Living Things : I'll Be Gone (Tradução)";
+	$page_title = "Living Things : I\'ll Be Gone (Tradução)";
 	// Nome da música de forma para buscar a letra
 	$musica = "ill-be-gone";
 	$nomeMusica = "I'll Be Gone";
-	$aside = "living-things.php";
+	$aside = "living-things";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

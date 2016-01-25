@@ -1,36 +1,36 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/ht250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/hybrid-theory">Voltar ao Hybrid Theory</a>
+		href="/LPTVBr/musicas/albuns/hybrid-theory/">Voltar ao Hybrid Theory</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/papercut.php">1. Papercut</a></li>
+			href="papercut">1. Papercut</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/one-step-closer.php">2.
+			href="one-step-closer">2.
 				One Step Closer</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/with-you.php">3. With You</a></li>
+			href="with-you">3. With You</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/points-of-authority.php">4.
+			href="points-of-authority">4.
 				Points Of Authority</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/crawling.php">5. Crawling</a></li>
+			href="crawling">5. Crawling</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/runaway.php">6. Runaway</a></li>
+			href="runaway">6. Runaway</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/by-myself.php">7. By Myself</a></li>
+			href="by-myself">7. By Myself</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/in-the-end.php">8. In The End</a></li>
+			href="in-the-end">8. In The End</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/a-place-for-my-head.php">9.
+			href="a-place-for-my-head">9.
 				A Place For My Head</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/forgotten.php">10. Forgotten</a></li>
+			href="forgotten">10. Forgotten</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/cure-for-the-itch.php">11.
+			href="cure-for-the-itch">11.
 				Cure For The Itch</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/hybrid-theory/pushing-me-away.php">12.
+			href="pushing-me-away">12.
 				Pushing Me Away</a></li>
 	</ol>
 	<p class="album-copyright" align="center">

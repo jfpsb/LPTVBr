@@ -12,9 +12,9 @@
 	$page_title = "In Pieces (Live From Projekt Revolution, Washington DC, 19/08/07) (Tradução)";
 	$musica = "in-pieces";
 	$nomeMusica = "In Pieces";
-	$aside = "singles/leave-out-all-the-rest.php";
+	$aside = "singles/leave-out-all-the-rest";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

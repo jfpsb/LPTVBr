@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = '8sgycukafqQ';
-	$page_title = "Minutes To Midnight : What I've Done (Tradução)";
+	$page_title = "Minutes To Midnight : What I\'ve Done (Tradução)";
 	$musica = "what-ive-done";
 	$nomeMusica = "What I've Done";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Step Up (Live From Projekt Revolution) (Tradução)";
 	$musica = "step-up";
 	$nomeMusica = "Step Up";
-	$aside = "singles/somewhere-i-belong.php";
+	$aside = "singles/somewhere-i-belong";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

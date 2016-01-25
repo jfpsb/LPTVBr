@@ -12,9 +12,9 @@
 	$page_title = "Papercut : Points Of Authority (Live) (Tradução)";
 	$musica = "points-of-authority";
 	$nomeMusica = "Points Of Authority";
-	$aside = "singles/papercut.php";
+	$aside = "singles/papercut";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

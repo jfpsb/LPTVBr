@@ -4,9 +4,9 @@ END;
 // This code will execute if the user entered a search query in the form
 // and submitted the form. Otherwise, the page displays the form above.
 // Call set_include_path() as needed to point to your client library.
-require_once '../../../vendor/autoload.php';
-require_once '../../../vendor/google/apiclient/src/Google/Client.php';
-require_once '../../../vendor/google/apiclient/src/Google/Service/YouTube.php';
+require_once 'vendor/autoload.php';
+require_once 'vendor/google/apiclient/src/Google/Client.php';
+require_once 'vendor/google/apiclient/src/Google/Service/YouTube.php';
 /*
  * Set $DEVELOPER_KEY to the "API key" value from the "Access" tab of the
  * {{ Google Cloud Console }} <{{ https://cloud.google.com/console }}>
@@ -22,7 +22,7 @@ try {
 	// query term.
 	$searchResponse = $youtube->search->listSearch ( 'id,snippet', array (
 			'q' => 'Linkin Park ' . $nomeMusica,
-			'maxResults' => 18 
+			'maxResults' => 12 
 	) );
 	
 	$videos = '';

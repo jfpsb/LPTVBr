@@ -12,9 +12,9 @@
 	$page_title = "Tsunami Relief : Issho Ni (Tradução)";
 	$musica = "issho-ni";
 	$nomeMusica = "Issho Ni";
-	$aside = "singles/download-tsunami.php";
+	$aside = "singles/download-tsunami";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

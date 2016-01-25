@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'mQMWhppCGlU';
-	$page_title = "What I've Done : Faint (Live From Japan) (Tradução)";
+	$page_title = "What I\'ve Done : Faint (Live From Japan) (Tradução)";
 	$musica = "faint";
 	$nomeMusica = "Faint";
-	$aside = "singles/what-ive-done.php";
+	$aside = "singles/what-ive-done";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

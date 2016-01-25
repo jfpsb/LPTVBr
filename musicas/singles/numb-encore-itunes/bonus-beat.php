@@ -12,9 +12,9 @@
 	$page_title = "Bonus Beat (Tradução)";
 	$musica = "bonus-beat";
 	$nomeMusica = "Bonus Beat";
-	$aside = "singles/numb-encore-itunes.php";
+	$aside = "singles/numb-encore-itunes";
 	$album = 'collision-course';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Living Things : Roads Untraveled (Tradução)";
 	$musica = "roads-untraveled";
 	$nomeMusica = "Roads Untraveled";
-	$aside = "living-things.php";
+	$aside = "living-things";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

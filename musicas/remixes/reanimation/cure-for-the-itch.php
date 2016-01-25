@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : Kyur4 th Ich (Tradução)";
 	$musica = "cure-for-the-itch";
 	$nomeMusica = "Kyur4 th Ich";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

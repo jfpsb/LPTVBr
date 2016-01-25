@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : Krwlng (Tradução)";
 	$musica = "crawling";
 	$nomeMusica = "Krwlng";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

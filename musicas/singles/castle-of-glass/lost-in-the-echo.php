@@ -12,9 +12,9 @@
 	$page_title = "Castle Of Glass : Lost In The Echo (Killsonik Remix) (Tradução)";
 	$musica = "lost-in-the-echo-k-remix";
 	$nomeMusica = "Lost In The Echo (Killsonik Remix)";
-	$aside = "singles/castle-of-glass.php";
+	$aside = "singles/castle-of-glass";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -13,9 +13,9 @@
 	// Nome da música de forma para buscar a letra
 	$musica = "when-they-come-for-me";
 	$nomeMusica = "When They Come For Me";
-	$aside = "a-thousand-suns.php";
+	$aside = "a-thousand-suns";
 	$album = 'ats';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : Across The Line (Unreleased DEMO 2007) (Tradução)";
 	$musica = "across-the-line";
 	$nomeMusica = "Across The Line (Unreleased DEMO 2007)";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

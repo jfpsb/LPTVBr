@@ -12,9 +12,9 @@
 	$page_title = "Lost In The Echo (Killsonik Remix) (Tradução)";
 	$musica = "lost-in-the-echo-k-remix";
 	$nomeMusica = "Lost In The Echo (Killsonik Remix)";
-	$aside = "singles/lost-in-the-echo.php";
+	$aside = "singles/lost-in-the-echo";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

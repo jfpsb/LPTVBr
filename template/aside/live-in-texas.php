@@ -1,38 +1,38 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/lit250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/live-in-texas">Voltar ao Live In Texas</a>
+		href="/LPTVBr/musicas/albuns/live-in-texas/">Voltar ao Live In Texas</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/somewhere-i-belong.php">1.
+			href="somewhere-i-belong">1.
 				Somewhere I Belong</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/lying-from-you.php">2.
+			href="lying-from-you">2.
 				Lying From You</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/papercut.php">3. Papercut</a></li>
+			href="papercut">3. Papercut</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/points-of-authority.php">4.
+			href="points-of-authority">4.
 				Points Of Authority</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/runaway.php">5. Runaway</a></li>
+			href="runaway">5. Runaway</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/faint.php">6. Faint</a></li>
+			href="faint">6. Faint</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/from-the-inside.php">7.
+			href="from-the-inside">7.
 				From The Inside</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/pushing-me-away.php">8.
+			href="pushing-me-away">8.
 				P5hng Me A*wy</a></li>
-		<li class="traducao-li"><a class="album-text" href="/LPTVBr/musicas/albuns/live-in-texas/numb.php">9.
+		<li class="traducao-li"><a class="album-text" href="numb">9.
 				Numb</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/crawling.php">10. Crawling</a></li>
+			href="crawling">10. Crawling</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/in-the-end.php">11. In The
+			href="in-the-end">11. In The
 				End</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/live-in-texas/one-step-closer.php">12.
+			href="one-step-closer">12.
 				One Step Closer</a></li>
 	</ol>
 	<p class="album-copyright" align="center">

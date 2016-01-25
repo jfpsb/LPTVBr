@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'QJ87793QXes';
-	$page_title = "Meteora : Nobody's Listening (Tradução)";
+	$page_title = "Meteora : Nobody\'s Listening (Tradução)";
 	$musica = "nobodys-listening";
 	$nomeMusica = "Nobody's Listening";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

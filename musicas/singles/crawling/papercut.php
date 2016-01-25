@@ -12,9 +12,9 @@
 	$page_title = "Crawling : Papercut (Live From The BBC) (Tradução)";
 	$musica = "papercut";
 	$nomeMusica = "Papercut";
-	$aside = "singles/crawling.php";
+	$aside = "singles/crawling";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

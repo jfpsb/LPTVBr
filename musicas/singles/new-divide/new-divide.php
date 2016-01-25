@@ -5,16 +5,54 @@
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/mus-lista.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/mus-lista-bg.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/global.css">
+<title>Singles : New Divide</title>
 </head>
 <body>
-	<?php
-	$videoId = 'ysSxxIqKNN0';
-	$page_title = "New Divide (Tradução)";
-	$musica = "new-divide";
-	$nomeMusica = "New Divide";
-	$aside = "singles/new-divide.php";
-	$album = '';
-	include_once '../../traducao-template.php';
-	?>
+	
+		<article id="divide-article" class="table-article">
+			<div class="table">
+				<div class="panel-header">
+					<h2 class="header">New Divide</h2>
+				</div>
+				<table class="mus-table">
+					<tr>
+						<td>1.</td>
+						<td>New Divide</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>New Divide (Instrumental)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-instrumental">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>New Divide (Acapella)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-acapella">Tradução</a></td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td>New Divide (Live)</td>
+						<td id="button-td"><a class="trad-button"
+							href="new-divide-live">Tradução</a></td>
+					</tr>
+				</table>
+			</div>
+		</article>
+	
 </body>
 </html>

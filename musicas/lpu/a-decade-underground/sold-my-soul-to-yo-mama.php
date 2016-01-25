@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : Sold My Soul To Yo Mama (Tradução)";
 	$musica = "sold-my-soul-to-yo-mama";
 	$nomeMusica = "Sold My Soul To Yo Mama";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

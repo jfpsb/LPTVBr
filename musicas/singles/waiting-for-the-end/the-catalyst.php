@@ -12,9 +12,9 @@
 	$page_title = "Waiting For The End : The Catalyst (Tradução)";
 	$musica = "the-catalyst";
 	$nomeMusica = "The Catalyst";
-	$aside = "singles/waiting-for-the-end.php";
+	$aside = "singles/waiting-for-the-end";
 	$album = 'ats';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

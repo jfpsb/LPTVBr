@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : In The End (Tradução)";
 	$musica = "in-the-end";
 	$nomeMusica = "In The End";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

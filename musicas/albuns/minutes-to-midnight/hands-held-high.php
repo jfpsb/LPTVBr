@@ -12,9 +12,9 @@
 	$page_title = "Minutes To Midnight : Hands Held High (Tradução)";
 	$musica = "hands-held-high";
 	$nomeMusica = "Hands Held High";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

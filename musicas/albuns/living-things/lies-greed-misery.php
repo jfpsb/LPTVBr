@@ -13,9 +13,9 @@
 	// Nome da música de forma para buscar a letra
 	$musica = "lies-greed-misery";
 	$nomeMusica = "Lies Greed Misery";
-	$aside = "living-things.php";
+	$aside = "living-things";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -13,9 +13,9 @@
 	// Nome da música de forma para buscar a letra
 	$musica = "jigga-what";
 	$nomeMusica = "Jigga What/Faint";
-	$aside = "collision-course.php";
+	$aside = "collision-course";
 	$album = 'collision-course';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

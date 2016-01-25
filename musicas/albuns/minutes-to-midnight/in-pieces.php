@@ -12,9 +12,9 @@
 	$page_title = "Minutes To Midnight : In Pieces (Tradução)";
 	$musica = "in-pieces";
 	$nomeMusica = "In Pieces";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

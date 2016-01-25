@@ -12,9 +12,9 @@
 	$page_title = "Live And Rare : A Place For My Head (Live At Docklands Arena, London) (Tradução)";
 	$musica = "a-place-for-my-head";
 	$nomeMusica = "A Place For My Head";
-	$aside = "singles/in-the-end-rare.php";
+	$aside = "singles/in-the-end-rare";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : No More Sorrow (Tradução)";
 	$musica = "no-more-sorrow";
 	$nomeMusica = "No More Sorrow";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

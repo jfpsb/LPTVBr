@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Breaking The Habit (Tradução)";
 	$musica = "breaking-the-habit";
 	$nomeMusica = "Breaking The Habit";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'fqOyQ6yR4Xc';
-	$page_title = "Reanimation : My&lt;Dsmbr (Tradução)";
+	$page_title = "Reanimation : My<Dsmbr (Tradução)";
 	$musica = "my-december";
 	$nomeMusica = "My<Dsmbr";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -11,29 +11,20 @@
 <title>LinkinParkTVBr</title>
 </head>
 <body>
-	<?php
-	include_once 'template/header.php';
-	?>
-	<section id="main-section" class="body-section">
-		<article class="index-article">
-			<div class="panel-header">
-				<h2 class="header">Vídeos Recentes</h2>
-			</div>
-			<article class="video-grid">
+	<article class="index-article">
+		<div class="panel-header">
+			<h2 class="header">Vídeos Recentes</h2>
+		</div>
+		<article class="video-grid">
 
-				<form id="form" class="indexForm">
-					<div class="liDiv">
-						<ul id="lista" class="myUploads">
-						</ul>
-					</div>
-				</form>
+			<form id="form" class="indexForm">
+				<div class="liDiv">
+					<ul id="lista" class="myUploads">
+					</ul>
+				</div>
+			</form>
 
-			</article>
 		</article>
-	</section>
-	
-	<?php
-	include_once 'template/footer.php';
-	?>
+	</article>
 </body>
 </html>

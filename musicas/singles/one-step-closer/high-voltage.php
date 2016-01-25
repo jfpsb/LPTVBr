@@ -12,9 +12,9 @@
 	$page_title = "One Step Closer : High Voltage (Tradução)";
 	$musica = "high-voltage";
 	$nomeMusica = "High Voltage";
-	$aside = "singles/one-step-closer.php";
+	$aside = "singles/one-step-closer";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

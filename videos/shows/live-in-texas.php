@@ -7,7 +7,7 @@
 </script>
 </head>
 <body>
-		<?php
+		<?php 
 		$imgList = <<<END
 		<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas.jpg">
 			<img src="/LPTVBr/resources/imagens/videos/shows/live-in-texas1.jpg">
@@ -38,7 +38,7 @@ END;
 				DVD tem as dezessete canções tocadas, enquanto o CD tem doze faixas.</p>
 			<p class="descricao texto">
 				A lista de músicas, vídeos e traduções podem ser encontradas <a
-					class="video-link" href="/LPTVBr/musicas/albuns/live-in-texas">clicando
+					class="video-link" href="/LPTVBr/musicas/albuns/live-in-texas/">clicando
 					aqui</a>
 			</p>
 			<p class="descricao texto">
@@ -51,7 +51,7 @@ END;
 					target="_blank">neste link</a> para saber mais.
 			</p>
 END;
-		include_once 'videos-template.php';
+		include_once 'videos/videos-template.php';
 		
 		?>
     </body>

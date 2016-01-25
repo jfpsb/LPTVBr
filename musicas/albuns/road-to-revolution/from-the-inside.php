@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : From The Inside (Tradução)";
 	$musica = "from-the-inside";
 	$nomeMusica = "From The Inside";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

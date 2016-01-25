@@ -5,16 +5,36 @@
 <link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
+<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link id="favicon" href="/LPTVBr/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/mus-lista.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/mus-lista-bg.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/global.css">
+<script>
+	document.title = 'Singles : Iridescent';
+</script>
 </head>
 <body>
-	<?php
-	$videoId = 'xLYiIBCN9ec';
-	$page_title = "Iridescent (Tradução)";
-	$musica = "iridescent";
-	$nomeMusica = "Iridescent";
-	$aside = "singles/iridescent.php";
-	$album = 'ats';
-	include_once '../../traducao-template.php';
-	?>
+	<article id="iridescent-article" class="table-article">
+		<div class="table">
+			<div class="panel-header">
+				<h2 class="header">Iridescent</h2>
+			</div>
+			<table class="mus-table">
+				<tr>
+					<td>1.</td>
+					<td>Iridescent (From Transformers: Dark Side Of The Moon)</td>
+					<td id="button-td"><a class="trad-button"
+						href="iridescent-mus">Tradução</a></td>
+				</tr>
+			</table>
+		</div>
+	</article>
 </body>
 </html>

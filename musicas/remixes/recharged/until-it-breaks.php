@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Until It Breaks (Datsik Remix) [Feat. Bun B] (Tradução)";
 	$musica = "until-it-breaks";
 	$nomeMusica = "Until It Breaks";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Hands Held High (Tradução)";
 	$musica = "hands-held-high";
 	$nomeMusica = "Hands Held High";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

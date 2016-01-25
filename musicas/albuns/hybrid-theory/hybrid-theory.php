@@ -18,108 +18,103 @@
 	href="/LPTVBr/resources/css/global.css">
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
-<title>Hybrid Theory</title>
+<script>
+	document.title = 'Hybrid Theory';
+</script>
 </head>
 <body>
-	<?php
-	include_once '../../../template/header.php';
-	?>
-	
- 	<section id="main-section" class="body-section">
-		<article id="ht-article" class="table-article">
-			<div class="table">
-				<div class="panel-header">
-					<h2 class="header">Hybrid Theory</h2>
-				</div>
-				<table class="mus-table">
-					<tr>
-						<td>1.</td>
-						<td>Papercut</td>
-						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/musicas/albuns/hybrid-theory/papercut.php">Tradução </a></td>
-					</tr>
-					<tr>
-						<td>2.</td>
-						<td>One Step Closer</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/one-step-closer.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>3.</td>
-						<td>With You</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/with-you.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>4.</td>
-						<td>Points of Authority</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/points-of-authority.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>5.</td>
-						<td>Crawling</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/crawling.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>6.</td>
-						<td>Runaway</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/runaway.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>7.</td>
-						<td>By Myself</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/by-myself.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>8.</td>
-						<td>In The End</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/in-the-end.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>9.</td>
-						<td>A Place For My Head</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/a-place-for-my-head.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>10.</td>
-						<td>Forgotten</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/forgotten.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>11.</td>
-						<td>Cure For The Itch</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/cure-for-the-itch.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-					<tr>
-						<td>12.</td>
-						<td>Pushing Me Away</td>
-						<td id="button-td"><a
-							href="/LPTVBr/musicas/albuns/hybrid-theory/pushing-me-away.php"
-							class="trad-button">Tradução</a></td>
-					</tr>
-				</table>
+	<article id="ht-article" class="table-article">
+		<div class="table">
+			<div class="panel-header">
+				<h2 class="header">Hybrid Theory</h2>
 			</div>
-		</article>
-	</section>
-	
-	<?php include_once '../../../template/footer.php';?>
+			<table class="mus-table">
+				<tr>
+					<td>1.</td>
+					<td>Papercut</td>
+					<td id="button-td"><a class="trad-button"
+						href="papercut">Tradução
+					</a></td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>One Step Closer</td>
+					<td id="button-td"><a
+						href="one-step-closer"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>With You</td>
+					<td id="button-td"><a
+						href="with-you"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>Points of Authority</td>
+					<td id="button-td"><a
+						href="points-of-authority"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td>Crawling</td>
+					<td id="button-td"><a
+						href="crawling"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>6.</td>
+					<td>Runaway</td>
+					<td id="button-td"><a
+						href="runaway"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>7.</td>
+					<td>By Myself</td>
+					<td id="button-td"><a
+						href="by-myself"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>8.</td>
+					<td>In The End</td>
+					<td id="button-td"><a
+						href="in-the-end"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>9.</td>
+					<td>A Place For My Head</td>
+					<td id="button-td"><a
+						href="a-place-for-my-head"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>10.</td>
+					<td>Forgotten</td>
+					<td id="button-td"><a
+						href="forgotten"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>11.</td>
+					<td>Cure For The Itch</td>
+					<td id="button-td"><a
+						href="cure-for-the-itch"
+						class="trad-button">Tradução</a></td>
+				</tr>
+				<tr>
+					<td>12.</td>
+					<td>Pushing Me Away</td>
+					<td id="button-td"><a
+						href="pushing-me-away"
+						class="trad-button">Tradução</a></td>
+				</tr>
+			</table>
+		</div>
+	</article>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Leave Out All The Rest (Tradução)";
 	$musica = "leave-out-all-the-rest";
 	$nomeMusica = "Leave Out All The Rest";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

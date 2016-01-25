@@ -12,9 +12,9 @@
 	$page_title = "Meteora : Easier To Run (Tradução)";
 	$musica = "easier-to-run";
 	$nomeMusica = "Easier To Run";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

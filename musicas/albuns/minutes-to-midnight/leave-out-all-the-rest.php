@@ -12,9 +12,9 @@
 	$page_title = "Minutes To Midnight : Leave Out All The Rest (Tradução)";
 	$musica = "leave-out-all-the-rest";
 	$nomeMusica = "Leave Out All The Rest";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

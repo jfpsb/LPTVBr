@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : Plc.4 Mie Hæd (Tradução)";
 	$musica = "a-place-for-my-head";
 	$nomeMusica = "Plc.4 Mie Hæd";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

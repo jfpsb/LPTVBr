@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'uE43BpbvX6k';
-	$page_title = "Recharged : I'll Be Gone (Schoolboy Remix) (Tradução)";
+	$page_title = "Recharged : I\'ll Be Gone (Schoolboy Remix) (Tradução)";
 	$musica = "ill-be-gone";
 	$nomeMusica = "I'll Be Gone";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

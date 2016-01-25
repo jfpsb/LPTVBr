@@ -12,9 +12,9 @@
 	$page_title = "Burning In The Skies : When They Come For Me(Tradução)";
 	$musica = "when-they-come-for-me";
 	$nomeMusica = "When They Come For Me";
-	$aside = "singles/burning-in-the-skies.php";
+	$aside = "singles/burning-in-the-skies";
 	$album = 'ats';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

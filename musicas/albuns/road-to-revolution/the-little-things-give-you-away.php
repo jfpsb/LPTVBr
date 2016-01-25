@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : The Little Things Give You Away (Tradução)";
 	$musica = "the-little-things-give-you-away";
 	$nomeMusica = "The Little Things Give You Away";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

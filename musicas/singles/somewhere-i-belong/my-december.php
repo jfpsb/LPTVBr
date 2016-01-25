@@ -12,9 +12,9 @@
 	$page_title = "Somewhere I Belong : My December (Live From Projekt Revolution) (Tradução)";
 	$musica = "my-december";
 	$nomeMusica = "Somewhere I Belong";
-	$aside = "singles/somewhere-i-belong.php";
+	$aside = "singles/somewhere-i-belong";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

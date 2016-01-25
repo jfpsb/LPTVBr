@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : X-Ecutioner Style (Tradução)";
 	$musica = "x-executioner";
 	$nomeMusica = "X-Ecutioner Style";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

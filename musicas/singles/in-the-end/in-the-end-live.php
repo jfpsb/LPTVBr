@@ -12,9 +12,9 @@
 	$page_title = "In The End (Live BBC Radio One) (Tradução)";
 	$musica = "in-the-end";
 	$nomeMusica = "In The End";
-	$aside = "singles/in-the-end.php";
+	$aside = "singles/in-the-end";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

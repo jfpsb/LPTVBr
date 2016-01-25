@@ -12,9 +12,9 @@
 	$page_title = "A Light That Never Comes (Vicetone Remix Dub) (Tradução)";
 	$musica = "a-light-that-never-comes";
 	$nomeMusica = "A Light That Never Comes";
-	$aside = "remixes/a-light-that-never-comes.php";
+	$aside = "remixes/a-light-that-never-comes";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

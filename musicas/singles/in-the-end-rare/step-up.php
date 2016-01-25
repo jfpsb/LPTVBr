@@ -12,9 +12,9 @@
 	$page_title = "Live And Rare : Step Up (Tradução)";
 	$musica = "step-up";
 	$nomeMusica = "Step Up";
-	$aside = "singles/in-the-end-rare.php";
+	$aside = "singles/in-the-end-rare";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

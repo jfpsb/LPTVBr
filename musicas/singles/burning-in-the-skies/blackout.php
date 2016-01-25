@@ -12,9 +12,9 @@
 	$page_title = "Burning In The Skies : Blackout (Tradução)";
 	$musica = "blackout";
 	$nomeMusica = "Blackout";
-	$aside = "singles/burning-in-the-skies.php";
+	$aside = "singles/burning-in-the-skies";
 	$album = 'ats';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

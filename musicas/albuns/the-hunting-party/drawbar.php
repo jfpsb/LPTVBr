@@ -12,9 +12,9 @@
 		$page_title = "The Hunting Party : Drawbar (Feat. Tom Morello) (Tradução)";
 		$musica = "drawbar";
 		$nomeMusica = "Drawbar";
-		$aside = "the-hunting-party.php";
+		$aside = "the-hunting-party";
 		$album = 'thp';
-		include_once '../../traducao-template.php';
+		include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

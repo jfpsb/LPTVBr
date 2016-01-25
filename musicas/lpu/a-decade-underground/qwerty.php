@@ -12,9 +12,9 @@
 	$page_title = "A Decade Underground : QWERTY (Studio Version) (Tradução)";
 	$musica = "qwerty";
 	$nomeMusica = "QWERTY (Studio Version)";
-	$aside = "lpu/a-decade-underground.php";
+	$aside = "lpu/a-decade-underground";
 	$album = 'lpu';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

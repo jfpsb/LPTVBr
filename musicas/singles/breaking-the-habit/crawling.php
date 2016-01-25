@@ -12,9 +12,9 @@
 	$page_title = "Breaking The Habit : Crawling (Tradução)";
 	$musica = "crawling";
 	$nomeMusica = "Crawling";
-	$aside = "singles/breaking-the-habit.php";
+	$aside = "singles/breaking-the-habit";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

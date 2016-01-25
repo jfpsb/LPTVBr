@@ -7,15 +7,15 @@
 	type="image/vnd.microsoft.icon"></link>
 </head>
 <body>
-	<?php
+	<?php 
 	$videoId = 'kh_YCSW5lPc';
 	$page_title = "A Thousand Suns : Burning In The Skies (Tradução)";
 	// Nome da música de forma para buscar a letra
 	$musica = "burning-in-the-skies";
 	$nomeMusica = "Burning In The Skies";
-	$aside = "a-thousand-suns.php";
+	$aside = "a-thousand-suns";
 	$album = 'ats';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

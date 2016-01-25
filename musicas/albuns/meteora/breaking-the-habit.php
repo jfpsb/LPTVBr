@@ -12,9 +12,9 @@
 	$page_title = "Meteora : Breaking The Habit (Tradução)";
 	$musica = "breaking-the-habit";
 	$nomeMusica = "Breaking The Habit";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

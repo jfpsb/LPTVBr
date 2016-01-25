@@ -12,9 +12,9 @@
 	$page_title = "Not Alone (Tradução)";
 	$musica = "not-alone";
 	$nomeMusica = "Not Alone";
-	$aside = "singles/download-haiti.php";
+	$aside = "singles/download-haiti";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

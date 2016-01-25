@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Jigga What/Faint (Tradução)";
 	$musica = "jigga-what";
 	$nomeMusica = "Jigga What/Faint";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'collision-course';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

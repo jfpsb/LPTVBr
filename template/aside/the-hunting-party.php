@@ -1,42 +1,42 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
 		class="album-cover"> <div align="center"><a class="album-link"
-		href="/LPTVBr/musicas/albuns/the-hunting-party">Voltar ao The Hunting Party</a></div>
+		href="/LPTVBr/musicas/albuns/the-hunting-party/">Voltar ao The Hunting Party</a></div>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/keys-to-the-kingdom.php">1.
+			href="keys-to-the-kingdom">1.
 				Keys To The Kingdom</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/all-for-nothing.php">2.
+			href="all-for-nothing">2.
 				All For Nothing (Feat. Page Hamilton)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/guilty-all-the-same.php">3.
+			href="guilty-all-the-same">3.
 				Guilty All The Same</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/the-summoning.php">4.
+			href="the-summoning">4.
 				The Summoning</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/war.php">5. War</a></li>
+			href="war">5. War</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/wastelands.php">6.
+			href="wastelands">6.
 				Wastelands</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/until-its-gone.php">7.
+			href="until-its-gone">7.
 				Until It's Gone</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/rebellion.php">8.
+			href="rebellion">8.
 				Rebellion (Feat. Daron Malakian)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/mark-the-graves.php">9.
+			href="mark-the-graves">9.
 				Mark The Graves</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/drawbar.php">10.
+			href="drawbar">10.
 				Drawbar (Feat. Tom Morello)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/final-masquerade.php">11.
+			href="final-masquerade">11.
 				Final Masquerade</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/the-hunting-party/a-line-in-the-sand.php">12.
+			href="a-line-in-the-sand">12.
 				A Line In The Sand</a></li>
 	</ol>
 	<p class="album-copyright" align="center">

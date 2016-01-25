@@ -12,9 +12,9 @@
 	$page_title = "Minutes To Midnight : The Little Things Give You Away (Tradução)";
 	$musica = "the-little-things-give-you-away";
 	$nomeMusica = "The Little Things Give You Away";
-	$aside = "minutes-to-midnight.php";
+	$aside = "minutes-to-midnight";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

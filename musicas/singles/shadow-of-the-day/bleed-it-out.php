@@ -12,9 +12,9 @@
 	$page_title = "Shadow Of The Day : Bleed It Out (Live From Projekt To Revolution) (Tradução)";
 	$musica = "bleed-it-out";
 	$nomeMusica = "Bleed It Out";
-	$aside = "singles/shadow-of-the-day.php";
+	$aside = "singles/shadow-of-the-day";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Victimized (M. Shinoda Remix) (Tradução)";
 	$musica = "victimized";
 	$nomeMusica = "Victimized";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

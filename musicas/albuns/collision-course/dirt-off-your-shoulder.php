@@ -13,9 +13,9 @@
 	// Nome da música de forma para buscar a letra
 	$musica = "dirt-off-your-shoulder";
 	$nomeMusica = "Dirt Off Your Shoulder/Lying From You";
-	$aside = "collision-course.php";
+	$aside = "collision-course";
 	$album = 'collision-course';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

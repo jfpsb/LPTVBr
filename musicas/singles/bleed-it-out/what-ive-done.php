@@ -9,12 +9,12 @@
 <body>
 	<?php
 	$videoId = 'Q7_HNQK0_u4';
-	$page_title = "Bleed It Out : What I've Done (Distorted Remix) (Tradução)";
+	$page_title = "Bleed It Out : What I\'ve Done (Distorted Remix) (Tradução)";
 	$musica = "what-ive-done";
 	$nomeMusica = "What I've Done";
-	$aside = "singles/bleed-it-out.php";
+	$aside = "singles/bleed-it-out";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

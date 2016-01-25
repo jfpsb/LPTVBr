@@ -1,42 +1,42 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/mtm250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/minutes-to-midnight">Voltar ao Minutes To
+		href="/LPTVBr/musicas/albuns/minutes-to-midnight/">Voltar ao Minutes To
 		Midnight</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/wake.php">1. Wake</a></li>
+			href="wake">1. Wake</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/given-up.php">2. Given Up</a></li>
+			href="given-up">2. Given Up</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/leave-out-all-the-rest.php">3.
+			href="leave-out-all-the-rest">3.
 				Leave Out All The Rest</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/bleed-it-out.php">4.
+			href="bleed-it-out">4.
 				Bleed It Out</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/shadow-of-the-day.php">5.
+			href="shadow-of-the-day">5.
 				Shadow Of The Day</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/what-ive-done.php">6.
+			href="what-ive-done">6.
 				What I've Done</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/hands-held-high.php">7.
+			href="hands-held-high">7.
 				Hands Held High</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/no-more-sorrow.php">8.
+			href="no-more-sorrow">8.
 				No More Sorrow</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/valentines-day.php">9.
+			href="valentines-day">9.
 				Valentine's Day</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/in-between.php">10. In
+			href="in-between">10. In
 				Between</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/in-pieces.php">11. In
+			href="in-pieces">11. In
 				Pieces</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/albuns/minutes-to-midnight/the-little-things-give-you-away.php">12.
+			href="the-little-things-give-you-away">12.
 				The Little Things Give You Away</a></li>
 	</ol>
 	<p class="album-copyright" align="center">

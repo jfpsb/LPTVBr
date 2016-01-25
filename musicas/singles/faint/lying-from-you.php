@@ -12,9 +12,9 @@
 	$page_title = "Lying From You (Live) (Tradução)";
 	$musica = "lying-from-you";
 	$nomeMusica = "Lying From You";
-	$aside = "singles/faint.php";
+	$aside = "singles/faint";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

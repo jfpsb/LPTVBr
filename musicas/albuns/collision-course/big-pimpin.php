@@ -9,13 +9,13 @@
 <body>
 	<?php
 	$videoId = 'uRB7p7GRgkA';
-	$page_title = "Collision Course : Big Pimpin'/Papercut (Tradução)";
+	$page_title = "Collision Course : Big Pimpin\'/Papercut (Tradução)";
 	// Nome da música de forma para buscar a letra
 	$musica = "big-pimpin";
 	$nomeMusica = "Big Pimpin'/Papercut";
-	$aside = "collision-course.php";
+	$aside = "collision-course";
 	$album = 'collision-course';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

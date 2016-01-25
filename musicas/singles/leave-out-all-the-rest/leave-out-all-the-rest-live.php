@@ -12,9 +12,9 @@
 	$page_title = "Leave Out All The Rest (Live From Projekt Revolution, Detroit MI, 22/08/07) (Tradução)";
 	$musica = "leave-out-all-the-rest";
 	$nomeMusica = "Leave Out All The Rest";
-	$aside = "singles/leave-out-all-the-rest.php";
+	$aside = "singles/leave-out-all-the-rest";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

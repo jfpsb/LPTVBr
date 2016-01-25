@@ -12,9 +12,9 @@
 	$page_title = "Reanimation : 1stp Klosr (Tradução)";
 	$musica = "one-step-closer";
 	$nomeMusica = "1stp Klosr";
-	$aside = "remixes/reanimation.php";
+	$aside = "remixes/reanimation";
 	$album = 'reanimation';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

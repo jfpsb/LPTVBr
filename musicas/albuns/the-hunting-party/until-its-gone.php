@@ -9,13 +9,13 @@
 <body>
 	<?php
 		$videoId = 'oM-XJD4J36U';
-		$page_title = "The Hunting Party : Until It's Gone (Tradução)";
+		$page_title = "The Hunting Party : Until It\'s Gone (Tradução)";
 		//Nome da música de forma para buscar a letra
 		$musica = "until-its-gone";
 		$nomeMusica = "Until It's Gone";
-		$aside = "the-hunting-party.php";
+		$aside = "the-hunting-party";
 		$album = 'thp';
-		include_once '../../traducao-template.php';
+		include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

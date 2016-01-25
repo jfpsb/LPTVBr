@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Lying From You (Tradução)";
 	$musica = "lying-from-you";
 	$nomeMusica = "Lying From You";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

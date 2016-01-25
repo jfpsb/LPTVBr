@@ -12,9 +12,9 @@
 	$page_title = "Bleed It Out : Given Up (Third Encore Session) (Tradução)";
 	$musica = "given-up";
 	$nomeMusica = "Given Up";
-	$aside = "singles/bleed-it-out.php";
+	$aside = "singles/bleed-it-out";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -4,11 +4,11 @@
 		href="/LPTVBr/musicas/singles/somewhere-i-belong">Voltar a Somewhere I Belong</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/singles/somewhere-i-belong/somewhere-i-belong.php">1. Somewhere I Belong</a></li>
+			href="/LPTVBr/musicas/singles/somewhere-i-belong/somewhere-i-belong">1. Somewhere I Belong</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/singles/somewhere-i-belong/step-up.php">2. Step Up (Live From Projekt Revolution)</a></li>
+			href="/LPTVBr/musicas/singles/somewhere-i-belong/step-up">2. Step Up (Live From Projekt Revolution)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="/LPTVBr/musicas/singles/somewhere-i-belong/my-december.php">2. My December (Live From Projekt Revolution)</a></li>
+			href="/LPTVBr/musicas/singles/somewhere-i-belong/my-december">2. My December (Live From Projekt Revolution)</a></li>
 	</ol>
 	<p class="album-copyright" align="center">
 	Linkin Park Mar 17, 2003 Warner Bros.

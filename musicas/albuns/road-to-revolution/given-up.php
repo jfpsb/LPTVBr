@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Given Up (Tradução)";
 	$musica = "given-up";
 	$nomeMusica = "Given Up";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'mtm';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

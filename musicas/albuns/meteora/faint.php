@@ -12,9 +12,9 @@
 	$page_title = "Meteora : Faint (Tradução)";
 	$musica = "faint";
 	$nomeMusica = "Faint";
-	$aside = "meteora.php";
+	$aside = "meteora";
 	$album = 'meteora';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

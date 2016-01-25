@@ -12,9 +12,9 @@
 	$page_title = "Numb/Encore (Instrumental) (Tradução)";
 	$musica = "";
 	$nomeMusica = "Numb/Encore (Instrumental)";
-	$aside = "singles/numb-encore.php";
+	$aside = "singles/numb-encore";
 	$album = '';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

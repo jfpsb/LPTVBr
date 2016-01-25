@@ -12,9 +12,9 @@
 	$page_title = "Road To Revolution : Pushing Me Away (Tradução)";
 	$musica = "pushing-me-away";
 	$nomeMusica = "Pushing Me Away";
-	$aside = "road-to-revolution.php";
+	$aside = "road-to-revolution";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

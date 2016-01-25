@@ -12,9 +12,9 @@
 	$page_title = "In The End : Points Of Authority (Docklands Arena) (Tradução)";
 	$musica = "points-of-authority";
 	$nomeMusica = "Points Of Authority";
-	$aside = "singles/in-the-end.php";
+	$aside = "singles/in-the-end";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

@@ -12,9 +12,9 @@
 	$page_title = "Recharged : Lies Greed Misery (Dirtyphonics Remix) (Tradução)";
 	$musica = "lies-greed-misery";
 	$nomeMusica = "Lies Greed Misery";
-	$aside = "remixes/recharged.php";
+	$aside = "remixes/recharged";
 	$album = 'living-things';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

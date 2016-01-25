@@ -12,9 +12,9 @@
 	$page_title = "From The Inside : Runaway (Tradução)";
 	$musica = "runaway";
 	$nomeMusica = "Runaway";
-	$aside = "singles/from-the-inside.php";
+	$aside = "singles/from-the-inside";
 	$album = 'hybrid-theory';
-	include_once '../../traducao-template.php';
+	include_once 'musicas/traducao-template.php';
 	?>
 </body>
 </html>

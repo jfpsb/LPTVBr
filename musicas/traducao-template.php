@@ -7,7 +7,6 @@ include_once 'youtube/search.php';
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/letra-musica.css">
-<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/release-lista.css">
 <link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/LPTVBr/resources/css/primeui-2.2-min.css">
 <script type="text/javascript" src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>

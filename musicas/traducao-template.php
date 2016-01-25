@@ -90,7 +90,7 @@ include_once 'youtube/search.php';
 		</div>
 
 		<aside class="album-aside"><?php
-		include_once 'template/aside/' . $aside . '.php';
+		include_once 'template/aside/aside-template.php';
 		?></aside>
 	</article>
 </body>

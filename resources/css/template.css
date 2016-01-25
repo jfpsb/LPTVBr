@@ -11,7 +11,11 @@
 	border-radius: 3px;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.8);
-	margin: 15px auto;
+	margin-top: 5px;
+}
+
+.ads {
+	padding-top: 5px;
 }
 
 pre {
@@ -145,7 +149,7 @@ a:hover {
 	color: white;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.6);
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 .ui-panelgrid tr, .ui-panelgrid td, .ui-panelgrid {
@@ -202,8 +206,7 @@ a:hover {
 	#mobile-nav {
 		display: block;
 	}
-	.mobile-form {
-		
+	.mobile-form {		
 		position: absolute;
 		padding: 0;
 		margin: 0;

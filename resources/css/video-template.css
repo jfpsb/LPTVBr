@@ -16,7 +16,7 @@
 }
 
 .video-link {
-	color: white;
+	color: white !important;
 }
 
 .descricao {

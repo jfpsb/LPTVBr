@@ -13,17 +13,17 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
 <script>
-	document.title = "Linkin Park : LPTVs (Legendados)";
+	document.title = "Linkin Park : Entrevistas (Legendados)";
 
 	$(function() {
-		$('#lptv-tabView').puitabview();
+		$('#entrevista-tabView').puitabview();
 	});
 </script>
 </head>
 <body>
 	<article>
-		<div id="lptv-tabView" class="tabView">
-			<ul class="tabs-lptv">
+		<div id="entrevista-tabView" class="tabView">
+			<ul class="tabs-entrevista">
 				<li><a href="#dois-mil-catorze">2014</a></li>
 				<li><a href="#dois-mil-quinze">2015</a></li>
 				<li><a href="#dois-mil-dezesseis">2016</a></li>
@@ -35,14 +35,19 @@
 				</div>
 
 				<div id="#dois-mil-quinze">
-					<?php include_once 'dois-mil-quinze.php'; ?>
+					<div align="center">
+						<h2
+							style="font-family: 'Courier New', Courier, monospace; color: white;">
+							Ainda não disponíveis!<br>Volte em breve.
+						</h2>
+					</div>
 				</div>
 
 				<div id="#dois-mil-dezesseis">
 					<div align="center">
 						<h2
 							style="font-family: 'Courier New', Courier, monospace; color: white;">
-							Esperando os LPTVs de 2016, Linkin Park!<br>Volte em breve.
+							Ainda não disponíveis!<br>Volte em breve.
 						</h2>
 					</div>
 				</div>

@@ -40,16 +40,16 @@
 								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>">Página
 									Inicial</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/musicas/'?>">Músicas
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/musicas/'?>">Músicas
 									Traduzidas</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/videos/'?>">Vídeos
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/videos/'?>">Vídeos
 									Legendados</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/redes-sociais/'?>">Redes
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/redes-sociais/'?>">Redes
 									Sociais</a></li>
 							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . '/sobre/'?>">Sobre</a></li>
+								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/sobre/'?>">Sobre</a></li>
 						</ol>
 					</div>
 				</div>

@@ -43,23 +43,18 @@ body {
 }
 
 .button {
-	font-family: "Courier New", Courier, monospace;
-	font-weight: bold;
+	display: inline-block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 17px;
 	min-width: 80px;
-	color: black;
-	background: #ECECEC;
-	border: 1px solid !important;
+	letter-spacing: 2px;
+	color: white;
+	background: none;
 	text-align: center !important;
-	margin: auto;
-	-webkit-appearance: button;
-	-moz-appearance: button;
-	appearance: button;
-	-webkit-border-radius: 10px;
-	-moz--border-radius: 10px;
-	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
 	text-decoration: none;
-	padding: 5px 3px 5px 3px;
+	-webkit-transition: all 0.2s ease-in-out; -moz-transition : all 0.2s ease-in-out;
+	-o-transition : all 0.2s ease-in-out; -ms-transition : all 0.2s ease-in-out;
 }
 
 .footer-lista {
@@ -74,8 +69,14 @@ body {
 	width: 100%;
 }
 
-a:hover {
-	color: blue;
+.button:hover {
+	color: black;
+	background: #C0C0C0;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	-webkit-transition: all 0.4s ease-in-out; -moz-transition : all 0.4s ease-in-out;
+	-o-transition : all 0.4s ease-in-out; -ms-transition : all 0.4s ease-in-out;
 }
 
 .mobile-button {
@@ -103,12 +104,12 @@ a:hover {
 }
 
 .mobile-li {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding: 5px;
 	margin: 1px;
 	border: 1px solid white;
 	border-radius: 5px;
 	background: black;
-	font-weight: bold;
 }
 
 .mobile-link {
@@ -206,7 +207,7 @@ a:hover {
 	#mobile-nav {
 		display: block;
 	}
-	.mobile-form {		
+	.mobile-form {
 		position: absolute;
 		padding: 0;
 		margin: 0;
@@ -228,8 +229,9 @@ a:hover {
 	}
 }
 
-@media all and (max-width: 887px) {
+@media all and (max-width: 943px) {
 	.button {
-		font-size: calc(28% + 1vw);
+		font-size: calc(25% + 1vw);
+		padding: 0;
 	}
 }

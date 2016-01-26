@@ -17,7 +17,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'A Thousand Suns';
+	document.title = 'Álbuns : A Thousand Suns';
 </script>
 </head>
 <body>

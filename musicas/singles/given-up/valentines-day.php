@@ -9,7 +9,7 @@
 <body>
 	<?php
 	$videoId = 'JFl4wf7hOiw';
-	$page_title = "Valentine's Day (Tradução)";
+	$page_title = "Valentine\'s Day (Tradução)";
 	$musica = "valentines-day";
 	$nomeMusica = "Valentine's Day";
 	$aside = "singles/given-up";

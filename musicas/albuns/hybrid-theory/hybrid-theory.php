@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Hybrid Theory';
+	document.title = 'Álbuns : Hybrid Theory';
 </script>
 </head>
 <body>

@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Hybrid Theory EP (LPU 1)';
+	document.title = 'LPU :  Hybrid Theory EP (LPU 1)';
 </script>
 </head>
 <body>

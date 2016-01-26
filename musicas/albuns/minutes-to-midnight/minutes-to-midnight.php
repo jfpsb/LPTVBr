@@ -18,7 +18,9 @@
 	href="/LPTVBr/resources/css/global.css">
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
-<title>Minutes To Midnight</title>
+<script>
+	document.title = "Linkin Park : Minutes To Midnight";
+</script>
 </head>
 <body>
 	<article id="mtm-article" class="table-article">

@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'LP Underground 10';
+	document.title = 'LPU :  LP Underground 10';
 </script>
 </head>
 <body>

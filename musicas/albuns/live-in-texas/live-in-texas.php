@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Live In Texas';
+	document.title = 'Álbuns : Live In Texas';
 </script>
 </head>
 <body>

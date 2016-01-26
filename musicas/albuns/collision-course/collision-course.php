@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Collision Course';
+	document.title = 'Álbuns : Collision Course';
 </script>
 </head>
 <body>

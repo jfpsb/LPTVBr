@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Road To Revolution';
+	document.title = 'Álbuns : Road To Revolution';
 </script>
 </head>
 <body>

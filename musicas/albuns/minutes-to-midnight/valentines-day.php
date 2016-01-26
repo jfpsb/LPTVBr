@@ -9,8 +9,8 @@
 <body>
 	<?php
 	$videoId = 'KAFOpywZbMM';
-	$page_title = "Minutes To Midnight : Valentine's Day (Tradução)";
-	$musica = "valentiness-day";
+	$page_title = "Minutes To Midnight : Valentine\'s Day (Tradução)";
+	$musica = "valentines-day";
 	$nomeMusica = "Valentine's Day";
 	$aside = "minutes-to-midnight";
 	$album = 'mtm';

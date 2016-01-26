@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Living Things';
+	document.title = 'Álbuns : Living Things';
 </script>
 </head>
 <body>

@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'Songs From The Underground';
+	document.title = 'LPU :  Songs From The Underground';
 </script>
 </head>
 <body>

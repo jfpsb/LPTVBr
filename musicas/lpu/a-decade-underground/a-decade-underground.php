@@ -19,7 +19,7 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script>
-	document.title = 'A Decade Underground';
+	document.title = 'LPU :  A Decade Underground';
 </script>
 </head>
 <body>

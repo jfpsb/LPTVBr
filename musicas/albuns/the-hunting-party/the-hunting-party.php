@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/global.css">
 <script>
-document.title = 'The Hunting Party';
+document.title = 'Álbuns : The Hunting Party';
 </script>
 </head>
 <body>

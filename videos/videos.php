@@ -40,7 +40,7 @@
 				</td>
 				<td>
 					<div class="panel">
-						<a class="link"> <img class="linkImg disabled"
+						<a class="link" href="linkin-logs/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/linkin-log-logo.png" alt="Linkin Logs" />
 							<label class="nomeLink">Linkin Logs</label>
 						</a>

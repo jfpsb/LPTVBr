@@ -133,6 +133,7 @@
 
 .video-container iframe, .video-container object, .video-container embed
 	{
+	border: none !important;
 	position: absolute;
 	top: 0;
 	left: 0;

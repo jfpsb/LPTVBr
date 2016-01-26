@@ -13,6 +13,8 @@ RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
 
 RewriteRule ^videos/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&pagina=$2 [NC,L]
 
+RewriteRule ^videos/([a-z-]+)/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&ano=$2&pagina=$3 [NC,L]
+
 RewriteRule ^videos/([a-z-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 
 RewriteRule ^musicas/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$2 [NC,L]

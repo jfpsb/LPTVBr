@@ -48,8 +48,9 @@
 		if ($url != '') {
 			include_once ($url . '.php');
 		} else {
-			include_once 'index.php';
+			include_once ('index.php');
 		}
+		
 		?>
 	
 	</section>

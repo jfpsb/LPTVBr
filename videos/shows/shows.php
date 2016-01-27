@@ -50,7 +50,10 @@
 
 				<div id="outros">
 					<div align="center">
-						<h2 style="font-family: 'Courier New', Courier, monospace; color: white;">Ainda não há conteúdo nesta seção.<br>Volte em breve.</h2>
+						<h2
+							style="font-family: 'Courier New', Courier, monospace; color: white;">
+							Ainda não há conteúdo nesta seção.<br>Volte em breve.
+						</h2>
 					</div>
 				</div>
 			</div>

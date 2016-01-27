@@ -50,7 +50,7 @@
 			<tr>
 				<td>
 					<div class="panel">
-						<a class="link"> <img class="linkImg disabled"
+						<a class="link" href="outros/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/outros-logo.png" alt="Outros" /> <label
 							class="nomeLink">Outros</label>
 						</a>

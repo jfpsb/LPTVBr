@@ -18,6 +18,6 @@ RewriteRule ^musicas/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?rai
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]
 RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .? /LPTVBr/notfound.php [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .? /LPTVBr/notfound.php [L]

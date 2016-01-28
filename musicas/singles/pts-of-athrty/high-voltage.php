@@ -12,7 +12,7 @@
 	$page_title = "H! Vltg3 (Tradução)";
 	$musica = "high-voltage";
 	$nomeMusica = "H! Vltg3";
-	$aside = "singles/pts.of.athrty";
+	$aside = "singles/pts-of-athrty";
 	$album = 'reanimation';
 	include_once 'musicas/traducao-template.php';
 	?>

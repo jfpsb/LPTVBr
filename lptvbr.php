@@ -24,6 +24,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="/LPTVBr/resources/galleria/galleria-1.4.2.min.js"></script>
 
+<meta property="og:url" content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>"/>
+<meta property="og:title" content="LinkinParkTVBr"/>
+<meta property="og:image" content="http://www.linkinparktvbr.com/LPTVBr/resources/imagens/banner.jpg"/>
+<meta property="og:description" content="Vídeos e músicas legendadas do banda Linkin Park" />
+<meta property="og:type" content="website"/>
+
 </head>
 <title>LinkinParkTVBr</title>
 <body>

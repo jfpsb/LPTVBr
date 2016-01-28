@@ -12,7 +12,7 @@
 	$page_title = "Buy Myself (Remix Of By Myself By Marilyn Manson) (Tradução)";
 	$musica = "by-myself";
 	$nomeMusica = "Buy Myself";
-	$aside = "singles/pts.of.athrty";
+	$aside = "singles/pts-of-athrty";
 	$album = 'reanimation';
 	include_once 'musicas/traducao-template.php';
 	?>

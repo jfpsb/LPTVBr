@@ -12,7 +12,7 @@
 	$page_title = "Pts.Of.Athrty (Tradução)";
 	$musica = "points-of-authority";
 	$nomeMusica = "Pts.Of.Athrty";
-	$aside = "singles/pts.of.athrty";
+	$aside = "singles/pts-of-athrty";
 	$album = 'reanimation';
 	include_once 'musicas/traducao-template.php';
 	?>

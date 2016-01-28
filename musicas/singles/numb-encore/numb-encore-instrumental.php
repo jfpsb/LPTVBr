@@ -10,7 +10,7 @@
 	<?php
 	$videoId = '5HO8h-k_tNk';
 	$page_title = "Numb/Encore (Instrumental) (Tradução)";
-	$musica = "";
+	$musica = "naopossui";
 	$nomeMusica = "Numb/Encore (Instrumental)";
 	$aside = "singles/numb-encore";
 	$album = '';

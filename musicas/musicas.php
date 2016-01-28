@@ -35,7 +35,7 @@
 	<article>
 		<div class="button-wrapper">
 			<button id="btn" class="mobile-btn">
-				<img alt="" src="/LPTVBr/resources/imagens/menu-icon.png"
+				<img src="/LPTVBr/resources/imagens/menu-icon.png"
 					id="btn-img">
 			</button>
 		</div>
@@ -521,21 +521,21 @@
 					<table>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-fifteen/" class="link"> <img
+									<a href="lpu/lpu15/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu15.jpg"
 										alt="Capa Single LPU15" /> <label class="nomeLink">LPU 15</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-fourteen/" class="link"> <img
+									<a href="lpu/lpu14/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpuxiv.png"
 										alt="Capa Single LPUXIV" /> <label class="nomeLink">LPU XIV</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-thirteen/" class="link"> <img
+									<a href="lpu/lpu13/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpuxiii.jpg"
 										alt="Capa Single LPUXIII" /> <label class="nomeLink">LPU XIII</label>
@@ -544,7 +544,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-twelve/" class="link"> <img
+									<a href="lpu/lpu12/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu12.jpg"
 										alt="Capa Single LPU12" /> <label class="nomeLink">LP
@@ -552,7 +552,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-eleven/" class="link"> <img
+									<a href="lpu/lpu11/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu11.jpg"
 										alt="Capa Single LPU11" /> <label class="nomeLink">LP
@@ -578,7 +578,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-ten" class="link"> <img
+									<a href="lpu/lpu10/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpux.jpg"
 										alt="Capa Single LPUX" /> <label class="nomeLink">LP
@@ -586,7 +586,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-nine" class="link"> <img
+									<a href="lpu/lpu9/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu9.jpg"
 										alt="Capa Single LPU9" /> <label class="nomeLink">LP
@@ -596,7 +596,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-eight" class="link"> <img
+									<a href="lpu/lpu8/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu8.jpg"
 										alt="Capa Single LPU8" /> <label class="nomeLink">LP
@@ -604,7 +604,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-seven" class="link"> <img
+									<a href="lpu/lpu7/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu7.jpg"
 										alt="Capa Single LPU7" /> <label class="nomeLink">LP
@@ -612,7 +612,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-six" class="link"> <img
+									<a href="lpu/lpu6/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu6.jpg"
 										alt="Capa Single LPU6" /> <label class="nomeLink">LP
@@ -622,7 +622,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-five" class="link"> <img
+									<a href="lpu/lpu5/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu5.jpg"
 										alt="Capa Single LPU5" /> <label class="nomeLink">LP
@@ -630,7 +630,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-four" class="link"> <img
+									<a href="lpu/lpu4/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu4.jpg"
 										alt="Capa Single LPU4" /> <label class="nomeLink">LP
@@ -638,7 +638,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-three" class="link"> <img
+									<a href="lpu/lpu3/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu3.jpg"
 										alt="Capa Single LPU3" /> <label class="nomeLink">LP
@@ -648,7 +648,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-two" class="link"> <img
+									<a href="lpu/lpu2/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu2.jpg"
 										alt="Capa Single LPU2" /> <label class="nomeLink">LP
@@ -656,7 +656,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu-one" class="link"> <img
+									<a href="lpu/lpu1/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu1.jpg"
 										alt="Capa Single LPU1" /> <label class="nomeLink"> Hybrid

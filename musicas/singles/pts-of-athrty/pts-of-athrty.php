@@ -38,7 +38,7 @@
 						<td>2.</td>
 						<td>Buy Myself (Remix Of By Myself By Marilyn Manson)</td>
 						<td id="button-td"><a class="trad-button"
-							href="by-myself">Tradução</a></td>
+							href="buy-myself">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>3.</td>

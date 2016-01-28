@@ -26,11 +26,13 @@
 				<td>
 					<div class="panel">
 						<a class="link" href="lpu-15-bundle-unboxing/">
-							<div class="postData">
-								<p class="dataTexto">
-									27<br> Jan<br> 2016<br>
-								</p>
-							</div><img alt="LPU 15 Bundle Unboxing" class="linkImg"
+							<?php
+							$dia = '27';
+							$mes = 'Jan';
+							$ano = '2016';
+							include 'videvideos/postDataTemplate.php';
+							?>
+							<img alt="LPU 15 Bundle Unboxing" class="linkImg"
 							src="/LPTVBr/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">
 							<label class="nomeLink">LPU15 Bundle Unboxing</label>
 						</a>

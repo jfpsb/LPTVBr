@@ -3,23 +3,20 @@ DirectoryIndex lptvbr.php
 
 RewriteEngine on
 
+#videos
 RewriteRule ^videos/?$ lptvbr.php?raiz=videos&pagina=videos [NC,L]
+RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&pagina=$2 [NC,L]
+RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&ano=$2&pagina=$3 [NC,L]
+RewriteRule ^videos/([a-z-0-9-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 
+#musicas
 RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
+RewriteRule ^musicas/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$2 [NC,L]
+RewriteRule ^musicas/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$3 [NC,L]
 
+#outros
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]
-
 RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
-
-RewriteRule ^videos/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&pagina=$2 [NC,L]
-
-RewriteRule ^videos/([a-z-]+)/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&ano=$2&pagina=$3 [NC,L]
-
-RewriteRule ^videos/([a-z-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
-
-RewriteRule ^musicas/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$2 [NC,L]
-
-RewriteRule ^musicas/([a-z-]+)/([a-z-]+)/([a-z-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$3 [NC,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

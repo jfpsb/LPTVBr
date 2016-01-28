@@ -11,7 +11,7 @@
 }
 
 .link {
-	bottom: -2px;	
+	bottom: -2px;
 }
 
 td {
@@ -105,7 +105,7 @@ td {
 .titulo {
 	font-family: "Courier New", Courier, monospace;
 	text-align: center;
-	color: white;	
+	color: white;
 }
 
 .nomeLink {
@@ -124,6 +124,22 @@ td {
 	border-bottom-right-radius: 20px;
 	visibility: hidden;
 	text-align: center;
+}
+
+.postData {
+	color: #212121;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	background: #D4E157;
+	position: absolute;
+	z-index: 20;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+	text-shadow: 1px 1px 2px white;
+	border: 1px groove white;
+	background: #D4E157;
 }
 
 .pui-tabview-panel {
@@ -147,11 +163,29 @@ td {
 	background: #E0E0E0 !important;
 }
 
-.link:hover p, .link:hover label {
+.link:hover .nomeLink {
 	visibility: visible;
 	opacity: 1;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.7);
+}
+
+@media all and (max-width: 1090px) and (min-width: 651px) {
+	.postData {
+		font-size: calc(35% + 1vw);
+	}
+}
+
+@media all and (max-width: 750px) {
+	.postData {
+		font-size: 15px;
+	}
+	.dataBr {
+		display: none;
+	}
+	.dataTexto {
+		margin: 5px;
+	}
 }
 
 @media all and (max-width: 650px) {

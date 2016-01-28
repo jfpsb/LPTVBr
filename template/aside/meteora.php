@@ -22,7 +22,7 @@
 		<li class="traducao-li"><a class="album-text" href="faint">7.
 				Faint</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="figure-zero-nine">8. Figure.09</a></li>
+			href="figure09">8. Figure.09</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="breaking-the-habit">9.
 				Breaking The Habit</a></li>

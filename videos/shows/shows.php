@@ -9,7 +9,7 @@
 <script type="text/javascript" src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
 <script>
-	document.title = "Linkin Park : Shows (Legendas)";
+	document.title = "Linkin Park : Shows (Legendados)";
 
 	$(function() {
 		$('#show-tabView').puitabview();

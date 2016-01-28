@@ -3,7 +3,7 @@
 		class="album-cover"> <a class="album-link"
 		href="/LPTVBr/musicas/lpu/lpu-nine/">Voltar ao LP Underground 9</a>
 	<ol class="album-lista">
-		<li class="traducao-li"><a class="album-text" href="a-zero-six">1.
+		<li class="traducao-li"><a class="album-text" href="a06">1.
 				A.06 (Original Long Version)</a></li>
 		<li class="traducao-li"><a class="album-text" href="faint">2.
 				Faint (DEMO 2002)</a></li>
@@ -12,7 +12,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="fear">4. Fear (Leave
 				Out All The Rest DEMO 2006)</a></li>
-		<li class="traducao-li"><a class="album-text" href="figure-zero-nine">5.
+		<li class="traducao-li"><a class="album-text" href="figure09">5.
 				Figure.09 (DEMO 2002)</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="stick-n-move">6. Stick N' Move

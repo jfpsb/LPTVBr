@@ -39,7 +39,7 @@
 		
 		foreach ( $_GET as $key => $value ) {
 			if ($url != '') {
-				$url = $url . '/';
+				$url = $url . DIRECTORY_SEPARATOR;
 			}
 			
 			$url = $url . $value;

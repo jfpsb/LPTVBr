@@ -6,7 +6,7 @@
 		<li class="traducao-li"><a class="album-text"
 			href="dont-stay">1. Don't Stay (Live In Texas)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="figure-zero-nine">2. Figure.09 (Live In Texas)</a></li>
+			href="figure09">2. Figure.09 (Live In Texas)</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="with-you">3. With You (Live In Texas)</a></li>
 		<li class="traducao-li"><a class="album-text"

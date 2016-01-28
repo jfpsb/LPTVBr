@@ -18,12 +18,19 @@
 </head>
 <body>
 	<article>
-		<h2 style="font-family: 'Courier New', Courier, monospace; color: white; text-align: center;">Outros Vídeos</h2>
+		<h2
+			style="font-family: 'Courier New', Courier, monospace; color: white; text-align: center;">Outros
+			Vídeos</h2>
 		<table class="panelGrid">
 			<tr>
 				<td>
 					<div class="panel">
-						<a class="link" href="lpu-quinze-bundle-unboxing/"> <img alt="LPU 15 Bundle Unboxing" class="linkImg"
+						<a class="link" href="lpu-15-bundle-unboxing/">
+							<div class="postData">
+								<p class="dataTexto">
+									27<br> Jan<br> 2016<br>
+								</p>
+							</div><img alt="LPU 15 Bundle Unboxing" class="linkImg"
 							src="/LPTVBr/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">
 							<label class="nomeLink">LPU15 Bundle Unboxing</label>
 						</a>

@@ -81,7 +81,7 @@
 					<td>8.</td>
 					<td>Figure.09</td>
 					<td id="button-td"><a
-						href="figure-zero-nine"
+						href="figure09"
 						class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>

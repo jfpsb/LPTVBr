@@ -33,7 +33,7 @@
 					<td>1.</td>
 					<td>A.06 (Original Long Version)</td>
 					<td id="button-td"><a class="trad-button"
-						href="a-zero-six">Tradução</a></td>
+						href="a06">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>
@@ -56,7 +56,7 @@
 				<tr>
 					<td>5.</td>
 					<td>Figure.09 (DEMO 2002)</td>
-					<td id="button-td"><a href="figure-zero-nine"
+					<td id="button-td"><a href="figure09"
 						class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>

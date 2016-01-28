@@ -38,7 +38,7 @@
 				<tr>
 					<td>2.</td>
 					<td>Figure.09 (Live In Texas)</td>
-					<td id="button-td"><a href="figure-zero-nine"
+					<td id="button-td"><a href="figure09"
 						class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>

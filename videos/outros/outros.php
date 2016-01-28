@@ -30,7 +30,7 @@
 							$dia = '27';
 							$mes = 'Jan';
 							$ano = '2016';
-							include 'videvideos/postDataTemplate.php';
+							include 'videos/postDataTemplate.php';
 							?>
 							<img alt="LPU 15 Bundle Unboxing" class="linkImg"
 							src="/LPTVBr/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">

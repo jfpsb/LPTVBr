@@ -21,7 +21,6 @@ include_once 'youtube/search.php';
 
 	$(document).ready(function(){
 		loadLetra('<?php echo $album ?>', '<?php echo $musica ?>');
-		window.location.hash="main-section";
 	});
 </script>
 </head>

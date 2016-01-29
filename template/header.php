@@ -19,8 +19,6 @@
 						class="button">Músicas Traduzidas</a> <a
 						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'videos/'?>"
 						class="button">Vídeos Legendados</a> <a
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'redes-sociais/'?>"
-						class="button">Redes Sociais</a> <a
 						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'sobre/'?>"
 						class="button">Sobre</a>
 				</form>
@@ -45,9 +43,6 @@
 							<li class="mobile-li"><a class="mobile-link"
 								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/videos/'?>">Vídeos
 									Legendados</a></li>
-							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/redes-sociais/'?>">Redes
-									Sociais</a></li>
 							<li class="mobile-li"><a class="mobile-link"
 								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/sobre/'?>">Sobre</a></li>
 						</ol>

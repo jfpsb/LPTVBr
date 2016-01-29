@@ -193,6 +193,8 @@ td {
 		visibility: visible;
 		opacity: 1;
 		font-size: 18px !important;
+		bottom: 5px;
+		text-shadow: 2px 2px 1px black;
 	}
 	#mus-tabView {
 		padding: 0 !important;
@@ -204,20 +206,5 @@ td {
 		columns: 1;
 		-webkit-columns: 1;
 		-moz-columns: 1;
-	}
-	.nomeLink {
-		bottom: 5px;
-		text-shadow: 2px 2px 1px black;
-	}
-	td {
-		border: none;
-		position: relative;
-	}
-	tr {
-		border-bottom: 1px solid #eee;
-		padding: 15px;
-	}
-	table, thead, tbody, th, td, tr {
-		display: block;
 	}
 }

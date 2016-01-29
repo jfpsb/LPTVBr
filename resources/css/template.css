@@ -53,13 +53,17 @@ body {
 	text-align: center !important;
 	padding: 5px 10px 5px 10px;
 	text-decoration: none;
-	-webkit-transition: all 0.2s ease-in-out; -moz-transition : all 0.2s ease-in-out;
-	-o-transition : all 0.2s ease-in-out; -ms-transition : all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
 }
 
 .footer-lista {
 	font-family: "Courier New", Courier, monospace;
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .template-form {
@@ -75,8 +79,10 @@ body {
 	-webkit-appearance: button;
 	-moz-appearance: button;
 	appearance: button;
-	-webkit-transition: all 0.4s ease-in-out; -moz-transition : all 0.4s ease-in-out;
-	-o-transition : all 0.4s ease-in-out; -ms-transition : all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
 }
 
 .mobile-button {
@@ -141,15 +147,16 @@ body {
 
 #container-footer {
 	display: block;
+	overflow: hidden;
 	max-width: 1200px;
 	width: 90%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid white;
+	border: 1px groove #000000;
+	border-radius: 3px;
 	color: white;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.6);
+	background: #212121;
 	margin-top: 5px;
 }
 

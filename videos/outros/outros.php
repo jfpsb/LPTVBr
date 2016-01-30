@@ -25,6 +25,21 @@
 			<tr>
 				<td>
 					<div class="panel">
+ 						<a class="link" ><!--href="dji-tour-diary/"-->
+							<?php
+							$dia = '30';
+							$mes = 'Jan';
+							$ano = '2016';
+							include 'videos/postDataTemplate.php';
+							?>
+							<img alt="DJI - Linkin Park Tour Diary" class="linkImg disabled"
+							src="/LPTVBr/resources/imagens/videos/outros/dji-tour-diary.jpg">
+							<label class="nomeLink">DJI - Linkin Park Tour Diary</label>
+						</a>
+					</div>
+				</td>
+				<td>
+					<div class="panel">
 						<a class="link" href="lpu-15-bundle-unboxing/">
 							<?php
 							$dia = '27';

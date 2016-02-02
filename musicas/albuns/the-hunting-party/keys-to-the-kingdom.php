@@ -18,17 +18,10 @@
 // 	$aside = "the-hunting-party";
 // 	$album = 'thp';
 	$str = file_get_contents("http://localhost/LPTVBr/musicas/albuns/albuns.json");
-	$str = utf8_encode($str);
+	$thp = json_decode($str);
 	
-	$lista = array();
-	$list = $str->fetch_all();
-	$str->free_result();
-	$str->close();
-	$thp = json_decode($lista, true);
+	var_dump($thp);
 	
-	echo $thp['title'];
-	
-	$page_title = $thp['title']; 
 	include_once 'musicas/traducao-template.php';
 	?>
 </body>

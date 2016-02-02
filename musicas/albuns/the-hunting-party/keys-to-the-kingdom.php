@@ -11,16 +11,22 @@
 </head>
 <body>
 	<?php
-// 	$page_title = "The Hunting Party : Keys To The Kingdom (Tradução)";
-// 	$videoId = 'ZPlUjhroNd4';
-// 	$musica = "keys-to-the-kingdom";
-// 	$nomeMusica = "Keys To The Kingdom";
-// 	$aside = "the-hunting-party";
-// 	$album = 'thp';
-	$str = file_get_contents("http://localhost/LPTVBr/musicas/albuns/albuns.json");
-	$thp = json_decode($str);
+	$str = file_get_contents('http://'.$_SERVER['SERVER_NAME']."/LPTVBr/musicas/albuns/albuns.json");
+	$str = utf8_decode($str);
+	$thp = json_decode($str, true);
 	
-	var_dump($thp);
+	$page_title = $thp['the-hunting-party']['album'].' : '.
+	$thp['the-hunting-party']['keys-to-the-kingdom']['title'].' (Tradução)';
+	
+	$videoId = $thp['the-hunting-party']['keys-to-the-kingdom']['videoId'];
+	
+	$musica = $thp['the-hunting-party']['keys-to-the-kingdom']['lyricTitle'];
+	
+	$nomeMusica = $thp['the-hunting-party']['keys-to-the-kingdom']['title'];
+	
+	$aside = $thp['the-hunting-party']['aside'];
+	
+	$album = $thp['the-hunting-party']['lyricAlbum'];
 	
 	include_once 'musicas/traducao-template.php';
 	?>

@@ -1,5 +1,5 @@
-var letraPathTrad = "../../letras/traducao/";
-var letraPathOrig = "../../letras/original/";
+var letraPathTrad = "/LPTVBr/musicas/letras/traducao/";
+var letraPathOrig = "/LPTVBr/musicas/letras/original/";
 
 function loadLetra(album, musica) {
 	loadTraducao(album, musica);

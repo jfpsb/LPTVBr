@@ -1,0 +1,248 @@
+{
+	"the-hunting-party": {
+		"keys-to-the-kingdom": {
+			"title": "Keys To The Kingdom",
+			"videoId": "ZPlUjhroNd4"
+		},
+		"all-for-nothing": {
+			"title": "All For Nothing (Feat. Page Hamilton)",
+			"videoId": "DVPbR_r8XLU"
+		},
+		"guilty-all-the-same": {
+			"title": "Guilty All The Same",
+			"videoId": "IfnhGW2Q_y0"
+		},
+		"the-summoning": {
+			"title": "The Summoning",
+			"videoId": "OmdVqbHmfJo"
+		},
+		"war": {
+			"title": "War",
+			"videoId": "dTgor60kaZk"
+		},
+		"wastelands": {
+			"title": "Wastelands",
+			"videoId": "h6sFG7qOd4A"
+		},
+		"until-its-gone": {
+			"title": "Until It's Gone",
+			"videoId": "oM-XJD4J36U"
+		},
+		"rebellion": {
+			"title": "Rebellion (Feat. Darion Malakian)",
+			"videoId": "OCy5461BtTg"
+		},
+		"mark-the-graves": {
+			"title": "Mark The Graves",
+			"videoId": "l65UelU95O8"
+		},
+		"drawbar": {
+			"title": "Drawbar (Feat. Tom Morello)",
+			"videoId": "mjgdHSwWfhE"
+		},
+		"final-masquerade": {
+			"title": "Final Masquerade",
+			"videoId": "i8q8fFs3kTM"
+		},
+		"a-line-in-the-sand": {
+			"title": "A Line In The Sand",
+			"videoId": "FkDrVL8Tsuw"
+		},
+		"album": "The Hunting Party"
+	},
+	"a-thousand-suns": {
+		"blackout": {
+			"title": "Blackout",
+			"videoId": "CpfRXSHb-6Y"
+		},
+		"burning-in-the-skies": {
+			"title": "Burning In The Skies",
+			"videoId": "kh_YCSW5lPc"
+		},
+		"empty-spaces": {
+			"title": "Empty Spaces",
+			"videoId": "9fn8gXGuYEM"
+		},
+		"fallout": {
+			"title": "Fallout",
+			"videoId": "o5MKTdQG7Js"
+		},
+		"iridescent": {
+			"title": "Iridescent",
+			"videoId": "xLYiIBCN9ec"
+		},
+		"jornada-del-muerto": {
+			"title": "Jornada Del Muerto",
+			"videoId": "YiZcMUxewUI"
+		},
+		"robot-boy": {
+			"title": "Robot Boy",
+			"videoId": "Wbt59pmT26E"
+		},
+		"the-catalyst": {
+			"title": "The Catalyst",
+			"videoId": "51iquRYKPbs"
+		},
+		"the-messenger": {
+			"title": "The Messenger",
+			"videoId": "ec2RlGgNIUs"
+		},
+		"the-radiance": {
+			"title": "The Radiance",
+			"videoId": "m4AI6kHHyWs"
+		},
+		"the-requiem": {
+			"title": "The Requiem",
+			"videoId": "M4KSZQYmuMQ"
+		},
+		"waiting-for-the-end": {
+			"title": "Waiting For The End",
+			"videoId": "5qF_qbaWt3Q"
+		},
+		"when-they-come-for-me": {
+			"title": "When They Come For Me",
+			"videoId": "2cC4LQV2tf8"
+		},
+		"wisdow-justice-and-love": {
+			"title": "Wisdow, Justice And Love",
+			"videoId": "sqQvAoT82wg"
+		},
+		"wretches-and-kings": {
+			"title": "Wretches And Kings",
+			"videoId": "er-TinIKvCw"
+		},
+		"album": "A Thousand Suns"
+	},
+	"collision-course":
+	{
+		"big-pimpin": {
+			"title": "Big Pimpin'/Papercut",
+			"videoId": "uRB7p7GRgkA"
+		},
+		"dirt-off-your-shoulder": {
+			"title": "Dirt Off Your Shoulder/Lying From You",
+			"videoId": "Z_4VOhahkkk"
+		},
+		"izzo": {
+			"title": "Izzo/In The End",
+			"videoId": "IOZACGVr32Q"
+		},
+		"jigga-what": {
+			"title": "Jigga What/Faint",
+			"videoId": "DiiHIQB6nz0"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "yNPECkESPbU"
+		},
+		"points": {
+			"title": "Points Of Authority/99 Problems/One Step Closer",
+			"videoId": "kBnJnXq4YQ8"
+		},
+		"album": "Collision Course"
+	},
+	"hybrid-theory":
+	{
+		"a-place-for-my-head": {
+			"title": "A Place For My Head",
+			"videoId": "3t2WkCudwfY"
+		},
+		"by-myself": {
+			"title": "By Myself",
+			"videoId": "wWBp-nlGX1o"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "Gd9OhYroLN0"
+		},
+		"cure-for-the-itch": {
+			"title": "Cure For The Itch",
+			"videoId": "u6z5U83lfrQ"
+		},
+		"forgotten": {
+			"title": "Forgotten",
+			"videoId": "HNCgBuI2eJc"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "eVTXPUF4Oz4"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "4qlCC1GOwFw"
+		},
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "vjVkXlxsO8Q"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority",
+			"videoId": "jZSPAp8kCl4"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away",
+			"videoId": "Ve1LNJEIKUE"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "ig-fyQqf510"
+		},
+		"with-you": {
+			"title": "With You",
+			"videoId": "M8UTS2iFXOo"
+		},
+		"album": "Hybrid Theory"
+	},
+	"live-in-texas":
+	{
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "KJ9izvo96LU"
+		},
+		"faint": {
+			"title": "Faint",
+			"videoId": "pO6FZqEnDtg"
+		},
+		"from-the-inside": {
+			"title": "From The Inside",
+			"videoId": "iflr2S12N5w"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "UqBMuFjk17so"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "c-oDYS9Aw74"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "ufMDVe1DTGA"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "4a3gjWP9E4M"
+		},
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "1l9RY2Jhyo0"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority",
+			"videoId": "giTJkBzaRvw"
+		},
+		"pushing-me-away": {
+			"title": "P5hng Me A*wy",
+			"videoId": "lL-h12cu1H8"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "nWWeTIc1l6s"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "ukFZN8QKPUw"
+		},
+		"album": "Live In Texas"
+	}
+}

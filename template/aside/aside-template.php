@@ -8,7 +8,7 @@
 <body>
 
 	<?php 
-		include_once 'template/aside/'.$aside.'.php';
+		include_once '../template/aside/'.$aside.'.php';
 	?>
 	
 	<div align="center" class="ads">

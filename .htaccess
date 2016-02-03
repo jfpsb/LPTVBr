@@ -10,9 +10,8 @@ RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz
 RewriteRule ^videos/([a-z-0-9-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 
 #musicas
-RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
-RewriteRule ^musicas/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$2 [NC,L]
-RewriteRule ^musicas/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=musicas&tipo=$1&album=$2&pagina=$3 [NC,L]
+RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2 [NC,L]
+RewriteRule ^albuns/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=albuns&album=$1 [NC,L]
 
 #outros
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]

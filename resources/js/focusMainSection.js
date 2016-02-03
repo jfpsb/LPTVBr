@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	window.location.hash="main-section";
+	window.location.hash="top";
 });

@@ -1,5 +1,5 @@
 <?php
-$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/LPTVBr/json/musicas/albuns.json" );
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/LPTVBr/json/musicas/" . $_GET['tipo'] . ".json" );
 $str = utf8_encode($str);
 $release = json_decode ( $str, true );
 
@@ -12,7 +12,7 @@ $videoId = $release [$album] [$musica] ['videoId'];
 
 $nomeMusica = $release [$album] [$musica] ['title'];
 
-$aside = $album;
+$aside = $_GET['tipo'] . DIRECTORY_SEPARATOR . $album;
 
 if(isset($release [$album] [$musica] ['lyricAlbum'])) {
 	$album = $release [$album] [$musica] ['lyricAlbum'];

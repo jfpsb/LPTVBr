@@ -7,11 +7,14 @@
 	type="image/vnd.microsoft.icon"></link>
 <link rel="stylesheet" type="text/css"
 	href="/LPTVBr/resources/css/sobre.css">
-<script type="text/javascript"
-	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
-<script>
-	document.title = 'LinkinParkTVBr : Sobre';
-</script>
+<link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/global.css">
+<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/template.css">
+
+<script type="text/javascript" src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/LPTVBr/resources/js/focusMainSection.js"></script>
+<script type="text/javascript" src="/LPTVBr/resources/js/menuButton.js"></script>
 </head>
 <body>
 	<article id="sobre-article">

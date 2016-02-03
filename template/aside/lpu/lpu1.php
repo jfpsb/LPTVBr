@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu1.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/lpu1/">Voltar ao Hybrid Theory EP (LPU 1)</a>
+		href="/LPTVBr/lpu/lpu1/">Voltar ao Hybrid Theory EP (LPU 1)</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="carousel">1. Carousel</a></li>

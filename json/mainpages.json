@@ -1,14 +1,22 @@
 {
 	"musicas":
 	{
-		"title": "Músicas Traduzidas : LinkinParkTVBr"
+		"title": "Músicas Traduzidas : LinkinParkTVBr",
+		"descricao": "Traduções de álbuns, singles, remixes e LPUs"
 	},
 	"videos":
 	{
-		"title": "Vï¿½deos Legendados : LinkinParkTVBr"
+		"title": "Vídeos Legendados : LinkinParkTVBr",
+		"descricao": "Traduções de shows, lptvs, entrevistas, entre outros"
 	},
 	"sobre":
 	{
-		"title": "Sobre : LinkinParkTVBr"
+		"title": "Sobre : LinkinParkTVBr",
+		"descricao": "Texto sobre história do canal"
+	},
+	"index":
+	{
+		"title": "Home : LinkinParkTVBr",
+		"descricao": "Página principal de LinkinParkTVBr"
 	}
 }

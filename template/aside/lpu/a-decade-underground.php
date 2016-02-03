@@ -2,7 +2,7 @@
 	<img
 		src="/LPTVBr/resources/imagens/lpu/cover250/a-decade-underground.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/a-decade-underground/">Voltar ao A Decade
+		href="/LPTVBr/lpu/a-decade-underground/">Voltar ao A Decade
 		Underground</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"

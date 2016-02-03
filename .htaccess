@@ -1,5 +1,5 @@
 #Alternate default index page
-DirectoryIndex lptvbr.php
+DirectoryIndex lptvbr.php?pagina=index
 
 RewriteEngine on
 
@@ -10,8 +10,10 @@ RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz
 RewriteRule ^videos/([a-z-0-9-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 
 #musicas
-RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2 [NC,L]
+RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=albuns [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=albuns&album=$1 [NC,L]
+RewriteRule ^lpu/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=lpu [NC,L]
+RewriteRule ^lpu/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=lpu&album=$1 [NC,L]
 RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
 
 #outros

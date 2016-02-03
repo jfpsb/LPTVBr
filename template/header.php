@@ -11,7 +11,7 @@
 			<nav id="default-nav">
 				<img id="banner-default" class="img-banner"
 					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
-				<form class="template-form">
+				<form id="top" class="template-form">
 					<a
 						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>"
 						class="button">Página Inicial</a> <a

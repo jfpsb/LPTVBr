@@ -197,52 +197,318 @@
 	{
 		"crawling": {
 			"title": "Crawling",
-			"videoId": "KJ9izvo96LU"
+			"videoId": "KJ9izvo96LU",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"faint": {
 			"title": "Faint",
-			"videoId": "pO6FZqEnDtg"
+			"videoId": "pO6FZqEnDtg",
+			"lyricAlbum": "meteora"
 		},
 		"from-the-inside": {
 			"title": "From The Inside",
-			"videoId": "iflr2S12N5w"
+			"videoId": "iflr2S12N5w",
+			"lyricAlbum": "meteora"
 		},
 		"in-the-end": {
 			"title": "In The End",
-			"videoId": "UqBMuFjk17so"
+			"videoId": "UqBMuFjk17so",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"lying-from-you": {
 			"title": "Lying From You",
-			"videoId": "c-oDYS9Aw74"
+			"videoId": "c-oDYS9Aw74",
+			"lyricAlbum": "meteora"
 		},
 		"numb": {
 			"title": "Numb",
-			"videoId": "ufMDVe1DTGA"
+			"videoId": "ufMDVe1DTGA",
+			"lyricAlbum": "meteora"
 		},
 		"one-step-closer": {
 			"title": "One Step Closer",
-			"videoId": "4a3gjWP9E4M"
+			"videoId": "4a3gjWP9E4M",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"papercut": {
 			"title": "Papercut",
-			"videoId": "1l9RY2Jhyo0"
+			"videoId": "1l9RY2Jhyo0",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"points-of-authority": {
 			"title": "Points Of Authority",
-			"videoId": "giTJkBzaRvw"
+			"videoId": "giTJkBzaRvw",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"pushing-me-away": {
 			"title": "P5hng Me A*wy",
-			"videoId": "lL-h12cu1H8"
+			"videoId": "lL-h12cu1H8",
+			"lyricAlbum": "reanimation"
 		},
 		"runaway": {
 			"title": "Runaway",
-			"videoId": "nWWeTIc1l6s"
+			"videoId": "nWWeTIc1l6s",
+			"lyricAlbum": "hybrid-theory"
 		},
 		"somewhere-i-belong": {
 			"title": "Somewhere I Belong",
-			"videoId": "ukFZN8QKPUw"
+			"videoId": "ukFZN8QKPUw",
+			"lyricAlbum": "meteora"
 		},
 		"album": "Live In Texas"
+	},
+	"living-things":
+	{
+		"burn-it-down": {
+			"title": "Burn It Down",
+			"videoId": "dxytyRy-O1k"
+		},
+		"castle-of-glass": {
+			"title": "Castle Of Glass",
+			"videoId": "ScNNfyq3d_w"
+		},
+		"ill-be-gone": {
+			"title": "I'll Be Gone",
+			"videoId": "Y1wM5ljye28"
+		},
+		"in-my-remains": {
+			"title": "In My Remains",
+			"videoId": "QLFiuNdQrzI"
+		},
+		"lies-greed-misery": {
+			"title": "Lies Greed Misery",
+			"videoId": "9Dq9q6afIP8"
+		},
+		"lost-in-the-echo": {
+			"title": "Lost In The Echo",
+			"videoId": "co4YpHTqmfQ"
+		},
+		"powerless": {
+			"title": "Powerless",
+			"videoId": "32BOmle7Z6w"
+		},
+		"roads-untraveled": {
+			"title": "Roads Untraveled",
+			"videoId": "KLgQKiUk7ms"
+		},
+		"skin-to-bone": {
+			"title": "Skin To Bone",
+			"videoId": "NwK4mxK7c2w"
+		},
+		"tinfoil": {
+			"title": "Tinfoil",
+			"videoId": "M2YPuL-niQg"
+		},
+		"until-it-breaks": {
+			"title": "Until It Breaks",
+			"videoId": "ZEQJm49_9OE"
+		},
+		"victimized": {
+			"title": "Victimized",
+			"videoId": "-6eUCOFXuxo"
+		},
+		"album": "Living Things"
+	},
+	"meteora":
+	{
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "v2H4l9RpkwM"
+		},
+		"dont-stay": {
+			"title": "Don't Stay",
+			"videoId": "oWfGOVWrueo"
+		},
+		"easier-to-run": {
+			"title": "Easier To Run",
+			"videoId": "U5zdmjVeQzE"
+		},
+		"faint": {
+			"title": "Faint",
+			"videoId": "LYU-8IFcDPw"
+		},
+		"figure09": {
+			"title": "Figure.09",
+			"videoId": "o1uESZ2_p2s"
+		},
+		"foreword": {
+			"title": "Foreword",
+			"videoId": "U6R-twDkrcI"
+		},
+		"from-the-inside": {
+			"title": "From The Inside",
+			"videoId": "YLHpvjrFpe0"
+		},
+		"hit-the-floor": {
+			"title": "Hit The Floor",
+			"videoId": "oMals9XXQY8"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "5cNdDuNKrx0"
+		},
+		"nobodys-listening": {
+			"title": "Nobody's Listening",
+			"videoId": "QJ87793QXes"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU"
+		},
+		"session": {
+			"title": "Session",
+			"videoId": "J1KqQYsUYIk"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "zsCD5XCu6CM"
+		},
+		"album": "Meteora"
+	},
+	"minutes-to-midnight":
+	{
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "OnuuYcqhzCE"
+		},
+		"given-up": {
+			"title": "Given Up",
+			"videoId": "0xyxtzD54rM"
+		},
+		"hands-held-high": {
+			"title": "Hands Held High",
+			"videoId": "G4P3ayBzVY"
+		},
+		"in-between": {
+			"title": "In Between",
+			"videoId": "YgVzhgygYfs"
+		},
+		"in-pieces": {
+			"title": "In Pieces",
+			"videoId": "NaRBn6QIMcQ"
+		},
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "yZIummTz9mM"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow",
+			"videoId": "rW4uBvP2Dqc"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "n1PCW0C1aiM"
+		},
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away",
+			"videoId": "Gs0t8LXH6lw"
+		},
+		"valentines-day": {
+			"title": "Valentine's Day",
+			"videoId": "KAFOpywZbMM"
+		},
+		"wake": {
+			"title": "Wake",
+			"videoId": "Me7TJDHCELk"
+		},
+		"what-ive-done": {
+			"title": "What I've Done",
+			"videoId": "8sgycukafqQ"
+		},
+		"album": "Minutes To Midnight"
+	},
+	"road-to-revolution":
+	{
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "LrGgr9tcLuw",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "mztKdkWbPF8",
+			"lyricAlbum": "meteora"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "yURtHbEp4b8",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"from-the-inside": {
+			"title": "From The Inside",
+			"videoId": "YC56GtIwBDQ",
+			"lyricAlbum": "meteora"
+		},
+		"given-up": {
+			"title": "Given Up",
+			"videoId": "_KRmlrPzfYM",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"hands-held-high": {
+			"title": "Hands Held High",
+			"videoId": "g-R9DiWDTVo",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "gl30eSQuPE0",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"jigga-what": {
+			"title": "Jigga What/Faint",
+			"videoId": "91PD0DyQuXU",
+			"lyricAlbum": "collision-course"
+		},
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "LvbxMAYkKlw",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "eji4Nj5_zYo",
+			"lyricAlbum": "meteora"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow",
+			"videoId": "6ILbGSInwdo",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "eVG6m_AZbDk",
+			"lyricAlbum": "collision-course"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "3m7kVpACuJs",
+			"lyricAlbum": "meteora"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "YzoO5pRVuUI",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away",
+			"videoId": "b5jlBER8CVM",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "VJYxkLgKLNU",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away",
+			"videoId": "00jUu5uxvvk",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"what-ive-done": {
+			"title": "What I've Done",
+			"videoId": "VVCT_k_X9Tg",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "Road To Revolution"
 	}
 }

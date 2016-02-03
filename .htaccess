@@ -12,6 +12,7 @@ RewriteRule ^videos/([a-z-0-9-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 #musicas
 RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2 [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=albuns&album=$1 [NC,L]
+RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
 
 #outros
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]

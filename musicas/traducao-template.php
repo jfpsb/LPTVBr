@@ -6,13 +6,17 @@ $release = json_decode ( $str, true );
 $album = $_GET ['album'];
 $musica = $_GET ['musica'];
 
-$page_title = $release [$album] ['album'] . ' : ' . $release [$album] [$musica] ['title'] . ' (Tradução)';
+$page_title = $release [$album] [$musica] ['title'] . ' : ' . $release [$album] ['album'] . ' (Tradução)';
 
 $videoId = $release [$album] [$musica] ['videoId'];
 
 $nomeMusica = $release [$album] [$musica] ['title'];
 
 $aside = $album;
+
+if(isset($release [$album] [$musica] ['lyricAlbum'])) {
+	$album = $release [$album] [$musica] ['lyricAlbum'];
+}
 
 include_once '../youtube/search.php';
 ?>

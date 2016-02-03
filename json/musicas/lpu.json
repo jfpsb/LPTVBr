@@ -216,5 +216,127 @@
 			"lyricAlbum": "meteora"
 		},
 		"album": "LP Underground 5"
+	},
+	"lpu6":
+	{
+		"announcement": {
+			"title": "Public Service Announcement",
+			"videoId": "n3ChOhGH_9s",
+			"lyricAlbum": "lpu"
+		},
+		"breaking-the-habit": {
+			"title": "Breaking The Habit (Live)",
+			"videoId": "4XFRLC-yl3g",
+			"lyricAlbum": "meteora"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away (Live Piano Version)",
+			"videoId": "Odi6Ex7Xd3Q",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"qwerty-live": {
+			"title": "QWERTY (Live)",
+			"videoId": "U5XXNMTyCVU",
+			"lyricAlbum": "lpu"
+		},
+		"qwerty": {
+			"title": "QWERTY (Studio DEMO Version)",
+			"videoId": "L3g_LgcS12I",
+			"lyricAlbum": "lpu"
+		},
+		"reading-my-eyes": {
+			"title": "Reading My Eyes (Live)",
+			"videoId": "8qjgVqY0gPM",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 6"
+	},
+	"lpu7":
+	{
+		"bleed-it-out": {
+			"title": "Bleed It Out (Live)",
+			"videoId": "CmZyFo7npBQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"crawling": {
+			"title": "Crawling (Live)",
+			"videoId": "DINYPRhvoZM",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"faint": {
+			"title": "Faint (Live)",
+			"videoId": "wUe3-vQwAPw",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"given-up": {
+			"title": "Given Up (Live)",
+			"videoId": "M5l0mvJKH4E",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"in-the-end": {
+			"title": "In The End (Live)",
+			"videoId": "oNn74u05tE4",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow (Live)",
+			"videoId": "CFq7xDt4gI0",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"numb": {
+			"title": "Numb (Live)",
+			"videoId": "a1QLwlRJ77Q",
+			"lyricAlbum": "meteora"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer (Live)",
+			"videoId": "h8GKoeAIQLM",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away (Live)",
+			"videoId": "5I5rNfh5H4w",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"what-ive-done": {
+			"title": "What I've Done (Live)",
+			"videoId": "nnAcxTXn_eQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "LP Underground 7"
+	},
+	"lpu8":
+	{
+		"26-lettaz": {
+			"title": "26 Lettaz In Da Alphabet",
+			"videoId": "6fY3QGGM-gw",
+			"lyricAlbum": "lpu"
+		},
+		"bubbles": {
+			"title": "Bubbles",
+			"videoId": "5X33v85WunY",
+			"lyricAlbum": "lpu"
+		},
+		"da-bloos": {
+			"title": "Da Bloos",
+			"videoId": "TANMgY_3De0",
+			"lyricAlbum": "lpu"
+		},
+		"jellyfish": {
+			"title": "PB N' Jellyfish",
+			"videoId": "2MVTZ4XUJsc",
+			"lyricAlbum": "lpu"
+		},
+		"no-laundry": {
+			"title": "No Laundry",
+			"videoId": "lgNxMcaq7cc",
+			"lyricAlbum": "lpu"
+		},
+		"you-aint-gotsta-gotsta": {
+			"title": "You Ain't Gotsta Gotsta",
+			"videoId": "55zxp_3jqCg",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 8"
 	}
 }

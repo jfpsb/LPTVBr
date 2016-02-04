@@ -31,7 +31,7 @@
 				<tr>
 					<td>1.</td>
 					<td>Somewhere I Belong</td>
-					<td id="button-td"><a class="trad-button" href="somewhere-i-belong-mus">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="somewhere-i-belong">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

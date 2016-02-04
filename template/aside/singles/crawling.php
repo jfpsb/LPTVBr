@@ -1,10 +1,10 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/crawling.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/crawling/">Voltar a Crawling</a>
+		href="/LPTVBr/singles/crawling/">Voltar a Crawling</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="crawling-mus">1. Crawling</a></li>
+			href="crawling">1. Crawling</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="papercut">2. Papercut (Live From The BBC)</a></li>
 	</ol>

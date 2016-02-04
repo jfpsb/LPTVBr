@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu14.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/lpu14/">Voltar ao LP Underground XIV</a>
+		href="/LPTVBr/lpu/lpu14/">Voltar ao LP Underground XIV</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="aubrey-one">1. Aubrey

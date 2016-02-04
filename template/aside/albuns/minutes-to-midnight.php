@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/mtm250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/minutes-to-midnight/">Voltar ao Minutes To
+		href="/LPTVBr/albuns/minutes-to-midnight/">Voltar ao Minutes To
 		Midnight</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"

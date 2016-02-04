@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/in-the-end-live-rare.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/in-the-end-rare/">Voltar a In The End: Live And Rare</a>
+		href="/LPTVBr/singles/in-the-end-rare/">Voltar a In The End: Live And Rare</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="in-the-end">1. In The End</a></li>

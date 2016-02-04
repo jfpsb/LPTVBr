@@ -32,7 +32,7 @@
 						<td>1.</td>
 						<td>Waiting For The End</td>
 						<td id="button-td"><a class="trad-button"
-							href="waiting-for-the-end-mus">Tradução</a></td>
+							href="waiting-for-the-end">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>1.</td>

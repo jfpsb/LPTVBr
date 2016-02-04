@@ -31,7 +31,7 @@
 				<tr>
 					<td>1.</td>
 					<td>What I've Done</td>
-					<td id="button-td"><a class="trad-button" href="what-ive-done-mus">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="what-ive-done">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

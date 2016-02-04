@@ -32,7 +32,7 @@
 						<td>1.</td>
 						<td>Pts.Of.Athrty</td>
 						<td id="button-td"><a class="trad-button"
-							href="pts-of-athrty-mus">Tradução</a></td>
+							href="pts-of-athrty">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>2.</td>

@@ -14,6 +14,10 @@ $nomeMusica = $release [$album] [$musica] ['title'];
 
 $aside = $_GET['tipo'] . DIRECTORY_SEPARATOR . $album;
 
+if(isset($release [$album] [$musica] ['lyricTitle'])) {
+	$musica = $release [$album] [$musica] ['lyricTitle'];
+}
+
 if(isset($release [$album] [$musica] ['lyricAlbum'])) {
 	$album = $release [$album] [$musica] ['lyricAlbum'];
 }

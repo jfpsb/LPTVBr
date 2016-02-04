@@ -32,7 +32,7 @@
 					<td>1.</td>
 					<td>Powerless</td>
 					<td id="button-td"><a class="trad-button"
-						href="powerless-mus">Tradução</a></td>
+						href="powerless">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

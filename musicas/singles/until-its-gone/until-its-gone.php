@@ -32,7 +32,7 @@
 						<td>1.</td>
 						<td>Until It's Gone</td>
 						<td id="button-td"><a class="trad-button"
-							href="until-its-gone-mus">Tradução</a></td>
+							href="until-its-gone">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

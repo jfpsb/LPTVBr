@@ -31,7 +31,7 @@
 					<td>1.</td>
 					<td>One Step Closer</td>
 					<td id="button-td"><a class="trad-button"
-						href="one-step-closer-mus">Tradução</a></td>
+						href="one-step-closer">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

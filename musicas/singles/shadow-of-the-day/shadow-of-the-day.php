@@ -32,7 +32,7 @@
 					<td>1.</td>
 					<td>Shadow Of The Day</td>
 					<td id="button-td"><a class="trad-button"
-						href="shadow-of-the-day-mus">Tradução</a></td>
+						href="shadow-of-the-day">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

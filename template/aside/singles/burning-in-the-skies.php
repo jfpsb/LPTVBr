@@ -1,10 +1,10 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/burning-in-the-skies.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/burning-in-the-skies/">Voltar a Burning In The Skies</a>
+		href="/LPTVBr/singles/burning-in-the-skies/">Voltar a Burning In The Skies</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="burning-in-the-skies-mus">1. Burning In The Skies</a></li>
+			href="burning-in-the-skies">1. Burning In The Skies</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="blackout">2. Blackout (Live At Madison Square Garden)</a></li>
 		<li class="traducao-li"><a class="album-text"

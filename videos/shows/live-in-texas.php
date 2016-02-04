@@ -38,7 +38,7 @@ END;
 				DVD tem as dezessete canções tocadas, enquanto o CD tem doze faixas.</p>
 			<p class="descricao texto">
 				A lista de músicas, vídeos e traduções podem ser encontradas <a
-					class="video-link" href="../../musicas/albuns/live-in-texas/">clicando
+					class="video-link" href="../../albuns/live-in-texas/">clicando
 					aqui</a>
 			</p>
 			<p class="descricao texto">

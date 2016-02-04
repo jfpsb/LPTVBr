@@ -4,7 +4,7 @@
 		href="">Voltar a From The Inside</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="from-the-inside-mus">1. From The Inside</a></li>
+			href="from-the-inside">1. From The Inside</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="runaway">2. Runaway (Live In Texas)</a></li>
 		<li class="traducao-li"><a class="album-text"

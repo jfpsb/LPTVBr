@@ -43,7 +43,7 @@ END;
 					e contém músicas dos álbuns já lançados pela banda.</p>
 			<p class="descricao texto">
 				A lista de músicas, vídeos e traduções podem ser encontradas <a
-					class="video-link" href="../../musicas/albuns/road-to-revolution/">clicando
+					class="video-link" href="../../albuns/road-to-revolution/">clicando
 					aqui</a>
 			</p>
 			<p class="descricao texto">

@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu10.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/lpu10/">Voltar ao LP Underground 10</a>
+		href="/LPTVBr/lpu/lpu10/">Voltar ao LP Underground 10</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="unfortunate">1. Unfortunate

@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/ht250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/hybrid-theory/">Voltar ao Hybrid Theory</a>
+		href="/LPTVBr/albuns/hybrid-theory/">Voltar ao Hybrid Theory</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="papercut">1. Papercut</a></li>

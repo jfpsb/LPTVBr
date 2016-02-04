@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/lit250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/live-in-texas/">Voltar ao Live In Texas</a>
+		href="/LPTVBr/albuns/live-in-texas/">Voltar ao Live In Texas</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="somewhere-i-belong">1.

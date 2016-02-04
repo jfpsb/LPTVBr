@@ -1,10 +1,10 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/castle-of-glass.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/castle-of-glass/">Voltar a Castle Of Glass</a>
+		href="/LPTVBr/singles/castle-of-glass/">Voltar a Castle Of Glass</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="castle-of-glass-mus">1. Castle Of Glass</a></li>
+			href="castle-of-glass">1. Castle Of Glass</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="lost-in-the-echo">2.Lost In The Echo (Killsonik Remix)</a></li>
 	</ol>

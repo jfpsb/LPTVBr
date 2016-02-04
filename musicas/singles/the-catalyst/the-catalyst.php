@@ -31,7 +31,7 @@
 				<tr>
 					<td>1.</td>
 					<td>The Catalyst</td>
-					<td id="button-td"><a class="trad-button" href="the-catalyst-mus">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="the-catalyst">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/numb-encore-itunesep.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/numb-encore-itunes">Voltar a Numb/Encore (iTunes EP)</a>
+		href="/LPTVBr/singles/numb-encore-itunes">Voltar a Numb/Encore (iTunes EP)</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="numb-encore">1. Numb/Encore</a></li>

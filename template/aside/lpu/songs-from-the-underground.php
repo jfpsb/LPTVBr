@@ -2,7 +2,7 @@
 	<img
 		src="/LPTVBr/resources/imagens/lpu/cover250/songs-from-the-underground.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/songs-from-the-underground/">Voltar ao Songs From The Underground</a>
+		href="/LPTVBr/lpu/songs-from-the-underground/">Voltar ao Songs From The Underground</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="announcement">1.

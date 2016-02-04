@@ -31,7 +31,7 @@
 				<tr>
 					<td>1.</td>
 					<td>Rebellion</td>
-					<td id="button-td"><a class="trad-button" href="rebellion-mus">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="rebellion">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

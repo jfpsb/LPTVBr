@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/mt250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/meteora/">Voltar ao Meteora</a>
+		href="/LPTVBr/albuns/meteora/">Voltar ao Meteora</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="foreword">1. Foreword</a></li>

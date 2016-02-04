@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/ats250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/albuns/a-thousand-suns/">Voltar ao A Thousand Suns</a>
+		href="/LPTVBr/albuns/a-thousand-suns/">Voltar ao A Thousand Suns</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="the-requiem">1. The

@@ -3,6 +3,9 @@ DirectoryIndex lptvbr.php?pagina=index
 
 RewriteEngine on
 
+#RewriteBase /
+#RewriteRule ^LPTVBr/(.*)$ /$1 [L,NC,R]
+
 #videos
 RewriteRule ^videos/?$ lptvbr.php?raiz=videos&pagina=videos [NC,L]
 RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz=videos&tipo=$1&pagina=$2 [NC,L]
@@ -10,11 +13,13 @@ RewriteRule ^videos/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ lptvbr.php?raiz
 RewriteRule ^videos/([a-z-0-9-]+)/?$ lptvbr.php?p1=videos&p2=$1&page=$1 [NC,L]
 
 #musicas
+RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=albuns [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=albuns&album=$1 [NC,L]
 RewriteRule ^lpu/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=lpu [NC,L]
 RewriteRule ^lpu/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=lpu&album=$1 [NC,L]
-RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
+RewriteRule ^singles/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=singles [NC,L]
+RewriteRule ^singles/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=singles&album=$1 [NC,L]
 
 #outros
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]

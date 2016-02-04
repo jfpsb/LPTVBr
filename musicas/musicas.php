@@ -2,16 +2,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/release-lista.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/release-lista.css">
 <link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/LPTVBr/resources/css/primeui-2.2-min.css">
-<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/global.css">
-<link rel="stylesheet" type="text/css" href="/LPTVBr/resources/css/template.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/global.css">
+<link rel="stylesheet" type="text/css"
+	href="/LPTVBr/resources/css/template.css">
 
-<script type="text/javascript" src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
-<script type="text/javascript" src="/LPTVBr/resources/js/focusMainSection.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript"
+	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/menuButton.js"></script>
 <script type="text/javascript">	
 	$(function() {
@@ -38,8 +45,7 @@
 	<article>
 		<div class="button-wrapper">
 			<button id="btn" class="mobile-btn">
-				<img src="/LPTVBr/resources/imagens/menu-icon.png"
-					id="btn-img">
+				<img src="/LPTVBr/resources/imagens/menu-icon.png" id="btn-img">
 			</button>
 		</div>
 		<div id="mus-tabView" class="tabView">
@@ -61,15 +67,15 @@
 					<table>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="albuns/the-hunting-party/" class="link">
-										<img class="linkImg"
+									<a href="../albuns/the-hunting-party/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/thp.jpg"
 										alt="Capa The Hunting Party" /> <label class="nomeLink">The
 											Hunting Party</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="albuns/living-things" class="link"> <img
+									<a href="../albuns/living-things" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/lt.jpg"
 										alt="Capa Living Things" /> <label class="nomeLink">Living
@@ -80,8 +86,8 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/a-thousand-suns/" class="link">
-										<img class="linkImg"
+									<a href="../albuns/a-thousand-suns/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/ats.jpg"
 										alt="Capa A Thousand Suns" /> <label class="nomeLink">A
 											Thousand Suns</label>
@@ -90,8 +96,8 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/road-to-revolution/"
-										class="link"> <img class="linkImg"
+									<a href="../albuns/road-to-revolution/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/road-to-revolution.jpg"
 										alt="Capa Road To Revolution" /> <label class="nomeLink">Road
 											To Revolution</label>
@@ -102,8 +108,8 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/minutes-to-midnight/"
-										class="link"> <img class="linkImg"
+									<a href="../albuns/minutes-to-midnight/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/mtm.jpg"
 										alt="Capa Minutes to Midnight" /> <label class="nomeLink">Minutes
 											To Midnight</label>
@@ -112,8 +118,8 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/collision-course/" class="link">
-										<img class="linkImg"
+									<a href="../albuns/collision-course/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/collision-course.jpg"
 										alt="Capa Collision Course" /> <label class="nomeLink">Collision
 											Course</label>
@@ -124,7 +130,7 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/live-in-texas/" class="link"> <img
+									<a href="../albuns/live-in-texas/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/lit.jpg"
 										alt="Capa Live In Texas" /> <label class="nomeLink">Live In
@@ -134,8 +140,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/meteora/" class="link"> <img
-										class="linkImg"
+									<a href="../albuns/meteora/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/meteora.jpg"
 										alt="Capa Meteora" /> <label class="nomeLink">Meteora</label>
 									</a>
@@ -145,7 +150,7 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="albuns/hybrid-theory/" class="link"> <img
+									<a href="../albuns/hybrid-theory/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/albuns/cover/hybrid-theory.jpg"
 										alt="Capa Hybrid Theory" /> <label class="nomeLink">Hybrid
@@ -178,7 +183,8 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/wastelands/" class="link"> <img class="linkImg"
+									<a href="singles/wastelands/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/wastelands.jpg"
 										alt="Capa Single Wastelands" /> <label class="nomeLink">Wastelands</label>
 									</a>
@@ -257,7 +263,8 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/iridescent/" class="link"> <img class="linkImg"
+									<a href="singles/iridescent/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/iridescent.jpg"
 										alt="Capa Single Iridescent" /> <label class="nomeLink">Iridescent</label>
 									</a>
@@ -309,7 +316,8 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/new-divide/" class="link"> <img class="linkImg"
+									<a href="singles/new-divide/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/new-divide.jpg"
 										alt="Capa Single ND" /> <label class="nomeLink">New Divide</label>
 									</a>
@@ -440,7 +448,8 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/in-the-end/" class="link"> <img class="linkImg"
+									<a href="singles/in-the-end/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/in-the-end.jpg"
 										alt="Capa Single ITE" /> <label class="nomeLink">In The End</label>
 									</a>
@@ -524,22 +533,19 @@
 					<table>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu15/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu15/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu15.jpg"
 										alt="Capa Single LPU15" /> <label class="nomeLink">LPU 15</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu14/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu14/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpuxiv.png"
 										alt="Capa Single LPUXIV" /> <label class="nomeLink">LPU XIV</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu13/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu13/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpuxiii.jpg"
 										alt="Capa Single LPUXIII" /> <label class="nomeLink">LPU XIII</label>
 									</a>
@@ -547,24 +553,22 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu12/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu12/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu12.jpg"
 										alt="Capa Single LPU12" /> <label class="nomeLink">LP
 											Underground 12</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu11/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu11/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu11.jpg"
 										alt="Capa Single LPU11" /> <label class="nomeLink">LP
 											Underground 11</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/a-decade-underground/" class="link">
-										<img class="linkImg"
+									<a href="../lpu/a-decade-underground/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/a-decade-underground.jpg"
 										alt="Capa Single ADU" /> <label class="nomeLink">A Decade
 											Underground</label>
@@ -573,24 +577,22 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/songs-from-the-underground/"
-										class="link"> <img class="linkImg"
+									<a href="../lpu/songs-from-the-underground/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/songs-from-the-underground.jpg"
 										alt="Capa Single SFTU" /> <label class="nomeLink">Songs From
 											The Underground</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu10/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu10/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpux.jpg"
 										alt="Capa Single LPUX" /> <label class="nomeLink">LP
 											Underground X</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu9/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu9/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu9.jpg"
 										alt="Capa Single LPU9" /> <label class="nomeLink">LP
 											Underground 9</label>
@@ -599,24 +601,21 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu8/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu8/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu8.jpg"
 										alt="Capa Single LPU8" /> <label class="nomeLink">LP
 											Underground 8</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu7/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu7/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu7.jpg"
 										alt="Capa Single LPU7" /> <label class="nomeLink">LP
 											Underground 7</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu6/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu6/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu6.jpg"
 										alt="Capa Single LPU6" /> <label class="nomeLink">LP
 											Underground 6</label>
@@ -625,24 +624,21 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu5/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu5/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu5.jpg"
 										alt="Capa Single LPU5" /> <label class="nomeLink">LP
 											Underground 5</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu4/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu4/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu4.jpg"
 										alt="Capa Single LPU4" /> <label class="nomeLink">LP
 											Underground 4</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu3/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu3/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu3.jpg"
 										alt="Capa Single LPU3" /> <label class="nomeLink">LP
 											Underground 3</label>
@@ -651,16 +647,14 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu2/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu2/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu2.jpg"
 										alt="Capa Single LPU2" /> <label class="nomeLink">LP
 											Underground 2</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="lpu/lpu1/" class="link"> <img
-										class="linkImg"
+									<a href="../lpu/lpu1/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/lpu/cover/lpu1.jpg"
 										alt="Capa Single LPU1" /> <label class="nomeLink"> Hybrid
 											Theory EP<br />(LPU 1)

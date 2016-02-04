@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu2.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/lpu2/">Voltar ao LP Underground 2</a>
+		href="/LPTVBr/lpu/lpu2/">Voltar ao LP Underground 2</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="a06">1. A.06</a></li>

@@ -31,7 +31,7 @@
 				<tr>
 					<td>1.</td>
 					<td>Papercut</td>
-					<td id="button-td"><a class="trad-button" href="papercut-mus">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="papercut">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/numbv2.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/singles/numbv2/">Voltar a Numb (Version 2)</a>
+		href="/LPTVBr/singles/numbv2/">Voltar a Numb (Version 2)</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="numb">1. Numb</a></li>

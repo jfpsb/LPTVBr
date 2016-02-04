@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu3.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/musicas/lpu/lpu3/">Voltar ao LP Underground 3</a>
+		href="/LPTVBr/lpu/lpu3/">Voltar ao LP Underground 3</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="dont-stay">1. Don't Stay (Live In Texas)</a></li>

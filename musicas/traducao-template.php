@@ -6,20 +6,27 @@ $release = json_decode ( $str, true );
 $album = $_GET ['album'];
 $musica = $_GET ['musica'];
 
-$page_title = $release [$album] [$musica] ['title'] . ' : ' . $release [$album] ['album'] . ' (Tradução)';
+$nomeMusica = $release [$album] [$musica] ['title'];
+
+$page_title = $nomeMusica . ' : ' . $release [$album] ['album'] . ' (Tradução)';
 
 $videoId = $release [$album] [$musica] ['videoId'];
 
-$nomeMusica = $release [$album] [$musica] ['title'];
-
 $aside = $_GET['tipo'] . DIRECTORY_SEPARATOR . $album;
 
-if(isset($release [$album] [$musica] ['lyricTitle'])) {
-	$musica = $release [$album] [$musica] ['lyricTitle'];
+//Aqui são usados $_GET para prevenir de bugs na troca dos valores. 
+//Assim eu sempre pego os parâmetros originais que são os corretos para pesquisar os valores no array
+
+if(isset($release [$_GET['album']] [$_GET ['musica']] ['lyricAlbum'])) {
+	//Se o álbum onde está contida a letra for diferente do álbum original 
+	//da música, o álbum se altera para o original para pesquisar a letra corretamente
+	$album = $release [$_GET['album']] [$_GET ['musica']] ['lyricAlbum'];
 }
 
-if(isset($release [$album] [$musica] ['lyricAlbum'])) {
-	$album = $release [$album] [$musica] ['lyricAlbum'];
+if(isset($release [$_GET['album']] [$_GET ['musica']] ['lyricTitle'])) {
+	//Se o título da música for diferente do original, mas a letra é a mesma,
+	//eu substituo o título para o correto, assim recuperando a letra da música corretamente
+	$musica = $release [$_GET['album']] [$_GET ['musica']] ['lyricTitle'];
 }
 
 include_once '../youtube/search.php';

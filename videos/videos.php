@@ -21,7 +21,7 @@
 			<tr>
 				<td>
 					<div class="panel">
-						<a class="link" href="lptv/"> <img class="linkImg"
+						<a class="link" href="../lptv/"><img class="linkImg"
 							src="/LPTVBr/resources/imagens/lptv-logo.jpg" alt="LPTV" /> <label
 							class="nomeLink">LPTV</label>
 						</a>
@@ -29,7 +29,7 @@
 				</td>
 				<td>
 					<div class="panel">
-						<a class="link" href="entrevista/"> <img class="linkImg"
+						<a class="link" href="../entrevista/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/entrevista-logo.jpg" alt="Entrevistas" />
 							<label class="nomeLink">Entrevistas</label>
 						</a>
@@ -39,7 +39,7 @@
 			<tr>
 				<td>
 					<div class="panel">
-						<a class="link" href="shows/"> <img class="linkImg"
+						<a class="link" href="../shows/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/shows-logo.jpg" alt="Shows" /> <label
 							class="nomeLink">Shows</label>
 						</a>
@@ -47,7 +47,7 @@
 				</td>
 				<td>
 					<div class="panel">
-						<a class="link" href="linkin-logs/"> <img class="linkImg"
+						<a class="link" href="../linkin-logs/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/linkin-log-logo.png" alt="Linkin Logs" />
 							<label class="nomeLink">Linkin Logs</label>
 						</a>
@@ -57,7 +57,7 @@
 			<tr>
 				<td>
 					<div class="panel">
-						<a class="link" href="outros/"> <img class="linkImg"
+						<a class="link" href="../outros/"> <img class="linkImg"
 							src="/LPTVBr/resources/imagens/outros-logo.png" alt="Outros" /> <label
 							class="nomeLink">Outros</label>
 						</a>

@@ -14,7 +14,7 @@
 					<td>1.</td>
 					<td>Keys To The Kingdom</td>
 					<td id="button-td"><a class="trad-button"
-						href="keys-to-the-kingdom/">
+						href="keys-to-the-kingdom">
 							Tradução </a></td>
 				</tr>
 				<tr>

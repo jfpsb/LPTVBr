@@ -449,5 +449,214 @@
 			"lyricAlbum": "meteora"
 		},		
 		"album": "Numb (Version 1)"
+	},
+	"numbv2":
+	{
+		"easier-to-run":
+		{
+			"title": "Easier To Run (Live)",
+			"videoId": "VCOudbdYQ1E",
+			"lyricAlbum": "meteora"
+		},
+		"numb":
+		{
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU",
+			"lyricAlbum": "meteora"
+		},		
+		"album": "Numb (Version 2)"
+	},
+	"one-step-closer":
+	{
+		"high-voltage":
+		{
+			"title": "High Voltage",
+			"videoId": "nANdZ2ah9yI",
+			"lyricAlbum": ""
+		},
+		"my-december":
+		{
+			"title": "My December",
+			"videoId": "SguYdKqfy1o",
+			"lyricAlbum": ""
+		},
+		"one-step-closer":
+		{
+			"title": "One Step Closer",
+			"videoId": "4qlCC1GOwFw",
+			"lyricAlbum": "hybrid-theory"
+		},		
+		"album": "One Step Closer"
+	},
+	"papercut":
+	{
+		"papercut-live":
+		{
+			"title": "Papercut (Live)",
+			"videoId": "wOZomGkVJuo",
+			"lyricAlbum": "hybrid-theory",
+			"lyricTitle": "papercut"
+		},
+		"papercut":
+		{
+			"title": "Papercut",
+			"videoId": "vjVkXlxsO8Q",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"points-of-authority":
+		{
+			"title": "Points Of Authority (Live)",
+			"videoId": "KT2DkfEft_c",
+			"lyricAlbum": "hybrid-theory"
+		},		
+		"album": "Papercut"
+	},
+	"powerless":
+	{
+		"powerless":
+		{
+			"title": "Powerless",
+			"videoId": "32BOmle7Z6w",
+			"lyricAlbum": "living-things"
+		},		
+		"album": "Powerless"
+	},
+	"pts-of-athrty":
+	{
+		"by-myself":
+		{
+			"title": "Buy Myself (Remix Of By Myself By Marilyn Manson)",
+			"videoId": "9y7sOwm_K8E",
+			"lyricAlbum": "reanimation"
+		},
+		"high-voltage":
+		{
+			"title": "H! Vltg3",
+			"videoId": "1LOfRtYmhmQ",
+			"lyricAlbum": "reanimation"
+		},
+		"points-of-authority":
+		{
+			"title": "Pts.Of.Athrty",
+			"videoId": "ApUjxBO0-jo",
+			"lyricAlbum": "reanimation"
+		},		
+		"album": "Pts.Of.Athrty"
+	},
+	"rebellion":
+	{
+		"rebellion":
+		{
+			"title": "Rebellion",
+			"videoId": "OCy5461BtTg",
+			"lyricAlbum": "the-hunting-party"
+		},		
+		"album": "Rebellion"
+	},
+	"shadow-of-the-day":
+	{
+		"bleed-it-out":
+		{
+			"title": "Bleed It Out (Live From Projekt To Revolution)",
+			"videoId": "J02ci5EuLCc",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"shadow-of-the-day":
+		{
+			"title": "Shadow Of The Day",
+			"videoId": "n1PCW0C1aiM",
+			"lyricAlbum": "minutes-to-midnight"
+		},		
+		"album": "Shadow Of The Day"
+	},
+	"somewhere-i-belong":
+	{
+		"my-december":
+		{
+			"title": "My December (Live From Projekt Revolution)",
+			"videoId": "fbYL2ux82t8",
+			"lyricAlbum": ""
+		},
+		"somewhere-i-belong":
+		{
+			"title": "Somewhere I Belong",
+			"videoId": "zsCD5XCu6CM",
+			"lyricAlbum": "meteora"
+		},
+		"step-up":
+		{
+			"title": "Step Up (Live From Projekt Revolution)",
+			"videoId": "mmwtvSL0RZA",
+			"lyricAlbum": ""
+		},		
+		"album": "Somewhere I Belong"
+	},
+	"the-catalyst":
+	{
+		"the-catalyst":
+		{
+			"title": "The Catalyst",
+			"videoId": "51iquRYKPbs",
+			"lyricAlbum": "a-thousand-suns"
+		},		
+		"album": "The Catalyst"
+	},
+	"until-its-gone":
+	{
+		"until-its-gone":
+		{
+			"title": "Until It's Gone",
+			"videoId": "oM-XJD4J36U",
+			"lyricAlbum": "the-hunting-party"
+		},		
+		"album": "Until It's Gone"
+	},
+	"waiting-for-the-end":
+	{
+		"waiting-for-the-end":
+		{
+			"title": "Waiting For The End",
+			"videoId": "5qF_qbaWt3Q",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"the-catalyst":
+		{
+			"title": "The Catalyst",
+			"videoId": "51iquRYKPbs",
+			"lyricAlbum": "a-thousand-suns"
+		},		
+		"album": "Waiting For The End"
+	},
+	"wastelands":
+	{
+		"wastelands":
+		{
+			"title": "Wastelands",
+			"videoId": "h6sFG7qOd4A",
+			"lyricAlbum": "the-hunting-party"
+		},		
+		"album": "Wastelands"
+	},
+	"what-ive-done":
+	{
+		"faint":
+		{
+			"title": "Faint (Live From Japan)",
+			"videoId": "mQMWhppCGlU",
+			"lyricAlbum": "meteora"
+		},
+		"from-the-inside":
+		{
+			"title": "From The Inside (Live From Japan)",
+			"videoId": "q91mhXJU8nI",
+			"lyricAlbum": "meteora"
+		},
+		"what-ive-done":
+		{
+			"title": "What I've Done",
+			"videoId": "8sgycukafqQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},		
+		"album": "What I've Done"
 	}
 }

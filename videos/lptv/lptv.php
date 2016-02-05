@@ -2,19 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/LPTVBr/resources/css/letra-musica.css">
-<link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
-<link rel="stylesheet" href="/LPTVBr/resources/css/primeui-2.2-min.css">
-<script type="text/javascript"
-	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript"
-	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
 <script>
-	document.title = "Linkin Park : LPTVs (Legendados)";
-
 	$(function() {
 		$('#lptv-tabView').puitabview();
 	});
@@ -41,7 +29,7 @@
 										$dia = '26';
 										$mes = 'Out';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 2" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2.jpg">
@@ -58,7 +46,7 @@
 										$dia = '18';
 										$mes = 'Jan';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 1" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1.jpg">
@@ -74,7 +62,7 @@
 										$dia = '18';
 										$mes = 'Jan';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Brazil 2014" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/brazil.jpg">
@@ -92,7 +80,7 @@
 										$dia = '17';
 										$mes = 'Jan';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="CARNIVORES TOUR - PART 4" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/carnivores-tour-pt4.jpg">
@@ -108,7 +96,7 @@
 										$dia = '17';
 										$mes = 'Jan';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="BEAST ASTRAY ART SHOW" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/beast-astray.jpg">
@@ -123,7 +111,7 @@
 										$dia = '19';
 										$mes = 'Dez';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="CARNIVORES TOUR - PART 3" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/carnivores-tour-pt3.jpg">
@@ -141,7 +129,7 @@
 										$dia = '14';
 										$mes = 'Set';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 3" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt3-2014.jpg">
@@ -157,7 +145,7 @@
 										$dia = '15';
 										$mes = 'Ago';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="MAKING OF FINAL MASQUERADE" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/making-of-final-masquerade.jpg">
@@ -173,7 +161,7 @@
 										$dia = '3';
 										$mes = 'Ago';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 2" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt2-2014.jpg">
@@ -191,7 +179,7 @@
 										$dia = '16';
 										$mes = 'Jul';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 1" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt1-2014.jpg">
@@ -207,7 +195,7 @@
 										$dia = '30';
 										$mes = 'Jun';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="MAKING OF UNTIL IT'S GONE" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/making-of-until-its-gone.jpg">
@@ -222,7 +210,7 @@
 										$dia = '13';
 										$mes = 'Jun';
 										$ano = '2014';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Road To Download" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/road-to-download.jpg">
@@ -244,7 +232,7 @@
 										$dia = '13';
 										$mes = 'Nov';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 3" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt3.jpg"> <label
@@ -259,7 +247,7 @@
 										$dia = '25';
 										$mes = 'Out';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 2" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt2.jpg"> <label
@@ -274,7 +262,7 @@
 										$dia = '24';
 										$mes = 'Out';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 1" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt1.jpg"> <label
@@ -291,7 +279,7 @@
 										$dia = '22';
 										$mes = 'Set';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="WELCOME (DEMO)" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/welcome-demo.jpg">
@@ -306,7 +294,7 @@
 										$dia = '22';
 										$mes = 'Set';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="A LINE IN THE SAND GUITAR SOLO TUTORIAL"
 										class="linkImg"
@@ -323,7 +311,7 @@
 										$dia = '27';
 										$mes = 'Jul';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="VIVA MEXICO, VIVA LINKIN PARK" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/viva-mexico.jpg"> <label
@@ -340,7 +328,7 @@
 										$dia = '11';
 										$mes = 'Jul';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Fort Minor Welcome Video Shoot" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/welcome-video-shoot-day-2.jpg">
@@ -356,7 +344,7 @@
 										$dia = '11';
 										$mes = 'Jul';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Fort Minor Welcome Video Shoot" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/welcome-video-shoot-day-1.jpg">
@@ -372,7 +360,7 @@
 										$dia = '10';
 										$mes = 'Jul';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="SUMMER FESTIVALS AND THE STORM" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/summer-festivals.jpg">
@@ -389,7 +377,7 @@
 										$dia = '10';
 										$mes = 'Jul';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Drawbar Feat. Tom Morello" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/a-line-in-the-sand.jpg">
@@ -404,7 +392,7 @@
 										$dia = '1';
 										$mes = 'Maio';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Drawbar Feat. Tom Morello" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/drawbar-feat-tom-morello.jpg">
@@ -419,7 +407,7 @@
 										$dia = '20';
 										$mes = 'Abril';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="True Chainz Feat. Page Hamilton" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/true-chainz.jpg"> <label
@@ -437,7 +425,7 @@
 										$dia = '16';
 										$mes = 'Mar';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="Chester Breaks His Ankle" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/chester-breaks-his-ankle.jpg">
@@ -454,7 +442,7 @@
 										$dia = '8';
 										$mes = 'Fev';
 										$ano = '2015';
-										include 'videos/postDataTemplate.php';
+										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 3" class="linkImg"
 										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3.jpg">

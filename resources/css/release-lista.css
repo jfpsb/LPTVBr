@@ -18,7 +18,7 @@ td {
 	padding: 5px;
 }
 
-.button-wrapper {
+.button.wrapper.mus {
 	border: 1px solid orange;
 	background: white;
 	border-radius: 5px;
@@ -29,48 +29,12 @@ td {
 	display: none;
 }
 
-.tabs.nav {
-	background: none !important;
-	border: none !important;
-	display: none;
-	position: absolute !important;
-	z-index: 10;
-	top: 10px;
-	right: 10px;
-}
-
-.tabs.nav li {
-	margin: 0 !important;
-	padding: 1px !important;
-	float: none !important;
-	max-width: 170px !important;
-	list-style: none !important;
-	text-align: center !important;
-	background-color: #000000;
-	margin-right: 30px !important;
-	line-height: 20px !important;
-	overflow: auto !important;
-	border-bottom: 1px solid white !important;
-	border-radius: 5px !important;
-	position: relative: !important;
-}
-
-.tabs.nav.pui-tabview-nav {
-	top: -25px;
-	left: -13px;
-}
-
 #btn {
 	width: 45px;
 	height: 40px;
 	border: 1px groove gray;
 	margin: 3px;
 	position: relative;
-}
-
-.tabs.nav li a {
-	color: #FFFFFF;
-	display: block;
 }
 
 #albuns-lista {
@@ -100,6 +64,7 @@ td {
 	border: none !important;
 	border-radius: 20px;
 	background: black;
+	position: relative;
 }
 
 .titulo {
@@ -127,6 +92,7 @@ td {
 }
 
 .postData {
+	display: block;
 	color: #212121;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 20px;
@@ -142,6 +108,13 @@ td {
 	background: #D4E157;
 }
 
+/* Para Firefox */
+@
+-moz-document url-prefix () { .postData {
+	bottom: 103px;
+}
+
+}
 .pui-tabview-panel {
 	margin: 0 !important;
 	padding: 0 !important;
@@ -150,6 +123,61 @@ td {
 .link {
 	text-decoration: none;
 	position: relative;
+}
+
+.tabs.mobile {
+	display: block !important;
+}
+
+.div.mobile {
+	position: relative;
+	display: inline-block;
+}
+
+.musica.menu {
+	display: none; font-size : 18px !important;
+	padding: 3px !important;
+	margin: 3px !important;
+	padding: 5px !important;
+	position: relative !important;
+	top: 0 !important;
+	font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+	border-radius: 3px !important;
+	background: white !important;
+	right: 15px;
+	font-size: 18px !important;
+}
+
+.tabs-mobile {
+	display: none;
+	list-style-type: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 3px !important;
+	position: absolute;
+	z-index: 45;
+}
+
+.tabs-mobile.pui-tabview-nav {
+	border: none !important;
+	background: none !important;
+	left: -13px !important;
+}
+
+.tabs-mobile li {
+	border: 1px solid white !important;
+	margin-bottom: 2px;
+	padding: 7px;
+	border-radius: 3px;
+	background: black !important;
+	left: 1px;
+	min-width: 200px;
+}
+
+.tabs-mobile a {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+	color: white !important;
 }
 
 .tabView {
@@ -189,6 +217,9 @@ td {
 }
 
 @media all and (max-width: 650px) {
+	.musica.menu {
+		display: block;
+	}
 	.nomeLink {
 		visibility: visible;
 		opacity: 1;
@@ -200,7 +231,7 @@ td {
 		padding: 0 !important;
 	}
 	.tabs {
-		display: none;
+		display: none
 	}
 	#albuns-lista, #singles-lista {
 		columns: 1;

@@ -20,34 +20,15 @@
 <script type="text/javascript"
 	src="/LPTVBr/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/LPTVBr/resources/js/menuButton.js"></script>
+<script type="text/javascript" src="/LPTVBr/resources/js/musicaMenuButton.js"></script>
 <script type="text/javascript">	
 	$(function() {
 		$('#mus-tabView').puitabview();
-	});
-
-	$(document).ready(function() {
-		$(".mobile-btn").click(function(){
-	    	$(".tabs.nav").toggle('hide');
-		});
-
-		window.onclick = function(event) {
-			var isVisible = $(".tabs.nav").is(":visible");
-			var buttonClicked = event.target.matches(".mobile-btn");
-			var imageClicked = event.target.matches("#btn-img");
-			if (!buttonClicked && isVisible && !imageClicked) {
-					$(".tabs.nav").toggle('hide');
-			}
-		};
 	});
 </script>
 </head>
 <body>
 	<article>
-		<div class="button-wrapper">
-			<button id="btn" class="mobile-btn">
-				<img src="/LPTVBr/resources/imagens/menu-icon.png" id="btn-img">
-			</button>
-		</div>
 		<div id="mus-tabView" class="tabView">
 			<ul class="tabs">
 				<li><a href="#albuns">Álbuns</a></li>
@@ -55,11 +36,15 @@
 				<li><a href="#remixes">Remixes</a></li>
 				<li><a href="#lpu">LP Underground</a></li>
 			</ul>
-			<ul class="tabs nav">
-				<li class="mobile-li"><a href="#albuns">Álbuns</a></li>
-				<li class="mobile-li"><a href="#singles">Singles</a></li>
-				<li class="mobile-li"><a href="#remixes">Remixes</a></li>
-				<li class="mobile-li"><a href="#lpu">LP Underground</a></li>
+			<button class="musica menu">
+				<img id="btn-img" width="24px" align="left" style="padding: 0px;"
+					src="/LPTVBr/resources/imagens/menu-arrow.png">Abas
+			</button>
+			<ul class="tabs-mobile">
+				<li><a href="#albuns">Álbuns</a></li>
+				<li><a href="#singles">Singles</a></li>
+				<li><a href="#remixes">Remixes</a></li>
+				<li><a href="#lpu">LP Underground</a></li>
 			</ul>
 			<div>
 				<div id="albuns">
@@ -166,7 +151,7 @@
 					<table>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/final-masquerade/" class="link"> <img
+									<a href="../singles/final-masquerade/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/final-masquerade.jpg"
 										alt="Capa Single Final Masquerade" /> <label class="nomeLink">Final
@@ -175,7 +160,8 @@
 								</div></td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/rebellion/" class="link"> <img class="linkImg"
+									<a href="../singles/rebellion/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/rebellion.jpg"
 										alt="Capa Single Rebellion" /> <label class="nomeLink">Rebellion</label>
 									</a>
@@ -183,7 +169,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/wastelands/" class="link"> <img
+									<a href="../singles/wastelands/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/wastelands.jpg"
 										alt="Capa Single Wastelands" /> <label class="nomeLink">Wastelands</label>
@@ -194,7 +180,7 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/until-its-gone/" class="link"> <img
+									<a href="../singles/until-its-gone/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/until-its-gone.jpg"
 										alt="Capa Single UIG" /> <label class="nomeLink">Until It's
@@ -204,7 +190,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/guilty-all-the-same/" class="link"> <img
+									<a href="../singles/guilty-all-the-same/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/guilty-all-the-same.jpg"
 										alt="Capa Single GATS" /> <label class="nomeLink">Guilty All
@@ -214,7 +200,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/a-light-that-never-comes/" class="link"> <img
+									<a href="../singles/a-light-that-never-comes/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/a-light-that-never-comes.jpg"
 										alt="Capa Single ALTNC" /> <label class="nomeLink">A Light
@@ -226,7 +212,7 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/castle-of-glass/" class="link"> <img
+									<a href="../singles/castle-of-glass/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/castle-of-glass.jpg"
 										alt="Capa Single COG" /> <label class="nomeLink">Castle Of
@@ -236,14 +222,15 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/powerless/" class="link"> <img class="linkImg"
+									<a href="../singles/powerless/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/powerless.jpg"
 										alt="Capa Single Powerless" /> <label class="nomeLink">Powerless</label>
 									</a>
 								</div>
 							</td>
 							<td><div class="linkPanel">
-									<a href="singles/lost-in-the-echo/" class="link"> <img
+									<a href="../singles/lost-in-the-echo/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/lost-in-the-echo.jpg"
 										alt="Capa Single LITE" /> <label class="nomeLink">Lost In The
@@ -254,7 +241,7 @@
 						<tr>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/burn-it-down/" class="link"> <img
+									<a href="../singles/burn-it-down/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/burn-it-down.jpg"
 										alt="Capa Single BID" /> <label class="nomeLink">Burn It Down</label>
@@ -263,7 +250,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/iridescent/" class="link"> <img
+									<a href="../singles/iridescent/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/iridescent.jpg"
 										alt="Capa Single Iridescent" /> <label class="nomeLink">Iridescent</label>
@@ -272,7 +259,7 @@
 							</td>
 							<td>
 								<div class="linkPanel">
-									<a href="singles/download-tsunami/" class="link"> <img
+									<a href="../singles/download-tsunami/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/download-tsunami.jpg"
 										alt="Capa Single DFT" /> <label class="nomeLink">Download To
@@ -283,7 +270,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/burning-in-the-skies/" class="link"> <img
+									<a href="../singles/burning-in-the-skies/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/burning-in-the-skies.png"
 										alt="Capa Single BITS" /> <label class="nomeLink">Burning In
@@ -291,7 +278,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/waiting-for-the-end/" class="link"> <img
+									<a href="../singles/waiting-for-the-end/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/waiting-for-the-end.jpg"
 										alt="Capa Single WFTE" /> <label class="nomeLink">Waiting For
@@ -299,7 +286,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/the-catalyst/" class="link"> <img
+									<a href="../singles/the-catalyst/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/the-catalyst.jpg"
 										alt="Capa Single TC" /> <label class="nomeLink">The Catalyst</label>
@@ -308,7 +295,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/download-haiti/" class="link"> <img
+									<a href="../singles/download-haiti/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/download-haiti.jpg"
 										alt="Capa Single DFH" /> <label class="nomeLink">Download To
@@ -316,14 +303,14 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/new-divide/" class="link"> <img
+									<a href="../singles/new-divide/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/new-divide.jpg"
 										alt="Capa Single ND" /> <label class="nomeLink">New Divide</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/leave-out-all-the-rest/" class="link"> <img
+									<a href="../singles/leave-out-all-the-rest/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/leave-out-all-the-rest.jpg"
 										alt="Capa Single LOATR" /> <label class="nomeLink">Leave Out
@@ -333,13 +320,14 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/given-up/" class="link"> <img class="linkImg"
+									<a href="../singles/given-up/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/given-up.jpg"
 										alt="Capa Single GU" /> <label class="nomeLink">Given Up</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/shadow-of-the-day/" class="link"> <img
+									<a href="../singles/shadow-of-the-day/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/shadow-of-the-day.jpg"
 										alt="Capa Single SOTD" /> <label class="nomeLink">Shadow Of
@@ -347,7 +335,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/bleed-it-out/" class="link"> <img
+									<a href="../singles/bleed-it-out/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/bleed-it-out.jpg"
 										alt="Capa Single BIO" /> <label class="nomeLink">Bleed It Out</label>
@@ -356,7 +344,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/what-ive-done/" class="link"> <img
+									<a href="../singles/what-ive-done/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/what-ive-done.jpg"
 										alt="Capa Single WID" /> <label class="nomeLink">What I've
@@ -364,14 +352,14 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/numb-encore/" class="link"> <img
+									<a href="../singles/numb-encore/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/numb-encore.jpg"
 										alt="Capa Single Numb/Encore" /> <label class="nomeLink">Numb/Encore</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/numb-encore-itunes/" class="link"> <img
+									<a href="../singles/numb-encore-itunes/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/numb-encore-itunesep.jpg"
 										alt="Capa Single Numb/Encore iTunes EP" /> <label
@@ -382,7 +370,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/numbv2/" class="link"> <img class="linkImg"
+									<a href="../singles/numbv2/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/numbv2.jpg"
 										alt="Capa Single Numb V2" /> <label class="nomeLink"> Numb<br />(Versão
 											2)
@@ -390,7 +378,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/numbv1/" class="link"> <img class="linkImg"
+									<a href="../singles/numbv1/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/numbv1.jpg"
 										alt="Capa Single Numb V1" /> <label class="nomeLink"> Numb<br />(Versão
 											1)
@@ -398,7 +386,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/breaking-the-habit/" class="link"> <img
+									<a href="../singles/breaking-the-habit/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/breaking-the-habit.jpg"
 										alt="Capa Single BTH" /> <label class="nomeLink">Breaking The
@@ -408,7 +396,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/from-the-inside/" class="link"> <img
+									<a href="../singles/from-the-inside/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/from-the-inside.jpg"
 										alt="Capa Single FTI" /> <label class="nomeLink">From The
@@ -416,13 +404,13 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/faint/" class="link"> <img class="linkImg"
+									<a href="../singles/faint/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/faint.jpg"
 										alt="Capa Single Faint" /> <label class="nomeLink">Faint</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/somewhere-i-belong/" class="link"> <img
+									<a href="../singles/somewhere-i-belong/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/somewhere-i-belong.jpg"
 										alt="Capa Single SIB" /> <label class="nomeLink">Somewhere I
@@ -432,14 +420,14 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/pts-of-athrty/" class="link"> <img
+									<a href="../singles/pts-of-athrty/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/pts.of.athrty.jpg"
 										alt="Capa Single pts.of.athrty" /> <label class="nomeLink">Pts.Of.Athrty</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/in-the-end-rare/" class="link"> <img
+									<a href="../singles/in-the-end-rare/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/in-the-end-live-rare.jpg"
 										alt="Capa Single ITELR" /> <label class="nomeLink"> In The
@@ -448,7 +436,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/in-the-end/" class="link"> <img
+									<a href="../singles/in-the-end/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/in-the-end.jpg"
 										alt="Capa Single ITE" /> <label class="nomeLink">In The End</label>
@@ -457,7 +445,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/in-the-end-version-two/" class="link"> <img
+									<a href="../singles/in-the-end-version-two/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/in-the-endv2.jpg"
 										alt="Capa Single ITE2" /> <label class="nomeLink"> In The End<br />(Versão
@@ -466,13 +454,15 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/papercut/" class="link"> <img class="linkImg"
+									<a href="../singles/papercut/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/papercut.jpg"
 										alt="Capa Single Papercut" /> <label class="nomeLink">Papercut</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="singles/crawling/" class="link"> <img class="linkImg"
+									<a href="../singles/crawling/" class="link"> <img
+										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/crawling.png"
 										alt="Capa Single Crawling" /> <label class="nomeLink">Crawling</label>
 									</a>
@@ -480,7 +470,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="singles/one-step-closer/" class="link"> <img
+									<a href="../singles/one-step-closer/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/singles/cover/one-step-closer.jpg"
 										alt="Capa Single OSC" /> <label class="nomeLink">One Step
@@ -495,7 +485,7 @@
 					<table>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="remixes/a-light-that-never-comes/" class="link"> <img
+									<a href="../remixes/a-light-that-never-comes/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/remixes/cover/a-light-that-never-comes.jpg"
 										alt="Capa Remix ALTNCR" /> <label class="nomeLink">A Light
@@ -503,13 +493,13 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="remixes/recharged/" class="link"> <img class="linkImg"
+									<a href="../remixes/recharged/" class="link"> <img class="linkImg"
 										src="/LPTVBr/resources/imagens/remixes/cover/recharged.jpg"
 										alt="Capa Remix Recharged" /> <label class="nomeLink">Recharged</label>
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="remixes/eight-bit-rebellion/" class="link"> <img
+									<a href="../remixes/eight-bit-rebellion/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/remixes/cover/8bit-rebellion.jpg"
 										alt="Capa Remix 8BR" /> <label class="nomeLink">8-Bit
@@ -519,7 +509,7 @@
 						</tr>
 						<tr>
 							<td><div class="linkPanel">
-									<a href="remixes/reanimation/" class="link"> <img
+									<a href="../remixes/reanimation/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/remixes/cover/reanimation.jpg"
 										alt="Capa Remix Reanimation" /> <label class="nomeLink">Reanimation</label>

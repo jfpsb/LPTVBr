@@ -1,14 +1,15 @@
 $(document).ready(function() {
-	$(".mobile-button").click(function() {
-		$(".mobile-menu").toggle('hide');
+	$(".botao.mobile").click(function() {
+		$(".lista").toggle();
 	});
 
 	document.onclick = function(event) {
-		var isVisible = $(".mobile-menu").is(":visible");
-		var buttonClicked = event.target.matches(".mobile-button");
+		var isVisible = $(".lista").is(":visible");
+		var buttonClicked = event.target.matches(".botao");
 		var imageClicked = event.target.matches("#btn-img");
-		if (!buttonClicked && isVisible && !imageClicked) {
-			$(".mobile-menu").toggle('hide');
+		var width = $(window).width();
+		if (!buttonClicked && isVisible && !imageClicked && width <= 650) {
+			$(".lista").toggle();
 		}
 	};
 });

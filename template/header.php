@@ -8,49 +8,34 @@
 
 		<div id="container-nav">
 
-			<nav id="default-nav">
-				<img id="banner-default" class="img-banner"
-					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" />
-				<form id="top" class="template-form">
-					<a
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>"
-						class="button">Página Inicial</a> <a
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'musicas/'?>"
-						class="button">Músicas Traduzidas</a> <a
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'videos/'?>"
-						class="button">Vídeos Legendados</a> <a
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'sobre/'?>"
-						class="button">Sobre</a>
-				</form>
-			</nav>
-
-			<nav id="mobile-nav">
-				<img id="banner320" class="img-banner"
+			<nav class="header nav">
+				<img class="header banner default"
+					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" /> <img
+					class="header banner mobile"
 					src="/LPTVBr/resources/imagens/banner320.jpg" alt="Banner" />
-				<div class="mobile-form">
-					<div class="button-wrapper">
-						<button class="mobile-button">
-							<img id="btn-img" width="24px" align="left"
-								src="/LPTVBr/resources/imagens/menu-arrow.png">Menu
-						</button>
-						<ol class="mobile-menu">
-							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>">Página
-									Inicial</a></li>
-							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/musicas/'?>">Músicas
-									Traduzidas</a></li>
-							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/videos/'?>">Vídeos
-									Legendados</a></li>
-							<li class="mobile-li"><a class="mobile-link"
-								href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr' . '/sobre/'?>">Sobre</a></li>
-						</ol>
-					</div>
+					<button class="botao mobile">
+						<img id="btn-img" width="24px" align="left" style="padding: 0px;"
+							src="/LPTVBr/resources/imagens/menu-arrow.png">
+						Menu
+					</button>
+				<div class="lista">
+					<ul id="top" class="lista link">
+						<li><a
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>"
+							class="button">Página Inicial</a></li>
+						<li><a
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'musicas/'?>"
+							class="button">Músicas Traduzidas</a></li>
+						<li><a
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'videos/'?>"
+							class="button">Vídeos Legendados</a></li>
+						<li><a
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'sobre/'?>"
+							class="button">Sobre</a></li>
+					</ul>
 				</div>
 			</nav>
 		</div>
-
 	</header>
 
 	<div class="ads" align="center">

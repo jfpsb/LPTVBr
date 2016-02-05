@@ -18,6 +18,18 @@
 	padding-top: 5px;
 }
 
+.lista.link, .lista.link li {
+	display: inline-block !important;
+	list-style-type: none;
+	padding: 0px;
+	margin: 5px;
+}
+
+.lista {
+	text-align: center;
+	display: block;
+}
+
 pre {
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
@@ -43,7 +55,7 @@ body {
 }
 
 .button {
-	display: inline-block;
+	display: block;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 17px;
 	min-width: 80px;
@@ -51,7 +63,7 @@ body {
 	color: white;
 	background: none;
 	text-align: center !important;
-	padding: 5px 10px 5px 10px;
+	padding: 5px;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -66,13 +78,6 @@ body {
 	margin: 0;
 }
 
-.template-form {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	width: 100%;
-}
-
 .button:hover {
 	color: black;
 	background: #C0C0C0;
@@ -85,44 +90,6 @@ body {
 	-ms-transition: all 0.4s ease-in-out;
 }
 
-.mobile-button {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 3px;
-	min-width: 100px;
-}
-
-.button-wrapper {
-	margin: 5px;
-}
-
-.mobile-menu {
-	display: none;
-	list-style-type: none;
-	margin-top: 0;
-	padding-top: 0;
-	padding: 0;
-	border-radius: 5px;
-	position: absolute;
-	z-index: 20;
-	min-width: 200px;
-}
-
-.mobile-li {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	padding: 5px;
-	margin: 1px;
-	border: 1px solid white;
-	border-radius: 5px;
-	background: black;
-}
-
-.mobile-link {
-	color: white;
-	text-decoration: none;
-}
-
 #container-nav {
 	border-style: solid;
 	border-width: 1px;
@@ -131,11 +98,33 @@ body {
 	background: rgba(0, 0, 0, 0.6);
 }
 
-.img-banner {
+.header.banner {
 	display: block;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.header.banner.mobile {
+	display: none;
+}
+
+.header.nav {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.botao.mobile {
+	position: absolute;
+	display: none;
+	padding: 8px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	bottom: 5px;
+	left: 5px;
+	border-radius: 3px;
+	border: 1px groove gray;
 }
 
 .videoThumb {
@@ -160,13 +149,6 @@ body {
 	margin-top: 5px;
 }
 
-.ui-panelgrid tr, .ui-panelgrid td, .ui-panelgrid {
-	background: none !important;
-	border-style: none !important;
-	text-align: center !important;
-	margin: 0 auto !important;
-}
-
 .footerLink {
 	font-size: 20px;
 	border-radius: 5px;
@@ -180,49 +162,43 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 
-#mobile-nav {
-	display: none;
-	position: relative;
-}
-
-.mobile-form {
-	padding: 15px;
-}
-
-.ui-menubutton .ui-button {
-	text-align: center !important;
-	margin-top: 5px !important;
-	margin-bottom: 5px !important;
-	margin-left: 5px !important;
-	padding-left: 5px !important;
-	padding-right: 5px !important;
-	background: white !important;
-	width: 90% !important;
-}
-
-.ui-menuitem-text, .ui-menubutton .ui-button-text {
-	font-family: "Courier New", Courier, monospace !important;
-	font-weight: bold !important;
-	margin: 0 auto !important;
-}
-
-.ui-menu .ui-menuitem, .ui-menu .ui-menu-list {
-	background: white !important;
-}
-
 @media all and (max-width: 650px) {
-	#mobile-nav {
+	.lista {
+		position: absolute;
+		font-size: 35px;
+		text-align: left;
+		display: none;
+		padding: 0 !important;
+		margin: 0 !important;
+		z-index: 50;
+		width: 70%;
+	}
+	.botao.mobile {
 		display: block;
 	}
-	.mobile-form {
-		position: absolute;
-		padding: 0;
-		margin: 0;
-		left: 0;
-		bottom: 1px;
+	.lista.link, .lista.link li {
+		display: block !important;
+		padding-left: 5px !important;
+		margin: 0 !important;
+		top: -5px;
+		left: -5px;
 	}
-	#default-nav {
+	.lista.link li a {
+		font-size: 15px !important;
+		font-weight: bold;
+	}
+	.lista.link li a {
+		border: 1px groove gray;
+		text-align: left;
+		border-radius: 3px;
+		background: black;
+		padding: 10px;
+	}
+	.header.banner.default {
 		display: none;
+	}
+	.header.banner.mobile {
+		display: block;
 	}
 	#container-header, #container-footer, .body-section {
 		width: 100%;
@@ -230,9 +206,6 @@ body {
 	body {
 		padding: 0;
 		background-image: url("../imagens/background320.jpg");
-	}
-	.button-wrapper {
-		display: block;
 	}
 }
 

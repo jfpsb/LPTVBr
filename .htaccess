@@ -3,21 +3,34 @@ DirectoryIndex lptvbr.php?pagina=index
 
 RewriteEngine on
 
-#videos
-#colocando barra no final do url
-RewriteRule ^videos$ /LPTVBr/videos/ [R=301]
-RewriteRule ^videos/?$ lptvbr.php?raiz=videos&pagina=videos [NC,L]
-RewriteRule ^lptv/?$ videos/release-template.php?raiz=lptv&pagina=lptv [NC,L]
-
-#musicas
 #colocando barra no final do url
 RewriteRule ^musicas$ /LPTVBr/musicas/ [R=301]
 RewriteRule ^videos$ /LPTVBr/videos/ [R=301]
+RewriteRule ^lptv?$ /LPTVBr/lptv/ [R=301]
+RewriteRule ^linkin-logs?$ /LPTVBr/linkin-logs/ [R=301]
+RewriteRule ^entrevista?$ /LPTVBr/entrevista/ [R=301,NC,L]
 RewriteRule ^lpu/([a-z-0-9-]+)?$ /LPTVBr/lpu/$1/ [R=301]
 RewriteRule ^singles/([a-z-0-9-]+)?$ /LPTVBr/singles/$1/ [R=301]
 RewriteRule ^albuns/([a-z-0-9-]+)?$ /LPTVBr/albuns/$1/ [R=301]
 RewriteRule ^remixes/([a-z-0-9-]+)?$ /LPTVBr/remixes/$1/ [R=301]
 
+
+#videos
+#colocando barra no final do url
+RewriteRule ^videos$ /LPTVBr/videos/ [R=301]
+RewriteRule ^videos/?$ lptvbr.php?raiz=videos&pagina=videos [NC,L]
+RewriteRule ^lptv/?$ videos/release-template.php?raiz=lptv&pagina=lptv [NC,L]
+RewriteRule ^lptv/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ videos/videos-template.php?ano=$1&video=$2&tipo=lptv [NC,L]
+RewriteRule ^shows/?$ videos/release-template.php?raiz=shows&pagina=shows [NC,L]
+RewriteRule ^shows/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ videos/videos-template.php?ano=$1&video=$2&tipo=shows [NC,L]
+RewriteRule ^entrevista/?$ videos/release-template.php?raiz=entrevista&pagina=entrevista [NC,L]
+RewriteRule ^entrevista/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ videos/videos-template.php?ano=$1&video=$2&tipo=entrevista [NC,L]
+RewriteRule ^linkin-logs/?$ videos/release-template.php?raiz=linkin-logs&pagina=linkin-logs [NC,L]
+RewriteRule ^linkin-logs/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ videos/videos-template.php?ano=$1&video=$2&tipo=linkin-logs [NC,L]
+RewriteRule ^outros/?$ videos/release-template.php?raiz=outros&pagina=outros [NC,L]
+RewriteRule ^outros/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ videos/videos-template.php?ano=$1&video=$2&tipo=outros [NC,L]
+
+#musicas
 RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ musicas/traducao-template.php?album=$1&musica=$2&tipo=albuns [NC,L]
 RewriteRule ^albuns/([a-z-0-9-]+)/?$ musicas/release-template.php?raiz=albuns&album=$1 [NC,L]

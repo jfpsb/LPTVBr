@@ -34,13 +34,13 @@ $page_title = $release['secao'] . ' : LinkinParkTVBr';
 <meta property="og:image"
 	content="http://www.linkinparktvbr.com/LPTVBr/resources/imagens/banner.jpg" />
 <meta property="og:description"
-	content="<?php echo $release['secao'].' Legendados' ?>" />
+	content="<?php echo $release['secao'].' Legendados(as)' ?>" />
 <meta property="og:type" content="website" />
 </head>
 <body>
 	<?php
 	include_once '../template/header.php';
-	//include_once("analyticstracking.php")
+	include_once("analyticstracking.php")
 	?>
 	
 	<section id="main-section" class="body-section">

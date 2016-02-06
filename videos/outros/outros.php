@@ -25,12 +25,12 @@
 			<tr>
 				<td>
 					<div class="panel">
- 						<a class="link" href="dji-tour-diary/">
+ 						<a class="link" href="2016/dji-tour-diary/">
 							<?php
 							$dia = '30';
 							$mes = 'Jan';
 							$ano = '2016';
-							include 'videos/postDataTemplate.php';
+							include 'postDataTemplate.php';
 							?>
 							<img alt="DJI - Linkin Park Tour Diary" class="linkImg"
 							src="/LPTVBr/resources/imagens/videos/outros/dji-tour-diary.jpg">
@@ -40,12 +40,12 @@
 				</td>
 				<td>
 					<div class="panel">
-						<a class="link" href="lpu-15-bundle-unboxing/">
+						<a class="link" href="2016/lpu-15-bundle-unboxing/">
 							<?php
 							$dia = '27';
 							$mes = 'Jan';
 							$ano = '2016';
-							include 'videos/postDataTemplate.php';
+							include 'postDataTemplate.php';
 							?>
 							<img alt="LPU 15 Bundle Unboxing" class="linkImg"
 							src="/LPTVBr/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">

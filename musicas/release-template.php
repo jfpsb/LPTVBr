@@ -42,7 +42,7 @@ $page_title = $release[$_GET['album']]['album'] . ' : LinkinParkTVBr';
 <body>
 	<?php
 	include_once '../template/header.php';
-	//include_once("analyticstracking.php")
+	include_once("analyticstracking.php")
 	?>
 	
 	<section id="main-section" class="body-section">

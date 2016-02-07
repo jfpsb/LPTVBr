@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/rebellion.jpg"
+	<img src="/resources/imagens/singles/cover250/rebellion.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../rebellion/">Voltar a Rebellion</a>
 	<ol class="album-lista">

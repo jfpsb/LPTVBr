@@ -14,19 +14,19 @@
 					<td>1.</td>
 					<td>Burning In The Skies</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/burning-in-the-skies/burning-in-the-skies/">Tradução</a></td>
+						href="/singles/burning-in-the-skies/burning-in-the-skies/">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>1.</td>
 					<td>Blackout (Live At Madison Square Garden)</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/burning-in-the-skies/blackout/">Tradução</a></td>
+						href="/singles/burning-in-the-skies/blackout/">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>1.</td>
 					<td>When They Come For Me (Live At Madison Square Garden)</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/burning-in-the-skies/when-they-come-for-me/">Tradução</a></td>
+						href="/singles/burning-in-the-skies/when-they-come-for-me/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

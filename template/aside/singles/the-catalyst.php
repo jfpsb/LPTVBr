@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/the-catalyst.jpg"
+	<img src="/resources/imagens/singles/cover250/the-catalyst.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../the-catalyst/">Voltar a The Catalyst</a>
 	<ol class="album-lista">

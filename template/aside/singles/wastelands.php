@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/wastelands.jpg"
+	<img src="/resources/imagens/singles/cover250/wastelands.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../wastelands/">Voltar a Wastelands</a>
 	<ol class="album-lista">

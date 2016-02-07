@@ -13,7 +13,7 @@
 				<tr>
 					<td>1.</td>
 					<td>Not Alone</td>
-					<td id="button-td"><a class="trad-button" href="/LPTVBr/singles/download-haiti/not-alone/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="/singles/download-haiti/not-alone/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

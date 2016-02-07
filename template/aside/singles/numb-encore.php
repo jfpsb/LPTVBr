@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/numb-encore.jpg"
+	<img src="/resources/imagens/singles/cover250/numb-encore.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../numb-encore/">Voltar a Numb/Encore</a>
 	<ol class="album-lista">

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/download-tsunami.jpg"
+	<img src="/resources/imagens/singles/cover250/download-tsunami.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../download-tsunami/">Voltar a Download To Donate: Tsunami Relief</a>
 	<ol class="album-lista">

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/albuns/lit250.jpg"
+	<img src="/resources/imagens/albuns/lit250.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../live-in-texas/">Voltar ao Live In Texas</a>
 	<ol class="album-lista">

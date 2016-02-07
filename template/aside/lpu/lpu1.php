@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu1.jpg"
+	<img src="/resources/imagens/lpu/cover250/lpu1.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../lpu1/">Voltar ao Hybrid Theory EP (LPU 1)</a>
 	<ol class="album-lista">

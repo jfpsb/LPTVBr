@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="shortcut icon" href="/LPTVBr/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 	<article id="cog-article" class="table-article">
@@ -15,13 +15,13 @@
 					<td>1.</td>
 					<td>Castle Of Glass</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/castle-of-glass/castle-of-glass/">Tradução</a></td>
+						href="/singles/castle-of-glass/castle-of-glass/">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>1.</td>
 					<td>Lost In The Echo (Killsonik Remix)</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/castle-of-glass/lost-in-the-echo-k-remix/">Tradução</a></td>
+						href="/singles/castle-of-glass/lost-in-the-echo-k-remix/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

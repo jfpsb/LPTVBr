@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/remixes/cover250/recharged.jpg"
+	<img src="/resources/imagens/remixes/cover250/recharged.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../recharged/">Voltar ao Recharged</a>
 	<ol class="album-lista">

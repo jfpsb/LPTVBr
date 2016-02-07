@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/remixes/cover250/8bit-rebellion.jpg"
+	<img src="/resources/imagens/remixes/cover250/8bit-rebellion.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../8bit-rebellion/">Voltar a 8-Bit Rebellion</a>
 	<ol class="album-lista">

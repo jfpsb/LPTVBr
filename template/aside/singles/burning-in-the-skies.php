@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/burning-in-the-skies.jpg"
+	<img src="/resources/imagens/singles/cover250/burning-in-the-skies.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../burning-in-the-skies/">Voltar a Burning In The Skies</a>
 	<ol class="album-lista">

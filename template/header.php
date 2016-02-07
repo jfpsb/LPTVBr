@@ -10,27 +10,27 @@
 
 			<nav class="header nav">
 				<img class="header banner default"
-					src="/LPTVBr/resources/imagens/banner.jpg" alt="Banner" /> <img
+					src="/resources/imagens/banner.jpg" alt="Banner" /> <img
 					class="header banner mobile"
-					src="/LPTVBr/resources/imagens/banner320.jpg" alt="Banner" />
+					src="/resources/imagens/banner320.jpg" alt="Banner" />
 					<button class="botao mobile">
 						<img id="btn-img" width="24px" align="left" style="padding: 0px;"
-							src="/LPTVBr/resources/imagens/menu-arrow.png">
+							src="/resources/imagens/menu-arrow.png">
 						Menu
 					</button>
 				<div class="lista">
 					<ul id="top" class="lista link">
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>"
 							class="button">Página Inicial</a></li>
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'musicas/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musicas/'?>"
 							class="button">Músicas Traduzidas</a></li>
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'videos/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'videos/'?>"
 							class="button">Vídeos Legendados</a></li>
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/LPTVBr/' . 'sobre/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>"
 							class="button">Sobre</a></li>
 					</ul>
 				</div>

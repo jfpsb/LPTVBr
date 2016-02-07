@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/until-its-gone.jpg"
+	<img src="/resources/imagens/singles/cover250/until-its-gone.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../until-its-gone/">Voltar a Until It's Gone</a>
 	<ol class="album-lista">

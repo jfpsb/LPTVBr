@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/bleed-it-out.jpg"
+	<img src="/resources/imagens/singles/cover250/bleed-it-out.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../bleed-it-out/">Voltar a Bleed It Out</a>
 	<ol class="album-lista">

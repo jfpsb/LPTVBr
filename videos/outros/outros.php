@@ -3,15 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"
-	href="/LPTVBr/resources/css/letra-musica.css">
-<link rel="stylesheet" href="/LPTVBr/resources/css/jquery-ui.min.css">
-<link rel="stylesheet" href="/LPTVBr/resources/css/primeui-2.2-min.css">
+	href="/resources/css/letra-musica.css">
+<link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
+<link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <script type="text/javascript"
-	src="/LPTVBr/resources/js/jquery-1.11.3.min.js"></script>
+	src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript"
-	src="/LPTVBr/resources/js/jquery-ui.min.js"></script>
+	src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
-	src="/LPTVBr/resources/js/primeui-2.2-min.js"></script>
+	src="/resources/js/primeui-2.2-min.js"></script>
 <script>
 	document.title = "Linkin Park : Outros Vídeos (Legendados)";
 </script>
@@ -33,7 +33,7 @@
 							include 'postDataTemplate.php';
 							?>
 							<img alt="DJI - Linkin Park Tour Diary" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/outros/dji-tour-diary.jpg">
+							src="/resources/imagens/videos/outros/dji-tour-diary.jpg">
 							<label class="nomeLink">DJI - Linkin Park Tour Diary</label>
 						</a>
 					</div>
@@ -48,7 +48,7 @@
 							include 'postDataTemplate.php';
 							?>
 							<img alt="LPU 15 Bundle Unboxing" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">
+							src="/resources/imagens/videos/outros/lpu15-bundle-unboxing.jpg">
 							<label class="nomeLink">LPU15 Bundle Unboxing</label>
 						</a>
 					</div>

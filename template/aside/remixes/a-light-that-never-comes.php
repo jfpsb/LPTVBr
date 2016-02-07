@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/remixes/cover250/a-light-that-never-comes.jpg"
+	<img src="/resources/imagens/remixes/cover250/a-light-that-never-comes.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../a-light-that-never-comes/">Voltar a A Light That Never Comes (Remixes)</a>
 	<ol class="album-lista">

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/from-the-inside.jpg"
+	<img src="/resources/imagens/singles/cover250/from-the-inside.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../from-the-inside/">Voltar a From The Inside</a>
 	<ol class="album-lista">

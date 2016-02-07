@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/download-haiti.jpg"
+	<img src="/resources/imagens/singles/cover250/download-haiti.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../download-haiti/">Voltar a Download To Donate For Haiti</a>
 	<ol class="album-lista">

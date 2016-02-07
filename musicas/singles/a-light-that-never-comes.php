@@ -14,7 +14,7 @@
 					<td>1.</td>
 					<td>A Light That Never Comes</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/a-light-that-never-comes/a-light-that-never-comes/">Tradução</a></td>
+						href="/singles/a-light-that-never-comes/a-light-that-never-comes/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

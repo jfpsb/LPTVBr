@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/somewhere-i-belong.jpg"
+	<img src="/resources/imagens/singles/cover250/somewhere-i-belong.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../somewhere-i-belong/">Voltar a Somewhere I Belong</a>
 	<ol class="album-lista">

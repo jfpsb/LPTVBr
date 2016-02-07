@@ -1,6 +1,6 @@
 <div class="album-panel">
 	<img
-		src="/LPTVBr/resources/imagens/lpu/cover250/songs-from-the-underground.jpg"
+		src="/resources/imagens/lpu/cover250/songs-from-the-underground.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../songs-from-the-underground/">Voltar ao Songs From The Underground</a>
 	<ol class="album-lista">

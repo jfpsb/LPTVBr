@@ -18,7 +18,7 @@
 										?>
 										<img alt="Linkin Log #7 - End Of Carnivores Tour"
 							class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/end-of-carnivores-tour.jpg">
+							src="/resources/imagens/videos/linkin-logs/end-of-carnivores-tour.jpg">
 							<label class="nomeLink">Linkin Log #7 - End Of Carnivores Tour</label>
 						</a>
 					</div>
@@ -33,7 +33,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Linkin Log #6: Basketball Q&A" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/basketball.jpg">
+							src="/resources/imagens/videos/linkin-logs/basketball.jpg">
 							<label class="nomeLink">Linkin Log #6: Basketball Q&A</label>
 						</a>
 					</div>
@@ -48,7 +48,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Linkin Log #5 - Beat Making Demo" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/beat-making-demo.jpg">
+							src="/resources/imagens/videos/linkin-logs/beat-making-demo.jpg">
 							<label class="nomeLink">Linkin Log #5 - Beat Making Demo</label>
 						</a>
 					</div>
@@ -67,7 +67,7 @@
 										<img
 							alt="Linkin Log #4 - Ask Brad - Edition (Carnivores Tour)"
 							class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/ask-brad.jpg">
+							src="/resources/imagens/videos/linkin-logs/ask-brad.jpg">
 							<label class="nomeLink">Linkin Log #4 - Ask Brad - Edition
 								(Carnivores Tour)</label>
 						</a>
@@ -83,7 +83,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Linkin Log #3 - Carnivores Tour" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3.jpg">
+							src="/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3.jpg">
 							<label class="nomeLink">Linkin Log #3 - Carnivores Tour</label>
 						</a>
 					</div>
@@ -98,7 +98,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Mike's Carnivores Tour Vlog #2" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-2.jpg">
+							src="/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-2.jpg">
 							<label class="nomeLink">Mike's Carnivores Tour Vlog #2</label>
 						</a>
 					</div>
@@ -115,7 +115,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Mike's Carnivores Tour Vlog #1" class="linkImg"
-							src="/LPTVBr/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-1.jpg">
+							src="/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-1.jpg">
 							<label class="nomeLink">Mike's Carnivores Tour Vlog #1</label>
 						</a>
 					</div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css"
-	href="/LPTVBr/resources/css/redes-sociais.css">
+	href="/resources/css/redes-sociais.css">
 </head>
 <body>
 	<div align="center" class="ads">
@@ -37,7 +37,7 @@
 							<tr class="footer tr">
 								<td><a href="http://www.facebook.com/LinkinParkTVBr/"
 									target="_blank" class="redes link">Facebook</a></td>
-								<td><a href="http://www.youtube.com/lptvbrasil/" target="_blank"
+								<td><a href="http://www.youtube.comasil/" target="_blank"
 									class="redes link">Youtube</a></td>
 							</tr>
 							<tr class="footer tr">

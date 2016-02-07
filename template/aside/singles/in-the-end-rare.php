@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/in-the-end-live-rare.jpg"
+	<img src="/resources/imagens/singles/cover250/in-the-end-live-rare.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../in-the-end-rare/">Voltar a In The End: Live And Rare</a>
 	<ol class="album-lista">

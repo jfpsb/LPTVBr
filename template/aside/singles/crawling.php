@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/crawling.jpg"
+	<img src="/resources/imagens/singles/cover250/crawling.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../crawling/">Voltar a Crawling</a>
 	<ol class="album-lista">

@@ -14,19 +14,19 @@
 						<td>1.</td>
 						<td>Bleed It Out</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/singles/bleed-it-out/bleed-it-out/">Tradução</a></td>
+							href="/singles/bleed-it-out/bleed-it-out/">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>2.</td>
 						<td>What I've Done (Distorted Remix)</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/singles/bleed-it-out/what-ive-done/">Tradução</a></td>
+							href="/singles/bleed-it-out/what-ive-done/">Tradução</a></td>
 					</tr>
 					<tr>
 						<td>3.</td>
 						<td>Given Up (Third Encore Session)</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/singles/bleed-it-out/given-up/">Tradução</a></td>
+							href="/singles/bleed-it-out/given-up/">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

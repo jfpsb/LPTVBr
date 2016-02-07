@@ -14,12 +14,12 @@
 					<td>1.</td>
 					<td>Breaking The Habit</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/breaking-the-habit/breaking-the-habit/">Tradução</a></td>
+						href="/singles/breaking-the-habit/breaking-the-habit/">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>
 					<td>Crawling (Live)</td>
-					<td id="button-td"><a class="trad-button" href="/LPTVBr/singles/breaking-the-habit/crawling/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="/singles/breaking-the-habit/crawling/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/remixes/cover250/reanimation.jpg"
+	<img src="/resources/imagens/remixes/cover250/reanimation.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../reanimation/">Voltar ao Reanimation</a>
 	<ol class="album-lista">

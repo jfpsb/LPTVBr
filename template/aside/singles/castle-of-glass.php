@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/castle-of-glass.jpg"
+	<img src="/resources/imagens/singles/cover250/castle-of-glass.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../castle-of-glass/">Voltar a Castle Of Glass</a>
 	<ol class="album-lista">

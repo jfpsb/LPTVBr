@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/what-ive-done.jpg"
+	<img src="/resources/imagens/singles/cover250/what-ive-done.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../what-ive-done/">Voltar a What I've Done</a>
 	<ol class="album-lista">

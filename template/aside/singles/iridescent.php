@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/iridescent.jpg"
+	<img src="/resources/imagens/singles/cover250/iridescent.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../iridescent/">Voltar a Iridescent</a>
 	<ol class="album-lista">

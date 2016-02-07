@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/papercut.jpg"
+	<img src="/resources/imagens/singles/cover250/papercut.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../papercut/">Voltar a Papercut</a>
 	<ol class="album-lista">

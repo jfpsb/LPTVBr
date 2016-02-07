@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/final-masquerade.jpg"
+	<img src="/resources/imagens/singles/cover250/final-masquerade.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../final-masquerade/">Voltar a Final Masquerade</a>
 	<ol class="album-lista">

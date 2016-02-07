@@ -32,7 +32,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 2" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2.jpg">
+										src="/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2.jpg">
 										<label class="nomeLink">The Hunting Party Tour | Europe - PART
 											2</label>
 									</a>
@@ -49,7 +49,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 1" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1.jpg">
+										src="/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1.jpg">
 										<label class="nomeLink">The Hunting Party Tour | Europe - PART
 											1</label>
 									</a>
@@ -65,7 +65,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Brazil 2014" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/brazil.jpg">
+										src="/resources/imagens/videos/lptv/brazil.jpg">
 										<label class="nomeLink">Brazil 2014</label>
 									</a>
 								</div>
@@ -83,7 +83,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="CARNIVORES TOUR - PART 4" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/carnivores-tour-pt4.jpg">
+										src="/resources/imagens/videos/lptv/carnivores-tour-pt4.jpg">
 										<label class="nomeLink">CARNIVORES TOUR - PART 4</label>
 									</a>
 								</div>
@@ -99,7 +99,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="BEAST ASTRAY ART SHOW" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/beast-astray.jpg">
+										src="/resources/imagens/videos/lptv/beast-astray.jpg">
 										<label class="nomeLink">BEAST ASTRAY ART SHOW</label>
 									</a>
 								</div>
@@ -114,7 +114,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="CARNIVORES TOUR - PART 3" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/carnivores-tour-pt3.jpg">
+										src="/resources/imagens/videos/lptv/carnivores-tour-pt3.jpg">
 										<label class="nomeLink">CARNIVORES TOUR - PART 3</label>
 									</a>
 								</div>
@@ -132,7 +132,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 3" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt3-2014.jpg">
+										src="/resources/imagens/videos/lptv/europe-tour-pt3-2014.jpg">
 										<label class="nomeLink">2014 EUROPE TOUR - PART 3</label>
 									</a>
 								</div>
@@ -148,7 +148,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="MAKING OF FINAL MASQUERADE" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/making-of-final-masquerade.jpg">
+										src="/resources/imagens/videos/lptv/making-of-final-masquerade.jpg">
 										<label class="nomeLink">MAKING OF FINAL MASQUERADE</label>
 									</a>
 								</div>
@@ -164,7 +164,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 2" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt2-2014.jpg">
+										src="/resources/imagens/videos/lptv/europe-tour-pt2-2014.jpg">
 										<label class="nomeLink">2014 EUROPE TOUR - PART 2</label>
 									</a>
 								</div>
@@ -182,7 +182,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="2014 EUROPE TOUR - PART 1" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-tour-pt1-2014.jpg">
+										src="/resources/imagens/videos/lptv/europe-tour-pt1-2014.jpg">
 										<label class="nomeLink">2014 EUROPE TOUR - PART 1</label>
 									</a>
 								</div>
@@ -198,7 +198,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="MAKING OF UNTIL IT'S GONE" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/making-of-until-its-gone.jpg">
+										src="/resources/imagens/videos/lptv/making-of-until-its-gone.jpg">
 										<label class="nomeLink">MAKING OF UNTIL IT'S GONE</label>
 									</a>
 								</div>
@@ -213,7 +213,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Road To Download" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/road-to-download.jpg">
+										src="/resources/imagens/videos/lptv/road-to-download.jpg">
 										<label class="nomeLink">Road To Download</label>
 									</a>
 								</div>
@@ -235,7 +235,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 3" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt3.jpg"> <label
+										src="/resources/imagens/videos/lptv/europe-pt3.jpg"> <label
 										class="nomeLink">EUROPE '15 - PART 3</label>
 									</a>
 								</div>
@@ -250,7 +250,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 2" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt2.jpg"> <label
+										src="/resources/imagens/videos/lptv/europe-pt2.jpg"> <label
 										class="nomeLink">EUROPE '15 - PART 2</label>
 									</a>
 								</div>
@@ -265,7 +265,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="EUROPE '15 - PART 1" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/europe-pt1.jpg"> <label
+										src="/resources/imagens/videos/lptv/europe-pt1.jpg"> <label
 										class="nomeLink">EUROPE '15 - PART 1</label>
 									</a>
 								</div>
@@ -282,7 +282,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="WELCOME (DEMO)" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/welcome-demo.jpg">
+										src="/resources/imagens/videos/lptv/welcome-demo.jpg">
 										<label class="nomeLink">WELCOME (DEMO)</label>
 									</a>
 								</div>
@@ -298,7 +298,7 @@
 										?>
 										<img alt="A LINE IN THE SAND GUITAR SOLO TUTORIAL"
 										class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/a-line-in-the-sand-guitar-solo.jpg">
+										src="/resources/imagens/videos/lptv/a-line-in-the-sand-guitar-solo.jpg">
 										<label class="nomeLink">A LINE IN THE SAND GUITAR SOLO
 											TUTORIAL</label>
 									</a>
@@ -314,7 +314,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="VIVA MEXICO, VIVA LINKIN PARK" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/viva-mexico.jpg"> <label
+										src="/resources/imagens/videos/lptv/viva-mexico.jpg"> <label
 										class="nomeLink">VIVA MEXICO, VIVA LINKIN PARK</label>
 									</a>
 								</div>
@@ -331,7 +331,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Fort Minor Welcome Video Shoot" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/welcome-video-shoot-day-2.jpg">
+										src="/resources/imagens/videos/lptv/welcome-video-shoot-day-2.jpg">
 										<label class="nomeLink">FORT MINOR WELCOME - VIDEO SHOOT DAY 2
 											(STUDIO)</label>
 									</a>
@@ -347,7 +347,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Fort Minor Welcome Video Shoot" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/welcome-video-shoot-day-1.jpg">
+										src="/resources/imagens/videos/lptv/welcome-video-shoot-day-1.jpg">
 										<label class="nomeLink">FORT MINOR WELCOME - VIDEO SHOOT DAY 1
 											(VENICE)</label>
 									</a>
@@ -363,7 +363,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="SUMMER FESTIVALS AND THE STORM" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/summer-festivals.jpg">
+										src="/resources/imagens/videos/lptv/summer-festivals.jpg">
 										<label class="nomeLink">SUMMER FESTIVALS AND THE STORM</label>
 									</a>
 								</div>
@@ -380,7 +380,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Drawbar Feat. Tom Morello" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/a-line-in-the-sand.jpg">
+										src="/resources/imagens/videos/lptv/a-line-in-the-sand.jpg">
 										<label class="nomeLink">A LINE IN THE SAND</label>
 									</a>
 								</div>
@@ -395,7 +395,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Drawbar Feat. Tom Morello" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/drawbar-feat-tom-morello.jpg">
+										src="/resources/imagens/videos/lptv/drawbar-feat-tom-morello.jpg">
 										<label class="nomeLink">DRAWBAR (feat. TOM MORELLO)</label>
 									</a>
 								</div>
@@ -410,7 +410,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="True Chainz Feat. Page Hamilton" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/true-chainz.jpg"> <label
+										src="/resources/imagens/videos/lptv/true-chainz.jpg"> <label
 										class="nomeLink">TRUE CHAINZ (ALL FOR NOTHING feat. PAGE
 											HAMILTON of HELMET)</label>
 									</a>
@@ -428,7 +428,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Chester Breaks His Ankle" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/chester-breaks-his-ankle.jpg">
+										src="/resources/imagens/videos/lptv/chester-breaks-his-ankle.jpg">
 										<label class="nomeLink">Chester breaks his ankle on The
 											Hunting Party Tour</label>
 									</a>
@@ -445,7 +445,7 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="THP Tour Europe Pt. 3" class="linkImg"
-										src="/LPTVBr/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3.jpg">
+										src="/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3.jpg">
 										<label class="nomeLink">The Hunting Party Tour | Europe - PART
 											3</label>
 									</a>

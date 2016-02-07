@@ -1,6 +1,6 @@
 <div class="album-panel">
 	<img
-		src="/LPTVBr/resources/imagens/lpu/cover250/a-decade-underground.jpg"
+		src="/resources/imagens/lpu/cover250/a-decade-underground.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../a-decade-underground/">Voltar ao A Decade
 		Underground</a>

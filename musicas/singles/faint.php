@@ -13,12 +13,12 @@
 				<tr>
 					<td>1.</td>
 					<td>Faint</td>
-					<td id="button-td"><a class="trad-button" href="/LPTVBr/singles/faint/faint/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="/singles/faint/faint/">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>
 					<td>Lying From You (Live)</td>
-					<td id="button-td"><a class="trad-button" href="/LPTVBr/singles/faint/lying-from-you/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="/singles/faint/lying-from-you/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

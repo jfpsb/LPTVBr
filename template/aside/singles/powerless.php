@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/powerless.jpg"
+	<img src="/resources/imagens/singles/cover250/powerless.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../powerless/">Voltar a Powerless</a>
 	<ol class="album-lista">

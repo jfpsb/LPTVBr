@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/burn-it-down.jpg"
+	<img src="/resources/imagens/singles/cover250/burn-it-down.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../burn-it-down/">Voltar a Burn It Down</a>
 	<ol class="album-lista">

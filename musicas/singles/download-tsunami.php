@@ -14,7 +14,7 @@
 					<td>1.</td>
 					<td>Issho Ni</td>
 					<td id="button-td"><a class="trad-button"
-						href="/LPTVBr/singles/download-tsunami/issho-ni/">Tradução</a></td>
+						href="/singles/download-tsunami/issho-ni/">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

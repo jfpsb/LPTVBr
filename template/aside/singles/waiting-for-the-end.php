@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/waiting-for-the-end.jpg"
+	<img src="/resources/imagens/singles/cover250/waiting-for-the-end.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../waiting-for-the-end/">Voltar a Waiting For The End</a>
 	<ol class="album-lista">

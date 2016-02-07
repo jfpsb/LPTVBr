@@ -14,7 +14,7 @@
 						<td>1.</td>
 						<td>Burn It Down</td>
 						<td id="button-td"><a class="trad-button"
-							href="/LPTVBr/singles/burn-it-down/burn-it-down/">Tradução</a></td>
+							href="/singles/burn-it-down/burn-it-down/">Tradução</a></td>
 					</tr>
 				</table>
 			</div>

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu12.jpg"
+	<img src="/resources/imagens/lpu/cover250/lpu12.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../lpu12/">Voltar ao LP Underground 12</a>
 	<ol class="album-lista">

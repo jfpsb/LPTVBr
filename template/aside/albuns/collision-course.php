@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/albuns/cc250.jpg"
+	<img src="/resources/imagens/albuns/cc250.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../collision-course/">Voltar ao Collision Course</a>
 	<ol class="album-lista">

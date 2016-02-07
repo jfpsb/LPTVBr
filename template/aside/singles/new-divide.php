@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/new-divide.jpg"
+	<img src="/resources/imagens/singles/cover250/new-divide.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../new-divide/">Voltar a New Divide</a>
 	<ol class="album-lista">

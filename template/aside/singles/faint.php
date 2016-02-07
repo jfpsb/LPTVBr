@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/faint.jpg"
+	<img src="/resources/imagens/singles/cover250/faint.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../faint/">Voltar a Faint</a>
 	<ol class="album-lista">

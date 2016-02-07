@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/one-step-closer.jpg"
+	<img src="/resources/imagens/singles/cover250/one-step-closer.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../one-step-closer/">Voltar a One Step Closer</a>
 	<ol class="album-lista">

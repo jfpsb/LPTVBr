@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/pts.of.athrty.jpg"
+	<img src="/resources/imagens/singles/cover250/pts.of.athrty.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../pts-of-athrty/">Voltar a Pts.Of.Athrty</a>
 	<ol class="album-lista">

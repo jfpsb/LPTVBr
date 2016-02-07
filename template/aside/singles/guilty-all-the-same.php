@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/guilty-all-the-same.jpg"
+	<img src="/resources/imagens/singles/cover250/guilty-all-the-same.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../guilty-all-the-same/">Voltar a Guilty All The Same</a>
 	<ol class="album-lista">

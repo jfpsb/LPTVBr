@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/LPTVBr/resources/imagens/singles/cover250/leave-out-all-the-rest.jpg"
+	<img src="/resources/imagens/singles/cover250/leave-out-all-the-rest.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../leave-out-all-the-rest/">Voltar a Leave Out All The Rest</a>
 	<ol class="album-lista">

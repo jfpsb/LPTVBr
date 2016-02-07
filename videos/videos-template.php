@@ -65,10 +65,11 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <body>
 	<?php
 	include_once '../template/header.php';
-	include_once("analyticstracking.php")
+	include_once("../analyticstracking.php")
 	?>
 	
 	<section id="main-section" class="body-section">
+		<h1 class="descricao texto"><?php echo $nomeVideo ?></h1>
 		<div>
 			<!-- Se uma lista de imagens estiver configurada,
 		será carregada a galeria; senão, o iframe do Youtube -->

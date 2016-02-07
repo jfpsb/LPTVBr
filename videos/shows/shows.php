@@ -53,12 +53,19 @@
 				</div>
 
 				<div id="outros">
-					<div align="center">
-						<h2
-							style="font-family: 'Courier New', Courier, monospace; color: white;">
-							Ainda não há conteúdo nesta seção.<br>Volte em breve.
-						</h2>
-					</div>
+					<table class="panelGrid">
+						<tr>
+							<td>
+								<div class="panel">
+									<a class="link" href="2011/itunes-festival"> <img
+										class="linkImg"
+										src="../resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg"
+										alt="iTunes Festival 2011" /> <label class="nomeLink">iTunes Festival 2011</label>
+									</a>
+								</div>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>

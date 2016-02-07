@@ -11,6 +11,11 @@
 	margin: 10px;
 }
 
+#videos {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .traducao-li {
 	text-align: center;
 }

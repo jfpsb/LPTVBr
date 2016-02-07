@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/shadow-of-the-day.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/shadow-of-the-day">Voltar a Shadow Of The Day</a>
+		href="../shadow-of-the-day/">Voltar a Shadow Of The Day</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="shadow-of-the-day">1. Shadow Of The Day</a></li>

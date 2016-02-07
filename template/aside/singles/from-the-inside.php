@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/from-the-inside.jpg"
 		class="album-cover"> <a class="album-link"
-		href="">Voltar a From The Inside</a>
+		href="../from-the-inside/">Voltar a From The Inside</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="from-the-inside">1. From The Inside</a></li>

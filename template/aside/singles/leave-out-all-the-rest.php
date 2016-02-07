@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/leave-out-all-the-rest.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/leave-out-all-the-rest/">Voltar a Leave Out All The Rest</a>
+		href="../leave-out-all-the-rest/">Voltar a Leave Out All The Rest</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="leave-out-all-the-rest">1. Leave Out All The Rest</a></li>

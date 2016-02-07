@@ -499,7 +499,7 @@
 									</a>
 								</div></td>
 							<td><div class="linkPanel">
-									<a href="../remixes/eight-bit-rebellion/" class="link"> <img
+									<a href="../remixes/8bit-rebellion/" class="link"> <img
 										class="linkImg"
 										src="/LPTVBr/resources/imagens/remixes/cover/8bit-rebellion.jpg"
 										alt="Capa Remix 8BR" /> <label class="nomeLink">8-Bit

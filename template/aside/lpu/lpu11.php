@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu11.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu11/">Voltar ao LP Underground 11</a>
+		href="../lpu11/">Voltar ao LP Underground 11</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text" href="yo">1.
 				Yo (MTM DEMO)</a></li>

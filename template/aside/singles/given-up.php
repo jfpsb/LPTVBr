@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/given-up.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/given-up/">Voltar a Given Up</a>
+		href="../given-up/">Voltar a Given Up</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="given-up">1. Given Up</a></li>

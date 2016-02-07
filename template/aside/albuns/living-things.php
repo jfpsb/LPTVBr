@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/lt250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/albuns/living-things/">Voltar ao Living Things</a>
+		href="../living-things/">Voltar ao Living Things</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="lost-in-the-echo">1.

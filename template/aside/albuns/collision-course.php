@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/cc250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/albuns/collision-course/">Voltar ao Collision Course</a>
+		href="../collision-course/">Voltar ao Collision Course</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="dirt-off-your-shoulder">1.

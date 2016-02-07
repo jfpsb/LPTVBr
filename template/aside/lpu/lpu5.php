@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu5.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu5/">Voltar ao LP Underground 5</a>
+		href="../lpu5/">Voltar ao LP Underground 5</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="announcement">1. Somewhere I Belong (Live)</a></li>

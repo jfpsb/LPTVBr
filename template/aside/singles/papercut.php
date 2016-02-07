@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/papercut.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/papercut/">Voltar a Papercut</a>
+		href="../papercut/">Voltar a Papercut</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="papercut">1. Papercut</a></li>

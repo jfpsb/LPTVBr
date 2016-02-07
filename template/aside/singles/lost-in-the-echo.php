@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/lost-in-the-echo.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/lost-in-the-echo/">Voltar a Lost In The Echo</a>
+		href="../lost-in-the-echo/">Voltar a Lost In The Echo</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="lost-in-the-echo">1. Lost In The Echo</a></li>

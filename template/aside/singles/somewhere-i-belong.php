@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/somewhere-i-belong.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/somewhere-i-belong/">Voltar a Somewhere I Belong</a>
+		href="../somewhere-i-belong/">Voltar a Somewhere I Belong</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="somewhere-i-belong">1. Somewhere I Belong</a></li>

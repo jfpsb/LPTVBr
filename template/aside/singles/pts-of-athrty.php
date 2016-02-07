@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/pts.of.athrty.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/pts-of-athrty/">Voltar a Pts.Of.Athrty</a>
+		href="../pts-of-athrty/">Voltar a Pts.Of.Athrty</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="pts-of-athrty">1. Pts.Of.Athrty</a></li>

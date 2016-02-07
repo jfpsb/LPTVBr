@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/new-divide.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/new-divide/">Voltar a New Divide</a>
+		href="../new-divide/">Voltar a New Divide</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="new-divide">1. New Divide</a></li>

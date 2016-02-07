@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/numb-encore.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/numb-encore/">Voltar a Numb/Encore</a>
+		href="../numb-encore/">Voltar a Numb/Encore</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="numb-encore">1. Numb/Encore</a></li>

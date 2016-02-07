@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/rtr250.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/albuns/road-to-revolution/">Voltar ao Road To
+		href="../road-to-revolution/">Voltar ao Road To
 		Revolution</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"

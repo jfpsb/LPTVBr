@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu4.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu4/">Voltar ao LP Underground 4</a>
+		href="../lpu4/">Voltar ao LP Underground 4</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="sold-my-soul-to-yo-mama">1. Sold

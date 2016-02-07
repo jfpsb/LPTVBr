@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/crawling.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/crawling/">Voltar a Crawling</a>
+		href="../crawling/">Voltar a Crawling</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="crawling">1. Crawling</a></li>

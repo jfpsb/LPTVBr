@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/what-ive-done.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/what-ive-done/">Voltar a What I've Done</a>
+		href="../what-ive-done/">Voltar a What I've Done</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="what-ive-done">1. What I've Done</a></li>

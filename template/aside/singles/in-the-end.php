@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/in-the-end.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/in-the-end/">Voltar a In The End</a>
+		href="../in-the-end/">Voltar a In The End</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="in-the-end">1. In The End</a></li>

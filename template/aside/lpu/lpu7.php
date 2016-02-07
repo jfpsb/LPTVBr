@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu7.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu7/">Voltar ao LP Underground 7</a>
+		href="../lpu7/">Voltar ao LP Underground 7</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="no-more-sorrow">1. No More Sorrow

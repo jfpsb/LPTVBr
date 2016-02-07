@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/wastelands.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/wastelands/">Voltar a Wastelands</a>
+		href="../wastelands/">Voltar a Wastelands</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="wastelands">1. Wastelands</a></li>

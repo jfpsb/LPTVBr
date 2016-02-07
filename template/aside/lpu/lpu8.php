@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu8.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu8/">Voltar ao LP Underground 8</a>
+		href="../lpu8/">Voltar ao LP Underground 8</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="you-aint-gotsta-gotsta">1. You

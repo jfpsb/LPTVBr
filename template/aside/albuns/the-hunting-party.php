@@ -1,16 +1,16 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/albuns/thp250.jpg"
 		class="album-cover"> <div align="center"><a class="album-link"
-		href="/LPTVBr/albuns/the-hunting-party/">Voltar ao The Hunting Party</a></div>
+		href="../the-hunting-party/">Voltar ao The Hunting Party</a></div>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
-			href="keys-to-the-kingdom/">1.
+			href="keys-to-the-kingdom">1.
 				Keys To The Kingdom</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="all-for-nothing">2.
 				All For Nothing (Feat. Page Hamilton)</a></li>
 		<li class="traducao-li"><a class="album-text"
-			href="guilty-all-the-same/">3.
+			href="guilty-all-the-same">3.
 				Guilty All The Same</a></li>
 		<li class="traducao-li"><a class="album-text"
 			href="the-summoning">4.

@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/lpu/cover250/lpu9.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/lpu/lpu9/">Voltar ao LP Underground 9</a>
+		href="../lpu9/">Voltar ao LP Underground 9</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text" href="a06">1.
 				A.06 (Original Long Version)</a></li>

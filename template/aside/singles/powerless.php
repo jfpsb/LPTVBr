@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/powerless.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/powerless">Voltar a Powerless</a>
+		href="../powerless/">Voltar a Powerless</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="powerless">1. Powerless</a></li>

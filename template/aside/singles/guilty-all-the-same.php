@@ -1,7 +1,7 @@
 <div class="album-panel">
 	<img src="/LPTVBr/resources/imagens/singles/cover250/guilty-all-the-same.jpg"
 		class="album-cover"> <a class="album-link"
-		href="/LPTVBr/singles/guilty-all-the-same/">Voltar a Guilty All The Same</a>
+		href="../guilty-all-the-same/">Voltar a Guilty All The Same</a>
 	<ol class="album-lista">
 		<li class="traducao-li"><a class="album-text"
 			href="guilty-all-the-same">1. Guilty All The Same</a></li>

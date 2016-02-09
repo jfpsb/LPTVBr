@@ -79,7 +79,7 @@ include_once '../youtube/search.php';
 </head>
 <body>
 		<?php
-		include_once '../template/header.php';
+		include_once 'header.php';
 		include_once("../analyticstracking.php")
 		?>
 		<section id="main-section" class="body-section">
@@ -147,12 +147,12 @@ include_once '../youtube/search.php';
 			</div>
 
 			<aside class="album-aside"><?php
-			include_once '../template/aside/aside-template.php';
+			include_once 'aside/aside-template.php';
 			?></aside>
 		</article>
 	</section>
 	<?php
-	include_once '../template/footer.php';
+	include_once 'footer.php';
 	?>
 </body>
 </html>

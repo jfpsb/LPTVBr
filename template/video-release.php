@@ -1,5 +1,5 @@
 <?php
-$filepath = 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $_GET['raiz'] . ".json"; 
+$filepath = 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $_GET['tipo'] . ".json"; 
 $str = file_get_contents ($filepath);
 $str = utf8_encode($str);
 
@@ -39,7 +39,7 @@ $page_title = $release['secao'] . ' : LinkinParkTVBr';
 </head>
 <body>
 	<?php
-	include_once '../template/header.php';
+	include_once 'header.php';
 	include_once("../analyticstracking.php")
 	?>
 	
@@ -57,7 +57,7 @@ $page_title = $release['secao'] . ' : LinkinParkTVBr';
 		}
 		
 		if ($url != '') {
-			include_once ($url . '.php');
+			include_once ('../' . $url . '.php');
 		}
 		
 		?>
@@ -65,7 +65,7 @@ $page_title = $release['secao'] . ' : LinkinParkTVBr';
 	</section>
 	
 	<?php
-	include_once '../template/footer.php';
+	include_once 'footer.php';
 	?>
 </body>
 </html>

@@ -25,7 +25,7 @@
 			<tr>
 				<td>
 					<div class="panel">
- 						<a class="link" href="2016/dji-tour-diary/">
+ 						<a class="link" href="2016/dji-tour-diary">
 							<?php
 							$dia = '30';
 							$mes = 'Jan';
@@ -40,7 +40,7 @@
 				</td>
 				<td>
 					<div class="panel">
-						<a class="link" href="2016/lpu-15-bundle-unboxing/">
+						<a class="link" href="2016/lpu-15-bundle-unboxing">
 							<?php
 							$dia = '27';
 							$mes = 'Jan';

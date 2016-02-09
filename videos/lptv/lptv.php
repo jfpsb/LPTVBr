@@ -20,11 +20,13 @@
 			<div>
 				<div id="#dois-mil-catorze">
 					<table class="panelGrid">
+						<colgroup style="text-align: center; margin: 0 auto; width: 100%;">
+							<col span="3" style="width: 33%;">
+						</colgroup>
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/the-hunting-party-tour-europe-part2/">
+									<a class="link" href="2014/the-hunting-party-tour-europe-part2">
 										<?php
 										$dia = '26';
 										$mes = 'Out';
@@ -40,8 +42,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/the-hunting-party-tour-europe-part1/">
+									<a class="link" href="2014/the-hunting-party-tour-europe-part1">
 										<?php
 										$dia = '18';
 										$mes = 'Jan';
@@ -57,7 +58,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2014/brazil/">
+									<a class="link" href="2014/brazil">
 										<?php
 										$dia = '18';
 										$mes = 'Jan';
@@ -65,8 +66,8 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Brazil 2014" class="linkImg"
-										src="/resources/imagens/videos/lptv/brazil.jpg">
-										<label class="nomeLink">Brazil 2014</label>
+										src="/resources/imagens/videos/lptv/brazil.jpg"> <label
+										class="nomeLink">Brazil 2014</label>
 									</a>
 								</div>
 							</td>
@@ -74,8 +75,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/carnivores-tour-pt4/">
+									<a class="link" href="2014/carnivores-tour-pt4">
 										<?php
 										$dia = '17';
 										$mes = 'Jan';
@@ -90,8 +90,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/beast-astray/">
+									<a class="link" href="2014/beast-astray">
 										<?php
 										$dia = '17';
 										$mes = 'Jan';
@@ -99,14 +98,14 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="BEAST ASTRAY ART SHOW" class="linkImg"
-										src="/resources/imagens/videos/lptv/beast-astray.jpg">
-										<label class="nomeLink">BEAST ASTRAY ART SHOW</label>
+										src="/resources/imagens/videos/lptv/beast-astray.jpg"> <label
+										class="nomeLink">BEAST ASTRAY ART SHOW</label>
 									</a>
 								</div>
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2014/carnivores-tour-pt3/">
+									<a class="link" href="2014/carnivores-tour-pt3">
 										<?php
 										$dia = '19';
 										$mes = 'Dez';
@@ -123,8 +122,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/europe-tour-pt3/">
+									<a class="link" href="2014/europe-tour-pt3">
 										<?php
 										$dia = '14';
 										$mes = 'Set';
@@ -139,8 +137,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/making-of-final-masquerade/">
+									<a class="link" href="2014/making-of-final-masquerade">
 										<?php
 										$dia = '15';
 										$mes = 'Ago';
@@ -155,8 +152,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/europe-tour-pt2/">
+									<a class="link" href="2014/europe-tour-pt2">
 										<?php
 										$dia = '3';
 										$mes = 'Ago';
@@ -173,8 +169,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/europe-tour-pt1/">
+									<a class="link" href="2014/europe-tour-pt1">
 										<?php
 										$dia = '16';
 										$mes = 'Jul';
@@ -189,8 +184,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2014/making-of-until-its-gone/">
+									<a class="link" href="2014/making-of-until-its-gone">
 										<?php
 										$dia = '30';
 										$mes = 'Jun';
@@ -205,7 +199,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2014/road-to-download/">
+									<a class="link" href="2014/road-to-download">
 										<?php
 										$dia = '13';
 										$mes = 'Jun';
@@ -213,8 +207,8 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Road To Download" class="linkImg"
-										src="/resources/imagens/videos/lptv/road-to-download.jpg">
-										<label class="nomeLink">Road To Download</label>
+										src="/resources/imagens/videos/lptv/road-to-download.jpg"> <label
+										class="nomeLink">Road To Download</label>
 									</a>
 								</div>
 							</td>
@@ -227,7 +221,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/europe-pt3/">
+									<a class="link" href="2015/europe-pt3">
 										<?php
 										$dia = '13';
 										$mes = 'Nov';
@@ -242,7 +236,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/europe-pt2/">
+									<a class="link" href="2015/europe-pt2">
 										<?php
 										$dia = '25';
 										$mes = 'Out';
@@ -257,7 +251,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/europe-pt1/">
+									<a class="link" href="2015/europe-pt1">
 										<?php
 										$dia = '24';
 										$mes = 'Out';
@@ -274,7 +268,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/welcome-demo/">
+									<a class="link" href="2015/welcome-demo">
 										<?php
 										$dia = '22';
 										$mes = 'Set';
@@ -282,14 +276,14 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="WELCOME (DEMO)" class="linkImg"
-										src="/resources/imagens/videos/lptv/welcome-demo.jpg">
-										<label class="nomeLink">WELCOME (DEMO)</label>
+										src="/resources/imagens/videos/lptv/welcome-demo.jpg"> <label
+										class="nomeLink">WELCOME (DEMO)</label>
 									</a>
 								</div>
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/a-line-in-the-sand-guitar-solo/">
+									<a class="link" href="2015/a-line-in-the-sand-guitar-solo">
 										<?php
 										$dia = '22';
 										$mes = 'Set';
@@ -306,7 +300,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/viva-mexico/">
+									<a class="link" href="2015/viva-mexico">
 										<?php
 										$dia = '27';
 										$mes = 'Jul';
@@ -323,7 +317,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/welcome-video-shoot-day-2/">
+									<a class="link" href="2015/welcome-video-shoot-day-2">
 										<?php
 										$dia = '11';
 										$mes = 'Jul';
@@ -339,7 +333,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/welcome-video-shoot-day-1/">
+									<a class="link" href="2015/welcome-video-shoot-day-1">
 										<?php
 										$dia = '11';
 										$mes = 'Jul';
@@ -355,7 +349,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/summer-festivals/">
+									<a class="link" href="2015/summer-festivals">
 										<?php
 										$dia = '10';
 										$mes = 'Jul';
@@ -363,8 +357,8 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="SUMMER FESTIVALS AND THE STORM" class="linkImg"
-										src="/resources/imagens/videos/lptv/summer-festivals.jpg">
-										<label class="nomeLink">SUMMER FESTIVALS AND THE STORM</label>
+										src="/resources/imagens/videos/lptv/summer-festivals.jpg"> <label
+										class="nomeLink">SUMMER FESTIVALS AND THE STORM</label>
 									</a>
 								</div>
 							</td>
@@ -372,7 +366,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/a-line-in-the-sand/">
+									<a class="link" href="2015/a-line-in-the-sand">
 										<?php
 										$dia = '10';
 										$mes = 'Jul';
@@ -380,14 +374,14 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="Drawbar Feat. Tom Morello" class="linkImg"
-										src="/resources/imagens/videos/lptv/a-line-in-the-sand.jpg">
-										<label class="nomeLink">A LINE IN THE SAND</label>
+										src="/resources/imagens/videos/lptv/a-line-in-the-sand.jpg"> <label
+										class="nomeLink">A LINE IN THE SAND</label>
 									</a>
 								</div>
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/drawbar-feat-tom-morello/">
+									<a class="link" href="2015/drawbar-feat-tom-morello">
 										<?php
 										$dia = '1';
 										$mes = 'Maio';
@@ -402,7 +396,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/true-chainz/">
+									<a class="link" href="2015/true-chainz">
 										<?php
 										$dia = '20';
 										$mes = 'Abril';
@@ -420,7 +414,7 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2015/chester-breaks-his-ankle/">
+									<a class="link" href="2015/chester-breaks-his-ankle">
 										<?php
 										$dia = '16';
 										$mes = 'Mar';
@@ -436,8 +430,7 @@
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2015/the-hunting-party-tour-europe-part3/">
+									<a class="link" href="2015/the-hunting-party-tour-europe-part3">
 										<?php
 										$dia = '8';
 										$mes = 'Fev';

@@ -64,7 +64,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 </head>
 <body>
 	<?php
-	include_once '../template/header.php';
+	include_once 'header.php';
 	include_once("../analyticstracking.php")
 	?>
 	
@@ -106,7 +106,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
     </section>
     
     	<?php
-					include_once '../template/footer.php';
+					include_once 'footer.php';
 					?>
 </body>
 </html>

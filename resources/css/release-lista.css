@@ -8,10 +8,12 @@
 
 .panelGrid {
 	margin: 0 auto;
+	table-layout: fixed;
 }
 
 .link {
 	bottom: -2px;
+	
 }
 
 td {
@@ -27,20 +29,6 @@ td {
 	margin-left: 15px;
 	margin-right: 15px;
 	display: none;
-}
-
-#btn {
-	width: 45px;
-	height: 40px;
-	border: 1px groove gray;
-	margin: 3px;
-	position: relative;
-}
-
-#albuns-lista {
-	columns: 2;
-	-webkit-columns: 2;
-	-moz-columns: 2;
 }
 
 #singles-lista {
@@ -99,30 +87,19 @@ td {
 	background: #D4E157;
 	position: absolute;
 	z-index: 20;
-	border-top-left-radius: 20px;
+	border-top-left-radius : 20px;
 	border-bottom-right-radius: 20px;
 	padding: 0px 5px 0px 5px;
 	text-align: center;
 	text-shadow: 1px 1px 2px white;
 	border: 1px groove white;
 	background: #D4E157;
+	border-top-left-radius: 20px;
 }
 
-/* Para Firefox */
-@
--moz-document url-prefix () { .postData {
-	bottom: 103px;
-}
-
-}
-.pui-tabview-panel {
-	margin: 0 !important;
+.pui-tabview .pui-tabview-panel {
 	padding: 0 !important;
-}
-
-.link {
-	text-decoration: none;
-	position: relative;
+	margin: 0 !important;
 }
 
 .tabs.mobile {
@@ -135,7 +112,8 @@ td {
 }
 
 .musica.menu {
-	display: none; font-size : 18px !important;
+	display: none;
+	font-size: 18px !important;
 	padding: 3px !important;
 	margin: 3px !important;
 	padding: 5px !important;
@@ -224,7 +202,7 @@ td {
 		visibility: visible;
 		opacity: 1;
 		font-size: 18px !important;
-		bottom: 5px;
+		bottom: 10px;
 		text-shadow: 2px 2px 1px black;
 	}
 	#mus-tabView {
@@ -233,9 +211,8 @@ td {
 	.tabs {
 		display: none
 	}
-	#albuns-lista, #singles-lista {
-		columns: 1;
-		-webkit-columns: 1;
-		-moz-columns: 1;
+	.panelGrid tr {
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 }

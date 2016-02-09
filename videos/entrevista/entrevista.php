@@ -6,12 +6,9 @@
 	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
-<script type="text/javascript"
-	src="/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script>
 	$(function() {
 		$('#entrevista-tabView').puitabview();

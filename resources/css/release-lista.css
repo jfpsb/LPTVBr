@@ -12,8 +12,7 @@
 }
 
 .link {
-	bottom: -2px;
-	
+	bottom: -2px;	
 }
 
 td {
@@ -29,12 +28,6 @@ td {
 	margin-left: 15px;
 	margin-right: 15px;
 	display: none;
-}
-
-#singles-lista {
-	columns: 3;
-	-webkit-columns: 3;
-	-moz-columns: 3;
 }
 
 .linkImg {

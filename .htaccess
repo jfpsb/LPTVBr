@@ -55,4 +55,4 @@ RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .? /notfound.php [L]
+RewriteRule .? /notfound.php [L,R=301]

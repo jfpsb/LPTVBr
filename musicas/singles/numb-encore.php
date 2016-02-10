@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="ne-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Numb/Encore</h2>
 			</div>

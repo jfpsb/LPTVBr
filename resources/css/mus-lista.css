@@ -27,17 +27,17 @@
 	margin: 0 auto;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
+	-moz-border-radius: 3px;
 	-webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    background: #E0E0E0;
-    color: #E0E0E0;
-    transition-duration: 0.2s;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    text-decoration: none;
-    color: initial;
+	-moz-appearance: button;
+	appearance: button;
+	background: #E0E0E0;
+	color: #E0E0E0;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	text-decoration: none;
+	color: initial;
 }
 
 .trad-button:hover, .trad-button:focus {
@@ -45,22 +45,24 @@
 	color: black;
 }
 
-.cover-aside {
-	float: right;
-	max-width: 500px;
-}
-
-.table {
+.album.table {
 	border-radius: 7px;
 	width: 100%;
 	float: left;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5);
+	float: left;
+	width: 75%;
+	line-height: 30px !important;
+}
+
+.album.table.asideless {
+	width: 100%;
 }
 
 .table-article {
 	overflow: hidden;
-	padding: 5px;
+	padding: 10px !important;
 }
 
 .mus-table {
@@ -69,15 +71,78 @@
 	padding-right: 50px;
 }
 
-@media all and (max-width: 650px) {	
+.release.table {
+	background: #EEEEEE;
+	color: black;
+	border: 1px solid #424242 !important;
+	border-radius: 3px;
+	width: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 15px;
+	text-shadow: 1px 1px 3px white;
+}
+
+.release.table td {
+	padding-left: 7px;
+	padding-right: 7px;
+	border-bottom: 1px groove #BDBDBD;
+}
+
+.release.table .main {
+	text-weight: bold;
+	font-weight: bold;
+}
+
+.release.image {
+	width: 100%;
+	border-radius: 5px;
+	border: 1px groove #BDBDBD;
+}
+
+.release.aside {
+	float: right;
+	width: 24%
+}
+
+@media all and (max-width: 550px) {
+	.release.aside {
+		float: none;
+		width: 100%;
+		margin: 10px auto;
+	}
+	
+	.release.table {
+		font-size: 15px;
+	}
+	
+	.album.table {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 670px) {
 	.mus-table {
 		padding: 0;
 		margin: 0;
 	}
-	
 	.mus-table td {
 		border: none;
 		width: auto;
 		text-align: center;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.release.table td {
+		border: none;
+		position: relative;
+	}
+	.release.table tr {
+		border-bottom: 1px groove #eee;
+		padding: 15px;
+	}
+	.release.table table, .release.table thead, .release.table tbody, .release.table th, .release.table td, .release.table tr {
+		display: block;
 	}
 }

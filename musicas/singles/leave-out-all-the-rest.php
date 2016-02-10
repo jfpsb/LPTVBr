@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="loatr-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Leave Out All The Rest</h2>
 			</div>

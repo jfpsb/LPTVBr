@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/resources/imagens/albuns/mtm250.jpg"
+	<img src="/resources/imagens/albuns/cover250/mtm250.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../minutes-to-midnight/">Voltar ao Minutes To
 		Midnight</a>

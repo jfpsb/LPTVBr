@@ -6,7 +6,7 @@
 <body>
 
 	<article id="pts-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Pts.Of.Athrty</h2>
 			</div>

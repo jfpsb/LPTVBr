@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="bth-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Breaking The Habit</h2>
 			</div>

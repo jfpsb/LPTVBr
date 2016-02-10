@@ -5,7 +5,7 @@
 </head>
 <body>
 		<article id="bio-article" class="table-article">
-			<div class="table">
+			<div class="album table asideless">
 				<div class="panel-header">
 					<h2 class="header">Bleed It Out</h2>
 				</div>

@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/resources/imagens/albuns/thp250.jpg"
+	<img src="/resources/imagens/albuns/cover250/thp250.jpg"
 		class="album-cover"> <div align="center"><a class="album-link"
 		href="../the-hunting-party/">Voltar ao The Hunting Party</a></div>
 	<ol class="album-lista">

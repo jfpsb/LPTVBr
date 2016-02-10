@@ -1,4 +1,5 @@
 {
+	"artista": "Linkin Park",
 	"a-light-that-never-comes":
 	{
 		"altnc-angger":
@@ -50,7 +51,14 @@
 			"lyricTitle": "a-light-that-never-comes",
 			"lyricAlbum": ""
 		},
-		"album": "A Light That Never Comes (Remixes)"
+		"album": "A Light That Never Comes (Remixes)",
+		"lancamento": "21 de janeiro de 2014",
+		"datetime": "2014-01-21",
+		"duracaoiso": "P33M48S",
+		"duracao": "33:48",
+		"numMus": "7",
+		"gravadora": "Warner Bros., Dim Mak",
+		"icone": "a-light-that-never-comes"
 	},
 	"8bit-rebellion":
 	{
@@ -60,7 +68,14 @@
 			"videoId": "QPvx6C6BgfM",
 			"lyricAlbum": ""
 		},
-		"album": "8-Bit Rebellion"
+		"album": "8-Bit Rebellion",
+		"lancamento": "26 de abril de 2010",
+		"datetime": "2010-04-26",
+		"duracaoiso": "P30M54S",
+		"duracao": "30:54 (Lista Original)",
+		"numMus": "13 (Lista Original)",
+		"gravadora": "Warner Bros., Machine Shop",
+		"icone": "8bit-rebellion"
 	},
 	"reanimation":
 	{
@@ -184,7 +199,14 @@
 			"videoId": "PzWc5DOj7CU",
 			"lyricAlbum": "reanimation"
 		},
-		"album": "Reanimation"
+		"album": "Reanimation",
+		"lancamento": "29 de julho de 2002",
+		"datetime": "2002-07-29",
+		"duracaoiso": "P61M00S",
+		"duracao": "61:00",
+		"numMus": "20",
+		"gravadora": "Warner Bros. Records",
+		"icone": "reanimation"
 	},
 	"recharged":
 	{
@@ -276,6 +298,13 @@
 			"videoId": "pGkBwCHgydU",
 			"lyricAlbum": "reanimation"
 		},
-		"album": "Recharged"
+		"album": "Recharged",
+		"lancamento": "29 de outubro de 2013",
+		"datetime": "2013-10-29",
+		"duracaoiso": "P68M43S",
+		"duracao": "68:43",
+		"numMus": "14",
+		"gravadora": "Warner Bros. Records",
+		"icone": "recharged"
 	}
 }

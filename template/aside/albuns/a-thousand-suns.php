@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/resources/imagens/albuns/ats250.jpg"
+	<img src="/resources/imagens/albuns/cover250/ats250.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../a-thousand-suns/">Voltar ao A Thousand Suns</a>
 	<ol class="album-lista">

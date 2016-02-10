@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="recharged-article" class="table-article">
-		<div class="table">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Recharged</h2>
 			</div>
@@ -86,7 +86,7 @@
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
-
 </body>
 </html>

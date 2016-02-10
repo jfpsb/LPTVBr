@@ -1,4 +1,5 @@
 {
+	"artista": "Linkin Park",
 	"the-hunting-party": 
 	{
 		"keys-to-the-kingdom": {
@@ -49,7 +50,14 @@
 			"title": "A Line In The Sand",
 			"videoId": "FkDrVL8Tsuw"
 		},
-		"album": "The Hunting Party"
+		"album": "The Hunting Party",
+		"lancamento": "13 de junho de 2014",
+		"datetime": "2014-06-13",
+		"duracaoiso": "P45M12S",
+		"duracao": "45:12",
+		"numMus": "12",
+		"gravadora": "Machine Shop, Warner Bros.",
+		"icone": "thp250"
 	},
 	"a-thousand-suns": {
 		"blackout": {
@@ -112,7 +120,14 @@
 			"title": "Wretches And Kings",
 			"videoId": "er-TinIKvCw"
 		},
-		"album": "A Thousand Suns"
+		"album": "A Thousand Suns",
+		"lancamento": "14 de setembro de 2010",
+		"datetime": "2010-09-14",
+		"duracaoiso": "P47M56S",
+		"duracao": "47:56",
+		"numMus": "15",
+		"gravadora": "Machine Shop, Warner Bros.",
+		"icone": "ats250"
 	},
 	"collision-course":
 	{
@@ -140,7 +155,14 @@
 			"title": "Points Of Authority/99 Problems/One Step Closer",
 			"videoId": "kBnJnXq4YQ8"
 		},
-		"album": "Collision Course"
+		"album": "Collision Course",
+		"lancamento": "30 de novembro de 2004",
+		"datetime": "2004-11-30",
+		"duracaoiso": "P21M18S",
+		"duracao": "21:18",
+		"numMus": "6",
+		"gravadora": "Rock-A-Fella, Machine Shop, Warner Bros., Def Jam",
+		"icone": "cc250"
 	},
 	"hybrid-theory":
 	{
@@ -192,7 +214,14 @@
 			"title": "With You",
 			"videoId": "M8UTS2iFXOo"
 		},
-		"album": "Hybrid Theory"
+		"album": "Hybrid Theory",
+		"lancamento": "24 de outubro de 2000",
+		"datetime": "2000-10-24",
+		"duracaoiso": "P37M40S",
+		"duracao": "37:40",
+		"numMus": "12",
+		"gravadora": "Warner Bros.",
+		"icone": "ht250"
 	},
 	"live-in-texas":
 	{
@@ -256,7 +285,14 @@
 			"videoId": "ukFZN8QKPUw",
 			"lyricAlbum": "meteora"
 		},
-		"album": "Live In Texas"
+		"album": "Live In Texas",
+		"lancamento": "18 de novembro de 2003",
+		"datetime": "2003-11-18",
+		"duracaoiso": "P41M40S",
+		"duracao": "41:40",
+		"numMus": "12",
+		"gravadora": "Warner Reprise Video, Warner Bros. Records, Machine Shop Recordings",
+		"icone": "lit250"
 	},
 	"living-things":
 	{
@@ -308,7 +344,14 @@
 			"title": "Victimized",
 			"videoId": "-6eUCOFXuxo"
 		},
-		"album": "Living Things"
+		"album": "Living Things",
+		"lancamento": "26 de junho de 2012",
+		"datetime": "2012-06-26",
+		"duracaoiso": "P36M59S",
+		"duracao": "36:59",
+		"numMus": "12",
+		"gravadora": "Warner Bros.",
+		"icone": "lt250"
 	},
 	"meteora":
 	{
@@ -364,7 +407,14 @@
 			"title": "Somewhere I Belong",
 			"videoId": "zsCD5XCu6CM"
 		},
-		"album": "Meteora"
+		"album": "Meteora",
+		"lancamento": "18 de novembro de 2003",
+		"datetime": "2003-11-18",
+		"duracaoiso": "P36M43S",
+		"duracao": "36:43",
+		"numMus": "13",
+		"gravadora": "Warner Bros. Records",
+		"icone": "mt250"
 	},
 	"minutes-to-midnight":
 	{
@@ -416,7 +466,14 @@
 			"title": "What I've Done",
 			"videoId": "8sgycukafqQ"
 		},
-		"album": "Minutes To Midnight"
+		"album": "Minutes To Midnight",
+		"lancamento": "14 de maio de 2007",
+		"datetime": "2007-05-14",
+		"duracaoiso": "P43M30S",
+		"duracao": "43:30",
+		"numMus": "12",
+		"gravadora": "Warner Bros., Machine Shop Recordings",
+		"icone": "mtm250"
 	},
 	"road-to-revolution":
 	{
@@ -510,6 +567,13 @@
 			"videoId": "VVCT_k_X9Tg",
 			"lyricAlbum": "minutes-to-midnight"
 		},
-		"album": "Road To Revolution"
+		"album": "Road To Revolution",
+		"lancamento": "21 de novembro de 2008",
+		"datetime": "2008-11-21",
+		"duracaoiso": "P87M36S",
+		"duracao": "87:36",
+		"numMus": "18",
+		"gravadora": "Warner Brothers Records, Machine Shop Recordings, Warner Reprise Video",
+		"icone": "rtr250"
 	}
 }

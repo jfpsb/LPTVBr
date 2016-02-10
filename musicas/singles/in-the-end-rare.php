@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="iter-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">In The End: Live And Rare</h2>
 			</div>

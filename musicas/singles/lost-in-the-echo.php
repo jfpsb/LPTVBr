@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="lite-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Lost In The Echo</h2>
 			</div>

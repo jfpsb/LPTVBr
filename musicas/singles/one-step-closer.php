@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="osc-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">One Step Closer</h2>
 			</div>

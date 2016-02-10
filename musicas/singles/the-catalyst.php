@@ -6,7 +6,7 @@
 <body>
 
 	<article id="catalyst-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">The Catalyst</h2>
 			</div>

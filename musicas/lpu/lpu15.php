@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="lpu15-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">LP Underground 15</h2>
 			</div>

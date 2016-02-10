@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="sftu-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Songs From The Underground</h2>
 			</div>

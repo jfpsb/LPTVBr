@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="nei-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Numb/Encore (iTunes EP)</h2>
 			</div>

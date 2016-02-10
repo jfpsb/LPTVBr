@@ -1,11 +1,30 @@
 <?php
-$filepath = 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET['tipo'] . ".json"; 
-$str = file_get_contents ($filepath);
-$str = utf8_encode($str);
+$tipo = $_GET ['tipo'];
+$filepath = 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $tipo . ".json";
+$str = file_get_contents ( $filepath );
+$str = utf8_encode ( $str );
 
-$release = json_decode($str, true);
+$release = json_decode ( $str, true );
 
-$page_title = $release[$_GET['album']]['album'] . ' : LinkinParkTVBr';
+$albumName = $release [$_GET ['album']] ['album'];
+
+$page_title = $albumName . ' : LinkinParkTVBr';
+if (isset ( $release ['artista'] ))
+	$artista = $release ['artista'];
+if (isset ( $release [$_GET ['album']] ['lancamento'] ))
+	$lancamento = $release [$_GET ['album']] ['lancamento'];
+if (isset ( $release [$_GET ['album']] ['duracaoiso'] ))
+	$duracaoiso = $release [$_GET ['album']] ['duracaoiso'];
+if (isset ( $release [$_GET ['album']] ['duracao'] ))
+	$duracao = $release [$_GET ['album']] ['duracao'];
+if (isset ( $release [$_GET ['album']] ['numMus'] ))
+	$numMus = $release [$_GET ['album']] ['numMus'];
+if (isset ( $release [$_GET ['album']] ['gravadora'] ))
+	$gravadora = $release [$_GET ['album']] ['gravadora'];
+if (isset ( $release [$_GET ['album']] ['icone'] ))
+	$icone = $release [$_GET ['album']] ['icone'];
+if (isset ( $release [$_GET ['album']] ['datetime'] ))
+	$datetime = $release [$_GET ['album']] ['datetime'];
 
 ?>
 
@@ -15,20 +34,25 @@ $page_title = $release[$_GET['album']]['album'] . ' : LinkinParkTVBr';
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link id="favicon" href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"></link>
-<link rel="stylesheet" type="text/css" href="/resources/css/letra-musica.css">
+<link id="favicon" href="/favicon.ico" rel="shortcut icon"
+	type="image/vnd.microsoft.icon"></link>
+<link rel="stylesheet" type="text/css"
+	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
-<link rel="stylesheet" type="text/css" href="/resources/css/template.css">
+<link rel="stylesheet" type="text/css"
+	href="/resources/css/template.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
-<link rel="stylesheet" type="text/css" href="/resources/css/mus-lista.css">
-<link rel="stylesheet" type="text/css" href="/resources/css/mus-lista-bg.css">
+<link rel="stylesheet" type="text/css"
+	href="/resources/css/mus-lista.css">
+<link rel="stylesheet" type="text/css"
+	href="/resources/css/mus-lista-bg.css">
 <title><?php echo $page_title ?></title>
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
@@ -42,8 +66,7 @@ $page_title = $release[$_GET['album']]['album'] . ' : LinkinParkTVBr';
 <body>
 	<?php
 	include_once 'header.php';
-	include_once("../analyticstracking.php")
-	?>
+	include_once ("../analyticstracking.php")?>
 	
 	<section id="main-section" class="body-section">
 	

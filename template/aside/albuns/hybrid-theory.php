@@ -1,5 +1,5 @@
 <div class="album-panel">
-	<img src="/resources/imagens/albuns/ht250.jpg"
+	<img src="/resources/imagens/albuns/cover250/ht250.jpg"
 		class="album-cover"> <a class="album-link"
 		href="../hybrid-theory/">Voltar ao Hybrid Theory</a>
 	<ol class="album-lista">

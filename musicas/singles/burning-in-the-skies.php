@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="bits-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">Burning In The Skies</h2>
 			</div>

@@ -6,7 +6,7 @@
 <body>
 	
 		<article id="fti-article" class="table-article">
-			<div class="table">
+			<div class="album table asideless">
 				<div class="panel-header">
 					<h2 class="header">From The Inside</h2>
 				</div>

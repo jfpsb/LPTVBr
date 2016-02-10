@@ -5,7 +5,7 @@
 </head>
 <body>
 		<article id="lpu1-article" class="table-article">
-			<div class="table">
+			<div class="album table asideless">
 				<div class="panel-header">
 					<h2 class="header">Hybrid Theory EP (LPU 1)</h2>
 				</div>

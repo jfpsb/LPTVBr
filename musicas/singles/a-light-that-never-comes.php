@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="altnc-article" class="table-article">
-		<div class="table">
+		<div class="album table asideless">
 			<div class="panel-header">
 				<h2 class="header">A Light That Never Comes</h2>
 			</div>

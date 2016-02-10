@@ -5,7 +5,7 @@
 </head>
 <body>
 		<article id="bid-article" class="table-article">
-			<div class="album table asideless">
+			<div class="album table">
 				<div class="panel-header">
 					<h2 class="header">Burn It Down</h2>
 				</div>
@@ -14,10 +14,11 @@
 						<td>1.</td>
 						<td>Burn It Down</td>
 						<td id="button-td"><a class="trad-button"
-							href="/singles/burn-it-down/burn-it-down/">Tradução</a></td>
+							href="/singles/burn-it-down/burn-it-down">Tradução</a></td>
 					</tr>
 				</table>
 			</div>
+			<?php include_once ('../template/albumInfo.php');?>
 		</article>
 </body>
 </html>

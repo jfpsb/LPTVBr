@@ -6,7 +6,7 @@
 </head>
 <body>
 	<article id="cog-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Castle Of Glass</h2>
 			</div>
@@ -15,16 +15,17 @@
 					<td>1.</td>
 					<td>Castle Of Glass</td>
 					<td id="button-td"><a class="trad-button"
-						href="/singles/castle-of-glass/castle-of-glass/">Tradução</a></td>
+						href="/singles/castle-of-glass/castle-of-glass">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>1.</td>
 					<td>Lost In The Echo (Killsonik Remix)</td>
 					<td id="button-td"><a class="trad-button"
-						href="/singles/castle-of-glass/lost-in-the-echo-k-remix/">Tradução</a></td>
+						href="/singles/castle-of-glass/lost-in-the-echo-k-remix">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-
 	<article id="sotd-article" class="table-article">
 		<div class="album table asideless">
 			<div class="panel-header">
@@ -24,6 +23,5 @@
 			</table>
 		</div>
 	</article>
-
 </body>
 </html>

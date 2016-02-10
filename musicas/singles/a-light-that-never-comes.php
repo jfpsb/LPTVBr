@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="altnc-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">A Light That Never Comes</h2>
 			</div>
@@ -14,10 +14,11 @@
 					<td>1.</td>
 					<td>A Light That Never Comes</td>
 					<td id="button-td"><a class="trad-button"
-						href="/singles/a-light-that-never-comes/a-light-that-never-comes/">Tradução</a></td>
+						href="/singles/a-light-that-never-comes/a-light-that-never-comes">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

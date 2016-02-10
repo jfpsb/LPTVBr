@@ -1,4 +1,5 @@
 {
+	"artista": "Linkin Park",
 	"a-light-that-never-comes":
 	{
 		"a-light-that-never-comes":
@@ -7,7 +8,14 @@
 			"videoId": "ToHo29kD9Go",
 			"lyricAlbum": ""
 		},
-		"album": "A Light That Never Comes"
+		"album": "A Light That Never Comes",
+		"lancamento": "11 de outubro de 2013",
+		"datetime": "2013-10-13",
+		"duracaoiso": "P3M49S",
+		"duracao": "3:49",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "a-light-that-never-comes"
 	},
 	"bleed-it-out":
 	{
@@ -29,7 +37,14 @@
 			"videoId": "Q7_HNQK0_u4",
 			"lyricAlbum": "minutes-to-midnight"
 		},
-		"album": "Bleed It Out"
+		"album": "Bleed It Out",
+		"lancamento": "20 de agosto de 2007",
+		"datetime": "2007-08-20",
+		"duracaoiso": "P9M39S",
+		"duracao": "9:39",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "bleed-it-out"
 	},
 	"breaking-the-habit":
 	{
@@ -45,7 +60,14 @@
 			"videoId": "mAaNOqaeyf8",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"album": "Breaking The Habit"
+		"album": "Breaking The Habit",
+		"lancamento": "22 de junho de 2004",
+		"datetime": "2004-06-22",
+		"duracaoiso": "P3M16S",
+		"duracao": "3:16",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "breaking-the-habit"
 	},
 	"burn-it-down":
 	{
@@ -55,7 +77,14 @@
 			"videoId": "dxytyRy-O1k",
 			"lyricAlbum": "living-things"
 		},
-		"album": "Burn It Down"
+		"album": "Burn It Down",
+		"lancamento": "16 de abril de 2012",
+		"datetime": "2012-04-16",
+		"duracaoiso": "P3M51S",
+		"duracao": "3:51",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "burn-it-down"
 	},
 	"burning-in-the-skies":
 	{
@@ -77,7 +106,14 @@
 			"videoId": "5tpEjHTVkMU",
 			"lyricAlbum": "a-thousand-suns"
 		},
-		"album": "Burning In The Skies"
+		"album": "Burning In The Skies",
+		"lancamento": "21 de março de 2011",
+		"datetime": "2011-03-21",
+		"duracaoiso": "P4M13S",
+		"duracao": "4:13",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "burning-in-the-skies"
 	},
 	"castle-of-glass":
 	{
@@ -93,7 +129,14 @@
 			"videoId": "mkpeaBcjyYA",
 			"lyricAlbum": ""
 		},
-		"album": "Burning In The Skies"
+		"album": "Burning In The Skies",
+		"lancamento": "2 de fevereiro de 2013",
+		"datetime": "2013-02-02",
+		"duracaoiso": "P3M25S",
+		"duracao": "3:25",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "castle-of-glass"
 	},
 	"crawling":
 	{
@@ -109,7 +152,14 @@
 			"videoId": "wOZomGkVJuo",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"album": "Crawling"
+		"album": "Crawling",
+		"lancamento": "17 de abril de 2001",
+		"datetime": "2001-04-17",
+		"duracaoiso": "P3M29S",
+		"duracao": "3:29",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "crawling"
 	},
 	"download-haiti":
 	{
@@ -119,7 +169,14 @@
 			"videoId": "lrbL1s9qwBs",
 			"lyricAlbum": ""
 		},
-		"album": "Download To Donate For Haiti"
+		"album": "Download To Donate For Haiti",
+		"lancamento": "21 de outubro de 2011",
+		"datetime": "2011-10-21",
+		"duracaoiso": "P4M12S",
+		"duracao": "4:12",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "download-haiti"
 	},
 	"download-tsunami":
 	{
@@ -129,7 +186,14 @@
 			"videoId": "haBcJCzT3As",
 			"lyricAlbum": ""
 		},
-		"album": "Download To Donate: Tsunami Relief"
+		"album": "Download To Donate: Tsunami Relief",
+		"lancamento": "22 de março de 2011",
+		"datetime": "2011-03-22",
+		"duracaoiso": "P3M51S",
+		"duracao": "3:51",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "download-tsunami"
 	},
 	"faint":
 	{
@@ -144,7 +208,14 @@
 			"videoId": "F7nRgIraqVo",
 			"lyricAlbum": "meteora"
 		},
-		"album": "Faint"
+		"album": "Faint",
+		"lancamento": "1 de julho de 2003",
+		"datetime": "2003-07-1",
+		"duracaoiso": "P2M42S",
+		"duracao": "2:42",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "faint"
 	},
 	"final-masquerade":
 	{
@@ -154,7 +225,14 @@
 			"videoId": "i8q8fFs3kTM",
 			"lyricAlbum": "the-hunting-party"
 		},
-		"album": "Final Masquerade"
+		"album": "Final Masquerade",
+		"lancamento": "8 de junho de 2014",
+		"datetime": "2014-06-08",
+		"duracaoiso": "P3M37S",
+		"duracao": "3:37",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "final-masquerade"
 	},
 	"from-the-inside":
 	{
@@ -177,7 +255,14 @@
 			"videoId": "nWWeTIc1l6s",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"album": "From The Inside"
+		"album": "From The Inside",
+		"lancamento": "12 de janeiro de 2004",
+		"datetime": "2004-01-12",
+		"duracaoiso": "P2M55S",
+		"duracao": "2:55",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "from-the-inside"
 	},
 	"given-up":
 	{

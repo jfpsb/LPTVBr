@@ -18,8 +18,7 @@
 				<tr>
 					<td>2.</td>
 					<td>Numb/Encore (Clean)</td>
-					<td id="button-td"><a class="trad-button"
-						href="numb-encore-clean">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="numb-encore-clean">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>3.</td>
@@ -42,8 +41,7 @@
 				<tr>
 					<td>6.</td>
 					<td>Bonus Beat</td>
-					<td id="button-td"><a class="trad-button"
-						href="bonus-beat">Tradução</a></td>
+					<td id="button-td"><a class="trad-button" href="bonus-beat">Tradução</a></td>
 				</tr>
 			</table>
 		</div>

@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="lpu13-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">LP Underground 13</h2>
 			</div>
@@ -72,6 +72,7 @@
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

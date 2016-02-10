@@ -1,4 +1,5 @@
 {
+	"artista": "Linkin Park",
 	"a-decade-underground": {
 		"across-the-line": {
 			"title": "Across The Line (Unreleased DEMO 2007)",
@@ -50,7 +51,14 @@
 			"videoId": "oL5dAxvoMaU",
 			"lyricAlbum": "lpu"
 		},
-		"album": "A Decade Underground"
+		"album": "A Decade Underground",
+		"lancamento": "10 de agosto de 2010",
+		"datetime": "2010-08-10",
+		"duracaoiso": "P43M00S",
+		"duracao": "43:00",
+		"numMus": "10",
+		"gravadora": "Machine Shop",
+		"icone": "a-decade-underground"
 	},
 	"lpu1":
 	{
@@ -84,7 +92,14 @@
 			"videoId": "gBY3uBZhqRE",
 			"lyricAlbum": "lpu"
 		},
-		"album": "Hybrid Theory EP (LPU 1)"
+		"album": "Hybrid Theory EP (LPU 1)",
+		"lancamento": "19 de maio 1999",
+		"datetime": "1999-05-19",
+		"duracaoiso": "P29M19S",
+		"duracao": "29:19",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu1"
 	},
 	"lpu2":
 	{
@@ -118,7 +133,14 @@
 			"videoId": "DINYPRhvoZM",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 2"
+		"album": "LP Underground 2",
+		"lancamento": "18 de novembro 2002",
+		"datetime": "2002-11-18",
+		"duracaoiso": "P20M43S",
+		"duracao": "20:43",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu2"
 	},
 	"lpu3":
 	{
@@ -147,7 +169,14 @@
 			"videoId": "S0Cyvr_1_gA",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"album": "LP Underground 3"
+		"album": "LP Underground 3",
+		"lancamento": "17 de novembro 2003",
+		"datetime": "2003-11-17",
+		"duracaoiso": "P17M20S",
+		"duracao": "17:20",
+		"numMus": "5",
+		"gravadora": "Machine Shop",
+		"icone": "lpu3"
 	},
 	"lpu4":
 	{
@@ -181,7 +210,14 @@
 			"videoId": "QreOJmsVC6E",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 4"
+		"album": "LP Underground 4",
+		"lancamento": "22 de novembro 2004",
+		"datetime": "2004-11-24",
+		"duracaoiso": "P29M19S",
+		"duracao": "24:14",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu4"
 	},
 	"lpu5":
 	{
@@ -215,7 +251,14 @@
 			"videoId": "uvGvpJ1n3dU",
 			"lyricAlbum": "meteora"
 		},
-		"album": "LP Underground 5"
+		"album": "LP Underground 5",
+		"lancamento": "21 de novembro 2005",
+		"datetime": "2005-11-21",
+		"duracaoiso": "P20M40S",
+		"duracao": "20:40",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu5"
 	},
 	"lpu6":
 	{
@@ -249,7 +292,14 @@
 			"videoId": "8qjgVqY0gPM",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 6"
+		"album": "LP Underground 6",
+		"lancamento": "05 de dezembro 2006",
+		"datetime": "2006-12-05",
+		"duracaoiso": "P21M45S",
+		"duracao": "21:45",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu6"
 	},
 	"lpu7":
 	{
@@ -303,7 +353,14 @@
 			"videoId": "nnAcxTXn_eQ",
 			"lyricAlbum": "minutes-to-midnight"
 		},
-		"album": "LP Underground 7"
+		"album": "LP Underground 7",
+		"lancamento": "05 de dezembro 2007",
+		"datetime": "2007-12-05",
+		"duracaoiso": "P43M17S",
+		"duracao": "43:17",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu7"
 	},
 	"lpu8":
 	{
@@ -337,7 +394,14 @@
 			"videoId": "55zxp_3jqCg",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 8"
+		"album": "LP Underground 8",
+		"lancamento": "04 de dezembro 2008",
+		"datetime": "2008-12-04",
+		"duracaoiso": "P10M20S",
+		"duracao": "10:20",
+		"numMus": "6",
+		"gravadora": "Warner Bros.",
+		"icone": "lpu8"
 	},
 	"lpu9":
 	{
@@ -386,7 +450,14 @@
 			"videoId": "0CxJ71Vm2Ws",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 9"
+		"album": "LP Underground 9",
+		"lancamento": "23 de novembro 2009",
+		"datetime": "2009-11-23",
+		"duracaoiso": "P26M47S",
+		"duracao": "26:47",
+		"numMus": "9",
+		"gravadora": "Machine Shop",
+		"icone": "lpu9"
 	},
 	"lpu10":
 	{
@@ -440,7 +511,14 @@
 			"videoId": "hMmoV6VBbLE",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground X"
+		"album": "LP Underground X",
+		"lancamento": "17 de novembro 2010",
+		"datetime": "2010-11-17",
+		"duracaoiso": "P34M30S",
+		"duracao": "34:30",
+		"numMus": "10",
+		"gravadora": "Machine Shop",
+		"icone": "lpu10"
 	},
 	"lpu11":
 	{
@@ -494,7 +572,14 @@
 			"videoId": "U-vE0N_eWtM",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 11"
+		"album": "LP Underground 11",
+		"lancamento": "15 de novembro 2011",
+		"datetime": "2011-11-15",
+		"duracaoiso": "P32M12S",
+		"duracao": "32:12",
+		"numMus": "10",
+		"gravadora": "Machine Shop",
+		"icone": "lpu11"
 	},
 	"lpu12":
 	{
@@ -548,7 +633,14 @@
 			"videoId": "hXltnS-M17o",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 12"
+		"album": "LP Underground 12",
+		"lancamento": "16 de novembro 2012",
+		"datetime": "2012-11-16",
+		"duracaoiso": "P31M16S",
+		"duracao": "31:16",
+		"numMus": "10",
+		"gravadora": "Machine Shop",
+		"icone": "lpu12"
 	},
 	"lpu13":
 	{
@@ -612,7 +704,14 @@
 			"videoId": "keN_YLjQW8s",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground XIII"
+		"album": "LP Underground XIII",
+		"lancamento": "18 de novembro 2013",
+		"datetime": "2013-11-18",
+		"duracaoiso": "P44M50S",
+		"duracao": "44:50",
+		"numMus": "12",
+		"gravadora": "Machine Shop",
+		"icone": "lpu13"
 	},
 	"lpu14":
 	{
@@ -666,7 +765,14 @@
 			"videoId": "bIPwhomc8UE",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground XIV"
+		"album": "LP Underground XIV",
+		"lancamento": "21 de novembro 2014",
+		"datetime": "2014-11-21",
+		"duracaoiso": "P29M48S",
+		"duracao": "29:48",
+		"numMus": "10",
+		"gravadora": "Machine Shop",
+		"icone": "lpu14"
 	},
 	"lpu15":
 	{
@@ -700,7 +806,14 @@
 			"videoId": "gEuGx7S-Z4c",
 			"lyricAlbum": "lpu"
 		},
-		"album": "LP Underground 15"
+		"album": "LP Underground 15",
+		"lancamento": "25 de novembro 2015",
+		"datetime": "2015-11-25",
+		"duracaoiso": "P13M54S",
+		"duracao": "13:54",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"icone": "lpu15"
 	},
 	"songs-from-the-underground":
 	{
@@ -744,6 +857,13 @@
 			"videoId": "IO0s-FRJlgw",
 			"lyricAlbum": "lpu"
 		},
-		"album": "Songs From The Underground"
+		"album": "Songs From The Underground",
+		"lancamento": "28 de novembro 2008",
+		"datetime": "2008-11-28",
+		"duracaoiso": "P36M45S",
+		"duracao": "36:45",
+		"numMus": "8",
+		"gravadora": "Warner Brothers Records e Machine Shop Recordings",
+		"icone": "songs-from-the-underground"
 	}
 }

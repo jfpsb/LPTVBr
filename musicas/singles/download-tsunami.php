@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="tsunami-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Download To Donate: Tsunami Relief</h2>
 			</div>
@@ -14,10 +14,11 @@
 					<td>1.</td>
 					<td>Issho Ni</td>
 					<td id="button-td"><a class="trad-button"
-						href="/singles/download-tsunami/issho-ni/">Tradução</a></td>
+						href="/singles/download-tsunami/issho-ni">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

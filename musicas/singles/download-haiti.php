@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="haiti-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Download To Donate For Haiti</h2>
 			</div>
@@ -13,10 +13,12 @@
 				<tr>
 					<td>1.</td>
 					<td>Not Alone</td>
-					<td id="button-td"><a class="trad-button" href="/singles/download-haiti/not-alone/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button"
+						href="/singles/download-haiti/not-alone">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

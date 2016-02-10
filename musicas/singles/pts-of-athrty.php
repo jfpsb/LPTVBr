@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-
 	<article id="pts-article" class="table-article">
 		<div class="album table asideless">
 			<div class="panel-header">
@@ -14,7 +13,8 @@
 				<tr>
 					<td>1.</td>
 					<td>Pts.Of.Athrty</td>
-					<td id="button-td"><a class="trad-button" href="points-of-authority">Tradução</a></td>
+					<td id="button-td"><a class="trad-button"
+						href="points-of-authority">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>

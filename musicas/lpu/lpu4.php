@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="lpu4-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">LP Underground 4</h2>
 			</div>
@@ -19,38 +19,32 @@
 				<tr>
 					<td>2.</td>
 					<td>Breaking The Habit (Live)</td>
-					<td id="button-td"><a
-						href="breaking-the-habit"
-						class="trad-button">Tradução</a></td>
+					<td id="button-td"><a href="breaking-the-habit" class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>3.</td>
 					<td>Standing In The Middle (Feat. Motion Man)</td>
-					<td id="button-td"><a
-						href="standing-in-the-middle"
+					<td id="button-td"><a href="standing-in-the-middle"
 						class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>4.</td>
 					<td>Step Up / Nobody's Listening / It's Going Down (Live)</td>
-					<td id="button-td"><a href="step-up"
-						class="trad-button">Tradução</a></td>
+					<td id="button-td"><a href="step-up" class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>5.</td>
 					<td>Wish (Nine Inch Nails Cover) (Live)</td>
-					<td id="button-td"><a href="wish"
-						class="trad-button">Tradução</a></td>
+					<td id="button-td"><a href="wish" class="trad-button">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>6.</td>
 					<td>One Step Closer (Feat. Jonathan Davis Of Korn) (Live)</td>
-					<td id="button-td"><a
-						href="one-step-closer"
-						class="trad-button">Tradução</a></td>
+					<td id="button-td"><a href="one-step-closer" class="trad-button">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

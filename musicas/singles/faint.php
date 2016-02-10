@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="faint-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Faint</h2>
 			</div>
@@ -13,15 +13,18 @@
 				<tr>
 					<td>1.</td>
 					<td>Faint</td>
-					<td id="button-td"><a class="trad-button" href="/singles/faint/faint/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button"
+						href="/singles/faint/faint">Tradução</a></td>
 				</tr>
 				<tr>
 					<td>2.</td>
 					<td>Lying From You (Live)</td>
-					<td id="button-td"><a class="trad-button" href="/singles/faint/lying-from-you/">Tradução</a></td>
+					<td id="button-td"><a class="trad-button"
+						href="/singles/faint/lying-from-you">Tradução</a></td>
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

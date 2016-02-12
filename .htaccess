@@ -55,4 +55,5 @@ RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/?musicas/letras/
 RewriteRule .? /notfound.php [L]

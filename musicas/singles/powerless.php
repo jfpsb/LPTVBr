@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="powerless-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Powerless</h2>
 			</div>
@@ -17,6 +17,7 @@
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 
 </body>

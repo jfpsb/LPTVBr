@@ -278,7 +278,14 @@
 			"videoId": "JFl4wf7hOiw",
 			"lyricAlbum": "minutes-to-midnight"
 		},
-		"album": "Given Up"
+		"album": "Given Up",
+		"lancamento": "3 de março de 2008",
+		"datetime": "2008-03-03",
+		"duracaoiso": "P3M09S",
+		"duracao": "3:09",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "given-up"
 	},
 	"guilty-all-the-same":
 	{
@@ -288,7 +295,14 @@
 			"videoId": "IfnhGW2Q_y0",
 			"lyricAlbum": "the-hunting-party"
 		},
-		"album": "Guilty All The Same"
+		"album": "Guilty All The Same",
+		"lancamento": "6 de março de 2014",
+		"datetime": "2014-03-06",
+		"duracaoiso": "P5M55S",
+		"duracao": "5:55",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "guilty-all-the-same"
 	},
 	"in-the-end":
 	{
@@ -311,7 +325,14 @@
 			"videoId": "emllr2ad95o",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"album": "In The End"
+		"album": "In The End",
+		"lancamento": "9 de outubro de 2001",
+		"datetime": "2001-10-09",
+		"duracaoiso": "P3M36S",
+		"duracao": "3:36",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "in-the-end"
 	},
 	"in-the-end-rare":
 	{
@@ -357,7 +378,14 @@
 			"videoId": "F6lmItFxnNM",
 			"lyricAlbum": ""
 		},
-		"album": "In The End: Live And Rare"
+		"album": "In The End: Live And Rare",
+		"lancamento": "27 de março de 2002",
+		"datetime": "2002-03-27",
+		"duracaoiso": "P24M04S",
+		"duracao": "24:04",
+		"numMus": "7",
+		"gravadora": "Warner Bros.",
+		"icone": "in-the-end-rare"
 	},
 	"in-the-endv2":
 	{
@@ -379,7 +407,14 @@
 			"videoId": "F6lmItFxnNM",
 			"lyricAlbum": ""
 		},
-		"album": "In The End (Version 2)"
+		"album": "In The End (Version 2)",
+		"lancamento": "20 de novembro de 2001",
+		"datetime": "2001-11-20",
+		"duracaoiso": "P10M22S",
+		"duracao": "10:22",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "in-the-endv2"
 	},
 	"iridescent":
 	{
@@ -389,7 +424,14 @@
 			"videoId": "xLYiIBCN9ec",
 			"lyricAlbum": "a-thousand-suns"
 		},		
-		"album": "Iridescent"
+		"album": "Iridescent",
+		"lancamento": "27 de maio de 2011",
+		"datetime": "2011-05-27",
+		"duracaoiso": "P4M56S",
+		"duracao": "04:56",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "iridescent"
 	},
 	"leave-out-all-the-rest":
 	{
@@ -412,7 +454,14 @@
 			"videoId": "yZIummTz9mM",
 			"lyricAlbum": "minutes-to-midnight"
 		},		
-		"album": "Leave Out All The Rest"
+		"album": "Leave Out All The Rest",
+		"lancamento": "25 de agosto de 2008",
+		"datetime": "2008-08-25",
+		"duracaoiso": "P3M29S",
+		"duracao": "03:29",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "leave-out-all-the-rest"
 	},
 	"lost-in-the-echo":
 	{
@@ -428,7 +477,14 @@
 			"videoId": "co4YpHTqmfQ",
 			"lyricAlbum": "living-things"
 		},		
-		"album": "Lost In The Echo"
+		"album": "Lost In The Echo",
+		"lancamento": "19 de outubro de 2012",
+		"datetime": "2012-10-19",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "lost-in-the-echo"
 	},
 	"new-divide":
 	{
@@ -458,7 +514,14 @@
 			"videoId": "ysSxxIqKNN0",
 			"lyricAlbum": ""
 		},		
-		"album": "New Divide"
+		"album": "New Divide",
+		"lancamento": "18 de maio de 2009",
+		"datetime": "2009-05-18",
+		"duracaoiso": "P4M28S",
+		"duracao": "04:28",
+		"numMus": "4",
+		"gravadora": "Reprise",
+		"icone": "lost-in-the-echo"
 	},
 	"numb-encore":
 	{
@@ -474,7 +537,14 @@
 			"videoId": "yNPECkESPbU",
 			"lyricAlbum": "collision-course"
 		},		
-		"album": "Numb/Encore"
+		"album": "Numb/Encore",
+		"lancamento": "13 de dezembro de 2004",
+		"datetime": "2004-12-13",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "2",
+		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
+		"icone": "numb-encore"
 	},
 	"numb-encore-itunes":
 	{
@@ -517,7 +587,14 @@
 			"videoId": "yNPECkESPbU",
 			"lyricAlbum": "collision-course"
 		},		
-		"album": "Numb/Encore (iTunes EP)"
+		"album": "Numb/Encore (iTunes EP)",
+		"lancamento": "13 de dezembro de 2004",
+		"datetime": "2004-12-13",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "6",
+		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
+		"icone": "numb-encore-itunesep"
 	},
 	"numbv1":
 	{
@@ -533,7 +610,14 @@
 			"videoId": "kXYiU_JCYtU",
 			"lyricAlbum": "meteora"
 		},		
-		"album": "Numb (Version 1)"
+		"album": "Numb (Version 1)",
+		"lancamento": "8 de setembro de 2003",
+		"datetime": "2003-09-08",
+		"duracaoiso": "P3M08S",
+		"duracao": "03:08",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "numbv1"
 	},
 	"numbv2":
 	{
@@ -549,7 +633,14 @@
 			"videoId": "kXYiU_JCYtU",
 			"lyricAlbum": "meteora"
 		},		
-		"album": "Numb (Version 2)"
+		"album": "Numb (Version 2)",
+		"lancamento": "8 de setembro de 2003",
+		"datetime": "2003-09-08",
+		"duracaoiso": "P3M08S",
+		"duracao": "03:08",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "numbv2"
 	},
 	"one-step-closer":
 	{
@@ -571,7 +662,14 @@
 			"videoId": "4qlCC1GOwFw",
 			"lyricAlbum": "hybrid-theory"
 		},		
-		"album": "One Step Closer"
+		"album": "One Step Closer",
+		"lancamento": "28 de novembro de 2000",
+		"datetime": "2000-11-28",
+		"duracaoiso": "P2M35S",
+		"duracao": "02:35",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "one-step-closer"
 	},
 	"papercut":
 	{
@@ -594,7 +692,14 @@
 			"videoId": "KT2DkfEft_c",
 			"lyricAlbum": "hybrid-theory"
 		},		
-		"album": "Papercut"
+		"album": "Papercut",
+		"lancamento": "25 de setembro de 2001",
+		"datetime": "2001-09-25",
+		"duracaoiso": "P3M04S",
+		"duracao": "03:04",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "papercut"
 	},
 	"powerless":
 	{
@@ -604,7 +709,14 @@
 			"videoId": "32BOmle7Z6w",
 			"lyricAlbum": "living-things"
 		},		
-		"album": "Powerless"
+		"album": "Powerless",
+		"lancamento": "31 de outubro de 2012",
+		"datetime": "2012-10-31",
+		"duracaoiso": "P3M44S",
+		"duracao": "03:44",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop Recordings",
+		"icone": "powerless"
 	},
 	"pts-of-athrty":
 	{
@@ -626,7 +738,14 @@
 			"videoId": "ApUjxBO0-jo",
 			"lyricAlbum": "reanimation"
 		},		
-		"album": "Pts.Of.Athrty"
+		"album": "Pts.Of.Athrty",
+		"lancamento": "15 de julho de 2002",
+		"datetime": "2002-07-15",
+		"duracaoiso": "P3M39S",
+		"duracao": "03:39",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "pts.of.athrty"
 	},
 	"rebellion":
 	{
@@ -636,7 +755,14 @@
 			"videoId": "OCy5461BtTg",
 			"lyricAlbum": "the-hunting-party"
 		},		
-		"album": "Rebellion"
+		"album": "Rebellion",
+		"lancamento": "4 de junho de 2014",
+		"datetime": "2014-06-04",
+		"duracaoiso": "P3M44S",
+		"duracao": "03:44",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop",
+		"icone": "rebellion"
 	},
 	"shadow-of-the-day":
 	{
@@ -652,7 +778,14 @@
 			"videoId": "n1PCW0C1aiM",
 			"lyricAlbum": "minutes-to-midnight"
 		},		
-		"album": "Shadow Of The Day"
+		"album": "Shadow Of The Day",
+		"lancamento": "30 de outubro de 2007",
+		"datetime": "2007-01-30",
+		"duracaoiso": "P4M54S",
+		"duracao": "04:54",
+		"numMus": "2",
+		"gravadora": "Warner Bros., Machine Shop",
+		"icone": "shadow-of-the-day"
 	},
 	"somewhere-i-belong":
 	{
@@ -674,7 +807,14 @@
 			"videoId": "mmwtvSL0RZA",
 			"lyricAlbum": ""
 		},		
-		"album": "Somewhere I Belong"
+		"album": "Somewhere I Belong",
+		"lancamento": "17 de março de 2003",
+		"datetime": "2003-03-17",
+		"duracaoiso": "P3M33S",
+		"duracao": "03:33",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "somewhere-i-belong"
 	},
 	"the-catalyst":
 	{
@@ -684,7 +824,14 @@
 			"videoId": "51iquRYKPbs",
 			"lyricAlbum": "a-thousand-suns"
 		},		
-		"album": "The Catalyst"
+		"album": "The Catalyst",
+		"lancamento": "2 de agosto de 2010",
+		"datetime": "2010-08-03",
+		"duracaoiso": "P5M42S",
+		"duracao": "05:42",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "the-catalyst"
 	},
 	"until-its-gone":
 	{
@@ -694,7 +841,14 @@
 			"videoId": "oM-XJD4J36U",
 			"lyricAlbum": "the-hunting-party"
 		},		
-		"album": "Until It's Gone"
+		"album": "Until It's Gone",
+		"lancamento": "6 de maio de 2014",
+		"datetime": "2014-05-06",
+		"duracaoiso": "P3M53S",
+		"duracao": "03:53",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"icone": "until-its-gone"
 	},
 	"waiting-for-the-end":
 	{
@@ -710,7 +864,14 @@
 			"videoId": "51iquRYKPbs",
 			"lyricAlbum": "a-thousand-suns"
 		},		
-		"album": "Waiting For The End"
+		"album": "Waiting For The End",
+		"lancamento": "1 de outubro de 2010",
+		"datetime": "2010-10-01",
+		"duracaoiso": "P3M51S",
+		"duracao": "03:51",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"icone": "waiting-for-the-end"
 	},
 	"wastelands":
 	{
@@ -720,7 +881,14 @@
 			"videoId": "h6sFG7qOd4A",
 			"lyricAlbum": "the-hunting-party"
 		},		
-		"album": "Wastelands"
+		"album": "Wastelands",
+		"lancamento": "2 de junho de 2014",
+		"datetime": "2014-06-02",
+		"duracaoiso": "P3M10S",
+		"duracao": "03:10",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop",
+		"icone": "wastelands"
 	},
 	"what-ive-done":
 	{
@@ -742,6 +910,13 @@
 			"videoId": "8sgycukafqQ",
 			"lyricAlbum": "minutes-to-midnight"
 		},		
-		"album": "What I've Done"
+		"album": "What I've Done",
+		"lancamento": "2 de abril de 2007",
+		"datetime": "2007-04-02",
+		"duracaoiso": "P3M28S",
+		"duracao": "03:28",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"icone": "what-ive-done"
 	}
 }

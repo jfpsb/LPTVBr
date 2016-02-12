@@ -5,7 +5,7 @@
 </head>
 <body>
 	<article id="sotd-article" class="table-article">
-		<div class="album table asideless">
+		<div class="album table">
 			<div class="panel-header">
 				<h2 class="header">Shadow Of The Day</h2>
 			</div>
@@ -22,6 +22,7 @@
 				</tr>
 			</table>
 		</div>
+		<?php include_once ('../template/albumInfo.php');?>
 	</article>
 </body>
 </html>

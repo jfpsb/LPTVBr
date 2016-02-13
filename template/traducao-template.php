@@ -54,8 +54,6 @@ include_once '../youtube/search.php';
 	src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/resources/js/primeui-2.2-min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <meta property="og:url"

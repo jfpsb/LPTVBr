@@ -24,7 +24,6 @@ $page_title = $release['secao'] . ' : LinkinParkTVBr';
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
-<script type="text/javascript" src="/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <title><?php echo $page_title ?></title>

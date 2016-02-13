@@ -47,8 +47,6 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 	src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/resources/js/primeui-2.2-min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="/resources/galleria/galleria-1.4.2.min.js"></script>

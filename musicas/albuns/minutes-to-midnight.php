@@ -2,25 +2,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link id="favicon" href="/favicon.ico" rel="shortcut icon"
-	type="image/vnd.microsoft.icon"></link>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link id="favicon" href="/favicon.ico" rel="shortcut icon"
-	type="image/vnd.microsoft.icon"></link>
-<script type="text/javascript"
-	src="/resources/js/jquery-1.11.3.min.js"></script>
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/mus-lista.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/mus-lista-bg.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/global.css">
-<script type="text/javascript"
-	src="/resources/js/focusMainSection.js"></script>
-<script>
-	document.title = "Linkin Park : Minutes To Midnight";
-</script>
 </head>
 <body>
 	<article id="mtm-article" class="table-article">

@@ -17,8 +17,6 @@
 	src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript"
 	src="/resources/js/primeui-2.2-min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/focusMainSection.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <script type="text/javascript" src="/resources/js/musicaMenuButton.js"></script>
 <script type="text/javascript">	

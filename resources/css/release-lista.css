@@ -36,15 +36,9 @@ td {
 	border: 1px groove #C0C0C0;
 }
 
-.linkImg.disabled {
-	opacity: 0.3;
-}
-
 .panel {
-	width: 100%;
 	border: none !important;
 	border-radius: 20px;
-	background: black;
 	position: relative;
 }
 

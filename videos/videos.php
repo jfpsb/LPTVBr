@@ -2,14 +2,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/release-lista.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/release-lista.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/template.css">
-
+<link rel="stylesheet" type="text/css" href="/resources/css/template.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
@@ -58,8 +55,9 @@
 				<td>
 					<div class="panel">
 						<a class="link" href="../no-estudio/"> <img class="linkImg"
-							src="/resources/imagens/no-estudio.jpg" alt="No Estúdio Com Linkin Park" /> <label
-							class="nomeLink">No Estúdio</label>
+							src="/resources/imagens/no-estudio.jpg"
+							alt="No Estúdio Com Linkin Park" /> <label class="nomeLink">No
+								Estúdio</label>
 						</a>
 					</div>
 				</td>

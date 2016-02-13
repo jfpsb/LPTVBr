@@ -37,6 +37,8 @@ RewriteRule ^linkin-logs/?$ template/video-release.php?raiz=videos&tipo=linkin-l
 RewriteRule ^linkin-logs/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=linkin-logs [NC,L]
 RewriteRule ^outros/?$ template/video-release.php?raiz=videos&tipo=outros&pagina=outros [NC,L]
 RewriteRule ^outros/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=outros [NC,L]
+RewriteRule ^no-estudio/?$ template/video-release.php?raiz=videos&tipo=no-estudio&pagina=no-estudio [NC,L]
+RewriteRule ^no-estudio/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=no-estudio [NC,L]
 
 #musicas
 RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]

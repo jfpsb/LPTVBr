@@ -1,4 +1,4 @@
-<h2>What I've Done</h2>
+﻿<h2>What I've Done</h2>
 <pre>Nesta despedida
 Não há sangue / Não há álibi
 Porque eu retirei arrependimentos
@@ -19,7 +19,7 @@ Com as mãos / De incerteza
 Então deixe a compaixão chegar
 E levar para longe
 
-       O que eu fiz
+O que eu fiz
 Eu vou me encarar
 Para destruir o que me tornei
 Apagar a mim mesmo

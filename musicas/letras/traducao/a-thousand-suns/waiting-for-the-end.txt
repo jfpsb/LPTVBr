@@ -1,4 +1,4 @@
-<h2>Waiting For The End</h2>
+﻿<h2>Waiting For The End</h2>
 <pre>Isso não é o fim, não é o começo
 Apenas uma voz como uma manifestação a cada revisão
 Mas você escuta através do tom e do ritmo violento e
@@ -15,14 +15,19 @@ Voando na velocidade da luz / Os pensamentos rodavam em minha cabeça
 Tantas coisas não foram ditas
 É tão difícil te esquecer
 
-Eu sei o é preciso para seguir em frente
+Eu sei o que é preciso para seguir em frente
 Eu conheço a sensação de mentir
 Tudo que quero é trocar essa vida por algo novo
 Prendendo-me ao que não tenho
 
 Sentado em um quarto vazio / Tentando esquecer o passado
-Isso nunca ter durado tanto tempo
+Isso nunca devia ter durado tanto tempo
 Eu queria que não tivesse
+
+Eu sei o que é preciso para seguir em frente
+Eu conheço a sensação de mentir
+Tudo que quero é trocar essa vida por algo novo
+Prendendo-me ao que não tenho
 
 O que ficou para trás quando o fogo se foi
 Eu achei que estava certo, mas o certo estava errado

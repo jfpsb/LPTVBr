@@ -98,5 +98,32 @@
 			"descricao": "Apple Music Festival (anteriormente conhecido como iTunes Festival) é um festival de música anual que acontece ao decorrer de um mês em Londres. Patrocinado pela Apple Inc., teve sua primeira edição em 2007. As apresentações também são apresentadas ao vivo de graça e disponível para visualização por tempo limitado na loja da iTunes e pelo Aplicativo oficial, assim como através da Apple TV.<br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2011/20110704\">neste link</a>.<br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/itunes-festival-2011.srt\">neste link</a>."
 		}
 	},
+	"2015":
+	{
+		"rock-in-rio":
+		{
+			"title": "Rock In Rio Las Vegas 2015",
+			"imgList": 
+			[
+				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20151.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20152.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20153.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20154.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20155.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20156.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20157.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20158.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20159.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201510.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201511.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201512.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201513.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201514.jpg\">",
+			    "<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201515.jpg\">"
+			],
+			"descricao": "Rock in Rio é um festival de música idealizado pelo empresário Roberto Medina pela primeira vez em 1985, sendo, desde sua criação, reconhecidamente, o maior festival musical do mundo latino e o maior do planeta. Foi originalmente organizado no Rio de Janeiro, de onde vem o nome, tornou-se um evento de repercussão mundial e, em 2004, teve a sua primeira edição fora do país em Lisboa, Portugal.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2015/20150509\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/rock-in-rio-2015.srt\">neste link</a>."
+		}
+	},
 	"secao": "Shows"
 }

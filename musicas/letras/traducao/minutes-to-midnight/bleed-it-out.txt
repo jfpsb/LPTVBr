@@ -1,4 +1,4 @@
-<h2>Bleed It Out</h2>
+﻿<h2>Bleed It Out</h2>
 <pre>Aqui vamos nós pela centésima vez
 Pinos de grandas em todos os versos
 Jogue-os, deixe algo brilhar
@@ -7,7 +7,7 @@ Boca suja, sem desculpas
 Encontre um novo lugar para pendurar esse nó
 Amarre-me por cima desses telhados
 Aperte forte para eu não cair
-A verdade é que você não parar e encarar
+A verdade é que você não pode parar e encarar
 Esgoto-me e ninguém liga
 Escavei a trincheira, deitei lá dentro
 Com uma pá que alcançará algum lugar
@@ -23,7 +23,7 @@ Apenas para jogar fora, apenas para jogar fora
 
 Eu dou meu sangue, vá, pare o show
 Diga suas palavras e melodias desleixadas
-Espingarda, opera, travado e carregado
+Espingarda, ópera, travado e carregado
 Engatilhe novamente e apenas observe
 Mamãe, ajude-me, fui amaldiçoado
 A morte aparece a cada verso

@@ -6,12 +6,9 @@
 	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
-<script type="text/javascript"
-	src="/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script>
 	$(function() {
 		$('#show-tabView').puitabview();
@@ -57,10 +54,20 @@
 						<tr>
 							<td>
 								<div class="panel">
+									<a class="link" href="2015/rock-in-rio"> <img class="linkImg"
+										src="../resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg"
+										alt="Rock In Rio Las Vegas 2015" /> <label class="nomeLink">Rock
+											In Rio Las Vegas 2015</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
 									<a class="link" href="2011/itunes-festival"> <img
 										class="linkImg"
 										src="../resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg"
-										alt="iTunes Festival 2011" /> <label class="nomeLink">iTunes Festival 2011</label>
+										alt="iTunes Festival 2011" /> <label class="nomeLink">iTunes
+											Festival 2011</label>
 									</a>
 								</div>
 							</td>

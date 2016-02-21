@@ -1,7 +1,10 @@
 <?php
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $_GET ['tipo'] . ".json" );
+$sourceVideoFile = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/videoSource.json" );
 $str = utf8_encode ( $str );
+$sourceVideoFile = utf8_encode ( $sourceVideoFile );
 $release = json_decode ( $str, true );
+$videoSrc = json_decode ( $sourceVideoFile, true );
 
 $video = $_GET ['video'];
 $ano = $_GET ['ano'];
@@ -9,12 +12,18 @@ $ano = $_GET ['ano'];
 $videoId = null;
 $imgList = null;
 
+// Recupera a url para incorporar vídeo
+$isSourceSet = isset ( $release [$ano] [$video] ['source'] );
+if ($isSourceSet) {
+	$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
+}
+
 if (isset ( $release [$ano] [$video] ['videoId'] )) {
 	$videoId = $release [$ano] [$video] ['videoId'];
 }
 
 if (isset ( $release [$ano] [$video] ['imgList'] )) {
-	$imgList = join('\n',$release [$ano] [$video] ['imgList']);
+	$imgList = join ( '\n', $release [$ano] [$video] ['imgList'] );
 }
 
 $nomeVideo = $release [$ano] [$video] ['title'];
@@ -37,16 +46,12 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" href="/resources/css/video-template.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/global.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/global.css">
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/template.css">
-<script type="text/javascript"
-	src="/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="/resources/galleria/galleria-1.4.2.min.js"></script>
@@ -63,8 +68,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <body>
 	<?php
 	include_once 'header.php';
-	include_once("../analyticstracking.php")
-	?>
+	include_once ("../analyticstracking.php")?>
 	
 	<section id="main-section" class="body-section">
 		<h1 class="descricao texto"><?php echo $nomeVideo ?></h1>
@@ -75,17 +79,16 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 			<div class="galleria">
 				<?=$imgList?>
 			</div>
-			<h4 class="powered-by">
+			<h5 class="powered-by">
 				Powered By <a class="video-link" target="_blank"
 					href="http://galleria.io/">Galleria</a>
-			</h4>		
+			</h5>	
 		<?php
 		} else {
 			?>
 			<div class="video-container" style="margin-top: 5px !important;">
-				<iframe width="560" height="315"
-					src="https://www.youtube.com/embed/<?php echo $videoId ?>"
-					allowfullscreen></iframe>
+				<iframe src="<?php echo $embedSrc . $videoId ?>"
+					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>		
 		<?php }?>
 

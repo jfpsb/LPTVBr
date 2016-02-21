@@ -6,4 +6,5 @@ encoding//json/videos/lptv.json=ISO-8859-1
 encoding//json/videos/no-estudio.json=ISO-8859-1
 encoding//json/videos/outros.json=ISO-8859-1
 encoding//json/videos/shows.json=ISO-8859-1
+encoding//json/videos/videoSource.json=ISO-8859-1
 encoding/<project>=UTF-8

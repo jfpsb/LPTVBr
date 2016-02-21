@@ -1,10 +1,11 @@
 @CHARSET "ISO-8859-1";
 
 .galleria {
-	width: 85%;
+	width: 90%;
 	height: 550px;
 	background: white;
 	margin: 15px auto;
+	margin-bottom: 3px;
 	border: 1px groove white;
 }
 
@@ -13,6 +14,8 @@
 	text-shadow: 1px 1px 1px black;
 	font-weight: bold;
 	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .video-link {

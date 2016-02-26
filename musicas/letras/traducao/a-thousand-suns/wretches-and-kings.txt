@@ -1,13 +1,11 @@
 <h2>Wretches And Kings</h2>
-<pre>"Chega um tempo em que a operação
-Faz tão mal ao coração que
-você não pode fazer parte.
-Você não pode nem
-passivelmente fazer parte!
-Então é preciso jogar seus
-corpos contra as engrenagens,
-contra os mecanismos, contra as
-manivelas, contra todo o aparato!
+<pre>"Chega um tempo em que a operação do maquinário se torna tão odiosa 
+— faz tão mal ao coração — 
+que você não pode fazer parte.
+Você não pode nem passivelmente fazer parte!
+Então é preciso jogar seus corpos contra as engrenagens,
+contra os mecanismos,
+contra as manivelas, contra todo o aparato!
 E você tem que fazê-lo parar!"
 
 Para salvar sua cara até onde você vai?
@@ -62,4 +60,17 @@ Esse sol não irá mais te castigar
 
 Da frente ao fundo e todos os lados
 Se você teme o que eu sinto levante as mãos bem alto
+
+"Chega um tempo em que a operação do maquinário se torna tão odiosa 
+— faz tão mal ao coração — 
+que você não pode fazer parte.
+Você não pode nem passivelmente fazer parte!
+Então é preciso jogar seus corpos contra as engrenagens,
+contra os mecanismos,
+contra as manivelas, contra todo o aparato!
+E você tem que fazê-lo parar!
+E você tem que chamar a atenção das pessoas que comandam isso,
+para as pessoas que mandam nisso,
+que se você não for livre,
+a máquina vai ser impedida de trabalhar de vez!
 </pre>

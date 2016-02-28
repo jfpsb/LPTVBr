@@ -30,7 +30,7 @@
 							<td>
 								<div class="panel">
 									<a class="link" href="2003/live-in-texas"> <img class="linkImg"
-										src="../resources/imagens/videos/shows/live-in-texas/live-in-texas.jpg"
+										src="/resources/imagens/videos/shows/live-in-texas/live-in-texas.jpg"
 										alt="Live In Texas" /> <label class="nomeLink">Live In Texas</label>
 									</a>
 								</div>
@@ -39,7 +39,7 @@
 								<div class="panel">
 									<a class="link" href="2008/road-to-revolution"> <img
 										class="linkImg"
-										src="../resources/imagens/videos/shows/road-to-revolution/road-to-revolution.jpg"
+										src="/resources/imagens/videos/shows/road-to-revolution/road-to-revolution.jpg"
 										alt="Road To Revolution" /> <label class="nomeLink">Road To
 											Revolution</label>
 									</a>
@@ -55,7 +55,7 @@
 							<td>
 								<div class="panel">
 									<a class="link" href="2015/rock-in-rio"> <img class="linkImg"
-										src="../resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg"
+										src="/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg"
 										alt="Rock In Rio Las Vegas 2015" /> <label class="nomeLink">Rock
 											In Rio Las Vegas 2015</label>
 									</a>
@@ -65,7 +65,7 @@
 								<div class="panel">
 									<a class="link" href="2011/itunes-festival"> <img
 										class="linkImg"
-										src="../resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg"
+										src="/resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg"
 										alt="iTunes Festival 2011" /> <label class="nomeLink">iTunes
 											Festival 2011</label>
 									</a>

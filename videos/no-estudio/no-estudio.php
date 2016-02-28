@@ -16,6 +16,21 @@
 			<tr>
 				<td>
 					<div class="panel">
+						<a class="link" href="2010/meeting-of-a-thousand-suns">
+										<?php
+										$dia = '28';
+										$mes = 'Fev';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="Meeting Of A Thousand Suns" class="linkImg"
+							src="/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns.jpg">
+							<label class="nomeLink">Meeting Of A Thousand Suns</label>
+						</a>
+					</div>
+				</td>
+				<td>
+					<div class="panel">
 						<a class="link" href="2012/inside-living-things">
 										<?php
 										$dia = '13';

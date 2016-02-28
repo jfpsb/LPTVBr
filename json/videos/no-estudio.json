@@ -6,7 +6,8 @@
 			"title": "Inside Living Things",
 			"videoId": "156157944",
 			"descricao": "Inside Living Things é um documentário lançado em 2012 que mostra o processo de criação do álbum Living Things, da banda Linkin Park. <br><br>A legenda pode ser baixada <a class=\"video-link\" href=\"/legendas/inside-living-things.srt\">neste link</a>",
-			"source": "vimeo"
+			"source": "vimeo",
+			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things.jpg"
 		}
 	},
 	"2010":
@@ -14,9 +15,10 @@
 		"meeting-of-a-thousand-suns":
 		{
 			"title": "Meeting Of A Thousand Suns",
-			"videoId": "90377707",
-			"descricao": "Meeting Of A Thousand Suns",
-			"source": "vimeo"
+			"videoId": "157024456",
+			"descricao": "O The Meeting A Thousand Suns, ou também conhecido como The Making of A Thousand Suns, é o oitavo DVD oficial do Linkin Park. Ele traz bastidores das gravações do quarto álbum de estúdio da banda, A Thousand Sun. Além também de trazer a produção das DEMOS, Dingleberry, Meadowlands, Pac Manny e Violent Lullaby, que inclusive ainda nem foram lançadas pela LP Underground. O DVD foi lançado como uma edição super limitada, para os fãs que compraram o CD do A Thousand Suns na pré venda na época.",
+			"source": "vimeo",
+			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns.jpg"
 		}
 	},
 	"secao": "No Estúdio"

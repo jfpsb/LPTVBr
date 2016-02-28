@@ -57,7 +57,8 @@
 		"duracao": "45:12",
 		"numMus": "12",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"icone": "thp250"
+		"icone": "thp250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/thp.jpg"
 	},
 	"a-thousand-suns": {
 		"blackout": {
@@ -127,7 +128,8 @@
 		"duracao": "47:56",
 		"numMus": "15",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"icone": "ats250"
+		"icone": "ats250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/ats.jpg"
 	},
 	"collision-course":
 	{
@@ -162,7 +164,8 @@
 		"duracao": "21:18",
 		"numMus": "6",
 		"gravadora": "Rock-A-Fella, Machine Shop, Warner Bros., Def Jam",
-		"icone": "cc250"
+		"icone": "cc250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/collision-course.jpg"
 	},
 	"hybrid-theory":
 	{
@@ -221,7 +224,8 @@
 		"duracao": "37:40",
 		"numMus": "12",
 		"gravadora": "Warner Bros.",
-		"icone": "ht250"
+		"icone": "ht250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/hybrid-theory.jpg"
 	},
 	"live-in-texas":
 	{
@@ -292,7 +296,8 @@
 		"duracao": "41:40",
 		"numMus": "12",
 		"gravadora": "Warner Reprise Video, Warner Bros. Records, Machine Shop Recordings",
-		"icone": "lit250"
+		"icone": "lit250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/lit.jpg"
 	},
 	"living-things":
 	{
@@ -351,7 +356,8 @@
 		"duracao": "36:59",
 		"numMus": "12",
 		"gravadora": "Warner Bros.",
-		"icone": "lt250"
+		"icone": "lt250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/lt.jpg"
 	},
 	"meteora":
 	{
@@ -414,7 +420,8 @@
 		"duracao": "36:43",
 		"numMus": "13",
 		"gravadora": "Warner Bros. Records",
-		"icone": "mt250"
+		"icone": "mt250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/meteora.jpg"
 	},
 	"minutes-to-midnight":
 	{
@@ -473,7 +480,8 @@
 		"duracao": "43:30",
 		"numMus": "12",
 		"gravadora": "Warner Bros., Machine Shop Recordings",
-		"icone": "mtm250"
+		"icone": "mtm250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/mtm.jpg"
 	},
 	"road-to-revolution":
 	{
@@ -574,6 +582,7 @@
 		"duracao": "87:36",
 		"numMus": "18",
 		"gravadora": "Warner Brothers Records, Machine Shop Recordings, Warner Reprise Video",
-		"icone": "rtr250"
+		"icone": "rtr250",
+		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/road-to-revolution.jpg"
 	}
 }

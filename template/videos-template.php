@@ -14,8 +14,15 @@ $imgList = null;
 
 // Recupera a url para incorporar vídeo
 $isSourceSet = isset ( $release [$ano] [$video] ['source'] );
+$isThumbnailSet = isset ( $release [$ano] [$video] ['thumbnail'] );
 if ($isSourceSet) {
 	$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
+}
+
+if($isThumbnailSet){
+	$thumbnail = $release [$ano] [$video] ['thumbnail'];
+}else{
+	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
 }
 
 if (isset ( $release [$ano] [$video] ['videoId'] )) {
@@ -59,7 +66,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
-	content="http://www.linkinparktvbr.com/resources/imagens/banner.jpg" />
+	content="<?php echo $thumbnail ?>" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeVideo ?>" />
 <meta property="og:type" content="website" />

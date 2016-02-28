@@ -6,25 +6,34 @@ $str = utf8_encode ( $str );
 
 $release = json_decode ( $str, true );
 
-$albumName = $release [$_GET ['album']] ['album'];
+$album = $_GET ['album'];
+
+$albumName = $release [$album] ['album'];
+
+$isThumbnailSet = isset ( $release [$album] ['thumbnail'] );
+if ($isThumbnailSet) {
+	$thumbnail = $release [$album] ['thumbnail'];
+} else {
+	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
+}
 
 $page_title = $albumName . ' : LinkinParkTVBr';
 if (isset ( $release ['artista'] ))
 	$artista = $release ['artista'];
-if (isset ( $release [$_GET ['album']] ['lancamento'] ))
-	$lancamento = $release [$_GET ['album']] ['lancamento'];
-if (isset ( $release [$_GET ['album']] ['duracaoiso'] ))
-	$duracaoiso = $release [$_GET ['album']] ['duracaoiso'];
-if (isset ( $release [$_GET ['album']] ['duracao'] ))
-	$duracao = $release [$_GET ['album']] ['duracao'];
-if (isset ( $release [$_GET ['album']] ['numMus'] ))
-	$numMus = $release [$_GET ['album']] ['numMus'];
-if (isset ( $release [$_GET ['album']] ['gravadora'] ))
-	$gravadora = $release [$_GET ['album']] ['gravadora'];
-if (isset ( $release [$_GET ['album']] ['icone'] ))
-	$icone = $release [$_GET ['album']] ['icone'];
-if (isset ( $release [$_GET ['album']] ['datetime'] ))
-	$datetime = $release [$_GET ['album']] ['datetime'];
+if (isset ( $release [$album] ['lancamento'] ))
+	$lancamento = $release [$album] ['lancamento'];
+if (isset ( $release [$album] ['duracaoiso'] ))
+	$duracaoiso = $release [$album] ['duracaoiso'];
+if (isset ( $release [$album] ['duracao'] ))
+	$duracao = $release [$album] ['duracao'];
+if (isset ( $release [$album] ['numMus'] ))
+	$numMus = $release [$album] ['numMus'];
+if (isset ( $release [$album] ['gravadora'] ))
+	$gravadora = $release [$album] ['gravadora'];
+if (isset ( $release [$album] ['icone'] ))
+	$icone = $release [$album] ['icone'];
+if (isset ( $release [$album] ['datetime'] ))
+	$datetime = $release [$album] ['datetime'];
 
 ?>
 
@@ -57,7 +66,7 @@ if (isset ( $release [$_GET ['album']] ['datetime'] ))
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
-	content="http://www.linkinparktvbr.com/resources/imagens/banner.jpg" />
+	content="<?php echo $thumbnail ?>" />
 <meta property="og:description"
 	content="Músicas traduzidas de <?php echo $release[$_GET['album']]['album'] ?>" />
 <meta property="og:type" content="website" />

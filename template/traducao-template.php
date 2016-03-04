@@ -1,10 +1,16 @@
 <?php
-$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET['tipo'] . ".json" );
-$str = utf8_encode($str);
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET ['tipo'] . ".json" );
+$str = utf8_encode ( $str );
 $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
 $musica = $_GET ['musica'];
+
+if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $release [$album] )) {
+	header ( 'HTTP/1.0 404 Not Found', true, 404 );
+	readfile ( '../notfound.php' );
+	exit ();
+}
 
 $nomeMusica = $release [$album] [$musica] ['title'];
 
@@ -12,21 +18,21 @@ $page_title = $nomeMusica . ' : ' . $release [$album] ['album'] . ' (Tradução)
 
 $videoId = $release [$album] [$musica] ['videoId'];
 
-$aside = $_GET['tipo'] . DIRECTORY_SEPARATOR . $album;
+$aside = $_GET ['tipo'] . DIRECTORY_SEPARATOR . $album;
 
-//Aqui são usados $_GET para prevenir de bugs na troca dos valores. 
-//Assim eu sempre pego os parâmetros originais que são os corretos para pesquisar os valores no array
+// Aqui são usados $_GET para prevenir de bugs na troca dos valores.
+// Assim eu sempre pego os parâmetros originais que são os corretos para pesquisar os valores no array
 
-if(isset($release [$_GET['album']] [$_GET ['musica']] ['lyricAlbum'])) {
-	//Se o álbum onde está contida a letra for diferente do álbum original 
-	//da música, o álbum se altera para o original para pesquisar a letra corretamente
-	$album = $release [$_GET['album']] [$_GET ['musica']] ['lyricAlbum'];
+if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'] )) {
+	// Se o álbum onde está contida a letra for diferente do álbum original
+	// da música, o álbum se altera para o original para pesquisar a letra corretamente
+	$album = $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'];
 }
 
-if(isset($release [$_GET['album']] [$_GET ['musica']] ['lyricTitle'])) {
-	//Se o título da música for diferente do original, mas a letra é a mesma,
-	//eu substituo o título para o correto, assim recuperando a letra da música corretamente
-	$musica = $release [$_GET['album']] [$_GET ['musica']] ['lyricTitle'];
+if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricTitle'] )) {
+	// Se o título da música for diferente do original, mas a letra é a mesma,
+	// eu substituo o título para o correto, assim recuperando a letra da música corretamente
+	$musica = $release [$_GET ['album']] [$_GET ['musica']] ['lyricTitle'];
 }
 
 include_once '../youtube/search.php';
@@ -44,16 +50,12 @@ include_once '../youtube/search.php';
 	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/global.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/global.css">
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/template.css">
-<script type="text/javascript"
-	src="/resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="/resources/js/primeui-2.2-min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <meta property="og:url"
@@ -78,8 +80,7 @@ include_once '../youtube/search.php';
 <body>
 		<?php
 		include_once 'header.php';
-		include_once("../analyticstracking.php")
-		?>
+		include_once ("../analyticstracking.php")?>
 		<section id="main-section" class="body-section">
 		<article class="wrapper">
 			<div class="letra-div">

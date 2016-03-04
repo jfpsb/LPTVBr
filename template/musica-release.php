@@ -8,6 +8,12 @@ $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
 
+if (!array_key_exists ( $album, $release )) {
+	header('HTTP/1.0 404 Not Found');
+	readfile('../notfound.php');
+	exit();
+}
+
 $albumName = $release [$album] ['album'];
 
 $isThumbnailSet = isset ( $release [$album] ['thumbnail'] );

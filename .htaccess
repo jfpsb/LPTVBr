@@ -1,3 +1,5 @@
+ErrorDocument 404 /notfound.php
+
 #Alternate default index page
 DirectoryIndex lptvbr.php?pagina=index
 
@@ -55,7 +57,7 @@ RewriteRule ^remixes/([a-z-0-9-]+)/?$ template/musica-release.php?raiz=musicas&t
 RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]
 RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^/?musicas/letras/
-RewriteRule .? /notfound.php [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !^/?musicas/letras/
+#RewriteRule .? /notfound.php [L]

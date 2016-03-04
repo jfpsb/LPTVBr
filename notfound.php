@@ -9,13 +9,14 @@
 <title>Página Não Encontrada em LPTVBr</title>
 </head>
 <body style="background: #EEEEEE">
-	<div align="center" style="font-family:'TrebuchetMS', Helvetica, sans-serif; font-size: 15px;">
+	<div align="center"
+		style="font-family: 'TrebuchetMS', Helvetica, sans-serif; font-size: 15px;">
 		<img src="/resources/imagens/banner320.jpg">
 		<h1>Conteúdo não encontrado.</h1>
 		<h2>Talvez o link para a página tenha mudado ou ela não existe mesmo
 			=(</h2>
 		<h2>
-			<a href="<?php echo "http://" . $_SERVER['SERVER_NAME']?>">Aperte
+			<a href="/">Aperte
 				aqui</a> e volte ao início do nosso site ou simplesmente volte para
 			a página anterior.
 		</h2>

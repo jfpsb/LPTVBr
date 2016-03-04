@@ -9,6 +9,12 @@ $videoSrc = json_decode ( $sourceVideoFile, true );
 $video = $_GET ['video'];
 $ano = $_GET ['ano'];
 
+if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $release [$ano] )) {
+	header ( 'HTTP/1.0 404 Not Found' );
+	readfile ( '../notfound.php' );
+	exit ();
+}
+
 $videoId = null;
 $imgList = null;
 
@@ -19,9 +25,9 @@ if ($isSourceSet) {
 	$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
 }
 
-if($isThumbnailSet){
+if ($isThumbnailSet) {
 	$thumbnail = $release [$ano] [$video] ['thumbnail'];
-}else{
+} else {
 	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
 }
 
@@ -65,8 +71,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
-<meta property="og:image"
-	content="<?php echo $thumbnail ?>" />
+<meta property="og:image" content="<?php echo $thumbnail ?>" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeVideo ?>" />
 <meta property="og:type" content="website" />

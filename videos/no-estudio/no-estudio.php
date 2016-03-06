@@ -16,6 +16,21 @@
 			<tr>
 				<td>
 					<div class="panel">
+						<a class="link" href="2007/making-of-minutes-to-midnight">
+										<?php
+										$dia = '06';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="The Making of Minutes To Midnight" class="linkImg"
+							src="/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight.png">
+							<label class="nomeLink">Making of Minutes To Midnight</label>
+						</a>
+					</div>
+				</td>
+				<td>
+					<div class="panel">
 						<a class="link" href="2010/meeting-of-a-thousand-suns">
 										<?php
 										$dia = '28';

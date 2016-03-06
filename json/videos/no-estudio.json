@@ -21,5 +21,16 @@
 			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns.jpg"
 		}
 	},
+	"2007":
+	{
+		"making-of-minutes-to-midnight":
+		{
+			"title": "The Making of Minutes To Midnight",
+			"videoId": "157918438",
+			"descricao": "O vídeo mostra o processo de criação álbum Minutes To Midnight, desde o começo, na escolha do produtor; até o final, na escolha do título do álbum.",
+			"source": "vimeo",
+			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight.png"
+		}
+	},
 	"secao": "No Estúdio"
 }

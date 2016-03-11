@@ -21,8 +21,8 @@
 
 			<form id="form" class="indexForm">
 				<div class="liDiv">
-					<ul id="lista" class="myUploads">
-					</ul>
+					<ol id="lista" class="myUploads">
+					</ol>
 				</div>
 			</form>
 

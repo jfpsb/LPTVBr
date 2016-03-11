@@ -12,12 +12,39 @@
 	<article>
 		<div id="lptv-tabView" class="tabView">
 			<ul class="tabs-lptv">
+				<li><a href="#dois-mil-dez">2010</a></li>
 				<li><a href="#dois-mil-catorze">2014</a></li>
 				<li><a href="#dois-mil-quinze">2015</a></li>
 				<li><a href="#dois-mil-dezesseis">2016</a></li>
 			</ul>
 
 			<div>
+				<div id="#dois-mil-dez">
+					<table class="panelGrid">
+						<colgroup style="text-align: center; margin: 0 auto; width: 100%;">
+							<col span="3" style="width: 33%;">
+						</colgroup>
+						<tr>
+							<td>
+								<div class="panel">
+									<a class="link" href="2010/something-new">
+										<?php
+										$dia = '11';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: Something New" class="linkImg"
+										src="/resources/imagens/videos/lptv/something-new.png">
+										<label class="nomeLink">LPTV: Something New</label>
+									</a>
+								</div>
+							</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
 				<div id="#dois-mil-catorze">
 					<table class="panelGrid">
 						<colgroup style="text-align: center; margin: 0 auto; width: 100%;">

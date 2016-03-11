@@ -161,5 +161,15 @@
 			"source": "youtube"
 		}
 	},
+	"2010":
+	{
+		"something-new": {
+			"title": "LPTV: Something New",
+			"videoId": "158576901",
+			"descricao": "Neste vídeo a banda se reúne para discutir as opiniões dadas por Rick sobre a música Iridescent.",
+			"source": "vimeo",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/something-new.png"
+		}
+	},
 	"secao": "LPTVs"
 }

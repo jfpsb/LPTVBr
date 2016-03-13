@@ -163,12 +163,21 @@
 	},
 	"2010":
 	{
-		"something-new": {
+		"something-new":
+		{
 			"title": "LPTV: Something New",
 			"videoId": "158576901",
 			"descricao": "Neste vídeo a banda se reúne para discutir as opiniões dadas por Rick sobre a música Iridescent.",
 			"source": "vimeo",
 	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/something-new.png"
+		},
+		"contest-featuring-you-winner":
+		{
+			"title": "LPTV: \"The Catalyst\" Contest Featuring YOU Winner",
+			"videoId": "158804737",
+			"descricao": "Este vídeo mostra um pouco do processo de escolha da banda em relação às músicas enviadas para o concurso do remix de The Catalyst e mostra o vencedor do concurso.",
+			"source": "vimeo",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg"
 		}
 	},
 	"secao": "LPTVs"

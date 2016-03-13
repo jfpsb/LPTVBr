@@ -27,6 +27,21 @@
 						<tr>
 							<td>
 								<div class="panel">
+									<a class="link" href="2010/contest-featuring-you-winner">
+										<?php
+										$dia = '13';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: 'The Catalyst' Contest Featuring YOU Winner" class="linkImg"
+										src="/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg">
+										<label class="nomeLink">LPTV: "The Catalyst" Contest Featuring YOU Winner</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
 									<a class="link" href="2010/something-new">
 										<?php
 										$dia = '11';
@@ -40,8 +55,6 @@
 									</a>
 								</div>
 							</td>
-							<td></td>
-							<td></td>
 						</tr>
 					</table>
 				</div>

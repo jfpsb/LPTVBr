@@ -27,6 +27,21 @@
 						<tr>
 							<td>
 								<div class="panel">
+									<a class="link" href="2010/chester-records-vocals-for-the-catalyst">
+										<?php
+										$dia = '13';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LLPTV: Chester Records Vocals for 'The Catalyst'" class="linkImg"
+										src="/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png">
+										<label class="nomeLink">LPTV: Chester Records Vocals for "The Catalyst"</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
 									<a class="link" href="2010/contest-featuring-you-winner">
 										<?php
 										$dia = '13';

@@ -178,6 +178,14 @@
 			"descricao": "Este vídeo mostra um pouco do processo de escolha da banda em relação às músicas enviadas para o concurso do remix de The Catalyst e mostra o vencedor do concurso.",
 			"source": "vimeo",
 	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg"
+		},
+		"chester-records-vocals-for-the-catalyst":
+		{
+			"title": "LPTV: Chester Records Vocals for 'The Catalyst'",
+			"videoId": "158844946",
+			"descricao": "Este vídeo mostra o processo de gravação dos vocais da música \"The Catalyst\", do álbum A Thousand Suns.",
+			"source": "vimeo",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png"
 		}
 	},
 	"secao": "LPTVs"

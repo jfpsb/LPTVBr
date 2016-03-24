@@ -186,6 +186,14 @@
 			"descricao": "Este vídeo mostra o processo de gravação dos vocais da música \"The Catalyst\", do álbum A Thousand Suns.",
 			"source": "vimeo",
 	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png"
+		},
+		"blackout-freestyle":
+		{
+			"title": "LPTV: 'Blackout' Freestyle",
+			"videoId": "160240979",
+			"descricao": "Neste vídeo curto é mostrado uma parte do processo de gravação da música \"Blackout\", do álbum A Thousand Suns, em que o Chester usa pela primeira vez palavras \"reais\" em vez de palavras \"que parecem ser palavras\".",
+			"source": "vimeo",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/blackout-freestyle.jpg"
 		}
 	},
 	"secao": "LPTVs"

@@ -34,7 +34,7 @@
 										?>
 										<img alt="Linkin Log #6: Basketball Q&A" class="linkImg"
 							src="/resources/imagens/videos/linkin-logs/basketball.jpg">
-							<label class="nomeLink">Linkin Log #6: Basketball Q&A</label>
+							<label class="nomeLink">Linkin Log #6: Basketball Q&amp;A</label>
 						</a>
 					</div>
 				</td>

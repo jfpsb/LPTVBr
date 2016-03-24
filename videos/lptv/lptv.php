@@ -27,16 +27,36 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link" href="2010/chester-records-vocals-for-the-catalyst">
+									<a class="link"
+										href="2010/blackout-freestyle">
+										<?php
+										$dia = '24';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: 'Blackout' Freestyle"
+										class="linkImg"
+										src="/resources/imagens/videos/lptv/blackout-freestyle.jpg">
+										<label class="nomeLink">LPTV: "Blackout" Freestyle</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
+									<a class="link"
+										href="2010/chester-records-vocals-for-the-catalyst">
 										<?php
 										$dia = '13';
 										$mes = 'Mar';
 										$ano = '2016';
 										include 'postDataTemplate.php';
 										?>
-										<img alt="LLPTV: Chester Records Vocals for 'The Catalyst'" class="linkImg"
+										<img alt="LLPTV: Chester Records Vocals for 'The Catalyst'"
+										class="linkImg"
 										src="/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png">
-										<label class="nomeLink">LPTV: Chester Records Vocals for "The Catalyst"</label>
+										<label class="nomeLink">LPTV: Chester Records Vocals for "The
+											Catalyst"</label>
 									</a>
 								</div>
 							</td>
@@ -49,12 +69,16 @@
 										$ano = '2016';
 										include 'postDataTemplate.php';
 										?>
-										<img alt="LPTV: 'The Catalyst' Contest Featuring YOU Winner" class="linkImg"
+										<img alt="LPTV: 'The Catalyst' Contest Featuring YOU Winner"
+										class="linkImg"
 										src="/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg">
-										<label class="nomeLink">LPTV: "The Catalyst" Contest Featuring YOU Winner</label>
+										<label class="nomeLink">LPTV: "The Catalyst" Contest Featuring
+											YOU Winner</label>
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/something-new">
@@ -65,8 +89,8 @@
 										include 'postDataTemplate.php';
 										?>
 										<img alt="LPTV: Something New" class="linkImg"
-										src="/resources/imagens/videos/lptv/something-new.png">
-										<label class="nomeLink">LPTV: Something New</label>
+										src="/resources/imagens/videos/lptv/something-new.png"> <label
+										class="nomeLink">LPTV: Something New</label>
 									</a>
 								</div>
 							</td>

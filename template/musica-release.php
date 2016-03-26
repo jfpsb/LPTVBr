@@ -8,10 +8,10 @@ $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
 
-if (!array_key_exists ( $album, $release )) {
-	header('HTTP/1.0 404 Not Found');
-	readfile('../notfound.php');
-	exit();
+if (! array_key_exists ( $album, $release )) {
+	header ( 'HTTP/1.0 404 Not Found' );
+	readfile ( '../notfound.php' );
+	exit ();
 }
 
 $albumName = $release [$album] ['album'];
@@ -71,8 +71,7 @@ if (isset ( $release [$album] ['datetime'] ))
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
-<meta property="og:image"
-	content="<?php echo $thumbnail ?>" />
+<meta property="og:image" content="<?php echo $thumbnail ?>" />
 <meta property="og:description"
 	content="Músicas traduzidas de <?php echo $release[$_GET['album']]['album'] ?>" />
 <meta property="og:type" content="website" />
@@ -80,7 +79,12 @@ if (isset ( $release [$album] ['datetime'] ))
 <body>
 	<?php
 	include_once 'header.php';
-	include_once ("../analyticstracking.php")?>
+	if ($_SERVER ['HTTP_HOST'] === "linkinparktvbr.com" || $_SERVER ['HTTP_HOST'] === "www.linkinparktvbr.com") {
+		if (@$_COOKIE ["LPTVBrCookie"] !== "1124") {
+			include_once ("../analyticstracking.php");
+		}
+	}
+	?>
 	
 	<section id="main-section" class="body-section">
 	

@@ -14,7 +14,7 @@ RewriteRule ^musicas/([a-z-0-9-/-]+)(.*)$ /$1 [R=301,NC,L]
 RewriteRule ^videos/([a-z-0-9-/-]+)(.*)$ /$1 [R=301,NC,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-z-0-9-/-]+)-mus(.*)$ /$1 [R=301,NC,L]
+RewriteRule ^([a-z-0-9-/-]+)-mus$ /$1 [R=301,NC,L]
 
 #colocando barra no final do url
 RewriteRule ^musicas$ /musicas/ [R=301,L,NC]

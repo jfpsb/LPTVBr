@@ -28,6 +28,23 @@
 							<td>
 								<div class="panel">
 									<a class="link"
+										href="2010/making-of-the-catalyst-music-video">
+										<?php
+										$dia = '26';
+										$mes = 'Mar';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: Making of 'The Catalyst' Music Video"
+										class="linkImg"
+										src="/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg">
+										<label class="nomeLink">LPTV: Making of "The Catalyst" Music Video</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
+									<a class="link"
 										href="2010/blackout-freestyle">
 										<?php
 										$dia = '24';
@@ -60,6 +77,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/contest-featuring-you-winner">
@@ -77,8 +96,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/something-new">

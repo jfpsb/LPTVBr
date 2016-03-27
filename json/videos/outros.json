@@ -16,5 +16,16 @@
 			"source": "youtube"
 		}
 	},
+	"2010":
+	{
+		"iridescent-american-girl":
+		{
+			"title": "[LPUX] Iridescent American Girl",
+			"videoId": "9RZGoFfOz3M",
+			"descricao": "Pequeno vídeo mostrando Mike e Chester parodiando sua própria música, \"Iridescent\".",
+			"source": "youtube",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/outros/iridescent-american-girl.jpg"
+		}
+	},
 	"secao": "Entrevistas"
 }

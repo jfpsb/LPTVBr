@@ -25,6 +25,21 @@
 			<tr>
 				<td>
 					<div class="panel">
+ 						<a class="link" href="2010/iridescent-american-girl">
+							<?php
+							$dia = '27';
+							$mes = 'Mar';
+							$ano = '2016';
+							include 'postDataTemplate.php';
+							?>
+							<img alt="[LPUX] Iridescent American Girl" class="linkImg"
+							src="/resources/imagens/videos/outros/iridescent-american-girl.jpg">
+							<label class="nomeLink">[LPUX] Iridescent American Girl</label>
+						</a>
+					</div>
+				</td>
+				<td>
+					<div class="panel">
  						<a class="link" href="2016/dji-tour-diary">
 							<?php
 							$dia = '30';

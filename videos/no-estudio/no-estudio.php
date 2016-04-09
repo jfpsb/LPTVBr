@@ -16,6 +16,21 @@
 			<tr>
 				<td>
 					<div class="panel">
+						<a class="link" href="2003/making-of-meteora">
+										<?php
+										$dia = '09';
+										$mes = 'Abril';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="The Making of Meteora" class="linkImg"
+							src="/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora.jpg">
+							<label class="nomeLink">The Making Of Meteora</label>
+						</a>
+					</div>
+				</td>
+				<td>
+					<div class="panel">
 						<a class="link" href="2007/making-of-minutes-to-midnight">
 										<?php
 										$dia = '06';
@@ -44,6 +59,8 @@
 						</a>
 					</div>
 				</td>
+			</tr>
+			<tr>
 				<td>
 					<div class="panel">
 						<a class="link" href="2012/inside-living-things">

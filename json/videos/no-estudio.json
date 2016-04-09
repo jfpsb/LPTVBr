@@ -32,5 +32,16 @@
 			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight.png"
 		}
 	},
+	"2003":
+	{
+		"making-of-meteora":
+		{
+			"title": "The Making of Meteora",
+			"videoId": "jkKk9cN-n20",
+			"descricao": "O vídeo mostra o processo de criação álbum Meteora, mostrando a escolha de produtor e também problemas que ocorreram durante o processo.",
+			"source": "youtube",
+			"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora.jpg"
+		}
+	},
 	"secao": "No Estúdio"
 }

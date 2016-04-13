@@ -202,6 +202,14 @@
 			"descricao": "Neste vídeo é mostrado o processo de filmagem do vídeo da música \"The Catalyst\", do álbum A Thousand Suns",
 			"source": "youtube",
 	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg"
+		},
+		"chesters-lullaby":
+		{
+			"title": "LPTV - Chester's Lullaby",
+			"videoId": "162709806",
+			"descricao": "Chester e Mike discutem opções de letra para uma música para The Catalyst.",
+			"source": "vimeo",
+	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg"
 		}
 	},
 	"secao": "LPTVs"

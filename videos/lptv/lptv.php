@@ -27,8 +27,22 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2010/making-of-the-catalyst-music-video">
+									<a class="link" href="2010/chesters-lullaby">
+										<?php
+										$dia = '13';
+										$mes = 'Abril';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: Chester's Lullaby" class="linkImg"
+										src="/resources/imagens/videos/lptv/chesters-lullaby.jpg"> <label
+										class="nomeLink">LPTV: Chester's Lullaby</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
+									<a class="link" href="2010/making-of-the-catalyst-music-video">
 										<?php
 										$dia = '26';
 										$mes = 'Mar';
@@ -38,27 +52,28 @@
 										<img alt="LPTV: Making of 'The Catalyst' Music Video"
 										class="linkImg"
 										src="/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg">
-										<label class="nomeLink">LPTV: Making of "The Catalyst" Music Video</label>
+										<label class="nomeLink">LPTV: Making of "The Catalyst" Music
+											Video</label>
 									</a>
 								</div>
 							</td>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2010/blackout-freestyle">
+									<a class="link" href="2010/blackout-freestyle">
 										<?php
 										$dia = '24';
 										$mes = 'Mar';
 										$ano = '2016';
 										include 'postDataTemplate.php';
 										?>
-										<img alt="LPTV: 'Blackout' Freestyle"
-										class="linkImg"
-										src="/resources/imagens/videos/lptv/blackout-freestyle.jpg">
-										<label class="nomeLink">LPTV: "Blackout" Freestyle</label>
+										<img alt="LPTV: 'Blackout' Freestyle" class="linkImg"
+										src="/resources/imagens/videos/lptv/blackout-freestyle.jpg"> <label
+										class="nomeLink">LPTV: "Blackout" Freestyle</label>
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link"
@@ -77,8 +92,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/contest-featuring-you-winner">

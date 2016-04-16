@@ -27,6 +27,21 @@
 						<tr>
 							<td>
 								<div class="panel">
+									<a class="link" href="2010/megaphone-brad">
+										<?php
+										$dia = '16';
+										$mes = 'Abril';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: Megaphone Brad" class="linkImg"
+										src="/resources/imagens/videos/lptv/megaphone-brad.jpg"> <label
+										class="nomeLink">LPTV: Megaphone Brad</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
 									<a class="link" href="2010/chesters-lullaby">
 										<?php
 										$dia = '13';
@@ -57,6 +72,9 @@
 									</a>
 								</div>
 							</td>
+
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/blackout-freestyle">
@@ -72,8 +90,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link"
@@ -109,6 +125,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/something-new">

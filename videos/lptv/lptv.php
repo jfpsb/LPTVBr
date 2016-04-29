@@ -27,16 +27,29 @@
 						<tr>
 							<td>
 								<div class="panel">
-									<a class="link"
-										href="2010/iridescent-gang-vocals">
+									<a class="link" href="2010/the-catalyst-behind-the-scenes">
+										<?php
+										$dia = '29';
+										$mes = 'Abril';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img alt="LPTV: Behind The Scenes of “The Catalyst” Music Video" class="linkImg"
+										src="/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes.jpg">
+										<label class="nomeLink">LPTV: Behind The Scenes of “The Catalyst” Music Video</label>
+									</a>
+								</div>
+							</td>
+							<td>
+								<div class="panel">
+									<a class="link" href="2010/iridescent-gang-vocals">
 										<?php
 										$dia = '19';
 										$mes = 'Abril';
 										$ano = '2016';
 										include 'postDataTemplate.php';
 										?>
-										<img alt="LPTV: Iridescent Gang Vocals"
-										class="linkImg"
+										<img alt="LPTV: Iridescent Gang Vocals" class="linkImg"
 										src="/resources/imagens/videos/lptv/iridescent-gang-vocals.jpg">
 										<label class="nomeLink">LPTV: Iridescent Gang Vocals </label>
 									</a>
@@ -60,6 +73,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/megaphone-brad">
@@ -75,8 +90,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/chesters-lullaby">
@@ -109,6 +122,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/blackout-freestyle">
@@ -124,8 +139,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link"
@@ -161,6 +174,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/something-new">

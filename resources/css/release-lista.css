@@ -12,8 +12,7 @@
 }
 
 .link {
-	position: relative;
-	flex-shrink: 5;
+	
 }
 
 td {
@@ -36,17 +35,17 @@ td {
 	max-width: 100%;
 }
 
-.panel {
-	display: inline-flex;
+#albuns, #singles, #lpu, #remixes {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
 	flex-wrap: wrap;
-	margin: 5px auto;
-	border-radius: 5px;
 }
 
-.titulo {
-	font-family: "Courier New", Courier, monospace;
-	text-align: center;
-	color: white;
+.panel {
+	position: relative;
+	border-radius: 5px;
+	margin: 5px auto;
 }
 
 .nomeLink {
@@ -59,14 +58,15 @@ td {
 	text-shadow: 2px 2px 2px black;
 	margin: 0 auto !important;
 	position: absolute;
-	bottom: 3px;
-	height: 35px;
+	bottom: 5px;
+	padding: 7px 0px 7px 0px;
 	left: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
 	left: 0;
 	border-radius: 5px;
+	left: 0;
 }
 
 .postData {
@@ -172,7 +172,16 @@ td {
 	}
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 768px) {
+	.musica.menu {
+		display: block;
+	}
+	#mus-tabView {
+		padding: 0 !important;
+	}
+	.tabs {
+		display: none
+	}
 	.postData {
 		font-size: 15px;
 	}
@@ -182,27 +191,7 @@ td {
 	.dataTexto {
 		margin: 5px;
 	}
-}
-
-@media all and (max-width: 650px) {
-	.musica.menu {
-		display: block;
-	}
 	.nomeLink {
-		visibility: visible;
-		opacity: 1;
 		font-size: 18px !important;
-		bottom: 10px;
-		text-shadow: 2px 2px 1px black;
-	}
-	#mus-tabView {
-		padding: 0 !important;
-	}
-	.tabs {
-		display: none
-	}
-	.panelGrid tr {
-		padding: 0 !important;
-		margin: 0 !important;
 	}
 }

@@ -4,8 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/header-footer.css">
-<script type="text/javascript" src="resources/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 </head>
 <body>
@@ -28,10 +26,10 @@
 							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>"
 							class="button">Página Inicial</a></li>
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musicas/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musica/'?>"
 							class="button">Músicas Traduzidas</a></li>
 						<li><a
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'videos/'?>"
+							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>"
 							class="button">Vídeos Legendados</a></li>
 						<li><a
 							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>"

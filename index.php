@@ -1,12 +1,6 @@
 <?php
-if ($_SERVER ['HTTP_HOST'] === "linkinparktvbr.com" || $_SERVER ['HTTP_HOST'] === "www.linkinparktvbr.com") {
-	if (@$_COOKIE ["LPTVBrCookie"] !== "1124") {
-		include_once ("analyticstracking.php");
-	}
-}
-
+include_once 'resources/php/checaLPTVBrCookie.php';
 include_once 'youtube/meus_uploads.php';
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,6 +11,8 @@ include_once 'youtube/meus_uploads.php';
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="/resources/css/index.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
+<script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <title>LinkinParkTVBr - Início</title>
 </head>
 <body>

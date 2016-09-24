@@ -2,6 +2,7 @@
 
 .redes.header {
 	font-family: "Courier New", Courier, monospace;
+	background: none;
 	border-radius: 3px;
 	vertical-align: center;
 	margin: 0 auto;
@@ -13,6 +14,7 @@
 	text-align: center;
 	margin: 0;
 	padding: 5px;
+	background: none;
 }
 
 .redes.link {
@@ -42,7 +44,8 @@
 		border-bottom: 1px groove #eee;
 		padding: 15px;
 	}
-	#container-footer table, #container-footer thead, #container-footer tbody, #container-footer th, #container-footer td, #container-footer tr {
+	#container-footer table, #container-footer thead, #container-footer tbody,
+		#container-footer th, #container-footer td, #container-footer tr {
 		display: block;
 	}
 }

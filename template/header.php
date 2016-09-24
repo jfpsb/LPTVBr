@@ -2,6 +2,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css"
+	href="/resources/css/header-footer.css">
+<script type="text/javascript" src="resources/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/menuButton.js"></script>
 </head>
 <body>
 	<header id="container-header">
@@ -11,15 +16,14 @@
 			<nav class="header nav">
 				<img class="header banner default"
 					src="/resources/imagens/banner.jpg" alt="Banner" /> <img
-					class="header banner mobile"
-					src="/resources/imagens/banner320.jpg" alt="Banner" />
-					<button class="botao mobile">
-						<img id="btn-img" width="24px" align="left" style="padding: 0px;"
-							src="/resources/imagens/menu-arrow.png">
-						Menu
-					</button>
-				<div class="lista">
-					<ul id="top" class="lista link">
+					class="header banner mobile" src="/resources/imagens/banner320.jpg"
+					alt="Banner" />
+				<button class="botao mobile">
+					<img id="btn-img" width="24px" align="left" style="padding: 0px;"
+						src="/resources/imagens/menu-arrow.png"> Menu
+				</button>
+				<div class="menu">
+					<ul id="top" class="menu link">
 						<li><a
 							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>"
 							class="button">Página Inicial</a></li>
@@ -37,11 +41,10 @@
 			</nav>
 		</div>
 	</header>
-
+	<!--
 	<div class="ads" align="center">
 		<script async
 			src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- header -->
 		<ins class="adsbygoogle" style="display: block"
 			data-ad-client="ca-pub-6000666154877778" data-ad-slot="9669510435"
 			data-ad-format="auto"></ins>
@@ -49,5 +52,6 @@
 		(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 	</div>
+	 -->
 </body>
 </html>

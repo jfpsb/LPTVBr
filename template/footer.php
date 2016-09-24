@@ -5,10 +5,10 @@
 	href="/resources/css/redes-sociais.css">
 </head>
 <body>
+	<!-- 
 	<div align="center" class="ads">
 		<script async
 			src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- footer -->
 		<ins class="adsbygoogle" style="display: block"
 			data-ad-client="ca-pub-6000666154877778" data-ad-slot="8302025231"
 			data-ad-format="auto"></ins>
@@ -16,6 +16,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 	</div>
+	 -->
 	<div id="container-footer">
 		<table style="margin: 0 auto; height: 100%; width: 100%;">
 			<tr class="footer tr">

@@ -1,63 +1,13 @@
 ErrorDocument 404 /notfound.php
 
-#Alternate default index page
-DirectoryIndex lptvbr.php?pagina=index
-
 Options +FollowSymLinks
 RewriteEngine on
 
-#Redirecionando urls antigas
-RewriteRule ^LPTVBr/(.*)$ /$1 [R=301,NC,L]
-#Sem essa condição a letra da música não é encontrada
-RewriteCond %{REQUEST_URI} !^/?musicas/letras/
-RewriteRule ^musicas/([a-z-0-9-/-]+)(.*)$ /$1 [R=301,NC,L]
-RewriteRule ^videos/([a-z-0-9-/-]+)(.*)$ /$1 [R=301,NC,L]
-
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-z-0-9-/-]+)-mus$ /$1 [R=301,NC,L]
+RewriteRule ^([^/]+)/$ $1.php
+RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [R=301,L]
 
-#colocando barra no final do url
-RewriteRule ^musicas$ /musicas/ [R=301,L,NC]
-RewriteRule ^videos$ /videos/ [R=301,L,NC]
-RewriteRule ^lptv?$ /lptv/ [R=301,L,NC]
-RewriteRule ^linkin-logs?$ /linkin-logs/ [R=301,L,NC]
-RewriteRule ^entrevista$ /entrevista/ [R=301,NC,L,NC]
-RewriteRule ^lpu/([a-z-0-9-]+)?$ /lpu/$1/ [R=301,L,NC]
-RewriteRule ^singles/([a-z-0-9-]+)?$ /singles/$1/ [R=301,L,NC]
-RewriteRule ^albuns/([a-z-0-9-]+)?$ /albuns/$1/ [R=301,L,NC]
-RewriteRule ^remixes/([a-z-0-9-]+)?$ /remixes/$1/ [R=301,L,NC]
-
-#videos
-RewriteRule ^videos/?$ lptvbr.php?raiz=videos&pagina=videos [NC,L]
-RewriteRule ^lptv/?$ template/video-release.php?raiz=videos&tipo=lptv&pagina=lptv [NC,L]
-RewriteRule ^lptv/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=lptv [NC,L]
-RewriteRule ^shows/?$ template/video-release.php?raiz=videos&tipo=shows&pagina=shows [NC,L]
-RewriteRule ^shows/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=shows [NC,L]
-RewriteRule ^entrevista/?$ template/video-release.php?raiz=videos&tipo=entrevista&pagina=entrevista [NC,L]
-RewriteRule ^entrevista/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=entrevista [NC,L]
-RewriteRule ^linkin-logs/?$ template/video-release.php?raiz=videos&tipo=linkin-logs&pagina=linkin-logs [NC,L]
-RewriteRule ^linkin-logs/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=linkin-logs [NC,L]
-RewriteRule ^outros/?$ template/video-release.php?raiz=videos&tipo=outros&pagina=outros [NC,L]
-RewriteRule ^outros/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=outros [NC,L]
-RewriteRule ^no-estudio/?$ template/video-release.php?raiz=videos&tipo=no-estudio&pagina=no-estudio [NC,L]
-RewriteRule ^no-estudio/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?ano=$1&video=$2&tipo=no-estudio [NC,L]
-
-#musicas
-RewriteRule ^musicas/?$ lptvbr.php?raiz=musicas&pagina=musicas [NC,L]
-RewriteRule ^albuns/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?album=$1&musica=$2&tipo=albuns [NC,L]
-RewriteRule ^albuns/([a-z-0-9-]+)/?$ template/musica-release.php?raiz=musicas&tipo=albuns&album=$1 [NC,L]
-RewriteRule ^lpu/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?album=$1&musica=$2&tipo=lpu [NC,L]
-RewriteRule ^lpu/([a-z-0-9-]+)/?$ template/musica-release.php?raiz=musicas&tipo=lpu&album=$1 [NC,L]
-RewriteRule ^singles/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?album=$1&musica=$2&tipo=singles [NC,L]
-RewriteRule ^singles/([a-z-0-9-]+)/?$ template/musica-release.php?raiz=musicas&tipo=singles&album=$1 [NC,L]
-RewriteRule ^remixes/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?album=$1&musica=$2&tipo=remixes [NC,L]
-RewriteRule ^remixes/([a-z-0-9-]+)/?$ template/musica-release.php?raiz=musicas&tipo=remixes&album=$1 [NC,L]
-
-#outros
-RewriteRule ^redes-sociais/?$ lptvbr.php?pagina=redes-sociais [NC,L]
-RewriteRule ^sobre/?$ lptvbr.php?pagina=sobre [NC,L]
-
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_URI} !^/?musicas/letras/
-#RewriteRule .? /notfound.php [L]

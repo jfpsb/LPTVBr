@@ -1,29 +1,16 @@
 @CHARSET "ISO-8859-1";
 
-.panel-header {
-	font-family: "Courier New", Courier, monospace;
-	background: #E0E0E0;
-	border-radius: 3px;
-	border: 1px solid black;
+.mainSection {
+	margin: 5px auto 5px auto;
+	max-width: 1366px;
+	background-color: white;
+	border-radius: 5px;
 }
 
-.header {
-	color: black;
-	text-align: center;
-	margin: 0;
-	padding: 5px;
-}
-
-@media all and (max-width: 670px) {
-	td {
-		border: none;
-		position: relative;
-	}
-	tr {
-		border-bottom: 1px groove #eee;
-		padding: 15px;
-	}
-	table, thead, tbody, th, td, tr {
-		display: block;
-	}
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
 }

@@ -12,7 +12,7 @@
 }
 
 .link {
-	bottom: -2px;	
+	bottom: -2px;
 }
 
 td {
@@ -74,7 +74,7 @@ td {
 	background: #D4E157;
 	position: absolute;
 	z-index: 20;
-	border-top-left-radius : 20px;
+	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 	padding: 0px 5px 0px 5px;
 	text-align: center;

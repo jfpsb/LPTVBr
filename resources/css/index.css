@@ -1,21 +1,72 @@
 @CHARSET "ISO-8859-1";
 
-.index-article {
-	position: relative;
-	background: white;
-	margin: 7px;
-	padding: 1px;
-	margin-top: 5px;
-	padding-top: -5px;
+.videosRecentes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.linkWrapper {
+	min-height: 250px;
+	margin: 5px;
+	flex-basis: 25%;
+	flex-grow: 1;
+}
+
+.panel.header {
+	background-color: #BDBDBD;
 	border-radius: 5px;
-	display: block;
+}
+
+.header>h3 {
+	font-size: 25px;
+	font-family: "Courier New", Courier, monospace;
+	border-bottom: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}
+
+body {
+	background-color: #BDBDBD;
+}
+
+.banner {
+	width: 100%;
+	border-radius: 3px;
+}
+
+.bannerWrapper {
+	padding: 3px;
+}
+
+.paginasRecentes {
+	float: right;
+	width: 23%;
+	margin: 5px 5px 0px 0px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.innerContentArticle {
+	float: left;
+	max-width: 75%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px 0px 0px 5px;
+}
+
+.contentArticle {
+	overflow: hidden;
 }
 
 .myUploads {
 	list-style: none;
-	columns: 4;
-	-webkit-columns: 4;
-	-moz-columns: 4;
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
 	padding: 5px;
 	margin: 0;
 }
@@ -27,9 +78,9 @@
 }
 
 .videoThumb {
-	max-width:100%;
-	max-height:100%;
-	border-radius : 5px;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
 	margin: none;
 	padding: none;
 	width: 100%;
@@ -37,34 +88,30 @@
 }
 
 .videoLi {
-	min-height: 250px;
+	border: 1px inset gray;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	border: 1px inset gray;
 }
 
 .videoTitle {
 	text-align: center;
 	font-weight: bold;
+	font-size: 15px;
 }
 
-@media all and (max-width: 600px) and (min-width: 380px){
-	.myUploads {
-		columns: 2;
-		-webkit-columns: 2;
-		-moz-columns: 2;
+@media all and (max-width: 800px) {
+	.paginasRecentes {
+		float: none;
+		width: 100%;
+		padding: 0;
 	}
-}
-
-@media all and (max-width: 900px) and (min-width: 600px){
-	.myUploads {
-		columns: 3;
-		-webkit-columns: 3;
-		-moz-columns: 3;
+	.innerContentArticle {
+		float: none;
+		max-width: 100%;
+		margin: 5px;
 	}
-}
-
-@media all and (max-width: 380px){
-	.myUploads {
-		columns: 1;
-		-webkit-columns: 1;
-		-moz-columns: 1;
+	.linkWrapper {
+		min-height: 175px;
 	}
 }

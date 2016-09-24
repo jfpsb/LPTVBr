@@ -1,3 +1,9 @@
+<?php
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . "lptv.json" );
+$str = utf8_encode ( $str );
+$release = json_decode ( $str, true );
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,11 +26,54 @@
 
 			<div>
 				<div id="#dois-mil-dez">
-					<table class="panelGrid">
+					<?php
+					$releaseReversed = array_reverse ( $release ['2010'] );
+					
+					foreach ( $releaseReversed as $url => $video ) {
+						$title = $video ['title'];
+						$path = $url;
+						$imagem = $video ['thumbnail'];
+						$data = $video['data'];
+						?>
+
+					<div class="panel">
+						<a class="link" href="2010/<?php echo $path ?>">
+						<?php
+						$dia = $data['dia'];
+						$mes = $data['mes'];
+						$ano = $data['ano'];
+						include 'postDataTemplate.php';
+						?>
+										<img alt="<?php echo $title ?>" class="linkImg"
+							src="<?php echo $imagem ?>"> <label class="nomeLink"><?php echo $title ?></label>
+						</a>
+					</div>
+					
+					<?php }?>
+					<!-- <table class="panelGrid">
 						<colgroup style="text-align: center; margin: 0 auto; width: 100%;">
 							<col span="3" style="width: 33%;">
 						</colgroup>
 						<tr>
+							<td>
+								<div class="panel">
+									<a class="link"
+										href="2010/making-of-waiting-for-the-end-music-video">
+										<?php
+										$dia = '23';
+										$mes = 'Set';
+										$ano = '2016';
+										include 'postDataTemplate.php';
+										?>
+										<img
+										alt="LPTV- Making of the 'Waiting For The End' Music Video"
+										class="linkImg"
+										src="/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video.png">
+										<label class="nomeLink">LPTV- Making of the "Waiting For The
+											End Music Video</label>
+									</a>
+								</div>
+							</td>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/the-catalyst-behind-the-scenes">
@@ -34,9 +83,12 @@
 										$ano = '2016';
 										include 'postDataTemplate.php';
 										?>
-										<img alt="LPTV: Behind The Scenes of “The Catalyst” Music Video" class="linkImg"
+										<img
+										alt="LPTV: Behind The Scenes of “The Catalyst” Music Video"
+										class="linkImg"
 										src="/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes.jpg">
-										<label class="nomeLink">LPTV: Behind The Scenes of “The Catalyst” Music Video</label>
+										<label class="nomeLink">LPTV: Behind The Scenes of “The
+											Catalyst” Music Video</label>
 									</a>
 								</div>
 							</td>
@@ -55,6 +107,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link"
@@ -73,8 +127,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/megaphone-brad">
@@ -105,6 +157,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/making-of-the-catalyst-music-video">
@@ -122,8 +176,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/blackout-freestyle">
@@ -157,6 +209,8 @@
 									</a>
 								</div>
 							</td>
+						</tr>
+						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/contest-featuring-you-winner">
@@ -174,8 +228,6 @@
 									</a>
 								</div>
 							</td>
-						</tr>
-						<tr>
 							<td>
 								<div class="panel">
 									<a class="link" href="2010/something-new">
@@ -192,7 +244,7 @@
 								</div>
 							</td>
 						</tr>
-					</table>
+					</table> -->
 				</div>
 				<div id="#dois-mil-catorze">
 					<table class="panelGrid">

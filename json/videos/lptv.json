@@ -1,6 +1,5 @@
 {
-	"2014": 
-	{
+	"2014": {
 		"beast-astray": {
 			"title": "BEAST ASTRAY ART SHOW",
 			"videoId": "fhDToinSVl8",
@@ -74,8 +73,7 @@
 			"source": "youtube"
 		}
 	},
-	"2015":
-	{
+	"2015": {
 		"a-line-in-the-sand-guitar-solo": {
 			"title": "A LINE IN THE SAND GUITAR SOLO TUTORIAL",
 			"videoId": "C7klIjE0KrQ",
@@ -161,87 +159,93 @@
 			"source": "youtube"
 		}
 	},
-	"2010":
-	{
-		"something-new":
-		{
+	"2010": {
+		"something-new": {
 			"title": "Something New",
 			"videoId": "158576901",
 			"descricao": "Neste vídeo a banda se reúne para discutir as opiniões dadas por Rick sobre a música Iridescent.",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/something-new.png"
+			"thumbnail": "/resources/imagens/videos/lptv/something-new.png"
 		},
-		"contest-featuring-you-winner":
-		{
+		"contest-featuring-you-winner": {
 			"title": "'The Catalyst' Contest Featuring YOU Winner",
 			"videoId": "158804737",
 			"descricao": "Este vídeo mostra um pouco do processo de escolha da banda em relação às músicas enviadas para o concurso do remix de The Catalyst e mostra o vencedor do concurso.",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg"
 		},
-		"chester-records-vocals-for-the-catalyst":
-		{
+		"chester-records-vocals-for-the-catalyst": {
 			"title": "Chester Records Vocals for 'The Catalyst'",
 			"videoId": "158844946",
 			"descricao": "Este vídeo mostra o processo de gravação dos vocais da música \"The Catalyst\", do álbum A Thousand Suns.",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png"
+			"thumbnail": "/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png"
 		},
-		"blackout-freestyle":
-		{
+		"blackout-freestyle": {
 			"title": "'Blackout' Freestyle",
 			"videoId": "160240979",
 			"descricao": "Neste vídeo curto é mostrado uma parte do processo de gravação da música \"Blackout\", do álbum A Thousand Suns, em que o Chester usa pela primeira vez palavras \"reais\" em vez de palavras \"que parecem ser palavras\".",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/blackout-freestyle.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/blackout-freestyle.jpg"
 		},
-		"making-of-the-catalyst-music-video":
-		{
+		"making-of-the-catalyst-music-video": {
 			"title": "Making of 'The Catalyst' Music Video",
 			"videoId": "inRPy6WQXYY",
 			"descricao": "Neste vídeo é mostrado o processo de filmagem do vídeo da música \"The Catalyst\", do álbum A Thousand Suns",
 			"source": "youtube",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg"
 		},
-		"chesters-lullaby":
-		{
+		"chesters-lullaby": {
 			"title": "Chester's Lullaby",
 			"videoId": "162709806",
 			"descricao": "Chester e Mike discutem opções de letra para uma música para The Catalyst.",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/chesters-lullaby.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/chesters-lullaby.jpg"
 		},
-		"megaphone-brad":
-		{
+		"megaphone-brad": {
 			"title": "Megaphone Brad",
 			"videoId": "163084253",
 			"descricao": "Brad e Mike discutem e gravam ideias para a música \"When They Come For Me\".",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/megaphone-brad.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/megaphone-brad.jpg"
 		},
-		"waiting-for-the-end-recording-vocals":
-		{
+		"waiting-for-the-end-recording-vocals": {
 			"title": "WAITING FOR THE END - Recording Vocals",
 			"videoId": "163207012",
 			"descricao": "Mike e Chester discutem ideias e realizam as gravações dos vocais de \"Waiting For The End\".",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals.jpg"
 		},
-		"iridescent-gang-vocals":
-		{
+		"iridescent-gang-vocals": {
 			"title": "Iridescent Gang Vocals",
 			"videoId": "163440446",
 			"descricao": "Mike e Brad discutem ideias para a música Iridescent e acabam por gravar a ideia de vocais em grupo.",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/iridescent-gang-vocals.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/iridescent-gang-vocals.jpg"
 		},
-		"the-catalyst-behind-the-scenes":
-		{
+		"the-catalyst-behind-the-scenes": {
 			"title": "Behind The Scenes of 'The Catalyst' Music Video",
 			"videoId": "164737097",
 			"descricao": "Vídeo de bastidores da gravação do clipe de \"The Catalyst\".",
 			"source": "vimeo",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes.jpg"
+			"thumbnail": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes.jpg",
+			"data": {
+				"dia": "29",
+				"mes": "Abril",
+				"ano": "2016"
+			}
+		},
+		"making-of-waiting-for-the-end-music-video": {
+			"title": "Making of the 'Waiting For The End' Music Video",
+			"videoId": "184073045",
+			"descricao": "Este vídeo mostra o processo de gravação do clipe da música \"Waiting For The End\" do álbum A Thousand Suns.",
+			"source": "vimeo",
+			"thumbnail": "/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video.png",
+			"data": {
+				"dia": "23",
+				"mes": "Set",
+				"ano": "2016"
+			}
 		}
 	},
 	"secao": "LPTV"

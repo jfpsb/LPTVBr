@@ -26,7 +26,7 @@ if ($isSourceSet) {
 }
 
 if ($isThumbnailSet) {
-	$thumbnail = $release [$ano] [$video] ['thumbnail'];
+	$thumbnail = $_SERVER['SERVER_NAME'] . $release [$ano] [$video] ['thumbnail'];
 } else {
 	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
 }

@@ -35,17 +35,20 @@ td {
 	max-width: 100%;
 }
 
-#albuns, #singles, #lpu, #remixes {
+#albuns, #singles, #lpu, #remixes, #videos-article, #dois-mil-dez {
 	display: flex;
 	flex-direction: row;
 	margin: 0 auto;
 	flex-wrap: wrap;
+	background: #E0E0E0;
+	padding-top: 25px;
 }
 
 .panel {
 	position: relative;
 	border-radius: 5px;
 	margin: 5px auto;
+	border: 1px groove white;
 }
 
 .nomeLink {
@@ -58,15 +61,13 @@ td {
 	text-shadow: 2px 2px 2px black;
 	margin: 0 auto !important;
 	position: absolute;
-	bottom: 5px;
+	bottom: 1px;
 	padding: 7px 0px 7px 0px;
 	left: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
-	left: 0;
 	border-radius: 5px;
-	left: 0;
 }
 
 .postData {
@@ -77,8 +78,8 @@ td {
 	background: #D4E157;
 	position: absolute;
 	z-index: 20;
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-top-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
 	padding: 0px 5px 0px 5px;
 	text-align: center;
 	text-shadow: 1px 1px 2px white;
@@ -156,7 +157,23 @@ td {
 }
 
 .pui-tabview-nav {
+	background: #9E9E9E !important;
+	border: 1px inset gray !important;
+	padding: 5px 3px 0px 3px !important;
+	border-bottom: none !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
+	{
+	color: black !important;
+	border: 1px inset black !important;
+	border-bottom: none !important;
 	background: #E0E0E0 !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active a
+	{
+	color: black !important;
 }
 
 .link:hover .nomeLink {
@@ -173,17 +190,16 @@ td {
 }
 
 @media all and (max-width: 768px) {
-	.musica.menu {
-		display: block;
-	}
 	#mus-tabView {
 		padding: 0 !important;
+		width: 100% !important;
+		margin: 0 auto !important;
 	}
-	.tabs {
-		display: none
+	.tabs a {
+		font-size: 14px;
 	}
 	.postData {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.dataBr {
 		display: none;

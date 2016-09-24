@@ -1,51 +1,42 @@
 {
-	"artista": "Linkin Park",
-	"a-light-that-never-comes":
-	{
-		"altnc-angger":
-		{
+	"a-light-that-never-comes": {
+		"altnc-angger": {
 			"title": "A Light That Never Comes (Angger Dimas Remix)",
 			"videoId": "VRkCSSd07PE",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-brian":
-		{
+		"altnc-brian": {
 			"title": "A Light That Never Comes (Brian Yates Remix)",
 			"videoId": "-8eAp4m4yQw",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-coone":
-		{
+		"altnc-coone": {
 			"title": "A Light That Never Comes (Coone Remix)",
 			"videoId": "DYVau95BrUk",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-rick":
-		{
+		"altnc-rick": {
 			"title": "A Light That Never Comes (Rick Rubin Reboot)",
 			"videoId": "48pf3g23a5s",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-twoloud":
-		{
+		"altnc-twoloud": {
 			"title": "A Light That Never Comes (Twoloud Remix)",
 			"videoId": "4SkEs28a_w4",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-vicetone-dub":
-		{
+		"altnc-vicetone-dub": {
 			"title": "A Light That Never Comes (Vicetone Remix Dub)",
 			"videoId": "B2mcdcB0gVI",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"altnc-vicetone":
-		{
+		"altnc-vicetone": {
 			"title": "A Light That Never Comes (Vicetone Remix)",
 			"videoId": "u9uqqcJdseU",
 			"lyricTitle": "a-light-that-never-comes",
@@ -58,242 +49,84 @@
 		"duracao": "33:48",
 		"numMus": "7",
 		"gravadora": "Warner Bros., Dim Mak",
-		"icone": "a-light-that-never-comes"
+		"tipo": "remixes",
+		"thumbnail": {
+			"large": "/resources/imagens/remixes/a-light-that-never-comes/a-light-that-never-comes-large.jpg",
+			"medium": "/resources/imagens/remixes/a-light-that-never-comes/a-light-that-never-comes-medium.jpg",
+			"small": "/resources/imagens/remixes/a-light-that-never-comes/a-light-that-never-comes-small.jpg"
+		}
 	},
-	"8bit-rebellion":
-	{
-		"blackbirds":
-		{
-			"title": "Blackbirds",
-			"videoId": "QPvx6C6BgfM",
-			"lyricAlbum": ""
-		},
-		"album": "8-Bit Rebellion",
-		"lancamento": "26 de abril de 2010",
-		"datetime": "2010-04-26",
-		"duracaoiso": "P30M54S",
-		"duracao": "30:54 (Lista Original)",
-		"numMus": "13 (Lista Original)",
-		"gravadora": "Warner Bros., Machine Shop",
-		"icone": "8bit-rebellion"
-	},
-	"reanimation":
-	{
-		"a-place-for-my-head":
-		{
-			"title": "Plc.4 Mie Head",
-			"videoId": "pohRhC6Tp-s",
-			"lyricAlbum": "reanimation"
-		},
-		"by-myself":
-		{
-			"title": "By_Myslf",
-			"videoId": "wq5o9KLHwFg",
-			"lyricAlbum": "reanimation"
-		},
-		"chali":
-		{
-			"title": "Chali",
-			"videoId": "ZAmkPDzqrHo",
-			"lyricAlbum": "reanimation"
-		},
-		"crawling":
-		{
-			"title": "Crawling",
-			"videoId": "jfviFOcnlew",
-			"lyricAlbum": "reanimation"
-		},
-		"cure-for-the-itch":
-		{
-			"title": "Kyur4 th Ich",
-			"videoId": "I8Tftc1hsaE",
-			"lyricAlbum": "reanimation"
-		},
-		"forgotten":
-		{
-			"title": "Frgt/10",
-			"videoId": "RB1VkwBWlhI",
-			"lyricAlbum": "reanimation"
-		},
-		"high-voltage":
-		{
-			"title": "H! Vltg3",
-			"videoId": "Wav7x_qwwdo",
-			"lyricAlbum": "reanimation"
-		},
-		"in-the-end":
-		{
-			"title": "Enth E Nd",
-			"videoId": "znYq3iHXShI",
-			"lyricAlbum": "reanimation"
-		},
-		"my-december":
-		{
-			"title": "My<Dsmbr",
-			"videoId": "fqOyQ6yR4Xc",
-			"lyricAlbum": "reanimation"
-		},
-		"ntr-mission":
-		{
-			"title": "Ntr\\Mssion",
-			"videoId": "ZU8LzmIIl60",
-			"lyricAlbum": "reanimation"
-		},
-		"one-step-closer":
-		{
-			"title": "1stp Klosr",
-			"videoId": "SqAlFm6LDjs",
-			"lyricAlbum": "reanimation"
-		},
-		"opening":
-		{
-			"title": "Opening",
-			"videoId": "MsFiFV_HgVo",
-			"lyricAlbum": "reanimation"
-		},
-		"papercut":
-		{
-			"title": "Ppr:Kut",
-			"videoId": "GX1NikZn4nY",
-			"lyricAlbum": "reanimation"
-		},
-		"points-of-authority":
-		{
-			"title": "Pts.OF.Athrty",
-			"videoId": "GgxcvmkPD-I",
-			"lyricAlbum": "reanimation"
-		},
-		"pushing-me-away":
-		{
-			"title": "P5hng Me A*wy",
-			"videoId": "TyeLdbF-pi0",
-			"lyricAlbum": "reanimation"
-		},
-		"riff-raff":
-		{
-			"title": "Riff Raff",
-			"videoId": "34AhVmvy5pk",
-			"lyricAlbum": "reanimation"
-		},
-		"runaway":
-		{
-			"title": "Runaway",
-			"videoId": "2bZahEJuwKo",
-			"lyricAlbum": "reanimation"
-		},
-		"stef":
-		{
-			"title": "Stef",
-			"videoId": "gMBAgUJIO-o",
-			"lyricAlbum": "reanimation"
-		},
-		"with-you":
-		{
-			"title": "Wth>You",
-			"videoId": "Vc8nQEoGcZs",
-			"lyricAlbum": "reanimation"
-		},
-		"x-executioner":
-		{
-			"title": "X-Ecutioner Style",
-			"videoId": "PzWc5DOj7CU",
-			"lyricAlbum": "reanimation"
-		},
-		"album": "Reanimation",
-		"lancamento": "29 de julho de 2002",
-		"datetime": "2002-07-29",
-		"duracaoiso": "P61M00S",
-		"duracao": "61:00",
-		"numMus": "20",
-		"gravadora": "Warner Bros. Records",
-		"icone": "reanimation"
-	},
-	"recharged":
-	{
-		"a-light-that-never-comes":
-		{
+	"recharged": {
+		"a-light-that-never-comes": {
 			"title": "A Light That Never Comes",
 			"videoId": "ToHo29kD9Go",
 			"lyricAlbum": ""
 		},
-		"altnc-rick":
-		{
+		"altnc-rick": {
 			"title": "A Light That Never Comes (Rick Rubin Reboot)",
 			"videoId": "48pf3g23a5s",
 			"lyricAlbum": "",
 			"lyricTitle": "a-light-that-never-comes"
 		},
-		"burn-it-down":
-		{
+		"burn-it-down": {
 			"title": "Burn It Down (Tom Swoon Remix) [Feat. Bun B]",
 			"videoId": "OZLOlr3C6v8",
 			"lyricAlbum": "living-things"
 		},
-		"Castle Of Glass (M. Shinoda Remix)":
-		{
+		"Castle Of Glass (M. Shinoda Remix)": {
 			"title": "castle-of-glass",
 			"videoId": "7cpD3t3WwV0",
 			"lyricAlbum": "living-things"
 		},
-		"ill-be-gone-schoolboy":
-		{
+		"ill-be-gone-schoolboy": {
 			"title": "I'll Be Gone (Schoolboy Remix)",
 			"videoId": "uE43BpbvX6k",
 			"lyricAlbum": "reanimation",
 			"lyricTitle": "ill-be-gone"
 		},
-		"ill-be-gone":
-		{
+		"ill-be-gone": {
 			"title": "I'll Be Gone (Vice Remix) [Feat. Pusha T]",
 			"videoId": "C2khAbHqDbg",
 			"lyricAlbum": "living-things"
 		},
-		"lies-greed-misery":
-		{
+		"lies-greed-misery": {
 			"title": "Lies Greed Misery (Dirtyphonics Remix)",
 			"videoId": "0DlodR4yV0",
 			"lyricAlbum": "living-things"
 		},
-		"lost-in-the-echo":
-		{
+		"lost-in-the-echo": {
 			"title": "Lost In The Echo (Killsonik Remix)",
 			"videoId": "hesGjN2r_5c",
 			"lyricAlbum": "",
 			"lyricTitle": "lost-in-the-echo-k-remix"
 		},
-		"powerless":
-		{
+		"powerless": {
 			"title": "Powerless",
 			"videoId": "oQO88IFWiaI",
 			"lyricAlbum": "living-things"
 		},
-		"roads-untraveled":
-		{
+		"roads-untraveled": {
 			"title": "Roads Untraveled (Rad Omen Remix) [Feat. Bun B]",
 			"videoId": "DJ7BVfkS3GM",
 			"lyricAlbum": "living-things"
 		},
-		"skin-to-bone":
-		{
+		"skin-to-bone": {
 			"title": "Skin To Bone (Nick Catchdubs Remix) [Feat. Cody B. Ware &amp; Ryu]",
 			"videoId": "5M2woBCPMTw",
 			"lyricAlbum": "living-things"
 		},
-		"until-it-breaks-money":
-		{
+		"until-it-breaks-money": {
 			"title": "Until It Breaks (Money Mark Headphone Remix)",
 			"videoId": "dBwzgMEdY5c",
 			"lyricAlbum": "living-things",
 			"lyricTitle": "skin-to-bone"
 		},
-		"until-it-breaks":
-		{
+		"until-it-breaks": {
 			"title": "Until It Breaks (Datsik Remix) [Feat. Bun B]",
 			"videoId": "qGpJL8jKL54",
 			"lyricAlbum": "living-things"
 		},
-		"victimized":
-		{
+		"victimized": {
 			"title": "Victimized (M. Shinoda Remix)",
 			"videoId": "pGkBwCHgydU",
 			"lyricAlbum": "reanimation"
@@ -305,6 +138,146 @@
 		"duracao": "68:43",
 		"numMus": "14",
 		"gravadora": "Warner Bros. Records",
-		"icone": "recharged"
+		"tipo": "remixes",
+		"thumbnail": {
+			"large": "/resources/imagens/remixes/recharged/recharged-large.jpg",
+			"medium": "/resources/imagens/remixes/recharged/recharged-medium.jpg",
+			"small": "/resources/imagens/remixes/recharged/recharged-small.jpg"
+		}
+	},
+	"8bit-rebellion": {
+		"blackbirds": {
+			"title": "Blackbirds",
+			"videoId": "QPvx6C6BgfM",
+			"lyricAlbum": ""
+		},
+		"album": "8-Bit Rebellion",
+		"lancamento": "26 de abril de 2010",
+		"datetime": "2010-04-26",
+		"duracaoiso": "P30M54S",
+		"duracao": "30:54 (Lista Original)",
+		"numMus": "13 (Lista Original)",
+		"gravadora": "Warner Bros., Machine Shop",
+		"tipo": "remixes",
+		"thumbnail": {
+			"large": "/resources/imagens/remixes/8bit-rebellion/8bit-rebellion-large.jpg",
+			"medium": "/resources/imagens/remixes/8bit-rebellion/8bit-rebellion-medium.jpg",
+			"small": "/resources/imagens/remixes/8bit-rebellion/8bit-rebellion-small.jpg"
+		}
+	},
+	"reanimation": {
+		"a-place-for-my-head": {
+			"title": "Plc.4 Mie Head",
+			"videoId": "pohRhC6Tp-s",
+			"lyricAlbum": "reanimation"
+		},
+		"by-myself": {
+			"title": "By_Myslf",
+			"videoId": "wq5o9KLHwFg",
+			"lyricAlbum": "reanimation"
+		},
+		"chali": {
+			"title": "Chali",
+			"videoId": "ZAmkPDzqrHo",
+			"lyricAlbum": "reanimation"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "jfviFOcnlew",
+			"lyricAlbum": "reanimation"
+		},
+		"cure-for-the-itch": {
+			"title": "Kyur4 th Ich",
+			"videoId": "I8Tftc1hsaE",
+			"lyricAlbum": "reanimation"
+		},
+		"forgotten": {
+			"title": "Frgt/10",
+			"videoId": "RB1VkwBWlhI",
+			"lyricAlbum": "reanimation"
+		},
+		"high-voltage": {
+			"title": "H! Vltg3",
+			"videoId": "Wav7x_qwwdo",
+			"lyricAlbum": "reanimation"
+		},
+		"in-the-end": {
+			"title": "Enth E Nd",
+			"videoId": "znYq3iHXShI",
+			"lyricAlbum": "reanimation"
+		},
+		"my-december": {
+			"title": "My<Dsmbr",
+			"videoId": "fqOyQ6yR4Xc",
+			"lyricAlbum": "reanimation"
+		},
+		"ntr-mission": {
+			"title": "Ntr\\Mssion",
+			"videoId": "ZU8LzmIIl60",
+			"lyricAlbum": "reanimation"
+		},
+		"one-step-closer": {
+			"title": "1stp Klosr",
+			"videoId": "SqAlFm6LDjs",
+			"lyricAlbum": "reanimation"
+		},
+		"opening": {
+			"title": "Opening",
+			"videoId": "MsFiFV_HgVo",
+			"lyricAlbum": "reanimation"
+		},
+		"papercut": {
+			"title": "Ppr:Kut",
+			"videoId": "GX1NikZn4nY",
+			"lyricAlbum": "reanimation"
+		},
+		"points-of-authority": {
+			"title": "Pts.OF.Athrty",
+			"videoId": "GgxcvmkPD-I",
+			"lyricAlbum": "reanimation"
+		},
+		"pushing-me-away": {
+			"title": "P5hng Me A*wy",
+			"videoId": "TyeLdbF-pi0",
+			"lyricAlbum": "reanimation"
+		},
+		"riff-raff": {
+			"title": "Riff Raff",
+			"videoId": "34AhVmvy5pk",
+			"lyricAlbum": "reanimation"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "2bZahEJuwKo",
+			"lyricAlbum": "reanimation"
+		},
+		"stef": {
+			"title": "Stef",
+			"videoId": "gMBAgUJIO-o",
+			"lyricAlbum": "reanimation"
+		},
+		"with-you": {
+			"title": "Wth>You",
+			"videoId": "Vc8nQEoGcZs",
+			"lyricAlbum": "reanimation"
+		},
+		"x-executioner": {
+			"title": "X-Ecutioner Style",
+			"videoId": "PzWc5DOj7CU",
+			"lyricAlbum": "reanimation"
+		},
+		"album": "Reanimation",
+		"lancamento": "29 de julho de 2002",
+		"datetime": "2002-07-29",
+		"duracaoiso": "P61M00S",
+		"duracao": "61:00",
+		"numMus": "20",
+		"gravadora": "Warner Bros. Records",
+		"tipo": "remixes",
+		"thumbnail": {
+			"large": "/resources/imagens/remixes/reanimation/reanimation-large.jpg",
+			"medium": "/resources/imagens/remixes/reanimation/reanimation-medium.jpg",
+			"small": "/resources/imagens/remixes/reanimation/reanimation-small.jpg"
+		}
 	}
 }

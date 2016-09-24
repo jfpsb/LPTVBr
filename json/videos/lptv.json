@@ -165,73 +165,158 @@
 			"videoId": "158576901",
 			"descricao": "Neste vídeo a banda se reúne para discutir as opiniões dadas por Rick sobre a música Iridescent.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/something-new.png"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"contest-featuring-you-winner": {
 			"title": "'The Catalyst' Contest Featuring YOU Winner",
 			"videoId": "158804737",
 			"descricao": "Este vídeo mostra um pouco do processo de escolha da banda em relação às músicas enviadas para o concurso do remix de The Catalyst e mostra o vencedor do concurso.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/contest-featuring-you-winner.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"chester-records-vocals-for-the-catalyst": {
 			"title": "Chester Records Vocals for 'The Catalyst'",
 			"videoId": "158844946",
 			"descricao": "Este vídeo mostra o processo de gravação dos vocais da música \"The Catalyst\", do álbum A Thousand Suns.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst.png"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"blackout-freestyle": {
 			"title": "'Blackout' Freestyle",
 			"videoId": "160240979",
 			"descricao": "Neste vídeo curto é mostrado uma parte do processo de gravação da música \"Blackout\", do álbum A Thousand Suns, em que o Chester usa pela primeira vez palavras \"reais\" em vez de palavras \"que parecem ser palavras\".",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/blackout-freestyle.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/blackout-freestyle/blackout-freestyle-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/blackout-freestyle/blackout-freestyle-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/blackout-freestyle/blackout-freestyle-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"making-of-the-catalyst-music-video": {
 			"title": "Making of 'The Catalyst' Music Video",
 			"videoId": "inRPy6WQXYY",
 			"descricao": "Neste vídeo é mostrado o processo de filmagem do vídeo da música \"The Catalyst\", do álbum A Thousand Suns",
 			"source": "youtube",
-			"thumbnail": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video/making-of-the-catalyst-music-videos-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video/making-of-the-catalyst-music-video-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video/making-of-the-catalyst-music-video-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"chesters-lullaby": {
 			"title": "Chester's Lullaby",
 			"videoId": "162709806",
 			"descricao": "Chester e Mike discutem opções de letra para uma música para The Catalyst.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/chesters-lullaby.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/chesters-lullaby/chesters-lullaby-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/chesters-lullaby/chesters-lullaby-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/chesters-lullaby/chesters-lullaby-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"megaphone-brad": {
 			"title": "Megaphone Brad",
 			"videoId": "163084253",
 			"descricao": "Brad e Mike discutem e gravam ideias para a música \"When They Come For Me\".",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/megaphone-brad.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/megaphone-brad/megaphone-brad-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/megaphone-brad/megaphone-brad-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/megaphone-brad/megaphone-brad-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"waiting-for-the-end-recording-vocals": {
 			"title": "WAITING FOR THE END - Recording Vocals",
 			"videoId": "163207012",
 			"descricao": "Mike e Chester discutem ideias e realizam as gravações dos vocais de \"Waiting For The End\".",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals/waiting-for-the-end-recording-vocals-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals/waiting-for-the-end-recording-vocals-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals/waiting-for-the-end-recording-vocals-small.jpg"
+			},
+			"data": {
+				"dia": "29",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"iridescent-gang-vocals": {
 			"title": "Iridescent Gang Vocals",
 			"videoId": "163440446",
 			"descricao": "Mike e Brad discutem ideias para a música Iridescent e acabam por gravar a ideia de vocais em grupo.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/iridescent-gang-vocals.jpg"
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/iridescent-gang-vocals/iridescent-gang-vocals-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/iridescent-gang-vocals/iridescent-gang-vocals-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/iridescent-gang-vocals/iridescent-gang-vocals-small.jpg"
+			},
+			"data": {
+				"dia": "19",
+				"mes": "04",
+				"ano": "2016"
+			}
 		},
 		"the-catalyst-behind-the-scenes": {
 			"title": "Behind The Scenes of 'The Catalyst' Music Video",
 			"videoId": "164737097",
 			"descricao": "Vídeo de bastidores da gravação do clipe de \"The Catalyst\".",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes.jpg",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+			},
 			"data": {
 				"dia": "29",
-				"mes": "Abril",
+				"mes": "04",
 				"ano": "2016"
 			}
 		},
@@ -240,7 +325,11 @@
 			"videoId": "184073045",
 			"descricao": "Este vídeo mostra o processo de gravação do clipe da música \"Waiting For The End\" do álbum A Thousand Suns.",
 			"source": "vimeo",
-			"thumbnail": "/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video.png",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video/making-of-waiting-for-the-end-music-video-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video/making-of-waiting-for-the-end-music-video-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/making-of-waiting-for-the-end-music-video/making-of-waiting-for-the-end-music-video-small.jpg"
+			},
 			"data": {
 				"dia": "23",
 				"mes": "09",

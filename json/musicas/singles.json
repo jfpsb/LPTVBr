@@ -1,226 +1,6 @@
 {
-	"artista": "Linkin Park",
-	"a-light-that-never-comes":
-	{
-		"a-light-that-never-comes":
-		{
-			"title": "A Light That Never Comes",
-			"videoId": "ToHo29kD9Go",
-			"lyricAlbum": ""
-		},
-		"album": "A Light That Never Comes",
-		"lancamento": "11 de outubro de 2013",
-		"datetime": "2013-10-13",
-		"duracaoiso": "P3M49S",
-		"duracao": "3:49",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "a-light-that-never-comes"
-	},
-	"bleed-it-out":
-	{
-		"bleed-it-out":
-		{
-			"title": "Bleed It Out",
-			"videoId": "OnuuYcqhzCE",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"given-up":
-		{
-			"title": "Given Up (Third Encore Session)",
-			"videoId": "ccbdAr620fY",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"what-ive-done":
-		{
-			"title": "What I've Done (Distorted Remix)",
-			"videoId": "Q7_HNQK0_u4",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"album": "Bleed It Out",
-		"lancamento": "20 de agosto de 2007",
-		"datetime": "2007-08-20",
-		"duracaoiso": "P9M39S",
-		"duracao": "9:39",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "bleed-it-out"
-	},
-	"breaking-the-habit":
-	{
-		"breaking-the-habit":
-		{
-			"title": "Breaking The Habit",
-			"videoId": "v2H4l9RpkwM",
-			"lyricAlbum": "meteora"
-		},
-		"crawling":
-		{
-			"title": "Crawling",
-			"videoId": "mAaNOqaeyf8",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"album": "Breaking The Habit",
-		"lancamento": "22 de junho de 2004",
-		"datetime": "2004-06-22",
-		"duracaoiso": "P3M16S",
-		"duracao": "3:16",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "breaking-the-habit"
-	},
-	"burn-it-down":
-	{
-		"burn-it-down":
-		{
-			"title": "Burn It Down",
-			"videoId": "dxytyRy-O1k",
-			"lyricAlbum": "living-things"
-		},
-		"album": "Burn It Down",
-		"lancamento": "16 de abril de 2012",
-		"datetime": "2012-04-16",
-		"duracaoiso": "P3M51S",
-		"duracao": "3:51",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "burn-it-down"
-	},
-	"burning-in-the-skies":
-	{
-		"blackout":
-		{
-			"title": "Blackout",
-			"videoId": "HQl9ZXIZ6ys",
-			"lyricAlbum": "a-thousand-suns"
-		},
-		"burning-in-the-skies":
-		{
-			"title": "Burning In The Skies",
-			"videoId": "kh_YCSW5lPc",
-			"lyricAlbum": "a-thousand-suns"
-		},
-		"when-they-come-for-me":
-		{
-			"title": "When They Come For Me",
-			"videoId": "5tpEjHTVkMU",
-			"lyricAlbum": "a-thousand-suns"
-		},
-		"album": "Burning In The Skies",
-		"lancamento": "21 de marÃ§o de 2011",
-		"datetime": "2011-03-21",
-		"duracaoiso": "P4M13S",
-		"duracao": "4:13",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "burning-in-the-skies"
-	},
-	"castle-of-glass":
-	{
-		"castle-of-glass":
-		{
-			"title": "Castle Of Glass",
-			"videoId": "ScNNfyq3d_w",
-			"lyricAlbum": "living-things"
-		},
-		"lost-in-the-echo-k-remix":
-		{
-			"title": "Lost In The Echo (Killsonik Remix)",
-			"videoId": "mkpeaBcjyYA",
-			"lyricAlbum": ""
-		},
-		"album": "Burning In The Skies",
-		"lancamento": "2 de fevereiro de 2013",
-		"datetime": "2013-02-02",
-		"duracaoiso": "P3M25S",
-		"duracao": "3:25",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "castle-of-glass"
-	},
-	"crawling":
-	{
-		"crawling":
-		{
-			"title": "Crawling",
-			"videoId": "Gd9OhYroLN0",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"papercut":
-		{
-			"title": "Papercut (Live From The BBC)",
-			"videoId": "wOZomGkVJuo",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"album": "Crawling",
-		"lancamento": "17 de abril de 2001",
-		"datetime": "2001-04-17",
-		"duracaoiso": "P3M29S",
-		"duracao": "3:29",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "crawling"
-	},
-	"download-haiti":
-	{
-		"not-alone":
-		{
-			"title": "Not Alone",
-			"videoId": "lrbL1s9qwBs",
-			"lyricAlbum": ""
-		},
-		"album": "Download To Donate For Haiti",
-		"lancamento": "21 de outubro de 2011",
-		"datetime": "2011-10-21",
-		"duracaoiso": "P4M12S",
-		"duracao": "4:12",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "download-haiti"
-	},
-	"download-tsunami":
-	{
-		"issho-ni":
-		{
-			"title": "Issho Ni",
-			"videoId": "haBcJCzT3As",
-			"lyricAlbum": ""
-		},
-		"album": "Download To Donate: Tsunami Relief",
-		"lancamento": "22 de marÃ§o de 2011",
-		"datetime": "2011-03-22",
-		"duracaoiso": "P3M51S",
-		"duracao": "3:51",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "download-tsunami"
-	},
-	"faint":
-	{
-		"faint":
-		{
-			"title": "Faint",
-			"videoId": "LYU-8IFcDPw",
-			"lyricAlbum": "meteora"
-		},"lying-from-you":
-		{
-			"title": "Lying From You (Live)",
-			"videoId": "F7nRgIraqVo",
-			"lyricAlbum": "meteora"
-		},
-		"album": "Faint",
-		"lancamento": "1 de julho de 2003",
-		"datetime": "2003-07-1",
-		"duracaoiso": "P2M42S",
-		"duracao": "2:42",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "faint"
-	},
-	"final-masquerade":
-	{
-		"final-masquerade":
-		{
+	"final-masquerade": {
+		"final-masquerade": {
 			"title": "Final Masquerade",
 			"videoId": "i8q8fFs3kTM",
 			"lyricAlbum": "the-hunting-party"
@@ -232,25 +12,677 @@
 		"duracao": "3:37",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"icone": "final-masquerade"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/final-masquerade/final-masquerade-large.jpg",
+			"medium": "/resources/imagens/singles/final-masquerade/final-masquerade-medium.jpg",
+			"small": "/resources/imagens/singles/final-masquerade/final-masquerade-small.jpg"
+		}
 	},
-	"from-the-inside":
-	{
-		"from-the-inside-live":
-		{
+	"rebellion": {
+		"rebellion": {
+			"title": "Rebellion",
+			"videoId": "OCy5461BtTg",
+			"lyricAlbum": "the-hunting-party"
+		},
+		"album": "Rebellion",
+		"lancamento": "4 de junho de 2014",
+		"datetime": "2014-06-04",
+		"duracaoiso": "P3M44S",
+		"duracao": "03:44",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/rebellion/rebellion-large.jpg",
+			"medium": "/resources/imagens/singles/rebellion/rebellion-medium.jpg",
+			"small": "/resources/imagens/singles/rebellion/rebellion-small.jpg"
+		}
+	},
+	"wastelands": {
+		"wastelands": {
+			"title": "Wastelands",
+			"videoId": "h6sFG7qOd4A",
+			"lyricAlbum": "the-hunting-party"
+		},
+		"album": "Wastelands",
+		"lancamento": "2 de junho de 2014",
+		"datetime": "2014-06-02",
+		"duracaoiso": "P3M10S",
+		"duracao": "03:10",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/wastelands/wastelands-large.jpg",
+			"medium": "/resources/imagens/singles/wastelands/wastelands-medium.jpg",
+			"small": "/resources/imagens/singles/wastelands/wastelands-small.jpg"
+		}
+	},
+	"until-its-gone": {
+		"until-its-gone": {
+			"title": "Until It's Gone",
+			"videoId": "oM-XJD4J36U",
+			"lyricAlbum": "the-hunting-party"
+		},
+		"album": "Until It's Gone",
+		"lancamento": "6 de maio de 2014",
+		"datetime": "2014-05-06",
+		"duracaoiso": "P3M53S",
+		"duracao": "03:53",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/until-its-gone/until-its-gone-large.jpg",
+			"medium": "/resources/imagens/singles/until-its-gone/until-its-gone-medium.jpg",
+			"small": "/resources/imagens/singles/until-its-gone/until-its-gone-small.jpg"
+		}
+	},
+	"guilty-all-the-same": {
+		"guilty-all-the-same": {
+			"title": "Guilty All The Same",
+			"videoId": "IfnhGW2Q_y0",
+			"lyricAlbum": "the-hunting-party"
+		},
+		"album": "Guilty All The Same",
+		"lancamento": "6 de março de 2014",
+		"datetime": "2014-03-06",
+		"duracaoiso": "P5M55S",
+		"duracao": "5:55",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/guilty-all-the-same/guilty-all-the-same-large.jpg",
+			"medium": "/resources/imagens/singles/guilty-all-the-same/guilty-all-the-same-medium.jpg",
+			"small": "/resources/imagens/singles/guilty-all-the-same/guilty-all-the-same-small.jpg"
+		}
+	},
+	"a-light-that-never-comes": {
+		"a-light-that-never-comes": {
+			"title": "A Light That Never Comes",
+			"videoId": "ToHo29kD9Go",
+			"lyricAlbum": ""
+		},
+		"album": "A Light That Never Comes",
+		"lancamento": "11 de outubro de 2013",
+		"datetime": "2013-10-13",
+		"duracaoiso": "P3M49S",
+		"duracao": "3:49",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/a-light-that-never-comes/a-light-that-never-comes-large.jpg",
+			"medium": "/resources/imagens/singles/a-light-that-never-comes/a-light-that-never-comes-medium.jpg",
+			"small": "/resources/imagens/singles/a-light-that-never-comes/a-light-that-never-comes-small.jpg"
+		}
+	},
+	"castle-of-glass": {
+		"castle-of-glass": {
+			"title": "Castle Of Glass",
+			"videoId": "ScNNfyq3d_w",
+			"lyricAlbum": "living-things"
+		},
+		"lost-in-the-echo-k-remix": {
+			"title": "Lost In The Echo (Killsonik Remix)",
+			"videoId": "mkpeaBcjyYA",
+			"lyricAlbum": ""
+		},
+		"album": "Burning In The Skies",
+		"lancamento": "2 de fevereiro de 2013",
+		"datetime": "2013-02-02",
+		"duracaoiso": "P3M25S",
+		"duracao": "3:25",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/castle-of-glass/castle-of-glass-large.jpg",
+			"medium": "/resources/imagens/singles/castle-of-glass/castle-of-glass-medium.jpg",
+			"small": "/resources/imagens/singles/castle-of-glass/castle-of-glass-small.jpg"
+		}
+	},
+	"powerless": {
+		"powerless": {
+			"title": "Powerless",
+			"videoId": "32BOmle7Z6w",
+			"lyricAlbum": "living-things"
+		},
+		"album": "Powerless",
+		"lancamento": "31 de outubro de 2012",
+		"datetime": "2012-10-31",
+		"duracaoiso": "P3M44S",
+		"duracao": "03:44",
+		"numMus": "1",
+		"gravadora": "Warner Bros., Machine Shop Recordings",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/powerless/powerless-large.jpg",
+			"medium": "/resources/imagens/singles/powerless/powerless-medium.jpg",
+			"small": "/resources/imagens/singles/powerless/powerless-small.jpg"
+		}
+	},
+	"lost-in-the-echo": {
+		"lost-in-the-echo-k-remix": {
+			"title": "Lost In The Echo (Killsonik Remix)",
+			"videoId": "hesGjN2r_5c",
+			"lyricAlbum": ""
+		},
+		"lost-in-the-echo": {
+			"title": "Lost In The Echo",
+			"videoId": "co4YpHTqmfQ",
+			"lyricAlbum": "living-things"
+		},
+		"album": "Lost In The Echo",
+		"lancamento": "19 de outubro de 2012",
+		"datetime": "2012-10-19",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/lost-in-the-echo/lost-in-the-echo-large.jpg",
+			"medium": "/resources/imagens/singles/lost-in-the-echo/lost-in-the-echo-medium.jpg",
+			"small": "/resources/imagens/singles/lost-in-the-echo/lost-in-the-echo-small.jpg"
+		}
+	},
+	"burn-it-down": {
+		"burn-it-down": {
+			"title": "Burn It Down",
+			"videoId": "dxytyRy-O1k",
+			"lyricAlbum": "living-things"
+		},
+		"album": "Burn It Down",
+		"lancamento": "16 de abril de 2012",
+		"datetime": "2012-04-16",
+		"duracaoiso": "P3M51S",
+		"duracao": "3:51",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/burn-it-down/burn-it-down-large.jpg",
+			"medium": "/resources/imagens/singles/burn-it-down/burn-it-down-medium.jpg",
+			"small": "/resources/imagens/singles/burn-it-down/burn-it-down-small.jpg"
+		}
+	},
+	"iridescent": {
+		"iridescent": {
+			"title": "Iridescent",
+			"videoId": "xLYiIBCN9ec",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"album": "Iridescent",
+		"lancamento": "27 de maio de 2011",
+		"datetime": "2011-05-27",
+		"duracaoiso": "P4M56S",
+		"duracao": "04:56",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/iridescent/iridescent-large.jpg",
+			"medium": "/resources/imagens/singles/iridescent/iridescent-medium.jpg",
+			"small": "/resources/imagens/singles/iridescent/iridescent-small.jpg"
+		}
+	},
+	"download-tsunami": {
+		"issho-ni": {
+			"title": "Issho Ni",
+			"videoId": "haBcJCzT3As",
+			"lyricAlbum": ""
+		},
+		"album": "Download To Donate: Tsunami Relief",
+		"lancamento": "22 de março de 2011",
+		"datetime": "2011-03-22",
+		"duracaoiso": "P3M51S",
+		"duracao": "3:51",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/download-tsunami/download-tsunami-large.jpg",
+			"medium": "/resources/imagens/singles/download-tsunami/download-tsunami-medium.jpg",
+			"small": "/resources/imagens/singles/download-tsunami/download-tsunami-small.jpg"
+		}
+	},
+	"burning-in-the-skies": {
+		"blackout": {
+			"title": "Blackout",
+			"videoId": "HQl9ZXIZ6ys",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"burning-in-the-skies": {
+			"title": "Burning In The Skies",
+			"videoId": "kh_YCSW5lPc",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"when-they-come-for-me": {
+			"title": "When They Come For Me",
+			"videoId": "5tpEjHTVkMU",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"album": "Burning In The Skies",
+		"lancamento": "21 de março de 2011",
+		"datetime": "2011-03-21",
+		"duracaoiso": "P4M13S",
+		"duracao": "4:13",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/burning-in-the-skies/burning-in-the-skies-large.jpg",
+			"medium": "/resources/imagens/singles/burning-in-the-skies/burning-in-the-skies-medium.jpg",
+			"small": "/resources/imagens/singles/burning-in-the-skies/burning-in-the-skies-small.jpg"
+		}
+	},
+	"waiting-for-the-end": {
+		"waiting-for-the-end": {
+			"title": "Waiting For The End",
+			"videoId": "5qF_qbaWt3Q",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"the-catalyst": {
+			"title": "The Catalyst",
+			"videoId": "51iquRYKPbs",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"album": "Waiting For The End",
+		"lancamento": "1 de outubro de 2010",
+		"datetime": "2010-10-01",
+		"duracaoiso": "P3M51S",
+		"duracao": "03:51",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/waiting-for-the-end/waiting-for-the-end-large.jpg",
+			"medium": "/resources/imagens/singles/waiting-for-the-end/waiting-for-the-end-medium.jpg",
+			"small": "/resources/imagens/singles/waiting-for-the-end/waiting-for-the-end-small.jpg"
+		}
+	},
+	"the-catalyst": {
+		"the-catalyst": {
+			"title": "The Catalyst",
+			"videoId": "51iquRYKPbs",
+			"lyricAlbum": "a-thousand-suns"
+		},
+		"album": "The Catalyst",
+		"lancamento": "2 de agosto de 2010",
+		"datetime": "2010-08-03",
+		"duracaoiso": "P5M42S",
+		"duracao": "05:42",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/the-catalyst/the-catalyst-large.jpg",
+			"medium": "/resources/imagens/singles/the-catalyst/the-catalyst-medium.jpg",
+			"small": "/resources/imagens/singles/the-catalyst/the-catalyst-small.jpg"
+		}
+	},
+	"download-haiti": {
+		"not-alone": {
+			"title": "Not Alone",
+			"videoId": "lrbL1s9qwBs",
+			"lyricAlbum": ""
+		},
+		"album": "Download To Donate For Haiti",
+		"lancamento": "21 de outubro de 2011",
+		"datetime": "2011-10-21",
+		"duracaoiso": "P4M12S",
+		"duracao": "4:12",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/download-haiti/download-haiti-large.jpg",
+			"medium": "/resources/imagens/singles/download-haiti/download-haiti-medium.jpg",
+			"small": "/resources/imagens/singles/download-haiti/download-haiti-small.jpg"
+		}
+	},
+	"new-divide": {
+		"new-divide-acapella": {
+			"title": "New Divide (Acapella)",
+			"videoId": "3gbt5daKKyI",
+			"lyricAlbum": "",
+			"lyricTitle": "new-divide"
+		},
+		"new-divide-instrumental": {
+			"title": "New Divide (Instrumental)",
+			"videoId": "hWaZ1zw1iso",
+			"lyricAlbum": ""
+		},
+		"new-divide-live": {
+			"title": "New Divide (Live)",
+			"videoId": "rGedjDnQ9cw",
+			"lyricAlbum": "",
+			"lyricTitle": "new-divide"
+		},
+		"new-divide": {
+			"title": "New Divide",
+			"videoId": "ysSxxIqKNN0",
+			"lyricAlbum": ""
+		},
+		"album": "New Divide",
+		"lancamento": "18 de maio de 2009",
+		"datetime": "2009-05-18",
+		"duracaoiso": "P4M28S",
+		"duracao": "04:28",
+		"numMus": "4",
+		"gravadora": "Reprise",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/new-divide/new-divide-large.jpg",
+			"medium": "/resources/imagens/singles/new-divide/new-divide-medium.jpg",
+			"small": "/resources/imagens/singles/new-divide/new-divide-small.jpg"
+		}
+	},
+	"leave-out-all-the-rest": {
+		"in-pieces": {
+			"title": "In Pieces (Live From Projekt Revolution, Washington DC, 19/08/07)",
+			"videoId": "CEReWfgPS14",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"leave-out-all-the-rest-live": {
+			"title": "Leave Out All The Rest (Live From Projekt Revolution, Detroit MI, 22/08/07)",
+			"videoId": "MU4Q7CGyZMs",
+			"lyricAlbum": "minutes-to-midnight",
+			"lyricTitle": "leave-out-all-the-rest"
+		},
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "yZIummTz9mM",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "Leave Out All The Rest",
+		"lancamento": "25 de agosto de 2008",
+		"datetime": "2008-08-25",
+		"duracaoiso": "P3M29S",
+		"duracao": "03:29",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/leave-out-all-the-rest/leave-out-all-the-rest-large.jpg",
+			"medium": "/resources/imagens/singles/leave-out-all-the-rest/leave-out-all-the-rest-medium.jpg",
+			"small": "/resources/imagens/singles/leave-out-all-the-rest/leave-out-all-the-rest-small.jpg"
+		}
+	},
+	"given-up": {
+		"given-up": {
+			"title": "Given Up",
+			"videoId": "0xyxtzD54rM",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"valentines-day": {
+			"title": "Valentine's Day",
+			"videoId": "JFl4wf7hOiw",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "Given Up",
+		"lancamento": "3 de março de 2008",
+		"datetime": "2008-03-03",
+		"duracaoiso": "P3M09S",
+		"duracao": "3:09",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/given-up/given-up-large.jpg",
+			"medium": "/resources/imagens/singles/given-up/given-up-medium.jpg",
+			"small": "/resources/imagens/singles/given-up/given-up-small.jpg"
+		}
+	},
+	"shadow-of-the-day": {
+		"bleed-it-out": {
+			"title": "Bleed It Out (Live From Projekt To Revolution)",
+			"videoId": "J02ci5EuLCc",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "n1PCW0C1aiM",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "Shadow Of The Day",
+		"lancamento": "30 de outubro de 2007",
+		"datetime": "2007-01-30",
+		"duracaoiso": "P4M54S",
+		"duracao": "04:54",
+		"numMus": "2",
+		"gravadora": "Warner Bros., Machine Shop",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/shadow-of-the-day/shadow-of-the-day-large.jpg",
+			"medium": "/resources/imagens/singles/shadow-of-the-day/shadow-of-the-day-medium.jpg",
+			"small": "/resources/imagens/singles/shadow-of-the-day/shadow-of-the-day-small.jpg"
+		}
+	},
+	"bleed-it-out": {
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "OnuuYcqhzCE",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"given-up": {
+			"title": "Given Up (Third Encore Session)",
+			"videoId": "ccbdAr620fY",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"what-ive-done": {
+			"title": "What I've Done (Distorted Remix)",
+			"videoId": "Q7_HNQK0_u4",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "Bleed It Out",
+		"lancamento": "20 de agosto de 2007",
+		"datetime": "2007-08-20",
+		"duracaoiso": "P9M39S",
+		"duracao": "9:39",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/bleed-it-out/bleed-it-out-large.jpg",
+			"medium": "/resources/imagens/singles/bleed-it-out/bleed-it-out-medium.jpg",
+			"small": "/resources/imagens/singles/bleed-it-out/bleed-it-out-small.jpg"
+		}
+	},
+	"what-ive-done": {
+		"faint": {
+			"title": "Faint (Live From Japan)",
+			"videoId": "mQMWhppCGlU",
+			"lyricAlbum": "meteora"
+		},
+		"from-the-inside": {
+			"title": "From The Inside (Live From Japan)",
+			"videoId": "q91mhXJU8nI",
+			"lyricAlbum": "meteora"
+		},
+		"what-ive-done": {
+			"title": "What I've Done",
+			"videoId": "8sgycukafqQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "What I've Done",
+		"lancamento": "2 de abril de 2007",
+		"datetime": "2007-04-02",
+		"duracaoiso": "P3M28S",
+		"duracao": "03:28",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/what-ive-done/what-ive-done-large.jpg",
+			"medium": "/resources/imagens/singles/what-ive-done/what-ive-done-medium.jpg",
+			"small": "/resources/imagens/singles/what-ive-done/what-ive-done-small.jpg"
+		}
+	},
+	"numb-encore": {
+		"numb-encore-instrumental": {
+			"title": "Numb/Encore (Instrumental)",
+			"videoId": "5HO8h-k_tNk",
+			"lyricAlbum": "collision-course"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "yNPECkESPbU",
+			"lyricAlbum": "collision-course"
+		},
+		"album": "Numb/Encore",
+		"lancamento": "13 de dezembro de 2004",
+		"datetime": "2004-12-13",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "2",
+		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/numb-encore/numb-encore-large.jpg",
+			"medium": "/resources/imagens/singles/numb-encore/numb-encore-medium.jpg",
+			"small": "/resources/imagens/singles/numb-encore/numb-encore-small.jpg"
+		}
+	},
+	"numb-encore-itunes": {
+		"bonus-beat": {
+			"title": "Bonus Beat",
+			"videoId": "empty",
+			"lyricAlbum": "collision-course"
+		},
+		"numb-encore-acapella": {
+			"title": "Numb/Encore (Acapella)",
+			"videoId": "ZRqRoHi--jg",
+			"lyricAlbum": "collision-course",
+			"lyricTitle": "numb-encore"
+		},
+		"numb-encore-clean-acapella": {
+			"title": "Numb/Encore (Clean Acapella)",
+			"videoId": "ZRqRoHi--jg",
+			"lyricAlbum": "collision-course",
+			"lyricTitle": "numb-encore"
+		},
+		"numb-encore-clean": {
+			"title": "Numb/Encore (Clean)",
+			"videoId": "hA8Y-CjDzH4",
+			"lyricAlbum": "collision-course",
+			"lyricTitle": "numb-encore"
+		},
+		"numb-encore-instrumental": {
+			"title": "Numb/Encore (Instrumental)",
+			"videoId": "5HO8h-k_tNk",
+			"lyricAlbum": "collision-course"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "yNPECkESPbU",
+			"lyricAlbum": "collision-course"
+		},
+		"album": "Numb/Encore (iTunes EP)",
+		"lancamento": "13 de dezembro de 2004",
+		"datetime": "2004-12-13",
+		"duracaoiso": "P3M25S",
+		"duracao": "03:25",
+		"numMus": "6",
+		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/numb-encore-itunesep/numb-encore-itunesep-large.jpg",
+			"medium": "/resources/imagens/singles/numb-encore-itunesep/numb-encore-itunesep-medium.jpg",
+			"small": "/resources/imagens/singles/numb-encore-itunesep/numb-encore-itunesep-small.jpg"
+		}
+	},
+	"numbv1": {
+		"from-the-inside": {
+			"title": "From The Inside (Live)",
+			"videoId": "4CC6hEl_mnY",
+			"lyricAlbum": "meteora"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU",
+			"lyricAlbum": "meteora"
+		},
+		"album": "Numb (Version 1)",
+		"lancamento": "8 de setembro de 2003",
+		"datetime": "2003-09-08",
+		"duracaoiso": "P3M08S",
+		"duracao": "03:08",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/numbv1/numbv1-large.jpg",
+			"medium": "/resources/imagens/singles/numbv1/numbv1-medium.jpg",
+			"small": "/resources/imagens/singles/numbv1/numbv1-small.jpg"
+		}
+	},
+	"numbv2": {
+		"easier-to-run": {
+			"title": "Easier To Run (Live)",
+			"videoId": "VCOudbdYQ1E",
+			"lyricAlbum": "meteora"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU",
+			"lyricAlbum": "meteora"
+		},
+		"album": "Numb (Version 2)",
+		"lancamento": "8 de setembro de 2003",
+		"datetime": "2003-09-08",
+		"duracaoiso": "P3M08S",
+		"duracao": "03:08",
+		"numMus": "2",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/numbv2/numbv2-large.jpg",
+			"medium": "/resources/imagens/singles/numbv2/numbv2-medium.jpg",
+			"small": "/resources/imagens/singles/numbv2/numbv2-small.jpg"
+		}
+	},
+	"breaking-the-habit": {
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "v2H4l9RpkwM",
+			"lyricAlbum": "meteora"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "mAaNOqaeyf8",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"album": "Breaking The Habit",
+		"lancamento": "22 de junho de 2004",
+		"datetime": "2004-06-22",
+		"duracaoiso": "P3M16S",
+		"duracao": "3:16",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/breaking-the-habit/breaking-the-habit-large.jpg",
+			"medium": "/resources/imagens/singles/breaking-the-habit/breaking-the-habit-medium.jpg",
+			"small": "/resources/imagens/singles/breaking-the-habit/breaking-the-habit-small.jpg"
+		}
+	},
+	"from-the-inside": {
+		"from-the-inside-live": {
 			"title": "From The Inside (Live In Texas)",
 			"videoId": "iflr2S12N5w",
 			"lyricAlbum": "meteora",
 			"lyricTitle": "from-the-inside"
 		},
-		"from-the-inside":
-		{
+		"from-the-inside": {
 			"title": "From The Inside",
 			"videoId": "YLHpvjrFpe0",
 			"lyricAlbum": "meteora"
 		},
-		"runaway":
-		{
+		"runaway": {
 			"title": "Runaway",
 			"videoId": "nWWeTIc1l6s",
 			"lyricAlbum": "hybrid-theory"
@@ -262,65 +694,161 @@
 		"duracao": "2:55",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "from-the-inside"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/from-the-inside/from-the-inside-large.jpg",
+			"medium": "/resources/imagens/singles/from-the-inside/from-the-inside-medium.jpg",
+			"small": "/resources/imagens/singles/from-the-inside/from-the-inside-small.jpg"
+		}
 	},
-	"given-up":
-	{
-		"given-up":
-		{
-			"title": "Given Up",
-			"videoId": "0xyxtzD54rM",
-			"lyricAlbum": "minutes-to-midnight"
+	"faint": {
+		"faint": {
+			"title": "Faint",
+			"videoId": "LYU-8IFcDPw",
+			"lyricAlbum": "meteora"
 		},
-		"valentines-day":
-		{
-			"title": "Valentine's Day",
-			"videoId": "JFl4wf7hOiw",
-			"lyricAlbum": "minutes-to-midnight"
+		"lying-from-you": {
+			"title": "Lying From You (Live)",
+			"videoId": "F7nRgIraqVo",
+			"lyricAlbum": "meteora"
 		},
-		"album": "Given Up",
-		"lancamento": "3 de marÃ§o de 2008",
-		"datetime": "2008-03-03",
-		"duracaoiso": "P3M09S",
-		"duracao": "3:09",
+		"album": "Faint",
+		"lancamento": "1 de julho de 2003",
+		"datetime": "2003-07-1",
+		"duracaoiso": "P2M42S",
+		"duracao": "2:42",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"icone": "given-up"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/faint/faint-large.jpg",
+			"medium": "/resources/imagens/singles/faint/faint-medium.jpg",
+			"small": "/resources/imagens/singles/faint/faint-small.jpg"
+		}
 	},
-	"guilty-all-the-same":
-	{
-		"guilty-all-the-same":
-		{
-			"title": "Guilty All The Same",
-			"videoId": "IfnhGW2Q_y0",
-			"lyricAlbum": "the-hunting-party"
+	"somewhere-i-belong": {
+		"my-december": {
+			"title": "My December (Live From Projekt Revolution)",
+			"videoId": "fbYL2ux82t8",
+			"lyricAlbum": ""
 		},
-		"album": "Guilty All The Same",
-		"lancamento": "6 de marÃ§o de 2014",
-		"datetime": "2014-03-06",
-		"duracaoiso": "P5M55S",
-		"duracao": "5:55",
-		"numMus": "1",
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "zsCD5XCu6CM",
+			"lyricAlbum": "meteora"
+		},
+		"step-up": {
+			"title": "Step Up (Live From Projekt Revolution)",
+			"videoId": "mmwtvSL0RZA",
+			"lyricAlbum": ""
+		},
+		"album": "Somewhere I Belong",
+		"lancamento": "17 de março de 2003",
+		"datetime": "2003-03-17",
+		"duracaoiso": "P3M33S",
+		"duracao": "03:33",
+		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "guilty-all-the-same"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/somewhere-i-belong/somewhere-i-belong-large.jpg",
+			"medium": "/resources/imagens/singles/somewhere-i-belong/somewhere-i-belong-medium.jpg",
+			"small": "/resources/imagens/singles/somewhere-i-belong/somewhere-i-belong-small.jpg"
+		}
 	},
-	"in-the-end":
-	{
-		"in-the-end-live":
-		{
+	"pts.of.athrty": {
+		"by-myself": {
+			"title": "Buy Myself (Remix Of By Myself By Marilyn Manson)",
+			"videoId": "9y7sOwm_K8E",
+			"lyricAlbum": "reanimation"
+		},
+		"high-voltage": {
+			"title": "H! Vltg3",
+			"videoId": "1LOfRtYmhmQ",
+			"lyricAlbum": "reanimation"
+		},
+		"points-of-authority": {
+			"title": "Pts.Of.Athrty",
+			"videoId": "ApUjxBO0-jo",
+			"lyricAlbum": "reanimation"
+		},
+		"album": "Pts.Of.Athrty",
+		"lancamento": "15 de julho de 2002",
+		"datetime": "2002-07-15",
+		"duracaoiso": "P3M39S",
+		"duracao": "03:39",
+		"numMus": "3",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/pts.of.athrty/pts.of.athrty-large.jpg",
+			"medium": "/resources/imagens/singles/pts.of.athrty/pts.of.athrty-medium.jpg",
+			"small": "/resources/imagens/singles/pts.of.athrty/pts.of.athrty-small.jpg"
+		}
+	},
+	"in-the-end-live-rare": {
+		"a-place-for-my-head": {
+			"title": "A Place For My Head (Live At Docklands Arena, London)",
+			"videoId": "MNMfJffErLE",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"high-voltage": {
+			"title": "High Voltage",
+			"videoId": "nANdZ2ah9yI",
+			"lyricAlbum": ""
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "eVTXPUF4Oz4",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"my-december": {
+			"title": "My December",
+			"videoId": "SguYdKqfy1o",
+			"lyricAlbum": ""
+		},
+		"papercut": {
+			"title": "Papercut (Live At Docklands Arena, London)",
+			"videoId": "bax4ulDca5A",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority (Live At Docklands Arena, London)",
+			"videoId": "emllr2ad95o",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"step-up": {
+			"title": "Step Up",
+			"videoId": "F6lmItFxnNM",
+			"lyricAlbum": ""
+		},
+		"album": "In The End: Live And Rare",
+		"lancamento": "27 de março de 2002",
+		"datetime": "2002-03-27",
+		"duracaoiso": "P24M04S",
+		"duracao": "24:04",
+		"numMus": "7",
+		"gravadora": "Warner Bros.",
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/in-the-end-live-rare/in-the-end-live-rare-large.jpg",
+			"medium": "/resources/imagens/singles/in-the-end-live-rare/in-the-end-live-rare-medium.jpg",
+			"small": "/resources/imagens/singles/in-the-end-live-rare/in-the-end-live-rare-small.jpg"
+		}
+	},
+	"in-the-end": {
+		"in-the-end-live": {
 			"title": "In The End (Live BBC Radio One)",
 			"videoId": "CE4XqPl4rGs",
 			"lyricAlbum": "hybrid-theory",
 			"lyricTitle": "in-the-end"
 		},
-		"in-the-end":
-		{
+		"in-the-end": {
 			"title": "In The End",
 			"videoId": "eVTXPUF4Oz4",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"points-of-authority":
-		{
+		"points-of-authority": {
 			"title": "Points Of Authority (Docklands Arena)",
 			"videoId": "emllr2ad95o",
 			"lyricAlbum": "hybrid-theory"
@@ -332,77 +860,25 @@
 		"duracao": "3:36",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "in-the-end"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/in-the-end/in-the-end-large.jpg",
+			"medium": "/resources/imagens/singles/in-the-end/in-the-end-medium.jpg",
+			"small": "/resources/imagens/singles/in-the-end/in-the-end-small.jpg"
+		}
 	},
-	"in-the-end-rare":
-	{
-		"a-place-for-my-head":
-		{
-			"title": "A Place For My Head (Live At Docklands Arena, London)",
-			"videoId": "MNMfJffErLE",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"high-voltage":
-		{
-			"title": "High Voltage",
-			"videoId": "nANdZ2ah9yI",
-			"lyricAlbum": ""
-		},
-		"in-the-end":
-		{
-			"title": "In The End",
-			"videoId": "eVTXPUF4Oz4",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"my-december":
-		{
-			"title": "My December",
-			"videoId": "SguYdKqfy1o",
-			"lyricAlbum": ""
-		},
-		"papercut":
-		{
-			"title": "Papercut (Live At Docklands Arena, London)",
-			"videoId": "bax4ulDca5A",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"points-of-authority":
-		{
-			"title": "Points Of Authority (Live At Docklands Arena, London)",
-			"videoId": "emllr2ad95o",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"step-up":
-		{
-			"title": "Step Up",
-			"videoId": "F6lmItFxnNM",
-			"lyricAlbum": ""
-		},
-		"album": "In The End: Live And Rare",
-		"lancamento": "27 de marÃ§o de 2002",
-		"datetime": "2002-03-27",
-		"duracaoiso": "P24M04S",
-		"duracao": "24:04",
-		"numMus": "7",
-		"gravadora": "Warner Bros.",
-		"icone": "in-the-end-rare"
-	},
-	"in-the-endv2":
-	{
-		"a-place-for-my-head":
-		{
+	"in-the-endv2": {
+		"a-place-for-my-head": {
 			"title": "A Place For My Head (Live At Docklands Arena)",
 			"videoId": "MNMfJffErLE",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"in-the-end":
-		{
+		"in-the-end": {
 			"title": "In The End",
 			"videoId": "eVTXPUF4Oz4",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"step-up":
-		{
+		"step-up": {
 			"title": "Step Up (Live At Docklands Arena)",
 			"videoId": "F6lmItFxnNM",
 			"lyricAlbum": ""
@@ -414,284 +890,30 @@
 		"duracao": "10:22",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "in-the-endv2"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/in-the-endv2/in-the-endv2-large.jpg",
+			"medium": "/resources/imagens/singles/in-the-endv2/in-the-endv2-medium.jpg",
+			"small": "/resources/imagens/singles/in-the-endv2/in-the-endv2-small.jpg"
+		}
 	},
-	"iridescent":
-	{
-		"iridescent":
-		{
-			"title": "Iridescent",
-			"videoId": "xLYiIBCN9ec",
-			"lyricAlbum": "a-thousand-suns"
-		},		
-		"album": "Iridescent",
-		"lancamento": "27 de maio de 2011",
-		"datetime": "2011-05-27",
-		"duracaoiso": "P4M56S",
-		"duracao": "04:56",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "iridescent"
-	},
-	"leave-out-all-the-rest":
-	{
-		"in-pieces":
-		{
-			"title": "In Pieces (Live From Projekt Revolution, Washington DC, 19/08/07)",
-			"videoId": "CEReWfgPS14",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"leave-out-all-the-rest-live":
-		{
-			"title": "Leave Out All The Rest (Live From Projekt Revolution, Detroit MI, 22/08/07)",
-			"videoId": "MU4Q7CGyZMs",
-			"lyricAlbum": "minutes-to-midnight",
-			"lyricTitle": "leave-out-all-the-rest"
-		},
-		"leave-out-all-the-rest":
-		{
-			"title": "Leave Out All The Rest",
-			"videoId": "yZIummTz9mM",
-			"lyricAlbum": "minutes-to-midnight"
-		},		
-		"album": "Leave Out All The Rest",
-		"lancamento": "25 de agosto de 2008",
-		"datetime": "2008-08-25",
-		"duracaoiso": "P3M29S",
-		"duracao": "03:29",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "leave-out-all-the-rest"
-	},
-	"lost-in-the-echo":
-	{
-		"lost-in-the-echo-k-remix":
-		{
-			"title": "Lost In The Echo (Killsonik Remix)",
-			"videoId": "hesGjN2r_5c",
-			"lyricAlbum": ""
-		},
-		"lost-in-the-echo":
-		{
-			"title": "Lost In The Echo",
-			"videoId": "co4YpHTqmfQ",
-			"lyricAlbum": "living-things"
-		},		
-		"album": "Lost In The Echo",
-		"lancamento": "19 de outubro de 2012",
-		"datetime": "2012-10-19",
-		"duracaoiso": "P3M25S",
-		"duracao": "03:25",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "lost-in-the-echo"
-	},
-	"new-divide":
-	{
-		"new-divide-acapella":
-		{
-			"title": "New Divide (Acapella)",
-			"videoId": "3gbt5daKKyI",
-			"lyricAlbum": "",
-			"lyricTitle": "new-divide"
-		},
-		"new-divide-instrumental":
-		{
-			"title": "New Divide (Instrumental)",
-			"videoId": "hWaZ1zw1iso",
-			"lyricAlbum": ""
-		},
-		"new-divide-live":
-		{
-			"title": "New Divide (Live)",
-			"videoId": "rGedjDnQ9cw",
-			"lyricAlbum": "",
-			"lyricTitle": "new-divide"
-		},
-		"new-divide":
-		{
-			"title": "New Divide",
-			"videoId": "ysSxxIqKNN0",
-			"lyricAlbum": ""
-		},		
-		"album": "New Divide",
-		"lancamento": "18 de maio de 2009",
-		"datetime": "2009-05-18",
-		"duracaoiso": "P4M28S",
-		"duracao": "04:28",
-		"numMus": "4",
-		"gravadora": "Reprise",
-		"icone": "lost-in-the-echo"
-	},
-	"numb-encore":
-	{
-		"numb-encore-instrumental":
-		{
-			"title": "Numb/Encore (Instrumental)",
-			"videoId": "5HO8h-k_tNk",
-			"lyricAlbum": "collision-course"
-		},
-		"numb-encore":
-		{
-			"title": "Numb/Encore",
-			"videoId": "yNPECkESPbU",
-			"lyricAlbum": "collision-course"
-		},		
-		"album": "Numb/Encore",
-		"lancamento": "13 de dezembro de 2004",
-		"datetime": "2004-12-13",
-		"duracaoiso": "P3M25S",
-		"duracao": "03:25",
-		"numMus": "2",
-		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
-		"icone": "numb-encore"
-	},
-	"numb-encore-itunes":
-	{
-		"bonus-beat":
-		{
-			"title": "Bonus Beat",
-			"videoId": "empty",
-			"lyricAlbum": "collision-course"
-		},
-		"numb-encore-acapella":
-		{
-			"title": "Numb/Encore (Acapella)",
-			"videoId": "ZRqRoHi--jg",
-			"lyricAlbum": "collision-course",
-			"lyricTitle": "numb-encore"
-		},
-		"numb-encore-clean-acapella":
-		{
-			"title": "Numb/Encore (Clean Acapella)",
-			"videoId": "ZRqRoHi--jg",
-			"lyricAlbum": "collision-course",
-			"lyricTitle": "numb-encore"
-		},
-		"numb-encore-clean":
-		{
-			"title": "Numb/Encore (Clean)",
-			"videoId": "hA8Y-CjDzH4",
-			"lyricAlbum": "collision-course",
-			"lyricTitle": "numb-encore"
-		},
-		"numb-encore-instrumental":
-		{
-			"title": "Numb/Encore (Instrumental)",
-			"videoId": "5HO8h-k_tNk",
-			"lyricAlbum": "collision-course"
-		},
-		"numb-encore":
-		{
-			"title": "Numb/Encore",
-			"videoId": "yNPECkESPbU",
-			"lyricAlbum": "collision-course"
-		},		
-		"album": "Numb/Encore (iTunes EP)",
-		"lancamento": "13 de dezembro de 2004",
-		"datetime": "2004-12-13",
-		"duracaoiso": "P3M25S",
-		"duracao": "03:25",
-		"numMus": "6",
-		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
-		"icone": "numb-encore-itunesep"
-	},
-	"numbv1":
-	{
-		"from-the-inside":
-		{
-			"title": "From The Inside (Live)",
-			"videoId": "4CC6hEl_mnY",
-			"lyricAlbum": "meteora"
-		},
-		"numb":
-		{
-			"title": "Numb",
-			"videoId": "kXYiU_JCYtU",
-			"lyricAlbum": "meteora"
-		},		
-		"album": "Numb (Version 1)",
-		"lancamento": "8 de setembro de 2003",
-		"datetime": "2003-09-08",
-		"duracaoiso": "P3M08S",
-		"duracao": "03:08",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "numbv1"
-	},
-	"numbv2":
-	{
-		"easier-to-run":
-		{
-			"title": "Easier To Run (Live)",
-			"videoId": "VCOudbdYQ1E",
-			"lyricAlbum": "meteora"
-		},
-		"numb":
-		{
-			"title": "Numb",
-			"videoId": "kXYiU_JCYtU",
-			"lyricAlbum": "meteora"
-		},		
-		"album": "Numb (Version 2)",
-		"lancamento": "8 de setembro de 2003",
-		"datetime": "2003-09-08",
-		"duracaoiso": "P3M08S",
-		"duracao": "03:08",
-		"numMus": "2",
-		"gravadora": "Warner Bros.",
-		"icone": "numbv2"
-	},
-	"one-step-closer":
-	{
-		"high-voltage":
-		{
-			"title": "High Voltage",
-			"videoId": "nANdZ2ah9yI",
-			"lyricAlbum": ""
-		},
-		"my-december":
-		{
-			"title": "My December",
-			"videoId": "SguYdKqfy1o",
-			"lyricAlbum": ""
-		},
-		"one-step-closer":
-		{
-			"title": "One Step Closer",
-			"videoId": "4qlCC1GOwFw",
-			"lyricAlbum": "hybrid-theory"
-		},		
-		"album": "One Step Closer",
-		"lancamento": "28 de novembro de 2000",
-		"datetime": "2000-11-28",
-		"duracaoiso": "P2M35S",
-		"duracao": "02:35",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "one-step-closer"
-	},
-	"papercut":
-	{
-		"papercut-live":
-		{
+	"papercut": {
+		"papercut-live": {
 			"title": "Papercut (Live)",
 			"videoId": "wOZomGkVJuo",
 			"lyricAlbum": "hybrid-theory",
 			"lyricTitle": "papercut"
 		},
-		"papercut":
-		{
+		"papercut": {
 			"title": "Papercut",
 			"videoId": "vjVkXlxsO8Q",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"points-of-authority":
-		{
+		"points-of-authority": {
 			"title": "Points Of Authority (Live)",
 			"videoId": "KT2DkfEft_c",
 			"lyricAlbum": "hybrid-theory"
-		},		
+		},
 		"album": "Papercut",
 		"lancamento": "25 de setembro de 2001",
 		"datetime": "2001-09-25",
@@ -699,224 +921,66 @@
 		"duracao": "03:04",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "papercut"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/papercut/papercut-large.jpg",
+			"medium": "/resources/imagens/singles/papercut/papercut-medium.jpg",
+			"small": "/resources/imagens/singles/papercut/papercut-small.jpg"
+		}
 	},
-	"powerless":
-	{
-		"powerless":
-		{
-			"title": "Powerless",
-			"videoId": "32BOmle7Z6w",
-			"lyricAlbum": "living-things"
-		},		
-		"album": "Powerless",
-		"lancamento": "31 de outubro de 2012",
-		"datetime": "2012-10-31",
-		"duracaoiso": "P3M44S",
-		"duracao": "03:44",
-		"numMus": "1",
-		"gravadora": "Warner Bros., Machine Shop Recordings",
-		"icone": "powerless"
-	},
-	"pts-of-athrty":
-	{
-		"by-myself":
-		{
-			"title": "Buy Myself (Remix Of By Myself By Marilyn Manson)",
-			"videoId": "9y7sOwm_K8E",
-			"lyricAlbum": "reanimation"
+	"crawling": {
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "Gd9OhYroLN0",
+			"lyricAlbum": "hybrid-theory"
 		},
-		"high-voltage":
-		{
-			"title": "H! Vltg3",
-			"videoId": "1LOfRtYmhmQ",
-			"lyricAlbum": "reanimation"
+		"papercut": {
+			"title": "Papercut (Live From The BBC)",
+			"videoId": "wOZomGkVJuo",
+			"lyricAlbum": "hybrid-theory"
 		},
-		"points-of-authority":
-		{
-			"title": "Pts.Of.Athrty",
-			"videoId": "ApUjxBO0-jo",
-			"lyricAlbum": "reanimation"
-		},		
-		"album": "Pts.Of.Athrty",
-		"lancamento": "15 de julho de 2002",
-		"datetime": "2002-07-15",
-		"duracaoiso": "P3M39S",
-		"duracao": "03:39",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "pts.of.athrty"
-	},
-	"rebellion":
-	{
-		"rebellion":
-		{
-			"title": "Rebellion",
-			"videoId": "OCy5461BtTg",
-			"lyricAlbum": "the-hunting-party"
-		},		
-		"album": "Rebellion",
-		"lancamento": "4 de junho de 2014",
-		"datetime": "2014-06-04",
-		"duracaoiso": "P3M44S",
-		"duracao": "03:44",
-		"numMus": "1",
-		"gravadora": "Warner Bros., Machine Shop",
-		"icone": "rebellion"
-	},
-	"shadow-of-the-day":
-	{
-		"bleed-it-out":
-		{
-			"title": "Bleed It Out (Live From Projekt To Revolution)",
-			"videoId": "J02ci5EuLCc",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"shadow-of-the-day":
-		{
-			"title": "Shadow Of The Day",
-			"videoId": "n1PCW0C1aiM",
-			"lyricAlbum": "minutes-to-midnight"
-		},		
-		"album": "Shadow Of The Day",
-		"lancamento": "30 de outubro de 2007",
-		"datetime": "2007-01-30",
-		"duracaoiso": "P4M54S",
-		"duracao": "04:54",
-		"numMus": "2",
-		"gravadora": "Warner Bros., Machine Shop",
-		"icone": "shadow-of-the-day"
-	},
-	"somewhere-i-belong":
-	{
-		"my-december":
-		{
-			"title": "My December (Live From Projekt Revolution)",
-			"videoId": "fbYL2ux82t8",
-			"lyricAlbum": ""
-		},
-		"somewhere-i-belong":
-		{
-			"title": "Somewhere I Belong",
-			"videoId": "zsCD5XCu6CM",
-			"lyricAlbum": "meteora"
-		},
-		"step-up":
-		{
-			"title": "Step Up (Live From Projekt Revolution)",
-			"videoId": "mmwtvSL0RZA",
-			"lyricAlbum": ""
-		},		
-		"album": "Somewhere I Belong",
-		"lancamento": "17 de marÃ§o de 2003",
-		"datetime": "2003-03-17",
-		"duracaoiso": "P3M33S",
-		"duracao": "03:33",
-		"numMus": "3",
-		"gravadora": "Warner Bros.",
-		"icone": "somewhere-i-belong"
-	},
-	"the-catalyst":
-	{
-		"the-catalyst":
-		{
-			"title": "The Catalyst",
-			"videoId": "51iquRYKPbs",
-			"lyricAlbum": "a-thousand-suns"
-		},		
-		"album": "The Catalyst",
-		"lancamento": "2 de agosto de 2010",
-		"datetime": "2010-08-03",
-		"duracaoiso": "P5M42S",
-		"duracao": "05:42",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "the-catalyst"
-	},
-	"until-its-gone":
-	{
-		"until-its-gone":
-		{
-			"title": "Until It's Gone",
-			"videoId": "oM-XJD4J36U",
-			"lyricAlbum": "the-hunting-party"
-		},		
-		"album": "Until It's Gone",
-		"lancamento": "6 de maio de 2014",
-		"datetime": "2014-05-06",
-		"duracaoiso": "P3M53S",
-		"duracao": "03:53",
-		"numMus": "1",
-		"gravadora": "Warner Bros.",
-		"icone": "until-its-gone"
-	},
-	"waiting-for-the-end":
-	{
-		"waiting-for-the-end":
-		{
-			"title": "Waiting For The End",
-			"videoId": "5qF_qbaWt3Q",
-			"lyricAlbum": "a-thousand-suns"
-		},
-		"the-catalyst":
-		{
-			"title": "The Catalyst",
-			"videoId": "51iquRYKPbs",
-			"lyricAlbum": "a-thousand-suns"
-		},		
-		"album": "Waiting For The End",
-		"lancamento": "1 de outubro de 2010",
-		"datetime": "2010-10-01",
-		"duracaoiso": "P3M51S",
-		"duracao": "03:51",
+		"album": "Crawling",
+		"lancamento": "17 de abril de 2001",
+		"datetime": "2001-04-17",
+		"duracaoiso": "P3M29S",
+		"duracao": "3:29",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"icone": "waiting-for-the-end"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/crawling/crawling-large.jpg",
+			"medium": "/resources/imagens/singles/crawling/crawling-medium.jpg",
+			"small": "/resources/imagens/singles/crawling/crawling-small.jpg"
+		}
 	},
-	"wastelands":
-	{
-		"wastelands":
-		{
-			"title": "Wastelands",
-			"videoId": "h6sFG7qOd4A",
-			"lyricAlbum": "the-hunting-party"
-		},		
-		"album": "Wastelands",
-		"lancamento": "2 de junho de 2014",
-		"datetime": "2014-06-02",
-		"duracaoiso": "P3M10S",
-		"duracao": "03:10",
-		"numMus": "1",
-		"gravadora": "Warner Bros., Machine Shop",
-		"icone": "wastelands"
-	},
-	"what-ive-done":
-	{
-		"faint":
-		{
-			"title": "Faint (Live From Japan)",
-			"videoId": "mQMWhppCGlU",
-			"lyricAlbum": "meteora"
+	"one-step-closer": {
+		"high-voltage": {
+			"title": "High Voltage",
+			"videoId": "nANdZ2ah9yI",
+			"lyricAlbum": ""
 		},
-		"from-the-inside":
-		{
-			"title": "From The Inside (Live From Japan)",
-			"videoId": "q91mhXJU8nI",
-			"lyricAlbum": "meteora"
+		"my-december": {
+			"title": "My December",
+			"videoId": "SguYdKqfy1o",
+			"lyricAlbum": ""
 		},
-		"what-ive-done":
-		{
-			"title": "What I've Done",
-			"videoId": "8sgycukafqQ",
-			"lyricAlbum": "minutes-to-midnight"
-		},		
-		"album": "What I've Done",
-		"lancamento": "2 de abril de 2007",
-		"datetime": "2007-04-02",
-		"duracaoiso": "P3M28S",
-		"duracao": "03:28",
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "4qlCC1GOwFw",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"album": "One Step Closer",
+		"lancamento": "28 de novembro de 2000",
+		"datetime": "2000-11-28",
+		"duracaoiso": "P2M35S",
+		"duracao": "02:35",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"icone": "what-ive-done"
+		"tipo": "singles",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/one-step-closer/one-step-closer-large.jpg",
+			"medium": "/resources/imagens/singles/one-step-closer/one-step-closer-medium.jpg",
+			"small": "/resources/imagens/singles/one-step-closer/one-step-closer-small.jpg"
+		}
 	}
 }

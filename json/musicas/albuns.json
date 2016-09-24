@@ -1,7 +1,5 @@
 {
-	"artista": "Linkin Park",
-	"the-hunting-party": 
-	{
+	"the-hunting-party": {
 		"keys-to-the-kingdom": {
 			"title": "Keys To The Kingdom",
 			"videoId": "ZPlUjhroNd4"
@@ -57,8 +55,75 @@
 		"duracao": "45:12",
 		"numMus": "12",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"icone": "thp250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/thp.jpg"
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-large.jpg",
+			"medium": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-medium.jpg",
+			"small": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-small.jpg"
+		}
+	},
+	"living-things": {
+		"burn-it-down": {
+			"title": "Burn It Down",
+			"videoId": "dxytyRy-O1k"
+		},
+		"castle-of-glass": {
+			"title": "Castle Of Glass",
+			"videoId": "ScNNfyq3d_w"
+		},
+		"ill-be-gone": {
+			"title": "I'll Be Gone",
+			"videoId": "Y1wM5ljye28"
+		},
+		"in-my-remains": {
+			"title": "In My Remains",
+			"videoId": "QLFiuNdQrzI"
+		},
+		"lies-greed-misery": {
+			"title": "Lies Greed Misery",
+			"videoId": "9Dq9q6afIP8"
+		},
+		"lost-in-the-echo": {
+			"title": "Lost In The Echo",
+			"videoId": "co4YpHTqmfQ"
+		},
+		"powerless": {
+			"title": "Powerless",
+			"videoId": "32BOmle7Z6w"
+		},
+		"roads-untraveled": {
+			"title": "Roads Untraveled",
+			"videoId": "KLgQKiUk7ms"
+		},
+		"skin-to-bone": {
+			"title": "Skin To Bone",
+			"videoId": "NwK4mxK7c2w"
+		},
+		"tinfoil": {
+			"title": "Tinfoil",
+			"videoId": "M2YPuL-niQg"
+		},
+		"until-it-breaks": {
+			"title": "Until It Breaks",
+			"videoId": "ZEQJm49_9OE"
+		},
+		"victimized": {
+			"title": "Victimized",
+			"videoId": "-6eUCOFXuxo"
+		},
+		"album": "Living Things",
+		"lancamento": "26 de junho de 2012",
+		"datetime": "2012-06-26",
+		"duracaoiso": "P36M59S",
+		"duracao": "36:59",
+		"numMus": "12",
+		"gravadora": "Warner Bros.",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/living-things/living-things-large.jpg",
+			"medium": "/resources/imagens/albuns/living-things/living-things-medium.jpg",
+			"small": "/resources/imagens/albuns/living-things/living-things-small.jpg"
+		}
 	},
 	"a-thousand-suns": {
 		"blackout": {
@@ -128,363 +193,14 @@
 		"duracao": "47:56",
 		"numMus": "15",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"icone": "ats250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/ats.jpg"
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-large.jpg",
+			"medium": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-medium.jpg",
+			"small": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-small.jpg"
+		}
 	},
-	"collision-course":
-	{
-		"big-pimpin": {
-			"title": "Big Pimpin'/Papercut",
-			"videoId": "uRB7p7GRgkA"
-		},
-		"dirt-off-your-shoulder": {
-			"title": "Dirt Off Your Shoulder/Lying From You",
-			"videoId": "Z_4VOhahkkk"
-		},
-		"izzo": {
-			"title": "Izzo/In The End",
-			"videoId": "IOZACGVr32Q"
-		},
-		"jigga-what": {
-			"title": "Jigga What/Faint",
-			"videoId": "DiiHIQB6nz0"
-		},
-		"numb-encore": {
-			"title": "Numb/Encore",
-			"videoId": "yNPECkESPbU"
-		},
-		"points": {
-			"title": "Points Of Authority/99 Problems/One Step Closer",
-			"videoId": "kBnJnXq4YQ8"
-		},
-		"album": "Collision Course",
-		"lancamento": "30 de novembro de 2004",
-		"datetime": "2004-11-30",
-		"duracaoiso": "P21M18S",
-		"duracao": "21:18",
-		"numMus": "6",
-		"gravadora": "Rock-A-Fella, Machine Shop, Warner Bros., Def Jam",
-		"icone": "cc250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/collision-course.jpg"
-	},
-	"hybrid-theory":
-	{
-		"a-place-for-my-head": {
-			"title": "A Place For My Head",
-			"videoId": "3t2WkCudwfY"
-		},
-		"by-myself": {
-			"title": "By Myself",
-			"videoId": "wWBp-nlGX1o"
-		},
-		"crawling": {
-			"title": "Crawling",
-			"videoId": "Gd9OhYroLN0"
-		},
-		"cure-for-the-itch": {
-			"title": "Cure For The Itch",
-			"videoId": "u6z5U83lfrQ"
-		},
-		"forgotten": {
-			"title": "Forgotten",
-			"videoId": "HNCgBuI2eJc"
-		},
-		"in-the-end": {
-			"title": "In The End",
-			"videoId": "eVTXPUF4Oz4"
-		},
-		"one-step-closer": {
-			"title": "One Step Closer",
-			"videoId": "4qlCC1GOwFw"
-		},
-		"papercut": {
-			"title": "Papercut",
-			"videoId": "vjVkXlxsO8Q"
-		},
-		"points-of-authority": {
-			"title": "Points Of Authority",
-			"videoId": "jZSPAp8kCl4"
-		},
-		"pushing-me-away": {
-			"title": "Pushing Me Away",
-			"videoId": "Ve1LNJEIKUE"
-		},
-		"runaway": {
-			"title": "Runaway",
-			"videoId": "ig-fyQqf510"
-		},
-		"with-you": {
-			"title": "With You",
-			"videoId": "M8UTS2iFXOo"
-		},
-		"album": "Hybrid Theory",
-		"lancamento": "24 de outubro de 2000",
-		"datetime": "2000-10-24",
-		"duracaoiso": "P37M40S",
-		"duracao": "37:40",
-		"numMus": "12",
-		"gravadora": "Warner Bros.",
-		"icone": "ht250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/hybrid-theory.jpg"
-	},
-	"live-in-texas":
-	{
-		"crawling": {
-			"title": "Crawling",
-			"videoId": "KJ9izvo96LU",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"faint": {
-			"title": "Faint",
-			"videoId": "pO6FZqEnDtg",
-			"lyricAlbum": "meteora"
-		},
-		"from-the-inside": {
-			"title": "From The Inside",
-			"videoId": "iflr2S12N5w",
-			"lyricAlbum": "meteora"
-		},
-		"in-the-end": {
-			"title": "In The End",
-			"videoId": "UqBMuFjk17so",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"lying-from-you": {
-			"title": "Lying From You",
-			"videoId": "c-oDYS9Aw74",
-			"lyricAlbum": "meteora"
-		},
-		"numb": {
-			"title": "Numb",
-			"videoId": "ufMDVe1DTGA",
-			"lyricAlbum": "meteora"
-		},
-		"one-step-closer": {
-			"title": "One Step Closer",
-			"videoId": "4a3gjWP9E4M",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"papercut": {
-			"title": "Papercut",
-			"videoId": "1l9RY2Jhyo0",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"points-of-authority": {
-			"title": "Points Of Authority",
-			"videoId": "giTJkBzaRvw",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"pushing-me-away": {
-			"title": "P5hng Me A*wy",
-			"videoId": "lL-h12cu1H8",
-			"lyricAlbum": "reanimation"
-		},
-		"runaway": {
-			"title": "Runaway",
-			"videoId": "nWWeTIc1l6s",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"somewhere-i-belong": {
-			"title": "Somewhere I Belong",
-			"videoId": "ukFZN8QKPUw",
-			"lyricAlbum": "meteora"
-		},
-		"album": "Live In Texas",
-		"lancamento": "18 de novembro de 2003",
-		"datetime": "2003-11-18",
-		"duracaoiso": "P41M40S",
-		"duracao": "41:40",
-		"numMus": "12",
-		"gravadora": "Warner Reprise Video, Warner Bros. Records, Machine Shop Recordings",
-		"icone": "lit250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/lit.jpg"
-	},
-	"living-things":
-	{
-		"burn-it-down": {
-			"title": "Burn It Down",
-			"videoId": "dxytyRy-O1k"
-		},
-		"castle-of-glass": {
-			"title": "Castle Of Glass",
-			"videoId": "ScNNfyq3d_w"
-		},
-		"ill-be-gone": {
-			"title": "I'll Be Gone",
-			"videoId": "Y1wM5ljye28"
-		},
-		"in-my-remains": {
-			"title": "In My Remains",
-			"videoId": "QLFiuNdQrzI"
-		},
-		"lies-greed-misery": {
-			"title": "Lies Greed Misery",
-			"videoId": "9Dq9q6afIP8"
-		},
-		"lost-in-the-echo": {
-			"title": "Lost In The Echo",
-			"videoId": "co4YpHTqmfQ"
-		},
-		"powerless": {
-			"title": "Powerless",
-			"videoId": "32BOmle7Z6w"
-		},
-		"roads-untraveled": {
-			"title": "Roads Untraveled",
-			"videoId": "KLgQKiUk7ms"
-		},
-		"skin-to-bone": {
-			"title": "Skin To Bone",
-			"videoId": "NwK4mxK7c2w"
-		},
-		"tinfoil": {
-			"title": "Tinfoil",
-			"videoId": "M2YPuL-niQg"
-		},
-		"until-it-breaks": {
-			"title": "Until It Breaks",
-			"videoId": "ZEQJm49_9OE"
-		},
-		"victimized": {
-			"title": "Victimized",
-			"videoId": "-6eUCOFXuxo"
-		},
-		"album": "Living Things",
-		"lancamento": "26 de junho de 2012",
-		"datetime": "2012-06-26",
-		"duracaoiso": "P36M59S",
-		"duracao": "36:59",
-		"numMus": "12",
-		"gravadora": "Warner Bros.",
-		"icone": "lt250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/lt.jpg"
-	},
-	"meteora":
-	{
-		"breaking-the-habit": {
-			"title": "Breaking The Habit",
-			"videoId": "v2H4l9RpkwM"
-		},
-		"dont-stay": {
-			"title": "Don't Stay",
-			"videoId": "oWfGOVWrueo"
-		},
-		"easier-to-run": {
-			"title": "Easier To Run",
-			"videoId": "U5zdmjVeQzE"
-		},
-		"faint": {
-			"title": "Faint",
-			"videoId": "LYU-8IFcDPw"
-		},
-		"figure09": {
-			"title": "Figure.09",
-			"videoId": "o1uESZ2_p2s"
-		},
-		"foreword": {
-			"title": "Foreword",
-			"videoId": "U6R-twDkrcI"
-		},
-		"from-the-inside": {
-			"title": "From The Inside",
-			"videoId": "YLHpvjrFpe0"
-		},
-		"hit-the-floor": {
-			"title": "Hit The Floor",
-			"videoId": "oMals9XXQY8"
-		},
-		"lying-from-you": {
-			"title": "Lying From You",
-			"videoId": "5cNdDuNKrx0"
-		},
-		"nobodys-listening": {
-			"title": "Nobody's Listening",
-			"videoId": "QJ87793QXes"
-		},
-		"numb": {
-			"title": "Numb",
-			"videoId": "kXYiU_JCYtU"
-		},
-		"session": {
-			"title": "Session",
-			"videoId": "J1KqQYsUYIk"
-		},
-		"somewhere-i-belong": {
-			"title": "Somewhere I Belong",
-			"videoId": "zsCD5XCu6CM"
-		},
-		"album": "Meteora",
-		"lancamento": "18 de novembro de 2003",
-		"datetime": "2003-11-18",
-		"duracaoiso": "P36M43S",
-		"duracao": "36:43",
-		"numMus": "13",
-		"gravadora": "Warner Bros. Records",
-		"icone": "mt250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/meteora.jpg"
-	},
-	"minutes-to-midnight":
-	{
-		"bleed-it-out": {
-			"title": "Bleed It Out",
-			"videoId": "OnuuYcqhzCE"
-		},
-		"given-up": {
-			"title": "Given Up",
-			"videoId": "0xyxtzD54rM"
-		},
-		"hands-held-high": {
-			"title": "Hands Held High",
-			"videoId": "G4P3ayBzVY"
-		},
-		"in-between": {
-			"title": "In Between",
-			"videoId": "YgVzhgygYfs"
-		},
-		"in-pieces": {
-			"title": "In Pieces",
-			"videoId": "NaRBn6QIMcQ"
-		},
-		"leave-out-all-the-rest": {
-			"title": "Leave Out All The Rest",
-			"videoId": "yZIummTz9mM"
-		},
-		"no-more-sorrow": {
-			"title": "No More Sorrow",
-			"videoId": "rW4uBvP2Dqc"
-		},
-		"shadow-of-the-day": {
-			"title": "Shadow Of The Day",
-			"videoId": "n1PCW0C1aiM"
-		},
-		"the-little-things-give-you-away": {
-			"title": "The Little Things Give You Away",
-			"videoId": "Gs0t8LXH6lw"
-		},
-		"valentines-day": {
-			"title": "Valentine's Day",
-			"videoId": "KAFOpywZbMM"
-		},
-		"wake": {
-			"title": "Wake",
-			"videoId": "Me7TJDHCELk"
-		},
-		"what-ive-done": {
-			"title": "What I've Done",
-			"videoId": "8sgycukafqQ"
-		},
-		"album": "Minutes To Midnight",
-		"lancamento": "14 de maio de 2007",
-		"datetime": "2007-05-14",
-		"duracaoiso": "P43M30S",
-		"duracao": "43:30",
-		"numMus": "12",
-		"gravadora": "Warner Bros., Machine Shop Recordings",
-		"icone": "mtm250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/mtm.jpg"
-	},
-	"road-to-revolution":
-	{
+	"road-to-revolution": {
 		"bleed-it-out": {
 			"title": "Bleed It Out",
 			"videoId": "LrGgr9tcLuw",
@@ -582,7 +298,318 @@
 		"duracao": "87:36",
 		"numMus": "18",
 		"gravadora": "Warner Brothers Records, Machine Shop Recordings, Warner Reprise Video",
-		"icone": "rtr250",
-		"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/albuns/cover/road-to-revolution.jpg"
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-large.jpg",
+			"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
+			"small": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-small.jpg"
+		}
+	},
+	"minutes-to-midnight": {
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "OnuuYcqhzCE"
+		},
+		"given-up": {
+			"title": "Given Up",
+			"videoId": "0xyxtzD54rM"
+		},
+		"hands-held-high": {
+			"title": "Hands Held High",
+			"videoId": "G4P3ayBzVY"
+		},
+		"in-between": {
+			"title": "In Between",
+			"videoId": "YgVzhgygYfs"
+		},
+		"in-pieces": {
+			"title": "In Pieces",
+			"videoId": "NaRBn6QIMcQ"
+		},
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "yZIummTz9mM"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow",
+			"videoId": "rW4uBvP2Dqc"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "n1PCW0C1aiM"
+		},
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away",
+			"videoId": "Gs0t8LXH6lw"
+		},
+		"valentines-day": {
+			"title": "Valentine's Day",
+			"videoId": "KAFOpywZbMM"
+		},
+		"wake": {
+			"title": "Wake",
+			"videoId": "Me7TJDHCELk"
+		},
+		"what-ive-done": {
+			"title": "What I've Done",
+			"videoId": "8sgycukafqQ"
+		},
+		"album": "Minutes To Midnight",
+		"lancamento": "14 de maio de 2007",
+		"datetime": "2007-05-14",
+		"duracaoiso": "P43M30S",
+		"duracao": "43:30",
+		"numMus": "12",
+		"gravadora": "Warner Bros., Machine Shop Recordings",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-large.jpg",
+			"medium": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-medium.jpg",
+			"small": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-small.jpg"
+		}
+	},
+	"collision-course": {
+		"big-pimpin": {
+			"title": "Big Pimpin'/Papercut",
+			"videoId": "uRB7p7GRgkA"
+		},
+		"dirt-off-your-shoulder": {
+			"title": "Dirt Off Your Shoulder/Lying From You",
+			"videoId": "Z_4VOhahkkk"
+		},
+		"izzo": {
+			"title": "Izzo/In The End",
+			"videoId": "IOZACGVr32Q"
+		},
+		"jigga-what": {
+			"title": "Jigga What/Faint",
+			"videoId": "DiiHIQB6nz0"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "yNPECkESPbU"
+		},
+		"points": {
+			"title": "Points Of Authority/99 Problems/One Step Closer",
+			"videoId": "kBnJnXq4YQ8"
+		},
+		"album": "Collision Course",
+		"lancamento": "30 de novembro de 2004",
+		"datetime": "2004-11-30",
+		"duracaoiso": "P21M18S",
+		"duracao": "21:18",
+		"numMus": "6",
+		"gravadora": "Rock-A-Fella, Machine Shop, Warner Bros., Def Jam",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/collision-course/collision-course-large.jpg",
+			"medium": "/resources/imagens/albuns/collision-course/collision-course-medium.jpg",
+			"small": "/resources/imagens/albuns/collision-course/collision-course-small.jpg"
+		}
+	},
+	"live-in-texas": {
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "KJ9izvo96LU",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"faint": {
+			"title": "Faint",
+			"videoId": "pO6FZqEnDtg",
+			"lyricAlbum": "meteora"
+		},
+		"from-the-inside": {
+			"title": "From The Inside",
+			"videoId": "iflr2S12N5w",
+			"lyricAlbum": "meteora"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "UqBMuFjk17so",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "c-oDYS9Aw74",
+			"lyricAlbum": "meteora"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "ufMDVe1DTGA",
+			"lyricAlbum": "meteora"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "4a3gjWP9E4M",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "1l9RY2Jhyo0",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority",
+			"videoId": "giTJkBzaRvw",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"pushing-me-away": {
+			"title": "P5hng Me A*wy",
+			"videoId": "lL-h12cu1H8",
+			"lyricAlbum": "reanimation"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "nWWeTIc1l6s",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "ukFZN8QKPUw",
+			"lyricAlbum": "meteora"
+		},
+		"album": "Live In Texas",
+		"lancamento": "18 de novembro de 2003",
+		"datetime": "2003-11-18",
+		"duracaoiso": "P41M40S",
+		"duracao": "41:40",
+		"numMus": "12",
+		"gravadora": "Warner Reprise Video, Warner Bros. Records, Machine Shop Recordings",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/live-in-texas/live-in-texas-large.jpg",
+			"medium": "/resources/imagens/albuns/live-in-texas/live-in-texas-medium.jpg",
+			"small": "/resources/imagens/albuns/live-in-texas/live-in-texas-small.jpg"
+		}
+	},
+	"meteora": {
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "v2H4l9RpkwM"
+		},
+		"dont-stay": {
+			"title": "Don't Stay",
+			"videoId": "oWfGOVWrueo"
+		},
+		"easier-to-run": {
+			"title": "Easier To Run",
+			"videoId": "U5zdmjVeQzE"
+		},
+		"faint": {
+			"title": "Faint",
+			"videoId": "LYU-8IFcDPw"
+		},
+		"figure09": {
+			"title": "Figure.09",
+			"videoId": "o1uESZ2_p2s"
+		},
+		"foreword": {
+			"title": "Foreword",
+			"videoId": "U6R-twDkrcI"
+		},
+		"from-the-inside": {
+			"title": "From The Inside",
+			"videoId": "YLHpvjrFpe0"
+		},
+		"hit-the-floor": {
+			"title": "Hit The Floor",
+			"videoId": "oMals9XXQY8"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "5cNdDuNKrx0"
+		},
+		"nobodys-listening": {
+			"title": "Nobody's Listening",
+			"videoId": "QJ87793QXes"
+		},
+		"numb": {
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU"
+		},
+		"session": {
+			"title": "Session",
+			"videoId": "J1KqQYsUYIk"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "zsCD5XCu6CM"
+		},
+		"album": "Meteora",
+		"lancamento": "18 de novembro de 2003",
+		"datetime": "2003-11-18",
+		"duracaoiso": "P36M43S",
+		"duracao": "36:43",
+		"numMus": "13",
+		"gravadora": "Warner Bros. Records",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/meteora/meteora-large.jpg",
+			"medium": "/resources/imagens/albuns/meteora/meteora-medium.jpg",
+			"small": "/resources/imagens/albuns/meteora/meteora-small.jpg"
+		}
+	},
+	"hybrid-theory": {
+		"a-place-for-my-head": {
+			"title": "A Place For My Head",
+			"videoId": "3t2WkCudwfY"
+		},
+		"by-myself": {
+			"title": "By Myself",
+			"videoId": "wWBp-nlGX1o"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "Gd9OhYroLN0"
+		},
+		"cure-for-the-itch": {
+			"title": "Cure For The Itch",
+			"videoId": "u6z5U83lfrQ"
+		},
+		"forgotten": {
+			"title": "Forgotten",
+			"videoId": "HNCgBuI2eJc"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "eVTXPUF4Oz4"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "4qlCC1GOwFw"
+		},
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "vjVkXlxsO8Q"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority",
+			"videoId": "jZSPAp8kCl4"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away",
+			"videoId": "Ve1LNJEIKUE"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "ig-fyQqf510"
+		},
+		"with-you": {
+			"title": "With You",
+			"videoId": "M8UTS2iFXOo"
+		},
+		"album": "Hybrid Theory",
+		"lancamento": "24 de outubro de 2000",
+		"datetime": "2000-10-24",
+		"duracaoiso": "P37M40S",
+		"duracao": "37:40",
+		"numMus": "12",
+		"gravadora": "Warner Bros.",
+		"tipo": "albuns",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-large.jpg",
+			"medium": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-medium.jpg",
+			"small": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-small.jpg"
+		}
 	}
 }

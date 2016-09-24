@@ -1,5 +1,494 @@
 {
-	"artista": "Linkin Park",
+	"lpu1": {
+		"and-one": {
+			"title": "And One",
+			"videoId": "Vsg_ArweXNc",
+			"lyricAlbum": "lpu"
+		},
+		"carousel": {
+			"title": "Carousel",
+			"videoId": "lID2I6GAcwE",
+			"lyricAlbum": "lpu"
+		},
+		"high-voltage": {
+			"title": "High Voltage",
+			"videoId": "44I3ce6iC1A",
+			"lyricAlbum": "lpu"
+		},
+		"part-of-me": {
+			"title": "Part Of Me",
+			"videoId": "Rv2Qw8ne6HI",
+			"lyricAlbum": "lpu"
+		},
+		"step-up": {
+			"title": "Step Up",
+			"videoId": "1cEua6lxzH8",
+			"lyricAlbum": "lpu"
+		},
+		"technique": {
+			"title": "Technique",
+			"videoId": "gBY3uBZhqRE",
+			"lyricAlbum": "lpu"
+		},
+		"album": "Hybrid Theory EP (LPU 1)",
+		"lancamento": "19 de maio 1999",
+		"datetime": "1999-05-19",
+		"duracaoiso": "P29M19S",
+		"duracao": "29:19",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu1/lpu1-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu1/lpu1-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu1/lpu1-small.jpg"
+		}
+	},
+	"lpu2": {
+		"a06": {
+			"title": "A06",
+			"videoId": "BRad_aqFHXs",
+			"lyricAlbum": "lpu"
+		},
+		"dedicated": {
+			"title": "Dedicated (Demo Version)",
+			"videoId": "tQk-CORZDCQ",
+			"lyricAlbum": "lpu"
+		},
+		"high-voltage": {
+			"title": "High Voltage Remix (Live)",
+			"videoId": "6qxBe7H3tog",
+			"lyricAlbum": ""
+		},
+		"my-december": {
+			"title": "My December",
+			"videoId": "dA-09e8B_Hs",
+			"lyricAlbum": "lpu"
+		},
+		"points-of-authority": {
+			"title": "Pts.Of.Athrty (Crystal Method Remix)",
+			"videoId": "FNx7Gdl5ImE",
+			"lyricAlbum": "lpu"
+		},
+		"with-you": {
+			"title": "With You (Live)",
+			"videoId": "DINYPRhvoZM",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 2",
+		"lancamento": "18 de novembro 2002",
+		"datetime": "2002-11-18",
+		"duracaoiso": "P20M43S",
+		"duracao": "20:43",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu2/lpu2-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu2/lpu2-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu2/lpu2-small.jpg"
+		}
+	},
+	"lpu3": {
+		"a-place-for-my-head": {
+			"title": "A Place For My Head (Live In Texas)",
+			"videoId": "xcJmE4c50K8",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"by-myself": {
+			"title": "By Myself (Live In Texas)",
+			"videoId": "YvEGGqIsjVg",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"dont-stay": {
+			"title": "Don't Stay (Live In Texas)",
+			"videoId": "Ln2DfhdO9jc",
+			"lyricAlbum": "meteora"
+		},
+		"figure09": {
+			"title": "Figure.09 (Live In Texas)",
+			"videoId": "Gc9PYWTDKfE",
+			"lyricAlbum": "meteora"
+		},
+		"with-you": {
+			"title": "With You (Live In Texas)",
+			"videoId": "S0Cyvr_1_gA",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"album": "LP Underground 3",
+		"lancamento": "17 de novembro 2003",
+		"datetime": "2003-11-17",
+		"duracaoiso": "P17M20S",
+		"duracao": "17:20",
+		"numMus": "5",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu3/lpu3-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu3/lpu3-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu3/lpu3-small.jpg"
+		}
+	},
+	"lpu4": {
+		"breaking-the-habit": {
+			"title": "Breaking The Habit (Live)",
+			"videoId": "4GhbVVzSb_s",
+			"lyricAlbum": "meteora"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer (Feat. Jonathan Davis Of Korn) (Live)",
+			"videoId": "rJJbtc0WHqw",
+			"lyricAlbum": "lpu"
+		},
+		"sold-my-soul-to-yo-mama": {
+			"title": "Sold My Soul To Your Mama",
+			"videoId": "-x3ZKC2uw2A",
+			"lyricAlbum": "lpu"
+		},
+		"standing-in-the-middle": {
+			"title": "Standing In The Middle (Feat. Motion Man)",
+			"videoId": "XBTKjG-2C8A",
+			"lyricAlbum": "lpu"
+		},
+		"step-up": {
+			"title": "Step Up / Nobody's Listening / It's Going Down (Live)",
+			"videoId": "yNYsMmz7IrU",
+			"lyricAlbum": "lpu"
+		},
+		"wish": {
+			"title": "Wish (Nine Inch Nails Cover) (Live)",
+			"videoId": "QreOJmsVC6E",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 4",
+		"lancamento": "22 de novembro 2004",
+		"datetime": "2004-11-24",
+		"duracaoiso": "P29M19S",
+		"duracao": "24:14",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu4/lpu4-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu4/lpu4-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu4/lpu4-small.jpg"
+		}
+	},
+	"lpu5": {
+		"announcement": {
+			"title": "Public Service Announcement",
+			"videoId": "aiBn_zvLmhk",
+			"lyricAlbum": "lpu"
+		},
+		"big-pimpin": {
+			"title": "Big Pimpin' / Papercut (Live)",
+			"videoId": "oSU4XH8tQKc",
+			"lyricAlbum": "collision-course"
+		},
+		"breaking-the-habit": {
+			"title": "Breaking The Habit (Live)",
+			"videoId": "8H3ydOPnz5s",
+			"lyricAlbum": "meteora"
+		},
+		"dirt-off-your-shoulder": {
+			"title": "Dirt Off Your Shoulder / Lying From You (Live)",
+			"videoId": "taOhiGwI6O8",
+			"lyricAlbum": "collision-course"
+		},
+		"jigga-what": {
+			"title": "Jigga What / Faint (Live)",
+			"videoId": "gQpkiLJ3uis",
+			"lyricAlbum": "collision-course"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong (Live)",
+			"videoId": "uvGvpJ1n3dU",
+			"lyricAlbum": "meteora"
+		},
+		"album": "LP Underground 5",
+		"lancamento": "21 de novembro 2005",
+		"datetime": "2005-11-21",
+		"duracaoiso": "P20M40S",
+		"duracao": "20:40",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu5/lpu5-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu5/lpu5-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu5/lpu5-small.jpg"
+		}
+	},
+	"lpu6": {
+		"announcement": {
+			"title": "Public Service Announcement",
+			"videoId": "n3ChOhGH_9s",
+			"lyricAlbum": "lpu"
+		},
+		"breaking-the-habit": {
+			"title": "Breaking The Habit (Live)",
+			"videoId": "4XFRLC-yl3g",
+			"lyricAlbum": "meteora"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away (Live Piano Version)",
+			"videoId": "Odi6Ex7Xd3Q",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"qwerty-live": {
+			"title": "QWERTY (Live)",
+			"videoId": "U5XXNMTyCVU",
+			"lyricAlbum": "lpu"
+		},
+		"qwerty": {
+			"title": "QWERTY (Studio DEMO Version)",
+			"videoId": "L3g_LgcS12I",
+			"lyricAlbum": "lpu"
+		},
+		"reading-my-eyes": {
+			"title": "Reading My Eyes (Live)",
+			"videoId": "8qjgVqY0gPM",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 6",
+		"lancamento": "05 de dezembro 2006",
+		"datetime": "2006-12-05",
+		"duracaoiso": "P21M45S",
+		"duracao": "21:45",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu6/lpu6-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu6/lpu6-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu6/lpu6-small.jpg"
+		}
+	},
+	"lpu7": {
+		"bleed-it-out": {
+			"title": "Bleed It Out (Live)",
+			"videoId": "CmZyFo7npBQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"crawling": {
+			"title": "Crawling (Live)",
+			"videoId": "DINYPRhvoZM",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"faint": {
+			"title": "Faint (Live)",
+			"videoId": "wUe3-vQwAPw",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"given-up": {
+			"title": "Given Up (Live)",
+			"videoId": "M5l0mvJKH4E",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"in-the-end": {
+			"title": "In The End (Live)",
+			"videoId": "oNn74u05tE4",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow (Live)",
+			"videoId": "CFq7xDt4gI0",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"numb": {
+			"title": "Numb (Live)",
+			"videoId": "a1QLwlRJ77Q",
+			"lyricAlbum": "meteora"
+		},
+		"one-step-closer": {
+			"title": "One Step Closer (Live)",
+			"videoId": "h8GKoeAIQLM",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away (Live)",
+			"videoId": "5I5rNfh5H4w",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"what-ive-done": {
+			"title": "What I've Done (Live)",
+			"videoId": "nnAcxTXn_eQ",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"album": "LP Underground 7",
+		"lancamento": "05 de dezembro 2007",
+		"datetime": "2007-12-05",
+		"duracaoiso": "P43M17S",
+		"duracao": "43:17",
+		"numMus": "6",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu7/lpu7-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu7/lpu7-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu7/lpu7-small.jpg"
+		}
+	},
+	"songs-from-the-underground": {
+		"and-one": {
+			"title": "And One",
+			"videoId": "t6tOT1SUZag",
+			"lyricAlbum": "lpu"
+		},
+		"announcement": {
+			"title": "Announcement Service Public",
+			"videoId": "K-DDRD_oi6E",
+			"lyricAlbum": "lpu"
+		},
+		"dedicated": {
+			"title": "Dedicated (DEMO 1999)",
+			"videoId": "Pa9TjzKankY",
+			"lyricAlbum": "lpu"
+		},
+		"hunger-strike": {
+			"title": "Hunger Strike (Live From Projekt Revolution 2008)",
+			"videoId": "g_z_WI7GZVk",
+			"lyricAlbum": "lpu"
+		},
+		"my-december": {
+			"title": "My December (Live 2008)",
+			"videoId": "JUOyCmGMif4",
+			"lyricAlbum": "lpu"
+		},
+		"part-of-me": {
+			"title": "Part Of Me",
+			"videoId": "UQtT_FAWjpI",
+			"lyricAlbum": "lpu"
+		},
+		"qwerty": {
+			"title": "QWERTY (Studio Version)",
+			"videoId": "SSXpNHuYwZs",
+			"lyricAlbum": "lpu"
+		},
+		"sold-my-soul-to-yo-mama": {
+			"title": "Sold My Soul To Yo Mama",
+			"videoId": "IO0s-FRJlgw",
+			"lyricAlbum": "lpu"
+		},
+		"album": "Songs From The Underground",
+		"lancamento": "28 de novembro 2008",
+		"datetime": "2008-11-28",
+		"duracaoiso": "P36M45S",
+		"duracao": "36:45",
+		"numMus": "8",
+		"gravadora": "Warner Brothers Records e Machine Shop Recordings",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/songs-from-the-underground/songs-from-the-underground-large.jpg",
+			"medium": "/resources/imagens/lpu/songs-from-the-underground/songs-from-the-underground-medium.jpg",
+			"small": "/resources/imagens/lpu/songs-from-the-underground/songs-from-the-underground-small.jpg"
+		}
+	},
+	"lpu8": {
+		"26-lettaz": {
+			"title": "26 Lettaz In Da Alphabet",
+			"videoId": "6fY3QGGM-gw",
+			"lyricAlbum": "lpu"
+		},
+		"bubbles": {
+			"title": "Bubbles",
+			"videoId": "5X33v85WunY",
+			"lyricAlbum": "lpu"
+		},
+		"da-bloos": {
+			"title": "Da Bloos",
+			"videoId": "TANMgY_3De0",
+			"lyricAlbum": "lpu"
+		},
+		"jellyfish": {
+			"title": "PB N' Jellyfish",
+			"videoId": "2MVTZ4XUJsc",
+			"lyricAlbum": "lpu"
+		},
+		"no-laundry": {
+			"title": "No Laundry",
+			"videoId": "lgNxMcaq7cc",
+			"lyricAlbum": "lpu"
+		},
+		"you-aint-gotsta-gotsta": {
+			"title": "You Ain't Gotsta Gotsta",
+			"videoId": "55zxp_3jqCg",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 8",
+		"lancamento": "04 de dezembro 2008",
+		"datetime": "2008-12-04",
+		"duracaoiso": "P10M20S",
+		"duracao": "10:20",
+		"numMus": "6",
+		"gravadora": "Warner Bros.",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu8/lpu8-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu8/lpu8-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu8/lpu8-small.jpg"
+		}
+	},
+	"lpu9": {
+		"a06": {
+			"title": "A.06 (Original Long Version)",
+			"videoId": "zalVCpLwA1U",
+			"lyricAlbum": "lpu"
+		},
+		"across-the-line": {
+			"title": "Across The Line (Unreleased DEMO 2007)",
+			"videoId": "71xIXhVtKF0",
+			"lyricAlbum": "lpu"
+		},
+		"drawing": {
+			"title": "Drawing (Breaking The Habit DEMO 2002)",
+			"videoId": "lq1lZ1ny6hA",
+			"lyricAlbum": "lpu"
+		},
+		"drum-song": {
+			"title": "Drum Song (The Little Things Give You Away DEMO 2006)",
+			"videoId": "NLd-VW9cy_4",
+			"lyricAlbum": "lpu"
+		},
+		"faint": {
+			"title": "Faint (DEMO 2002)",
+			"videoId": "hjck3KfhUqQ",
+			"lyricAlbum": "lpu"
+		},
+		"fear": {
+			"title": "Fear (Leave Out All The Rest DEMO 2006)",
+			"videoId": "xLz-l1hT0NQ",
+			"lyricAlbum": "lpu"
+		},
+		"figure09": {
+			"title": "Figure.09 (DEMO 2002)",
+			"videoId": "neWhaPp4FhM",
+			"lyricAlbum": "lpu"
+		},
+		"sad": {
+			"title": "Sad (By Myself DEMO 1999)",
+			"videoId": "d7A9ZagXCdc",
+			"lyricAlbum": "lpu"
+		},
+		"stick-n-move": {
+			"title": "Stick N' Move (Runaway DEMO 1998)",
+			"videoId": "0CxJ71Vm2Ws",
+			"lyricAlbum": "lpu"
+		},
+		"album": "LP Underground 9",
+		"lancamento": "23 de novembro 2009",
+		"datetime": "2009-11-23",
+		"duracaoiso": "P26M47S",
+		"duracao": "26:47",
+		"numMus": "9",
+		"gravadora": "Machine Shop",
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu9/lpu9-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu9/lpu9-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu9/lpu9-small.jpg"
+		}
+	},
 	"a-decade-underground": {
 		"across-the-line": {
 			"title": "Across The Line (Unreleased DEMO 2007)",
@@ -58,409 +547,14 @@
 		"duracao": "43:00",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"icone": "a-decade-underground"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/a-decade-underground/a-decade-underground-large.jpg",
+			"medium": "/resources/imagens/lpu/a-decade-underground/a-decade-underground-medium.jpg",
+			"small": "/resources/imagens/lpu/a-decade-underground/a-decade-underground-small.jpg"
+		}
 	},
-	"lpu1":
-	{
-		"and-one": {
-			"title": "And One",
-			"videoId": "Vsg_ArweXNc",
-			"lyricAlbum": "lpu"
-		},
-		"carousel": {
-			"title": "Carousel",
-			"videoId": "lID2I6GAcwE",
-			"lyricAlbum": "lpu"
-		},
-		"high-voltage": {
-			"title": "High Voltage",
-			"videoId": "44I3ce6iC1A",
-			"lyricAlbum": "lpu"
-		},
-		"part-of-me": {
-			"title": "Part Of Me",
-			"videoId": "Rv2Qw8ne6HI",
-			"lyricAlbum": "lpu"
-		},
-		"step-up": {
-			"title": "Step Up",
-			"videoId": "1cEua6lxzH8",
-			"lyricAlbum": "lpu"
-		},
-		"technique": {
-			"title": "Technique",
-			"videoId": "gBY3uBZhqRE",
-			"lyricAlbum": "lpu"
-		},
-		"album": "Hybrid Theory EP (LPU 1)",
-		"lancamento": "19 de maio 1999",
-		"datetime": "1999-05-19",
-		"duracaoiso": "P29M19S",
-		"duracao": "29:19",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu1"
-	},
-	"lpu2":
-	{
-		"a06": {
-			"title": "A06",
-			"videoId": "BRad_aqFHXs",
-			"lyricAlbum": "lpu"
-		},
-		"dedicated": {
-			"title": "Dedicated (Demo Version)",
-			"videoId": "tQk-CORZDCQ",
-			"lyricAlbum": "lpu"
-		},
-		"high-voltage": {
-			"title": "High Voltage Remix (Live)",
-			"videoId": "6qxBe7H3tog",
-			"lyricAlbum": ""
-		},
-		"my-december": {
-			"title": "My December",
-			"videoId": "dA-09e8B_Hs",
-			"lyricAlbum": "lpu"
-		},
-		"points-of-authority": {
-			"title": "Pts.Of.Athrty (Crystal Method Remix)",
-			"videoId": "FNx7Gdl5ImE",
-			"lyricAlbum": "lpu"
-		},
-		"with-you": {
-			"title": "With You (Live)",
-			"videoId": "DINYPRhvoZM",
-			"lyricAlbum": "lpu"
-		},
-		"album": "LP Underground 2",
-		"lancamento": "18 de novembro 2002",
-		"datetime": "2002-11-18",
-		"duracaoiso": "P20M43S",
-		"duracao": "20:43",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu2"
-	},
-	"lpu3":
-	{
-		"a-place-for-my-head": {
-			"title": "A Place For My Head (Live In Texas)",
-			"videoId": "xcJmE4c50K8",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"by-myself": {
-			"title": "By Myself (Live In Texas)",
-			"videoId": "YvEGGqIsjVg",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"dont-stay": {
-			"title": "Don't Stay (Live In Texas)",
-			"videoId": "Ln2DfhdO9jc",
-			"lyricAlbum": "meteora"
-		},
-		"figure09": {
-			"title": "Figure.09 (Live In Texas)",
-			"videoId": "Gc9PYWTDKfE",
-			"lyricAlbum": "meteora"
-		},
-		"with-you": {
-			"title": "With You (Live In Texas)",
-			"videoId": "S0Cyvr_1_gA",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"album": "LP Underground 3",
-		"lancamento": "17 de novembro 2003",
-		"datetime": "2003-11-17",
-		"duracaoiso": "P17M20S",
-		"duracao": "17:20",
-		"numMus": "5",
-		"gravadora": "Machine Shop",
-		"icone": "lpu3"
-	},
-	"lpu4":
-	{
-		"breaking-the-habit": {
-			"title": "Breaking The Habit (Live)",
-			"videoId": "4GhbVVzSb_s",
-			"lyricAlbum": "meteora"
-		},
-		"one-step-closer": {
-			"title": "One Step Closer (Feat. Jonathan Davis Of Korn) (Live)",
-			"videoId": "rJJbtc0WHqw",
-			"lyricAlbum": "lpu"
-		},
-		"sold-my-soul-to-yo-mama": {
-			"title": "Sold My Soul To Your Mama",
-			"videoId": "-x3ZKC2uw2A",
-			"lyricAlbum": "lpu"
-		},
-		"standing-in-the-middle": {
-			"title": "Standing In The Middle (Feat. Motion Man)",
-			"videoId": "XBTKjG-2C8A",
-			"lyricAlbum": "lpu"
-		},
-		"step-up": {
-			"title": "Step Up / Nobody's Listening / It's Going Down (Live)",
-			"videoId": "yNYsMmz7IrU",
-			"lyricAlbum": "lpu"
-		},
-		"wish": {
-			"title": "Wish (Nine Inch Nails Cover) (Live)",
-			"videoId": "QreOJmsVC6E",
-			"lyricAlbum": "lpu"
-		},
-		"album": "LP Underground 4",
-		"lancamento": "22 de novembro 2004",
-		"datetime": "2004-11-24",
-		"duracaoiso": "P29M19S",
-		"duracao": "24:14",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu4"
-	},
-	"lpu5":
-	{
-		"announcement": {
-			"title": "Public Service Announcement",
-			"videoId": "aiBn_zvLmhk",
-			"lyricAlbum": "lpu"
-		},
-		"big-pimpin": {
-			"title": "Big Pimpin' / Papercut (Live)",
-			"videoId": "oSU4XH8tQKc",
-			"lyricAlbum": "collision-course"
-		},
-		"breaking-the-habit": {
-			"title": "Breaking The Habit (Live)",
-			"videoId": "8H3ydOPnz5s",
-			"lyricAlbum": "meteora"
-		},
-		"dirt-off-your-shoulder": {
-			"title": "Dirt Off Your Shoulder / Lying From You (Live)",
-			"videoId": "taOhiGwI6O8",
-			"lyricAlbum": "collision-course"
-		},
-		"jigga-what": {
-			"title": "Jigga What / Faint (Live)",
-			"videoId": "gQpkiLJ3uis",
-			"lyricAlbum": "collision-course"
-		},
-		"somewhere-i-belong": {
-			"title": "Somewhere I Belong (Live)",
-			"videoId": "uvGvpJ1n3dU",
-			"lyricAlbum": "meteora"
-		},
-		"album": "LP Underground 5",
-		"lancamento": "21 de novembro 2005",
-		"datetime": "2005-11-21",
-		"duracaoiso": "P20M40S",
-		"duracao": "20:40",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu5"
-	},
-	"lpu6":
-	{
-		"announcement": {
-			"title": "Public Service Announcement",
-			"videoId": "n3ChOhGH_9s",
-			"lyricAlbum": "lpu"
-		},
-		"breaking-the-habit": {
-			"title": "Breaking The Habit (Live)",
-			"videoId": "4XFRLC-yl3g",
-			"lyricAlbum": "meteora"
-		},
-		"pushing-me-away": {
-			"title": "Pushing Me Away (Live Piano Version)",
-			"videoId": "Odi6Ex7Xd3Q",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"qwerty-live": {
-			"title": "QWERTY (Live)",
-			"videoId": "U5XXNMTyCVU",
-			"lyricAlbum": "lpu"
-		},
-		"qwerty": {
-			"title": "QWERTY (Studio DEMO Version)",
-			"videoId": "L3g_LgcS12I",
-			"lyricAlbum": "lpu"
-		},
-		"reading-my-eyes": {
-			"title": "Reading My Eyes (Live)",
-			"videoId": "8qjgVqY0gPM",
-			"lyricAlbum": "lpu"
-		},
-		"album": "LP Underground 6",
-		"lancamento": "05 de dezembro 2006",
-		"datetime": "2006-12-05",
-		"duracaoiso": "P21M45S",
-		"duracao": "21:45",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu6"
-	},
-	"lpu7":
-	{
-		"bleed-it-out": {
-			"title": "Bleed It Out (Live)",
-			"videoId": "CmZyFo7npBQ",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"crawling": {
-			"title": "Crawling (Live)",
-			"videoId": "DINYPRhvoZM",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"faint": {
-			"title": "Faint (Live)",
-			"videoId": "wUe3-vQwAPw",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"given-up": {
-			"title": "Given Up (Live)",
-			"videoId": "M5l0mvJKH4E",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"in-the-end": {
-			"title": "In The End (Live)",
-			"videoId": "oNn74u05tE4",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"no-more-sorrow": {
-			"title": "No More Sorrow (Live)",
-			"videoId": "CFq7xDt4gI0",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"numb": {
-			"title": "Numb (Live)",
-			"videoId": "a1QLwlRJ77Q",
-			"lyricAlbum": "meteora"
-		},
-		"one-step-closer": {
-			"title": "One Step Closer (Live)",
-			"videoId": "h8GKoeAIQLM",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"the-little-things-give-you-away": {
-			"title": "The Little Things Give You Away (Live)",
-			"videoId": "5I5rNfh5H4w",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"what-ive-done": {
-			"title": "What I've Done (Live)",
-			"videoId": "nnAcxTXn_eQ",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"album": "LP Underground 7",
-		"lancamento": "05 de dezembro 2007",
-		"datetime": "2007-12-05",
-		"duracaoiso": "P43M17S",
-		"duracao": "43:17",
-		"numMus": "6",
-		"gravadora": "Machine Shop",
-		"icone": "lpu7"
-	},
-	"lpu8":
-	{
-		"26-lettaz": {
-			"title": "26 Lettaz In Da Alphabet",
-			"videoId": "6fY3QGGM-gw",
-			"lyricAlbum": "lpu"
-		},
-		"bubbles": {
-			"title": "Bubbles",
-			"videoId": "5X33v85WunY",
-			"lyricAlbum": "lpu"
-		},
-		"da-bloos": {
-			"title": "Da Bloos",
-			"videoId": "TANMgY_3De0",
-			"lyricAlbum": "lpu"
-		},
-		"jellyfish": {
-			"title": "PB N' Jellyfish",
-			"videoId": "2MVTZ4XUJsc",
-			"lyricAlbum": "lpu"
-		},
-		"no-laundry": {
-			"title": "No Laundry",
-			"videoId": "lgNxMcaq7cc",
-			"lyricAlbum": "lpu"
-		},
-		"you-aint-gotsta-gotsta": {
-			"title": "You Ain't Gotsta Gotsta",
-			"videoId": "55zxp_3jqCg",
-			"lyricAlbum": "lpu"
-		},
-		"album": "LP Underground 8",
-		"lancamento": "04 de dezembro 2008",
-		"datetime": "2008-12-04",
-		"duracaoiso": "P10M20S",
-		"duracao": "10:20",
-		"numMus": "6",
-		"gravadora": "Warner Bros.",
-		"icone": "lpu8"
-	},
-	"lpu9":
-	{
-		"a06": {
-			"title": "A.06 (Original Long Version)",
-			"videoId": "zalVCpLwA1U",
-			"lyricAlbum": "lpu"
-		},
-		"across-the-line": {
-			"title": "Across The Line (Unreleased DEMO 2007)",
-			"videoId": "71xIXhVtKF0",
-			"lyricAlbum": "lpu"
-		},
-		"drawing": {
-			"title": "Drawing (Breaking The Habit DEMO 2002)",
-			"videoId": "lq1lZ1ny6hA",
-			"lyricAlbum": "lpu"
-		},
-		"drum-song": {
-			"title": "Drum Song (The Little Things Give You Away DEMO 2006)",
-			"videoId": "NLd-VW9cy_4",
-			"lyricAlbum": "lpu"
-		},
-		"faint": {
-			"title": "Faint (DEMO 2002)",
-			"videoId": "hjck3KfhUqQ",
-			"lyricAlbum": "lpu"
-		},
-		"fear": {
-			"title": "Fear (Leave Out All The Rest DEMO 2006)",
-			"videoId": "xLz-l1hT0NQ",
-			"lyricAlbum": "lpu"
-		},
-		"figure09": {
-			"title": "Figure.09 (DEMO 2002)",
-			"videoId": "neWhaPp4FhM",
-			"lyricAlbum": "lpu"
-		},
-		"sad": {
-			"title": "Sad (By Myself DEMO 1999)",
-			"videoId": "d7A9ZagXCdc",
-			"lyricAlbum": "lpu"
-		},
-		"stick-n-move": {
-			"title": "Stick N' Move (Runaway DEMO 1998)",
-			"videoId": "0CxJ71Vm2Ws",
-			"lyricAlbum": "lpu"
-		},
-		"album": "LP Underground 9",
-		"lancamento": "23 de novembro 2009",
-		"datetime": "2009-11-23",
-		"duracaoiso": "P26M47S",
-		"duracao": "26:47",
-		"numMus": "9",
-		"gravadora": "Machine Shop",
-		"icone": "lpu9"
-	},
-	"lpu10":
-	{
+	"lpu10": {
 		"coal": {
 			"title": "Coal (Unreleased DEMO 1997)",
 			"videoId": "yO9K85p68VY",
@@ -518,10 +612,14 @@
 		"duracao": "34:30",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"icone": "lpu10"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu10/lpu10-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu10/lpu10-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu10/lpu10-small.jpg"
+		}
 	},
-	"lpu11":
-	{
+	"lpu11": {
 		"bang-three": {
 			"title": "Bang Three (What I've Done Original DEMO)",
 			"videoId": "nFunvMNisM0",
@@ -579,10 +677,14 @@
 		"duracao": "32:12",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"icone": "lpu11"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu11/lpu11-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu11/lpu11-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu11/lpu11-small.jpg"
+		}
 	},
-	"lpu12":
-	{
+	"lpu12": {
 		"asbestos": {
 			"title": "Asbestos (Minutes To Midnight DEMO)",
 			"videoId": "UyuhtI9Pjpg",
@@ -640,10 +742,14 @@
 		"duracao": "31:16",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"icone": "lpu12"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu12/lpu12-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu12/lpu12-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu12/lpu12-small.jpg"
+		}
 	},
-	"lpu13":
-	{
+	"lpu13": {
 		"apaches": {
 			"title": "Apaches - Until It Breaks DEMO No. 1",
 			"videoId": "PQcL-p3L28Y",
@@ -711,10 +817,14 @@
 		"duracao": "44:50",
 		"numMus": "12",
 		"gravadora": "Machine Shop",
-		"icone": "lpu13"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu13/lpu13-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu13/lpu13-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu13/lpu13-small.jpg"
+		}
 	},
-	"lpu14":
-	{
+	"lpu14": {
 		"after-canada": {
 			"title": "After Canada (2005 DEMO)",
 			"videoId": "at9FK6ZrOr0",
@@ -772,10 +882,14 @@
 		"duracao": "29:48",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"icone": "lpu14"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu14/lpu14-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu14/lpu14-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu14/lpu14-small.jpg"
+		}
 	},
-	"lpu15":
-	{
+	"lpu15": {
 		"animals": {
 			"title": "Animals",
 			"videoId": "C8y6M-NNopI",
@@ -816,57 +930,11 @@
 		"duracao": "13:54",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"icone": "lpu15"
-	},
-	"songs-from-the-underground":
-	{
-		"and-one": {
-			"title": "And One",
-			"videoId": "t6tOT1SUZag",
-			"lyricAlbum": "lpu"
-		},
-		"announcement": {
-			"title": "Announcement Service Public",
-			"videoId": "K-DDRD_oi6E",
-			"lyricAlbum": "lpu"
-		},
-		"dedicated": {
-			"title": "Dedicated (DEMO 1999)",
-			"videoId": "Pa9TjzKankY",
-			"lyricAlbum": "lpu"
-		},
-		"hunger-strike": {
-			"title": "Hunger Strike (Live From Projekt Revolution 2008)",
-			"videoId": "g_z_WI7GZVk",
-			"lyricAlbum": "lpu"
-		},
-		"my-december": {
-			"title": "My December (Live 2008)",
-			"videoId": "JUOyCmGMif4",
-			"lyricAlbum": "lpu"
-		},
-		"part-of-me": {
-			"title": "Part Of Me",
-			"videoId": "UQtT_FAWjpI",
-			"lyricAlbum": "lpu"
-		},
-		"qwerty": {
-			"title": "QWERTY (Studio Version)",
-			"videoId": "SSXpNHuYwZs",
-			"lyricAlbum": "lpu"
-		},
-		"sold-my-soul-to-yo-mama": {
-			"title": "Sold My Soul To Yo Mama",
-			"videoId": "IO0s-FRJlgw",
-			"lyricAlbum": "lpu"
-		},
-		"album": "Songs From The Underground",
-		"lancamento": "28 de novembro 2008",
-		"datetime": "2008-11-28",
-		"duracaoiso": "P36M45S",
-		"duracao": "36:45",
-		"numMus": "8",
-		"gravadora": "Warner Brothers Records e Machine Shop Recordings",
-		"icone": "songs-from-the-underground"
+		"tipo": "lpu",
+		"thumbnail": {
+			"large": "/resources/imagens/lpu/lpu15/lpu15-large.jpg",
+			"medium": "/resources/imagens/lpu/lpu15/lpu15-medium.jpg",
+			"small": "/resources/imagens/lpu/lpu15/lpu15-small.jpg"
+		}
 	}
 }

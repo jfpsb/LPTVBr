@@ -10,3 +10,7 @@ RewriteRule (.*)$ /$1/ [R=301,L]
 
 #musicas
 RewriteRule ^musica/?$ musicas/musicas.php [NC,L]
+
+#videos
+RewriteRule ^video/?$ videos/videos.php [NC,L]
+RewriteRule ^video/([a-z-0-9-]+)/?$ videos/$1/$1.php [NC,L]

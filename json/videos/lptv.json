@@ -1,162 +1,422 @@
 {
 	"2014": {
-		"beast-astray": {
-			"title": "BEAST ASTRAY ART SHOW",
-			"videoId": "fhDToinSVl8",
-			"descricao": "No LPTV desta semana, a mostra Beast Astray de Joe Hahn para o filme Mall acontece na Known Gallery, em Los Angeles.",
-			"source": "youtube"
-		},
-		"brazil": {
-			"title": "BRAZIL 2014",
-			"videoId": "yRAfBdP4gVA",
-			"descricao": "Neste episódio do LPTV, Linkin Park é a atração principal das duas noites do festival Circuito Banco do Brasil. O técnico de guitarra do Brad se apresenta para tocar nestes shows.",
-			"source": "youtube"
-		},
-		"carnivores-tour-pt3": {
-			"title": "CARNIVORES TOUR - PART 3",
-			"videoId": "VU_nnq9vG6w",
-			"descricao": "A parte três da Carnivores Tour nos leva ao décimo segundo LPU Summit em The Woodlands, Texas. A banda encontra membros da IAVA, Chester inicia uma guerra de colônias e Darion Malakian se junta à banda para tocar Rebellion no Hollywood Bowl.",
-			"source": "youtube"
-		},
-		"carnivores-tour-pt4": {
-			"title": "CARNIVORES TOUR - PART 4",
-			"videoId": "KDf-CI2uA60",
-			"descricao": "No quarto e último episódio dos LPTVs da Carnivores Tour, Jared Leto se junta ao Chester, Mike e Rob em seus camirins para uma improvisação e durante a última apresentação da turnê a banda agradece à banda AFI, Thirty Seconds To Mars, os fãs e a equipe por fazerem a turnê ser um sucesso.",
-			"source": "youtube"
-		},
-		"europe-tour-pt1": {
-			"title": "2014 EUROPE TOUR | PART 1",
-			"videoId": "RwMFdf5wIjM",
-			"descricao": "A turnê europeia de 2014 começa no Rock In Rio, em Lisboa e em São Petesburgo, Rússia. O Brad machuca suas costas.",
-			"source": "youtube"
-		},
-		"europe-tour-pt2": {
-			"title": "2014 EUROPE TOUR | PART 2",
-			"videoId": "xKUjGwbD0QU",
-			"descricao": "A turnê europeia de 2014 continua com dois shows na Rússia seguido por um show na Polônia.",
-			"source": "youtube"
-		},
-		"europe-tour-pt3": {
-			"title": "2014 EUROPE TOUR | PART 3",
-			"videoId": "z-E2vMJ2Po4",
-			"descricao": "A turnê The Hunting Party volta à Europa em novembro, aproveite o último episódio na recapitulação na passagem europeia neste verão.",
-			"source": "youtube"
-		},
-		"making-of-final-masquerade": {
-			"title": "MAKING OF FINAL MASQUERADE",
-			"videoId": "2KLQt-ZATuI",
-			"descricao": "Making Of de 'Final Masquerade' do álbum The Hunting Party.",
-			"source": "youtube"
+		"road-to-download": {
+			"title": "Road To Download",
+			"videoId": "H4MdAuFW9e8",
+			"descricao": "Linkin Park tocará o Hybrid Theory completo no dia 14 de junho de 2014 no Download Festival 2014.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/road-to-download/road-to-download-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/road-to-download/road-to-download-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/road-to-download/road-to-download-small.jpg"
+			},
+			"data": {
+				"dia": "13",
+				"mes": "06",
+				"ano": "2014"
+			}
 		},
 		"making-of-until-its-gone": {
 			"title": "MAKING OF UNTIL IT'S GONE",
 			"videoId": "xr5_340gVF8",
 			"descricao": "Making Of de Until It's Gone. Dirigido por Joe Hahn.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/making-of-until-its-gone/making-of-until-its-gone-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/making-of-until-its-gone/making-of-until-its-gone-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/making-of-until-its-gone/making-of-until-its-gone-small.jpg"
+			},
+			"data": {
+				"dia": "30",
+				"mes": "06",
+				"ano": "2014"
+			}
 		},
-		"road-to-download": {
-			"title": "Road To Download",
-			"videoId": "H4MdAuFW9e8",
-			"descricao": "Linkin Park tocará o Hybrid Theory completo no dia 14 de junho de 2014 no Download Festival 2014.",
-			"source": "youtube"
+		"europe-tour-pt1": {
+			"title": "2014 EUROPE TOUR | PART 1",
+			"videoId": "RwMFdf5wIjM",
+			"descricao": "A turnê europeia de 2014 começa no Rock In Rio, em Lisboa e em São Petesburgo, Rússia. O Brad machuca suas costas.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-tour-pt1-2014/europe-tour-pt1-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-tour-pt1-2014/europe-tour-pt1-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-tour-pt1-2014/europe-tour-pt1-small.jpg"
+			},
+			"data": {
+				"dia": "16",
+				"mes": "07",
+				"ano": "2014"
+			}
+		},
+		"europe-tour-pt2": {
+			"title": "2014 EUROPE TOUR | PART 2",
+			"videoId": "xKUjGwbD0QU",
+			"descricao": "A turnê europeia de 2014 continua com dois shows na Rússia seguido por um show na Polônia.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-tour-pt2-2014/europe-tour-pt2-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-tour-pt2-2014/europe-tour-pt2-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-tour-pt2-2014/europe-tour-pt2-small.jpg"
+			},
+			"data": {
+				"dia": "03",
+				"mes": "08",
+				"ano": "2014"
+			}
+		},
+		"making-of-final-masquerade": {
+			"title": "MAKING OF FINAL MASQUERADE",
+			"videoId": "2KLQt-ZATuI",
+			"descricao": "Making Of de 'Final Masquerade' do álbum The Hunting Party.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/making-of-final-masquerade/making-of-final-masquerade-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/making-of-final-masquerade/making-of-final-masquerade-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/making-of-final-masquerade/making-of-final-masquerade-small.jpg"
+			},
+			"data": {
+				"dia": "15",
+				"mes": "08",
+				"ano": "2014"
+			}
+		},
+		"europe-tour-pt3": {
+			"title": "2014 EUROPE TOUR | PART 3",
+			"videoId": "z-E2vMJ2Po4",
+			"descricao": "A turnê The Hunting Party volta à Europa em novembro, aproveite o último episódio na recapitulação na passagem europeia neste verão.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-tour-pt3-2014/europe-tour-pt3-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-tour-pt3-2014/europe-tour-pt3-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-tour-pt3-2014/europe-tour-pt3-small.jpg"
+			},
+			"data": {
+				"dia": "14",
+				"mes": "09",
+				"ano": "2014"
+			}
+		},
+		"carnivores-tour-pt3": {
+			"title": "CARNIVORES TOUR - PART 3",
+			"videoId": "VU_nnq9vG6w",
+			"descricao": "A parte três da Carnivores Tour nos leva ao décimo segundo LPU Summit em The Woodlands, Texas. A banda encontra membros da IAVA, Chester inicia uma guerra de colônias e Darion Malakian se junta à banda para tocar Rebellion no Hollywood Bowl.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt3/carnivores-tour-pt3-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt3/carnivores-tour-pt3-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/carnivores-tour-pt3/carnivores-tour-pt3-small.jpg"
+			},
+			"data": {
+				"dia": "19",
+				"mes": "12",
+				"ano": "2014"
+			}
+		},
+		"beast-astray": {
+			"title": "BEAST ASTRAY ART SHOW",
+			"videoId": "fhDToinSVl8",
+			"descricao": "No LPTV desta semana, a mostra Beast Astray de Joe Hahn para o filme Mall acontece na Known Gallery, em Los Angeles.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/beast-astray/beast-astray-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/beast-astray/beast-astray-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/beast-astray/beast-astray-small.jpg"
+			},
+			"data": {
+				"dia": "17",
+				"mes": "01",
+				"ano": "2015"
+			}
+		},
+		"carnivores-tour-pt4": {
+			"title": "CARNIVORES TOUR - PART 4",
+			"videoId": "KDf-CI2uA60",
+			"descricao": "No quarto e último episódio dos LPTVs da Carnivores Tour, Jared Leto se junta ao Chester, Mike e Rob em seus camirins para uma improvisação e durante a última apresentação da turnê a banda agradece à banda AFI, Thirty Seconds To Mars, os fãs e a equipe por fazerem a turnê ser um sucesso.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt4/carnivores-tour-pt4-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt4/carnivores-tour-pt4-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/carnivores-tour-pt4/carnivores-tour-pt4-small.jpg"
+			},
+			"data": {
+				"dia": "17",
+				"mes": "01",
+				"ano": "2015"
+			}
+		},
+		"brazil": {
+			"title": "BRAZIL 2014",
+			"videoId": "yRAfBdP4gVA",
+			"descricao": "Neste episódio do LPTV, Linkin Park é a atração principal das duas noites do festival Circuito Banco do Brasil. O técnico de guitarra do Brad se apresenta para tocar nestes shows.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/brazil-2014/brazil-2014-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/brazil-2014/brazil-2014-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/brazil-2014/brazil-2014-small.jpg"
+			},
+			"data": {
+				"dia": "18",
+				"mes": "01",
+				"ano": "2015"
+			}
 		},
 		"the-hunting-party-tour-europe-part1": {
 			"title": "The Hunting Party Tour | Europe - PART 1",
 			"videoId": "YI8leBHh8bQ",
 			"descricao": "Neste primeiro episódio da série de LPTVs da turnê The Hunting Party na Europa, Linkin Park começa a turnê na Suíça e Alemanha. Austin e Aaron do Of Mice & Men conversam com Mike e Chester nos bastidores. Mike e Joe participam em um evento especial de arte em Berlim para celebrar a queda do muro de Berlim através de arte feita em partes ainda de pé do muro.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1/the-hunting-party-tour-europe-part1-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1/the-hunting-party-tour-europe-part1-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1/the-hunting-party-tour-europe-part1-small.jpg"
+			},
+			"data": {
+				"dia": "18",
+				"mes": "01",
+				"ano": "2015"
+			}
 		},
 		"the-hunting-party-tour-europe-part2": {
 			"title": "The Hunting Party Tour | Europe - PART 2",
 			"videoId": "_981TTfWVxI",
 			"descricao": "A turnê The Hunting Party continua pela Europa. Neste episódio a turnê para em Amsterdã, onde o décimo segundo LPU Summit intercional acontece e o adesivo LINE do Linkin Park é lançado mundialmente. Austin do Of Mice & Men se junta à banda no palco em Faint.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2/the-hunting-party-tour-europe-part2-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2/the-hunting-party-tour-europe-part2-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2/the-hunting-party-tour-europe-part2-small.jpg"
+			},
+			"data": {
+				"dia": "26",
+				"mes": "10",
+				"ano": "2015"
+			}
 		}
 	},
 	"2015": {
-		"a-line-in-the-sand-guitar-solo": {
-			"title": "A LINE IN THE SAND GUITAR SOLO TUTORIAL",
-			"videoId": "C7klIjE0KrQ",
-			"descricao": "Aprenda a tocar o solo de A Line In The Sand com o Brad.",
-			"source": "youtube"
-		},
-		"a-line-in-the-sand": {
-			"title": "A LINE IN THE SAND",
-			"videoId": "5aNShzGOFZ0",
-			"descricao": "Neste episódio do LPTV a banda leva a música 'A Line In The Sand' dos ensaios aos palcos do Rock In Rio - Las Vegas.",
-			"source": "youtube"
+		"the-hunting-party-tour-europe-part3": {
+			"title": "The Hunting Party Tour | Europe - PART 3",
+			"videoId": "hVztvJZfmGA",
+			"descricao": "Neste episódio Mike fala sobre a origem dos versos de abertura de \"A Line In The Sand\". Chester machuca seu tornozelo em Frankfurt. A turnê chega até Berlim onde o show é filmado e transmitido em resolução 4K através das TVs 4K da Samsung na Alemanha. Os fãs invadem o palco na última parada da turnê, em Londres.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3/the-hunting-party-tour-europe-part3-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3/the-hunting-party-tour-europe-part3-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part3/the-hunting-party-tour-europe-part3-small.jpg"
+			},
+			"data": {
+				"dia": "08",
+				"mes": "02",
+				"ano": "2015"
+			}
 		},
 		"chester-breaks-his-ankle": {
 			"title": "Chester breaks his ankle on The Hunting Party Tour",
 			"videoId": "QsUScTdFuGg",
 			"descricao": "Neste episódio a banda inicia a turnê do The Hunting Party na América Do Norte com shows em Orlando, Nashville e Indianapolis. Chester fratura seu tornozelo o que torna impossível a continuação da turnê.",
-			"source": "youtube"
-		},
-		"drawbar-feat-tom-morello": {
-			"title": "DRAWBAR (feat. TOM MORELLO)",
-			"videoId": "xEJr103_Z9M",
-			"descricao": "Este episódio nos leva de volta a 2013 quando Tom Morello se juntou à banda para trabalhar na música \"Drawbar\" do álbum The Hunting Party.",
-			"source": "youtube"
-		},
-		"europe-pt1": {
-			"title": "EUROPE '15 - PART 1",
-			"videoId": "RPdeiMFix48",
-			"descricao": "Neste episódio do LPTV a banda inicia a turnê europeia na Bélgica, Mike compartilha planos para o próximo álbum e a banda deve encontrar um beijo de amor verdadeiro.",
-			"source": "youtube"
-		},
-		"europe-pt2": {
-			"title": "EUROPE '15 - PART 2",
-			"videoId": "25ifLzsuUjY",
-			"descricao": "A turnê The Hunting Party continua pela Europa e a banda toca em Minsk, na Bielorrússia, pela primeira vez. Mike recorda os flash mobs realizdos por fãs que se iniciaram em Moscow. O episódio termina em Jamsa, Finlândia.",
-			"source": "youtube"
-		},
-		"europe-pt3": {
-			"title": "EUROPE '15 - PART 3",
-			"videoId": "wT1t5JZ01e8",
-			"descricao": "A parte 3 da turnê The Hunting Party msotra Linkin Park e Fort Minor tocando em Berlim. Phoenix se oferece para ser o novo \"hype man\" do Fort Minor, Chester pisa no pé de um fã que viajou 5 mil milhas e o técnico do Joe o substitui como DJ em Berlim.",
-			"source": "youtube"
-		},
-		"summer-festivals": {
-			"title": "SUMMER FESTIVALS AND THE STORM",
-			"videoId": "aMCXdiNckEM",
-			"descricao": "Neste episódio do LPTV a banda vai ao Rock On The Range, Rocklahoma e River City Rockfest. Uma enorme tempestade em Oklahoma cancela os últimos shows que aconteceriam em Rocklahoma.",
-			"source": "youtube"
-		},
-		"the-hunting-party-tour-europe-part3": {
-			"title": "The Hunting Party Tour | Europe - PART 3",
-			"videoId": "hVztvJZfmGA",
-			"descricao": "Neste episódio Mike fala sobre a origem dos versos de abertura de \"A Line In The Sand\". Chester machuca seu tornozelo em Frankfurt. A turnê chega até Berlim onde o show é filmado e transmitido em resolução 4K através das TVs 4K da Samsung na Alemanha. Os fãs invadem o palco na última parada da turnê, em Londres.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/chester-breaks-his-ankle/chester-breaks-his-ankle-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/chester-breaks-his-ankle/chester-breaks-his-ankle-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/chester-breaks-his-ankle/chester-breaks-his-ankle-small.jpg"
+			},
+			"data": {
+				"dia": "16",
+				"mes": "03",
+				"ano": "2015"
+			}
 		},
 		"true-chainz": {
 			"title": "TRUE CHAINZ (ALL FOR NOTHING feat. PAGE HAMILTON of HELMET)",
 			"videoId": "mu8BeYSUM4U",
 			"descricao": "Este episódio do LPTV nos leva de volta a 2014, quando Page Hamilton se junta a banda para a parceria na música All For Nothing, (título de trabalho \"True Chainz\").",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/true-chainz/true-chainz-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/true-chainz/true-chainz-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/true-chainz/true-chainz-small.jpg"
+			},
+			"data": {
+				"dia": "20",
+				"mes": "04",
+				"ano": "2015"
+			}
 		},
-		"viva-mexico": {
-			"title": "VIVA MEXICO, VIVA LINKIN PARK",
-			"videoId": "58tflKxxzCI",
-			"descricao": "Neste episódio do LPTV vamos para os bastidores com a banda no México. Assista à banda fazer uma dedicatória para um fã especial do LPU da Cidade do México.",
-			"source": "youtube"
+		"drawbar-feat-tom-morello": {
+			"title": "DRAWBAR (feat. TOM MORELLO)",
+			"videoId": "xEJr103_Z9M",
+			"descricao": "Este episódio nos leva de volta a 2013 quando Tom Morello se juntou à banda para trabalhar na música \"Drawbar\" do álbum The Hunting Party.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/drawbar-feat-tom-morello/drawbar-feat-tom-morello-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/drawbar-feat-tom-morello/drawbar-feat-tom-morello-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/drawbar-feat-tom-morello/drawbar-feat-tom-morello-small.jpg"
+			},
+			"data": {
+				"dia": "01",
+				"mes": "05",
+				"ano": "2015"
+			}
 		},
-		"welcome-demo": {
-			"title": "WELCOME (DEMO)",
-			"videoId": "OEntjajK4TA",
-			"descricao": "Neste episódio do LPTV a banda conhece o \"The Stockroom\" para discutir trabalhos em andamento. Mike toca uma versão demo de 'Welcome' para a banda.",
-			"source": "youtube"
+		"a-line-in-the-sand": {
+			"title": "A LINE IN THE SAND",
+			"videoId": "5aNShzGOFZ0",
+			"descricao": "Neste episódio do LPTV a banda leva a música 'A Line In The Sand' dos ensaios aos palcos do Rock In Rio - Las Vegas.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/a-line-in-the-sand/a-line-in-the-sand-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/a-line-in-the-sand/a-line-in-the-sand-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/a-line-in-the-sand/a-line-in-the-sand-small.jpg"
+			},
+			"data": {
+				"dia": "10",
+				"mes": "07",
+				"ano": "2015"
+			}
+		},
+		"summer-festivals": {
+			"title": "SUMMER FESTIVALS AND THE STORM",
+			"videoId": "aMCXdiNckEM",
+			"descricao": "Neste episódio do LPTV a banda vai ao Rock On The Range, Rocklahoma e River City Rockfest. Uma enorme tempestade em Oklahoma cancela os últimos shows que aconteceriam em Rocklahoma.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/summer-festivals/summer-festivals-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/summer-festivals/summer-festivals-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/summer-festivals/summer-festivals-small.jpg"
+			},
+			"data": {
+				"dia": "10",
+				"mes": "07",
+				"ano": "2015"
+			}
 		},
 		"welcome-video-shoot-day-1": {
 			"title": "FORT MINOR WELCOME - VIDEO SHOOT DAY 1 (VENICE)",
 			"videoId": "ppQ5zt2iZ-I",
 			"descricao": "Neste episódio do LPTV Mike nos leva aos bastidores do dia 1 de gravações do clipe 360º de 'Welcome', do Fort Minor em Venice, California. Assista ao vídeo completo aqui: https://youtu.be/REAwGmv0Fuk",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/welcome-video-shoot-day-1/welcome-video-shoot-day-1-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/welcome-video-shoot-day-1/welcome-video-shoot-day-1-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/welcome-video-shoot-day-1/welcome-video-shoot-day-1-small.jpg"
+			},
+			"data": {
+				"dia": "11",
+				"mes": "07",
+				"ano": "2015"
+			}
 		},
 		"welcome-video-shoot-day-2": {
 			"title": "FORT MINOR WELCOME - VIDEO SHOOT DAY 2 (STUDIO)",
 			"videoId": "N8Cjh7Y2BQg",
 			"descricao": "As gravações do vídeo de 'Welcome'continuam. Neste episódio vamos ao dia 2 de gravações nos Estúdios Mack Sennett, em Los Angeles. Assista ao vídeo completo aqui: https://youtu.be/REAwGmv0Fuk.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/welcome-video-shoot-day-2/welcome-video-shoot-day-2-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/welcome-video-shoot-day-2/welcome-video-shoot-day-2-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/welcome-video-shoot-day-2/welcome-video-shoot-day-2-small.jpg"
+			},
+			"data": {
+				"dia": "11",
+				"mes": "07",
+				"ano": "2015"
+			}
+		},
+		"viva-mexico": {
+			"title": "VIVA MEXICO, VIVA LINKIN PARK",
+			"videoId": "58tflKxxzCI",
+			"descricao": "Neste episódio do LPTV vamos para os bastidores com a banda no México. Assista à banda fazer uma dedicatória para um fã especial do LPU da Cidade do México.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/viva-mexico/viva-mexico-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/viva-mexico/viva-mexico-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/viva-mexico/viva-mexico-small.jpg"
+			},
+			"data": {
+				"dia": "27",
+				"mes": "07",
+				"ano": "2015"
+			}
+		},
+		"a-line-in-the-sand-guitar-solo": {
+			"title": "A LINE IN THE SAND GUITAR SOLO TUTORIAL",
+			"videoId": "C7klIjE0KrQ",
+			"descricao": "Aprenda a tocar o solo de 'A Line In The Sand' com o Brad.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/a-line-in-the-sand-guitar-solo/a-line-in-the-sand-guitar-solo-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/a-line-in-the-sand-guitar-solo/a-line-in-the-sand-guitar-solo-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/a-line-in-the-sand-guitar-solo/a-line-in-the-sand-guitar-solo-small.jpg"
+			},
+			"data": {
+				"dia": "22",
+				"mes": "09",
+				"ano": "2015"
+			}
+		},
+		"welcome-demo": {
+			"title": "WELCOME (DEMO)",
+			"videoId": "OEntjajK4TA",
+			"descricao": "Neste episódio do LPTV a banda conhece o \"The Stockroom\" para discutir trabalhos em andamento. Mike toca uma versão demo de 'Welcome' para a banda.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/welcome-demo/welcome-demo-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/welcome-demo/welcome-demo-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/welcome-demo/welcome-demo-small.jpg"
+			},
+			"data": {
+				"dia": "22",
+				"mes": "09",
+				"ano": "2015"
+			}
+		},
+		"europe-pt1": {
+			"title": "EUROPE '15 - PART 1",
+			"videoId": "RPdeiMFix48",
+			"descricao": "Neste episódio do LPTV a banda inicia a turnê europeia na Bélgica, Mike compartilha planos para o próximo álbum e a banda deve encontrar um beijo de amor verdadeiro.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-pt1-2015/europe-pt1-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-pt1-2015/europe-pt1-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-pt1-2015/europe-pt1-small.jpg"
+			},
+			"data": {
+				"dia": "24",
+				"mes": "10",
+				"ano": "2015"
+			}
+		},
+		"europe-pt2": {
+			"title": "EUROPE '15 - PART 2",
+			"videoId": "25ifLzsuUjY",
+			"descricao": "A turnê The Hunting Party continua pela Europa e a banda toca em Minsk, na Bielorrússia, pela primeira vez. Mike recorda os flash mobs realizdos por fãs que se iniciaram em Moscow. O episódio termina em Jamsa, Finlândia.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-pt2-2015/europe-pt2-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-pt2-2015/europe-pt2-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-pt2-2015/europe-pt2-small.jpg"
+			},
+			"data": {
+				"dia": "25",
+				"mes": "10",
+				"ano": "2015"
+			}
+		},
+		"europe-pt3": {
+			"title": "EUROPE '15 - PART 3",
+			"videoId": "wT1t5JZ01e8",
+			"descricao": "A parte 3 da turnê The Hunting Party msotra Linkin Park e Fort Minor tocando em Berlim. Phoenix se oferece para ser o novo \"hype man\" do Fort Minor, Chester pisa no pé de um fã que viajou 5 mil milhas e o técnico do Joe o substitui como DJ em Berlim.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/europe-pt3-2015/europe-pt3-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/europe-pt3-2015/europe-pt3-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/europe-pt3-2015/europe-pt3-small.jpg"
+			},
+			"data": {
+				"dia": "13",
+				"mes": "11",
+				"ano": "2015"
+			}
 		}
 	},
 	"2010": {
@@ -166,13 +426,13 @@
 			"descricao": "Neste vídeo a banda se reúne para discutir as opiniões dadas por Rick sobre a música Iridescent.",
 			"source": "vimeo",
 			"thumbnail": {
-				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
-				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
-				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+				"large": "/resources/imagens/videos/lptv/something-new/something-new-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/something-new/something-new-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/something-new/something-new-small.jpg"
 			},
 			"data": {
-				"dia": "29",
-				"mes": "04",
+				"dia": "11",
+				"mes": "03",
 				"ano": "2016"
 			}
 		},
@@ -182,13 +442,13 @@
 			"descricao": "Este vídeo mostra um pouco do processo de escolha da banda em relação às músicas enviadas para o concurso do remix de The Catalyst e mostra o vencedor do concurso.",
 			"source": "vimeo",
 			"thumbnail": {
-				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
-				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
-				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+				"large": "/resources/imagens/videos/lptv/contest-featuring-you-winner/contest-featuring-you-winner-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/contest-featuring-you-winner/contest-featuring-you-winner-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/contest-featuring-you-winner/contest-featuring-you-winner-small.jpg"
 			},
 			"data": {
-				"dia": "29",
-				"mes": "04",
+				"dia": "13",
+				"mes": "03",
 				"ano": "2016"
 			}
 		},
@@ -198,13 +458,13 @@
 			"descricao": "Este vídeo mostra o processo de gravação dos vocais da música \"The Catalyst\", do álbum A Thousand Suns.",
 			"source": "vimeo",
 			"thumbnail": {
-				"large": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-large.jpg",
-				"medium": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-medium.jpg",
-				"small": "/resources/imagens/videos/lptv/the-catalyst-behind-the-scenes/the-catalyst-behind-the-scenes-small.jpg"
+				"large": "/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst/chester-records-vocals-for-the-catalyst-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst/chester-records-vocals-for-the-catalyst-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/chester-records-vocals-for-the-catalyst/chester-records-vocals-for-the-catalyst-small.jpg"
 			},
 			"data": {
-				"dia": "29",
-				"mes": "04",
+				"dia": "13",
+				"mes": "03",
 				"ano": "2016"
 			}
 		},
@@ -219,8 +479,8 @@
 				"small": "/resources/imagens/videos/lptv/blackout-freestyle/blackout-freestyle-small.jpg"
 			},
 			"data": {
-				"dia": "29",
-				"mes": "04",
+				"dia": "24",
+				"mes": "03",
 				"ano": "2016"
 			}
 		},
@@ -235,8 +495,8 @@
 				"small": "/resources/imagens/videos/lptv/making-of-the-catalyst-music-video/making-of-the-catalyst-music-video-small.jpg"
 			},
 			"data": {
-				"dia": "29",
-				"mes": "04",
+				"dia": "26",
+				"mes": "03",
 				"ano": "2016"
 			}
 		},
@@ -251,7 +511,7 @@
 				"small": "/resources/imagens/videos/lptv/chesters-lullaby/chesters-lullaby-small.jpg"
 			},
 			"data": {
-				"dia": "29",
+				"dia": "13",
 				"mes": "04",
 				"ano": "2016"
 			}
@@ -267,7 +527,7 @@
 				"small": "/resources/imagens/videos/lptv/megaphone-brad/megaphone-brad-small.jpg"
 			},
 			"data": {
-				"dia": "29",
+				"dia": "16",
 				"mes": "04",
 				"ano": "2016"
 			}
@@ -283,7 +543,7 @@
 				"small": "/resources/imagens/videos/lptv/waiting-for-the-end-recording-vocals/waiting-for-the-end-recording-vocals-small.jpg"
 			},
 			"data": {
-				"dia": "29",
+				"dia": "18",
 				"mes": "04",
 				"ano": "2016"
 			}

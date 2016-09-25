@@ -35,7 +35,7 @@ td {
 	max-width: 100%;
 }
 
-#albuns, #singles, #lpu, #remixes, #videos-article, #dois-mil-dez {
+#albuns, #singles, #lpu, #remixes, #videos-article, #dois-mil-dez, #dois-mil-catorze, #dois-mil-quinze {
 	display: flex;
 	flex-direction: row;
 	margin: 0 auto;

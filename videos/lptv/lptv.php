@@ -43,27 +43,27 @@ $objListagemVideo = new listagemVideos ();
 
 				<div>
 					<div>
-						<div id="dois-mil-dez">
+						<div id="dois-mil-dez" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2010'], true, "medium" );
+							$objListagemVideo->listaVideos ( $release ['2010'], true, "medium", false );
 							?>
 						</div>
 					</div>
 					<div>
-						<div id="dois-mil-catorze">
-						<?php
-						$objListagemVideo->listaVideos ( $release ['2014'], true, "medium" );
-						?>
-						</div>
-					</div>
-					<div>
-						<div id="dois-mil-quinze">
+						<div id="dois-mil-catorze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2015'], true, "medium" );
+							$objListagemVideo->listaVideos ( $release ['2014'], true, "medium", false );
 							?>
 						</div>
 					</div>
-					<div id="dois-mil-dezesseis">
+					<div>
+						<div id="dois-mil-quinze" class="abas-tabView">
+							<?php
+							$objListagemVideo->listaVideos ( $release ['2015'], true, "medium", false );
+							?>
+						</div>
+					</div>
+					<div id="dois-mil-dezesseis" class="abas-tabView">
 						<div align="center">
 							<h2
 								style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: black;">
@@ -76,6 +76,6 @@ $objListagemVideo = new listagemVideos ();
 		</article>
 	</section>
 	
-	?php include_once 'template/footer.php';?>
+	<?php include_once '../../template/footer.php';?>
 </body>
 </html>

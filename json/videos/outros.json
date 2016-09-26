@@ -1,31 +1,50 @@
 {
-	"2016":
-	{
-		"dji-tour-diary":
-		{
-			"title": "DJI - Linkin Park Tour Diary",
-			"videoId": "VCCiuQhVG1k",
-			"descricao": "Acompanhamos o Linkin Park em sua turnê The Hunting Party na China que os levou para cinco incríveis cidades chinesas: Shenzhen, Shanghai, Beijing, Chongqing e Nanjing. Neste vídeo, a banda compartilha seus pensamentos antes, durante e depois dos shows - a animação, o nervosismo e a alegria de tocar para um grupo de fãs pela primeira vez.",
-			"source": "youtube"
+	"iridescent-american-girl": {
+		"title": "[LPUX] Iridescent American Girl",
+		"videoId": "9RZGoFfOz3M",
+		"descricao": "Pequeno vídeo mostrando Mike e Chester parodiando sua própria música, \"Iridescent\".",
+		"source": "youtube",
+		"thumbnail": {
+			"large": "/resources/imagens/videos/outros/iridescent-american-girl/iridescent-american-girl-large.jpg",
+			"medium": "/resources/imagens/videos/outros/iridescent-american-girl/iridescent-american-girl-medium.jpg",
+			"small": "/resources/imagens/videos/outros/iridescent-american-girl/iridescent-american-girl-small.jpg"
 		},
-		"lpu-15-bundle-unboxing":
-		{
-			"title": "LPU 15 Bundle Unboxing Video with Mike Shinoda",
-			"videoId": "dCqFLUA4KuQ",
-			"descricao": "Neste vídeo Mike Shinoda mostra o que acompanha o pacote do LPU15 além do CD de demos. Quer saber mais sobre o LPU? Acesse <a class=\"video-link\" target=\"_blank\" href='http://www.linkinparkbrasil.com/como-comprar-o-lpu/'>este link</a>.",
-			"source": "youtube"
+		"data": {
+			"dia": "27",
+			"mes": "03",
+			"ano": "2016"
 		}
 	},
-	"2010":
-	{
-		"iridescent-american-girl":
-		{
-			"title": "[LPUX] Iridescent American Girl",
-			"videoId": "9RZGoFfOz3M",
-			"descricao": "Pequeno vídeo mostrando Mike e Chester parodiando sua própria música, \"Iridescent\".",
-			"source": "youtube",
-	    	"thumbnail": "http://www.linkinparktvbr.com/resources/imagens/videos/outros/iridescent-american-girl.jpg"
+	"dji-tour-diary": {
+		"title": "DJI - Linkin Park Tour Diary",
+		"videoId": "VCCiuQhVG1k",
+		"descricao": "Acompanhamos o Linkin Park em sua turnê The Hunting Party na China que os levou para cinco incríveis cidades chinesas: Shenzhen, Shanghai, Beijing, Chongqing e Nanjing. Neste vídeo, a banda compartilha seus pensamentos antes, durante e depois dos shows - a animação, o nervosismo e a alegria de tocar para um grupo de fãs pela primeira vez.",
+		"source": "youtube",
+		"thumbnail": {
+			"large": "/resources/imagens/videos/outros/dji-tour-diary/dji-tour-diary-large.jpg",
+			"medium": "/resources/imagens/videos/outros/dji-tour-diary/dji-tour-diary-medium.jpg",
+			"small": "/resources/imagens/videos/outros/dji-tour-diary/dji-tour-diary-small.jpg"
+		},
+		"data": {
+			"dia": "30",
+			"mes": "01",
+			"ano": "2016"
 		}
 	},
-	"secao": "Outros"
+	"lpu-15-bundle-unboxing": {
+		"title": "LPU 15 Bundle Unboxing Video with Mike Shinoda",
+		"videoId": "dCqFLUA4KuQ",
+		"descricao": "Neste vídeo Mike Shinoda mostra o que acompanha o pacote do LPU15 além do CD de demos. Quer saber mais sobre o LPU? Acesse <a class=\"video-link\" target=\"_blank\" href='http://www.linkinparkbrasil.com/como-comprar-o-lpu/'>este link</a>.",
+		"source": "youtube",
+		"thumbnail": {
+			"large": "/resources/imagens/videos/outros/lpu-15-bundle-unboxing/lpu-15-bundle-unboxing-large.jpg",
+			"medium": "/resources/imagens/videos/outros/lpu-15-bundle-unboxing/lpu-15-bundle-unboxing-medium.jpg",
+			"small": "/resources/imagens/videos/outros/lpu-15-bundle-unboxing/lpu-15-bundle-unboxing-small.jpg"
+		},
+		"data": {
+			"dia": "27",
+			"mes": "01",
+			"ano": "2016"
+		}
+	}
 }

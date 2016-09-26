@@ -1,54 +1,116 @@
 {
-	"2014":
-	{
-		"carnivores-tour-vlog-1":
-		{
-			"title": "Mike's Carnivores Tour Vlog #1",
+	"2014": {
+		"mike-first-carnivores-tour-vlog": {
+			"title": "Mike's First Carnivores Tour Vlog | Linkin Log #1",
 			"videoId": "6U_V9LLcvFw",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/mike-first-carnivores-tour-vlog/mike-first-carnivores-tour-vlog-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/mike-first-carnivores-tour-vlog/mike-first-carnivores-tour-vlog-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/mike-first-carnivores-tour-vlog/mike-first-carnivores-tour-vlog-small.jpg"
+			},
+			"data": {
+				"dia": "08",
+				"mes": "08",
+				"ano": "2014"
+			}
 		},
-		"carnivores-tour-vlog-2":
-		{
-			"title": "Mike's Carnivores Tour Vlog #2",
+		"mike-second-carnivores-tour-vlog-2": {
+			"title": "Mike's Second Carnivores Tour Vlog | Linkin Log #2",
 			"videoId": "c43ng98RHQA",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/mike-second-carnivores-tour-vlog-2/mike-second-carnivores-tour-vlog-2-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/mike-second-carnivores-tour-vlog-2/mike-second-carnivores-tour-vlog-2-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/mike-second-carnivores-tour-vlog-2/mike-second-carnivores-tour-vlog-2-small.jpg"
+			},
+			"data": {
+				"dia": "16",
+				"mes": "08",
+				"ano": "2014"
+			}
 		},
-		"carnivores-tour-vlog-3":
-		{
-			"title": "Linkin Log #3 - Carnivores Tour",
+		"carnivores-tour-vlog-3": {
+			"title": "Carnivores Tour | Linkin Log #3",
 			"videoId": "53xvJTIKCSM",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3/carnivores-tour-vlog-3-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3/carnivores-tour-vlog-3-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3/carnivores-tour-vlog-3-small.jpg"
+			},
+			"data": {
+				"dia": "23",
+				"mes": "08",
+				"ano": "2014"
+			}
 		},
-		"ask-brad":
-		{
-			"title": "Linkin Log #4 - Ask Brad - Edition (Carnivores Tour)",
+		"ask-brad": {
+			"title": "\"Ask Brad\" | Linkin Log #4",
 			"videoId": "YQ96GVpWAng",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/ask-brad/ask-brad-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/ask-brad/ask-brad-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/ask-brad/ask-brad-small.jpg"
+			},
+			"data": {
+				"dia": "30",
+				"mes": "08",
+				"ano": "2014"
+			}
 		},
-		"beat-making-demo":
-		{
-			"title": "Linkin Log #5 - Beat Making Demo",
+		"beat-making-demo": {
+			"title": "Beat Making Demo | Linkin Log #5",
 			"videoId": "7td-eV3wnHg",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/beat-making-demo/beat-making-demo-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/beat-making-demo/beat-making-demo-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/beat-making-demo/beat-making-demo-small.jpg"
+			},
+			"data": {
+				"dia": "05",
+				"mes": "09",
+				"ano": "2014"
+			}
 		},
-		"basketball":
-		{
-			"title": "Linkin Log #6: Basketball Q&A",
+		"basketball": {
+			"title": "Basketball Q&A | Linkin Log #6",
 			"videoId": "cyOLwOvMF_g",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/basketball/basketball-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/basketball/basketball-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/basketball/basketball-small.jpg"
+			},
+			"data": {
+				"dia": "20",
+				"mes": "09",
+				"ano": "2014"
+			}
 		},
-		"end-of-carnivores-tour":
-		{
-			"title": "Linkin Log #7 - End Of Carnivores Tour",
+		"end-of-carnivores-tour": {
+			"title": "End of Carnivores Tour | Linkin Log #7",
 			"videoId": "rgQgI3PpIOI",
 			"descricao": "Linkin Logs é uma série de vídeos gravados por Mike Shinoda durante a Carnivores Tour, que ocorreu durante 2014, para promover o novo álbum da banda, The Hunting Party, e o mais recente álbum da banda Thirty Seconds To Mars, que também participava da turnê. Foram um total de 7 vídeos mostrando de simples brincadeiras até criações de batidas. Aproveite todos legendados aqui.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/linkin-logs/end-of-carnivores-tour/end-of-carnivores-tour-large.jpg",
+				"medium": "/resources/imagens/videos/linkin-logs/end-of-carnivores-tour/end-of-carnivores-tour-medium.jpg",
+				"small": "/resources/imagens/videos/linkin-logs/end-of-carnivores-tour/end-of-carnivores-tour-small.jpg"
+			},
+			"data": {
+				"dia": "03",
+				"mes": "10",
+				"ano": "2014"
+			}
 		}
 	},
 	"secao": "Linkin Logs"

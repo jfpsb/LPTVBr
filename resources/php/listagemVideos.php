@@ -9,8 +9,10 @@ class listagemVideos {
 	 *        	True se deseja que o array seja lido em ordem reversa
 	 * @param String $tamanhoThumb
 	 *        	Tamanho da thumbnail desejado.
+	 * @param boolean $lancado
+	 *        	Se True, irá no mostrar "Lançado" no campo de data
 	 */
-	public function listaVideos(array $releaseArray, $invertido, $tamanhoThumb) {
+	public function listaVideos(array $releaseArray, $invertido, $tamanhoThumb, $lancado) {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
@@ -19,6 +21,11 @@ class listagemVideos {
 			$titulo = $release ['title'];
 			$imagem = $release ['thumbnail'] [$tamanhoThumb];
 			$data = $release ['data'];
+			
+			$header = "Postado:";
+			
+			if ($lancado)
+				$header = "Lançado:";
 			
 			$dia = $data ['dia'];
 			$mes = $data ['mes'];

@@ -1,3 +1,13 @@
+<?php
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/entrevista.json" );
+$str = utf8_encode ( $str );
+$release = json_decode ( $str, true );
+
+include_once '../../resources/php/listagemVideos.php';
+
+$objListagemVideo = new listagemVideos ();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,47 +40,14 @@
 				</ul>
 
 				<div>
-					<div id="#dois-mil-catorze">
-						<table class="panelGrid">
-							<tr>
-								<td>
-									<div class="panel">
-										<a class="link" href="2014/lightning-round-red-bull">
-										<?php
-										$dia = '7';
-										$mes = 'Set';
-										$ano = '2014';
-										include 'postDataTemplate.php';
-										?>
-										<img
-											alt="Linkin Park Lightning Round In The Red Bull Sound Space At KROQ"
-											class="linkImg"
-											src="/resources/imagens/videos/entrevista/lightning-round-red-bull.jpg">
-											<label class="nomeLink">Linkin Park Lightning Round In The
-												Red Bull Sound Space At KROQ</label>
-										</a>
-									</div>
-								</td>
-								<td>
-									<div class="panel">
-										<a class="link" href="2014/guitar-center-rockwalk-induction">
-										<?php
-										$dia = '5';
-										$mes = 'Jul';
-										$ano = '2014';
-										include 'postDataTemplate.php';
-										?>
-										<img alt="Guitar Center Rockwalk Induction" class="linkImg"
-											src="/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction.jpg">
-											<label class="nomeLink">Guitar Center Rockwalk Induction</label>
-										</a>
-									</div>
-								</td>
-							</tr>
-						</table>
+					<div>
+						<div id="dois-mil-catorze" class="abas-tabView">
+							<?php
+							$objListagemVideo->listaVideos ( $release ['2014'], true, "medium", false );
+							?>	
+						</div>
 					</div>
-
-					<div id="#dois-mil-quinze">
+					<div id="dois-mil-quinze" class="abas-tabView">
 						<div align="center">
 							<h2
 								style="font-family: 'Courier New', Courier, monospace; color: black;">
@@ -79,7 +56,7 @@
 						</div>
 					</div>
 
-					<div id="#dois-mil-dezesseis">
+					<div id="dois-mil-dezesseis" class="abas-tabView">
 						<div align="center">
 							<h2
 								style="font-family: 'Courier New', Courier, monospace; color: black;">

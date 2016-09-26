@@ -1,19 +1,36 @@
 {
-	"2014":
-	{
-		"guitar-center-rockwalk-induction":
-		{
+	"2014": {
+		"guitar-center-rockwalk-induction": {
 			"title": "Guitar Center Rockwalk Induction",
 			"videoId": "oPXgSBzCnzs",
 			"descricao": "Em 18 de junho de 2014, Guitar Center orgulha-se de introduzir Linkin Park na calçada da fama do Rock. Com o anfitrião Nic Harcourt e convidado especial Stryker, Linkin Park apertou suas mãos com firmeza no cimento para conseguir seu lugar ao lado de lendas musicais.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction/guitar-center-rockwalk-induction-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction/guitar-center-rockwalk-induction-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction/guitar-center-rockwalk-induction-small.jpg"
+			},
+			"data": {
+				"dia": "05",
+				"mes": "07",
+				"ano": "2014"
+			}
 		},
-		"lightning-round-red-bull":
-		{
+		"lightning-round-red-bull": {
 			"title": "Linkin Park Lightning Round In The Red Bull Sound Space At KROQ",
 			"videoId": "sG43QitMgPU",
 			"descricao": "Nos encontramos com o Linkin Park antes de seu show no Red Bull Sound Space at KROQ para uma rápida seção de perguntas.",
-			"source": "youtube"
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/lightning-round-red-bull/lightning-round-red-bull-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/lightning-round-red-bull/lightning-round-red-bull-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/lightning-round-red-bull/lightning-round-red-bull-small.jpg"
+			},
+			"data": {
+				"dia": "07",
+				"mes": "09",
+				"ano": "2014"
+			}
 		}
 	},
 	"secao": "Entrevistas"

@@ -1,8 +1,8 @@
 <?php
-$jsonAlbuns = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . "albuns.json" );
-$jsonLpu = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . "lpu.json" );
-$jsonRemixes = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . "remixes.json" );
-$jsonSingles = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . "singles.json" );
+$jsonAlbuns = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/albuns.json" );
+$jsonLpu = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/lpu.json" );
+$jsonRemixes = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/remixes.json" );
+$jsonSingles = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/singles.json" );
 
 $jsonAlbuns = utf8_encode ( $jsonAlbuns );
 $jsonLpu = utf8_encode ( $jsonLpu );
@@ -57,7 +57,7 @@ $objListagemMusicas = new listagemMusicas ();
 				</ul>
 				<div>
 					<div>
-						<div id="albuns">
+						<div id="albuns" class="abas-tabView">
 							<?php
 							
 							$objListagemMusicas->listaAlbuns ( $releaseAlbuns, false, "medium" );
@@ -66,7 +66,7 @@ $objListagemMusicas = new listagemMusicas ();
 						</div>
 					</div>
 					<div>
-						<div id="singles">
+						<div id="singles" class="abas-tabView">
 							<?php
 							
 							$objListagemMusicas->listaAlbuns ( $releaseSingles, false, "small" );
@@ -75,7 +75,7 @@ $objListagemMusicas = new listagemMusicas ();
 						</div>
 					</div>
 					<div>
-						<div id="remixes">
+						<div id="remixes" class="abas-tabView">
 						<?php
 						
 						$objListagemMusicas->listaAlbuns ( $releaseRemixes, false, "small" );
@@ -84,7 +84,7 @@ $objListagemMusicas = new listagemMusicas ();
 						</div>
 					</div>
 					<div>
-						<div id="lpu">
+						<div id="lpu" class="abas-tabView">
 							<?php
 							
 							$objListagemMusicas->listaAlbuns ( $releaseLpu, true, "small" );

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/release-lista.css">
@@ -18,7 +19,7 @@
 <?php include_once '../template/header.php';?>
 
 <section class="mainSection">
-		<article id="videos-article" class="leg-article">
+		<article id="videos-article" class="abas-tabView">
 			<div class="panel">
 				<a class="link" href="lptv/"><img class="linkImg"
 					src="/resources/imagens/videos/lptv/lptv-logo-medium.jpg"

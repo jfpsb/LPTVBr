@@ -1,9 +1,21 @@
+<?php
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/shows.json" );
+$str = utf8_encode ( $str );
+$release = json_decode ( $str, true );
+
+include_once '../../resources/php/listagemVideos.php';
+
+$objListagemVideo = new listagemVideos ();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/resources/css/global.css">
 <link rel="stylesheet" type="text/css"
-	href="/resources/css/letra-musica.css">
+	href="/resources/css/release-lista.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
@@ -14,68 +26,38 @@
 		$('#show-tabView').puitabview();
 	});
 </script>
+<title>Shows Legendados - LPTVBr</title>
 </head>
 <body>
-	<article>
-		<div id="show-tabView" class="tabView">
-			<ul class="tabs-shows">
-				<li><a href="#oficiais">DVDs/Blu-Rays Oficiais</a></li>
-				<li><a href="#outros">Outros</a></li>
-			</ul>
+<?php include_once '../../template/header.php';?>
+<section class="mainSection">
+		<article>
+			<div id="show-tabView" class="tabView">
+				<ul class="tabs-shows">
+					<li><a href="#oficiais">DVDs/Blu-Rays Oficiais</a></li>
+					<li><a href="#outros">Outros</a></li>
+				</ul>
 
-			<div>
-				<div id="oficiais">
-					<table class="panelGrid">
-						<tr>
-							<td>
-								<div class="panel">
-									<a class="link" href="2003/live-in-texas"> <img class="linkImg"
-										src="/resources/imagens/videos/shows/live-in-texas/live-in-texas.jpg"
-										alt="Live In Texas" /> <label class="nomeLink">Live In Texas</label>
-									</a>
-								</div>
-							</td>
-							<td>
-								<div class="panel">
-									<a class="link" href="2008/road-to-revolution"> <img
-										class="linkImg"
-										src="/resources/imagens/videos/shows/road-to-revolution/road-to-revolution.jpg"
-										alt="Road To Revolution" /> <label class="nomeLink">Road To
-											Revolution</label>
-									</a>
-								</div>
-							</td>
-						</tr>
-					</table>
-				</div>
-
-				<div id="outros">
-					<table class="panelGrid">
-						<tr>
-							<td>
-								<div class="panel">
-									<a class="link" href="2015/rock-in-rio"> <img class="linkImg"
-										src="/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg"
-										alt="Rock In Rio Las Vegas 2015" /> <label class="nomeLink">Rock
-											In Rio Las Vegas 2015</label>
-									</a>
-								</div>
-							</td>
-							<td>
-								<div class="panel">
-									<a class="link" href="2011/itunes-festival"> <img
-										class="linkImg"
-										src="/resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg"
-										alt="iTunes Festival 2011" /> <label class="nomeLink">iTunes
-											Festival 2011</label>
-									</a>
-								</div>
-							</td>
-						</tr>
-					</table>
+				<div>
+					<div>
+						<div id="oficiais" class="abas-tabView">
+							<?php
+							$objListagemVideo->listaVideos ( $release ['oficial'], true, "medium", true );
+							?>
+						</div>
+					</div>
+					<div>
+						<div id="outros" class="abas-tabView">
+							<?php
+							$objListagemVideo->listaVideos ( $release ['nao-oficial'], true, "medium", true );
+							?>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</article>
+		</article>
+	</section>
+	
+	<?php include_once '../../template/footer.php';?>
 </body>
 </html>

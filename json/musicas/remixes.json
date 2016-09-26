@@ -49,7 +49,6 @@
 		"duracao": "33:48",
 		"numMus": "7",
 		"gravadora": "Warner Bros., Dim Mak",
-		"tipo": "remixes",
 		"thumbnail": {
 			"large": "/resources/imagens/remixes/a-light-that-never-comes/a-light-that-never-comes-large.jpg",
 			"medium": "/resources/imagens/remixes/a-light-that-never-comes/a-light-that-never-comes-medium.jpg",
@@ -138,7 +137,6 @@
 		"duracao": "68:43",
 		"numMus": "14",
 		"gravadora": "Warner Bros. Records",
-		"tipo": "remixes",
 		"thumbnail": {
 			"large": "/resources/imagens/remixes/recharged/recharged-large.jpg",
 			"medium": "/resources/imagens/remixes/recharged/recharged-medium.jpg",
@@ -158,7 +156,6 @@
 		"duracao": "30:54 (Lista Original)",
 		"numMus": "13 (Lista Original)",
 		"gravadora": "Warner Bros., Machine Shop",
-		"tipo": "remixes",
 		"thumbnail": {
 			"large": "/resources/imagens/remixes/8bit-rebellion/8bit-rebellion-large.jpg",
 			"medium": "/resources/imagens/remixes/8bit-rebellion/8bit-rebellion-medium.jpg",
@@ -273,7 +270,6 @@
 		"duracao": "61:00",
 		"numMus": "20",
 		"gravadora": "Warner Bros. Records",
-		"tipo": "remixes",
 		"thumbnail": {
 			"large": "/resources/imagens/remixes/reanimation/reanimation-large.jpg",
 			"medium": "/resources/imagens/remixes/reanimation/reanimation-medium.jpg",

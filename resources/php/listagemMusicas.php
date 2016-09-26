@@ -10,7 +10,7 @@ class listagemMusicas {
 	 * @param String $tamanhoThumb
 	 *        	Tamanho da thumbnail desejado.
 	 */
-	public function listaAlbuns(array $releaseArray, $invertido, $tamanhoThumb) {
+	public function listaAlbuns(array $releaseArray, $invertido, $tamanhoThumb, $tipo) {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
@@ -18,7 +18,6 @@ class listagemMusicas {
 			$caminho = $url;
 			$titulo = $release ['album'];
 			$imagem = $release ['thumbnail'] [$tamanhoThumb];
-			$tipo = $release['tipo'];
 			
 			echo "<div class=\"panel\">";
 			echo "<a href=\"$tipo/$caminho/\" class=\"link\">";

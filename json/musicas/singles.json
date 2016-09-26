@@ -12,7 +12,6 @@
 		"duracao": "3:37",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/final-masquerade/final-masquerade-large.jpg",
 			"medium": "/resources/imagens/singles/final-masquerade/final-masquerade-medium.jpg",
@@ -32,7 +31,6 @@
 		"duracao": "03:44",
 		"numMus": "1",
 		"gravadora": "Warner Bros., Machine Shop",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/rebellion/rebellion-large.jpg",
 			"medium": "/resources/imagens/singles/rebellion/rebellion-medium.jpg",
@@ -52,7 +50,6 @@
 		"duracao": "03:10",
 		"numMus": "1",
 		"gravadora": "Warner Bros., Machine Shop",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/wastelands/wastelands-large.jpg",
 			"medium": "/resources/imagens/singles/wastelands/wastelands-medium.jpg",
@@ -72,7 +69,6 @@
 		"duracao": "03:53",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/until-its-gone/until-its-gone-large.jpg",
 			"medium": "/resources/imagens/singles/until-its-gone/until-its-gone-medium.jpg",
@@ -92,7 +88,6 @@
 		"duracao": "5:55",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/guilty-all-the-same/guilty-all-the-same-large.jpg",
 			"medium": "/resources/imagens/singles/guilty-all-the-same/guilty-all-the-same-medium.jpg",
@@ -112,7 +107,6 @@
 		"duracao": "3:49",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/a-light-that-never-comes/a-light-that-never-comes-large.jpg",
 			"medium": "/resources/imagens/singles/a-light-that-never-comes/a-light-that-never-comes-medium.jpg",
@@ -137,7 +131,6 @@
 		"duracao": "3:25",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/castle-of-glass/castle-of-glass-large.jpg",
 			"medium": "/resources/imagens/singles/castle-of-glass/castle-of-glass-medium.jpg",
@@ -157,7 +150,6 @@
 		"duracao": "03:44",
 		"numMus": "1",
 		"gravadora": "Warner Bros., Machine Shop Recordings",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/powerless/powerless-large.jpg",
 			"medium": "/resources/imagens/singles/powerless/powerless-medium.jpg",
@@ -182,7 +174,6 @@
 		"duracao": "03:25",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/lost-in-the-echo/lost-in-the-echo-large.jpg",
 			"medium": "/resources/imagens/singles/lost-in-the-echo/lost-in-the-echo-medium.jpg",
@@ -202,7 +193,6 @@
 		"duracao": "3:51",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/burn-it-down/burn-it-down-large.jpg",
 			"medium": "/resources/imagens/singles/burn-it-down/burn-it-down-medium.jpg",
@@ -222,7 +212,6 @@
 		"duracao": "04:56",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/iridescent/iridescent-large.jpg",
 			"medium": "/resources/imagens/singles/iridescent/iridescent-medium.jpg",
@@ -242,7 +231,6 @@
 		"duracao": "3:51",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/download-tsunami/download-tsunami-large.jpg",
 			"medium": "/resources/imagens/singles/download-tsunami/download-tsunami-medium.jpg",
@@ -272,7 +260,6 @@
 		"duracao": "4:13",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/burning-in-the-skies/burning-in-the-skies-large.jpg",
 			"medium": "/resources/imagens/singles/burning-in-the-skies/burning-in-the-skies-medium.jpg",
@@ -297,7 +284,6 @@
 		"duracao": "03:51",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/waiting-for-the-end/waiting-for-the-end-large.jpg",
 			"medium": "/resources/imagens/singles/waiting-for-the-end/waiting-for-the-end-medium.jpg",
@@ -317,7 +303,6 @@
 		"duracao": "05:42",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/the-catalyst/the-catalyst-large.jpg",
 			"medium": "/resources/imagens/singles/the-catalyst/the-catalyst-medium.jpg",
@@ -337,7 +322,6 @@
 		"duracao": "4:12",
 		"numMus": "1",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/download-haiti/download-haiti-large.jpg",
 			"medium": "/resources/imagens/singles/download-haiti/download-haiti-medium.jpg",
@@ -374,7 +358,6 @@
 		"duracao": "04:28",
 		"numMus": "4",
 		"gravadora": "Reprise",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/new-divide/new-divide-large.jpg",
 			"medium": "/resources/imagens/singles/new-divide/new-divide-medium.jpg",
@@ -405,7 +388,6 @@
 		"duracao": "03:29",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/leave-out-all-the-rest/leave-out-all-the-rest-large.jpg",
 			"medium": "/resources/imagens/singles/leave-out-all-the-rest/leave-out-all-the-rest-medium.jpg",
@@ -430,7 +412,6 @@
 		"duracao": "3:09",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/given-up/given-up-large.jpg",
 			"medium": "/resources/imagens/singles/given-up/given-up-medium.jpg",
@@ -455,7 +436,6 @@
 		"duracao": "04:54",
 		"numMus": "2",
 		"gravadora": "Warner Bros., Machine Shop",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/shadow-of-the-day/shadow-of-the-day-large.jpg",
 			"medium": "/resources/imagens/singles/shadow-of-the-day/shadow-of-the-day-medium.jpg",
@@ -485,7 +465,6 @@
 		"duracao": "9:39",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/bleed-it-out/bleed-it-out-large.jpg",
 			"medium": "/resources/imagens/singles/bleed-it-out/bleed-it-out-medium.jpg",
@@ -515,7 +494,6 @@
 		"duracao": "03:28",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/what-ive-done/what-ive-done-large.jpg",
 			"medium": "/resources/imagens/singles/what-ive-done/what-ive-done-medium.jpg",
@@ -540,7 +518,6 @@
 		"duracao": "03:25",
 		"numMus": "2",
 		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/numb-encore/numb-encore-large.jpg",
 			"medium": "/resources/imagens/singles/numb-encore/numb-encore-medium.jpg",
@@ -588,7 +565,6 @@
 		"duracao": "03:25",
 		"numMus": "6",
 		"gravadora": "Roc-A-Fella, Def Jam, Warner Bros., Machine Shop",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/numb-encore-itunesep/numb-encore-itunesep-large.jpg",
 			"medium": "/resources/imagens/singles/numb-encore-itunesep/numb-encore-itunesep-medium.jpg",
@@ -613,7 +589,6 @@
 		"duracao": "03:08",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/numbv1/numbv1-large.jpg",
 			"medium": "/resources/imagens/singles/numbv1/numbv1-medium.jpg",
@@ -638,7 +613,6 @@
 		"duracao": "03:08",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/numbv2/numbv2-large.jpg",
 			"medium": "/resources/imagens/singles/numbv2/numbv2-medium.jpg",
@@ -663,7 +637,6 @@
 		"duracao": "3:16",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/breaking-the-habit/breaking-the-habit-large.jpg",
 			"medium": "/resources/imagens/singles/breaking-the-habit/breaking-the-habit-medium.jpg",
@@ -694,7 +667,6 @@
 		"duracao": "2:55",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/from-the-inside/from-the-inside-large.jpg",
 			"medium": "/resources/imagens/singles/from-the-inside/from-the-inside-medium.jpg",
@@ -719,7 +691,6 @@
 		"duracao": "2:42",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/faint/faint-large.jpg",
 			"medium": "/resources/imagens/singles/faint/faint-medium.jpg",
@@ -749,7 +720,6 @@
 		"duracao": "03:33",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/somewhere-i-belong/somewhere-i-belong-large.jpg",
 			"medium": "/resources/imagens/singles/somewhere-i-belong/somewhere-i-belong-medium.jpg",
@@ -779,7 +749,6 @@
 		"duracao": "03:39",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/pts.of.athrty/pts.of.athrty-large.jpg",
 			"medium": "/resources/imagens/singles/pts.of.athrty/pts.of.athrty-medium.jpg",
@@ -829,7 +798,6 @@
 		"duracao": "24:04",
 		"numMus": "7",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/in-the-end-live-rare/in-the-end-live-rare-large.jpg",
 			"medium": "/resources/imagens/singles/in-the-end-live-rare/in-the-end-live-rare-medium.jpg",
@@ -860,7 +828,6 @@
 		"duracao": "3:36",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/in-the-end/in-the-end-large.jpg",
 			"medium": "/resources/imagens/singles/in-the-end/in-the-end-medium.jpg",
@@ -890,7 +857,6 @@
 		"duracao": "10:22",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/in-the-endv2/in-the-endv2-large.jpg",
 			"medium": "/resources/imagens/singles/in-the-endv2/in-the-endv2-medium.jpg",
@@ -921,7 +887,6 @@
 		"duracao": "03:04",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/papercut/papercut-large.jpg",
 			"medium": "/resources/imagens/singles/papercut/papercut-medium.jpg",
@@ -946,7 +911,6 @@
 		"duracao": "3:29",
 		"numMus": "2",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/crawling/crawling-large.jpg",
 			"medium": "/resources/imagens/singles/crawling/crawling-medium.jpg",
@@ -976,7 +940,6 @@
 		"duracao": "02:35",
 		"numMus": "3",
 		"gravadora": "Warner Bros.",
-		"tipo": "singles",
 		"thumbnail": {
 			"large": "/resources/imagens/singles/one-step-closer/one-step-closer-large.jpg",
 			"medium": "/resources/imagens/singles/one-step-closer/one-step-closer-medium.jpg",

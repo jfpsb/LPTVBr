@@ -37,7 +37,6 @@
 		"duracao": "29:19",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu1/lpu1-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu1/lpu1-medium.jpg",
@@ -82,7 +81,6 @@
 		"duracao": "20:43",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu2/lpu2-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu2/lpu2-medium.jpg",
@@ -122,7 +120,6 @@
 		"duracao": "17:20",
 		"numMus": "5",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu3/lpu3-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu3/lpu3-medium.jpg",
@@ -167,7 +164,6 @@
 		"duracao": "24:14",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu4/lpu4-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu4/lpu4-medium.jpg",
@@ -212,7 +208,6 @@
 		"duracao": "20:40",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu5/lpu5-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu5/lpu5-medium.jpg",
@@ -257,7 +252,6 @@
 		"duracao": "21:45",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu6/lpu6-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu6/lpu6-medium.jpg",
@@ -322,7 +316,6 @@
 		"duracao": "43:17",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu7/lpu7-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu7/lpu7-medium.jpg",
@@ -377,7 +370,6 @@
 		"duracao": "36:45",
 		"numMus": "8",
 		"gravadora": "Warner Brothers Records e Machine Shop Recordings",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/songs-from-the-underground/songs-from-the-underground-large.jpg",
 			"medium": "/resources/imagens/lpu/songs-from-the-underground/songs-from-the-underground-medium.jpg",
@@ -422,7 +414,6 @@
 		"duracao": "10:20",
 		"numMus": "6",
 		"gravadora": "Warner Bros.",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu8/lpu8-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu8/lpu8-medium.jpg",
@@ -482,7 +473,6 @@
 		"duracao": "26:47",
 		"numMus": "9",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu9/lpu9-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu9/lpu9-medium.jpg",
@@ -547,7 +537,6 @@
 		"duracao": "43:00",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/a-decade-underground/a-decade-underground-large.jpg",
 			"medium": "/resources/imagens/lpu/a-decade-underground/a-decade-underground-medium.jpg",
@@ -612,7 +601,6 @@
 		"duracao": "34:30",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu10/lpu10-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu10/lpu10-medium.jpg",
@@ -677,7 +665,6 @@
 		"duracao": "32:12",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu11/lpu11-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu11/lpu11-medium.jpg",
@@ -742,7 +729,6 @@
 		"duracao": "31:16",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu12/lpu12-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu12/lpu12-medium.jpg",
@@ -817,7 +803,6 @@
 		"duracao": "44:50",
 		"numMus": "12",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu13/lpu13-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu13/lpu13-medium.jpg",
@@ -882,7 +867,6 @@
 		"duracao": "29:48",
 		"numMus": "10",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu14/lpu14-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu14/lpu14-medium.jpg",
@@ -930,7 +914,6 @@
 		"duracao": "13:54",
 		"numMus": "6",
 		"gravadora": "Machine Shop",
-		"tipo": "lpu",
 		"thumbnail": {
 			"large": "/resources/imagens/lpu/lpu15/lpu15-large.jpg",
 			"medium": "/resources/imagens/lpu/lpu15/lpu15-medium.jpg",

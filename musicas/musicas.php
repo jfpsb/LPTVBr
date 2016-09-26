@@ -60,7 +60,7 @@ $objListagemMusicas = new listagemMusicas ();
 						<div id="albuns" class="abas-tabView">
 							<?php
 							
-							$objListagemMusicas->listaAlbuns ( $releaseAlbuns, false, "medium" );
+							$objListagemMusicas->listaAlbuns ( $releaseAlbuns, false, "medium", "albuns" );
 							
 							?>
 						</div>
@@ -69,7 +69,7 @@ $objListagemMusicas = new listagemMusicas ();
 						<div id="singles" class="abas-tabView">
 							<?php
 							
-							$objListagemMusicas->listaAlbuns ( $releaseSingles, false, "small" );
+							$objListagemMusicas->listaAlbuns ( $releaseSingles, false, "small", "singles" );
 							
 							?>
 						</div>
@@ -78,7 +78,7 @@ $objListagemMusicas = new listagemMusicas ();
 						<div id="remixes" class="abas-tabView">
 						<?php
 						
-						$objListagemMusicas->listaAlbuns ( $releaseRemixes, false, "small" );
+						$objListagemMusicas->listaAlbuns ( $releaseRemixes, false, "small", "remixes" );
 						
 						?>
 						</div>
@@ -87,7 +87,7 @@ $objListagemMusicas = new listagemMusicas ();
 						<div id="lpu" class="abas-tabView">
 							<?php
 							
-							$objListagemMusicas->listaAlbuns ( $releaseLpu, true, "small" );
+							$objListagemMusicas->listaAlbuns ( $releaseLpu, true, "small", "lpu" );
 							
 							?>
 						</div>

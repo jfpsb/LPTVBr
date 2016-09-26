@@ -1,12 +1,12 @@
 <?php
 $tipo = $_GET ['tipo'];
+$album = $_GET ['album'];
+
 $filepath = 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $tipo . ".json";
 $str = file_get_contents ( $filepath );
 $str = utf8_encode ( $str );
 
 $release = json_decode ( $str, true );
-
-$album = $_GET ['album'];
 
 if (! array_key_exists ( $album, $release )) {
 	header ( 'HTTP/1.0 404 Not Found' );
@@ -16,16 +16,12 @@ if (! array_key_exists ( $album, $release )) {
 
 $albumName = $release [$album] ['album'];
 
-$isThumbnailSet = isset ( $release [$album] ['thumbnail'] );
-if ($isThumbnailSet) {
-	$thumbnail = $release [$album] ['thumbnail'];
-} else {
-	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
-}
+$thumbnail = $release [$album] ['thumbnail'];
 
-$page_title = $albumName . ' : LinkinParkTVBr';
-if (isset ( $release ['artista'] ))
-	$artista = $release ['artista'];
+$page_title = $albumName . ' - LPTVBr';
+
+$artista = "Linkin Park";
+
 if (isset ( $release [$album] ['lancamento'] ))
 	$lancamento = $release [$album] ['lancamento'];
 if (isset ( $release [$album] ['duracaoiso'] ))
@@ -56,8 +52,6 @@ if (isset ( $release [$album] ['datetime'] ))
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/template.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
@@ -71,44 +65,30 @@ if (isset ( $release [$album] ['datetime'] ))
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
-<meta property="og:image" content="<?php echo $thumbnail ?>" />
+<meta property="og:image" content="<?php echo $thumbnail['medium'] ?>" />
 <meta property="og:description"
 	content="Músicas traduzidas de <?php echo $release[$_GET['album']]['album'] ?>" />
 <meta property="og:type" content="website" />
 </head>
 <body>
-	<?php
-	include_once 'header.php';
-	if ($_SERVER ['HTTP_HOST'] === "linkinparktvbr.com" || $_SERVER ['HTTP_HOST'] === "www.linkinparktvbr.com") {
-		if (@$_COOKIE ["LPTVBrCookie"] !== "1124") {
-			include_once ("../analyticstracking.php");
-		}
-	}
-	?>
+	<?php include_once 'header.php'; ?>
 	
-	<section id="main-section" class="body-section">
+	<section class="mainSection">
 	
 		<?php
-		$url = '';
-		
-		foreach ( $_GET as $key => $value ) {
-			if ($url != '') {
-				$url = $url . DIRECTORY_SEPARATOR;
-			}
-			
-			$url = $url . $value;
+		foreach ( $release [$album] as $musica ) {
+			if (isset ( $musica ['title'] ))
+				echo $musica ['title'];
 		}
 		
-		if ($url != '') {
-			include_once ('../' . $url . '.php');
-		}
+		$url = "../musicas/" . $tipo . DIRECTORY_SEPARATOR . $album . ".php";
+		
+		include_once ($url);
 		
 		?>
 	
 	</section>
 	
-	<?php
-	include_once 'footer.php';
-	?>
+	<?php include_once 'footer.php'; ?>
 </body>
 </html>

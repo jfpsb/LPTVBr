@@ -2,7 +2,7 @@
 <div itemscope itemtype=”http://schema.org/MusicRelease”
 style="text-align: center">
 <img alt="Capa <?php echo $albumName?>" class="release image"
-		src="/resources/imagens/<?php echo $tipo . '/cover250/' . $icone?>.jpg">
+		src="<?php echo $thumbnail['medium'] ?>">
 		<table style="text-align: center; margin: 0 auto;"
 				class="release table">
 				<tr>

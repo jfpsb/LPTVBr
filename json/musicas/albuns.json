@@ -1,50 +1,62 @@
 {
 	"the-hunting-party": {
 		"keys-to-the-kingdom": {
+			"numero": "1",
 			"title": "Keys To The Kingdom",
 			"videoId": "ZPlUjhroNd4"
 		},
 		"all-for-nothing": {
+			"numero": "2",
 			"title": "All For Nothing (Feat. Page Hamilton)",
 			"videoId": "DVPbR_r8XLU"
 		},
 		"guilty-all-the-same": {
+			"numero": "3",
 			"title": "Guilty All The Same",
 			"videoId": "IfnhGW2Q_y0"
 		},
 		"the-summoning": {
+			"numero": "4",
 			"title": "The Summoning",
 			"videoId": "OmdVqbHmfJo"
 		},
 		"war": {
+			"numero": "5",
 			"title": "War",
 			"videoId": "dTgor60kaZk"
 		},
 		"wastelands": {
+			"numero": "6",
 			"title": "Wastelands",
 			"videoId": "h6sFG7qOd4A"
 		},
 		"until-its-gone": {
+			"numero": "7",
 			"title": "Until It's Gone",
 			"videoId": "oM-XJD4J36U"
 		},
 		"rebellion": {
+			"numero": "8",
 			"title": "Rebellion (Feat. Darion Malakian)",
 			"videoId": "OCy5461BtTg"
 		},
 		"mark-the-graves": {
+			"numero": "9",
 			"title": "Mark The Graves",
 			"videoId": "l65UelU95O8"
 		},
 		"drawbar": {
+			"numero": "10",
 			"title": "Drawbar (Feat. Tom Morello)",
 			"videoId": "mjgdHSwWfhE"
 		},
 		"final-masquerade": {
+			"numero": "11",
 			"title": "Final Masquerade",
 			"videoId": "i8q8fFs3kTM"
 		},
 		"a-line-in-the-sand": {
+			"numero": "12",
 			"title": "A Line In The Sand",
 			"videoId": "FkDrVL8Tsuw"
 		},
@@ -55,7 +67,6 @@
 		"duracao": "45:12",
 		"numMus": "12",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-large.jpg",
 			"medium": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-medium.jpg",
@@ -118,7 +129,6 @@
 		"duracao": "36:59",
 		"numMus": "12",
 		"gravadora": "Warner Bros.",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/living-things/living-things-large.jpg",
 			"medium": "/resources/imagens/albuns/living-things/living-things-medium.jpg",
@@ -193,7 +203,6 @@
 		"duracao": "47:56",
 		"numMus": "15",
 		"gravadora": "Machine Shop, Warner Bros.",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-large.jpg",
 			"medium": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-medium.jpg",
@@ -298,7 +307,6 @@
 		"duracao": "87:36",
 		"numMus": "18",
 		"gravadora": "Warner Brothers Records, Machine Shop Recordings, Warner Reprise Video",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-large.jpg",
 			"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
@@ -361,7 +369,6 @@
 		"duracao": "43:30",
 		"numMus": "12",
 		"gravadora": "Warner Bros., Machine Shop Recordings",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-large.jpg",
 			"medium": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-medium.jpg",
@@ -400,7 +407,6 @@
 		"duracao": "21:18",
 		"numMus": "6",
 		"gravadora": "Rock-A-Fella, Machine Shop, Warner Bros., Def Jam",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/collision-course/collision-course-large.jpg",
 			"medium": "/resources/imagens/albuns/collision-course/collision-course-medium.jpg",
@@ -475,7 +481,6 @@
 		"duracao": "41:40",
 		"numMus": "12",
 		"gravadora": "Warner Reprise Video, Warner Bros. Records, Machine Shop Recordings",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/live-in-texas/live-in-texas-large.jpg",
 			"medium": "/resources/imagens/albuns/live-in-texas/live-in-texas-medium.jpg",
@@ -542,7 +547,6 @@
 		"duracao": "36:43",
 		"numMus": "13",
 		"gravadora": "Warner Bros. Records",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/meteora/meteora-large.jpg",
 			"medium": "/resources/imagens/albuns/meteora/meteora-medium.jpg",
@@ -605,7 +609,6 @@
 		"duracao": "37:40",
 		"numMus": "12",
 		"gravadora": "Warner Bros.",
-		"tipo": "albuns",
 		"thumbnail": {
 			"large": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-large.jpg",
 			"medium": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-medium.jpg",

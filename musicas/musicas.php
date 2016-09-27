@@ -1,4 +1,9 @@
 <?php
+// Se algum álbum estiver na sessão ele é removido e a sessão é fechada
+session_start ();
+session_unset ();
+session_destroy ();
+
 $jsonAlbuns = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/albuns.json" );
 $jsonLpu = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/lpu.json" );
 $jsonRemixes = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/remixes.json" );

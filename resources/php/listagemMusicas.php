@@ -25,6 +25,21 @@ class listagemMusicas {
 			echo "<label class=\"nomeLink\">$titulo</label></a></div>";
 		}
 	}
+	public function listaMusicas($albumSelecionado) {
+		$numero = 1;
+		foreach ( $albumSelecionado as $url => $musica ) {
+			if (isset ( $musica ['title'] )) {
+				$title = $musica ['title'];
+				echo "<tr>";
+				echo "<td>$numero.</td>";
+				echo "<td>$title</td>";
+				echo "<td id=\"button-td\"><a class=\"trad-button\" href=\"$url\">Tradução</a></td>";
+				echo "</tr>";
+				
+				$numero ++;
+			}
+		}
+	}
 }
 
 ?>

@@ -1,4 +1,4 @@
-#ErrorDocument 404 /notfound.php
+ErrorDocument 404 /notfound.php
 
 Options +FollowSymLinks
 RewriteEngine on
@@ -11,7 +11,7 @@ RewriteRule (.*)$ /$1/ [R=301,L]
 #musicas
 RewriteRule ^musica/?$ musicas/musicas.php [NC,L]
 
-RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/musica-release.php?tipo=$1&album=$2 [NC,L]
+RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/listaMusicasRelease.php?tipo=$1&album=$2 [NC,L]
 
 #videos
 RewriteRule ^video/?$ videos/videos.php [NC,L]

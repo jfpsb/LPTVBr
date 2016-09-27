@@ -29,20 +29,6 @@ include_once 'youtube/meus_uploads.php';
 					<?=$htmlBody?>
 					</div>
 				</article>
-				<aside class="paginasRecentes">
-					<section class="panel header">
-						<h3>Últimas páginas</h3>
-					</section>
-					<section>
-						<ol>
-							<li>Placeholder 1</li>
-							<li>Placeholder 2</li>
-							<li>Placeholder 3</li>
-							<li>Placeholder 4</li>
-							<li>Placeholder 5</li>
-						</ol>
-					</section>
-				</aside>
 			</article>
 		</article>
 	</section>

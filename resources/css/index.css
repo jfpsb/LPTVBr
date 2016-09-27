@@ -6,29 +6,6 @@
 	flex-wrap: wrap;
 }
 
-.linkWrapper {
-	min-height: 250px;
-	margin: 5px;
-	flex-basis: 25%;
-	flex-grow: 1;
-}
-
-.panel.header {
-	background-color: #BDBDBD;
-	border-radius: 5px;
-}
-
-.header>h3 {
-	font-size: 25px;
-	font-family: "Courier New", Courier, monospace;
-	border-bottom: 1px solid black;
-	border-radius: 5px;
-	color: black;
-	text-align: center;
-	margin: 0;
-	padding: 5px;
-}
-
 body {
 	background-color: #BDBDBD;
 }
@@ -42,38 +19,27 @@ body {
 	padding: 3px;
 }
 
-.paginasRecentes {
-	float: right;
-	width: 23%;
-	margin: 5px 5px 0px 0px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-
 .innerContentArticle {
-	float: left;
-	max-width: 75%;
 	border: 1px solid black;
 	border-radius: 5px;
-	margin: 5px 0px 0px 5px;
+	margin: 5px auto;
 }
 
 .contentArticle {
 	overflow: hidden;
 }
 
-.myUploads {
-	list-style: none;
-	columns: 3;
-	-webkit-columns: 3;
-	-moz-columns: 3;
-	padding: 5px;
-	margin: 0;
+/*Os elementos até a tag @media estão no arquivo meus_uploads.php */
+.linkWrapper {
+	min-height: 250px;
+	margin: 5px;
+	flex-basis: 25%;
+	flex-grow: 1;
 }
 
 .videoLink {
 	text-decoration: none;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: black;
 }
 
@@ -87,29 +53,16 @@ body {
 	border-radius: 5px;
 }
 
-.videoLi {
-	border: 1px inset gray;
-	border-radius: 5px;
-	margin-bottom: 5px;
-	border: 1px inset gray;
-}
-
 .videoTitle {
 	text-align: center;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-@media all and (max-width: 800px) {
-	.paginasRecentes {
-		float: none;
-		width: 100%;
-		padding: 0;
-	}
+@media all and (max-width: 768px) {
 	.innerContentArticle {
-		float: none;
-		max-width: 100%;
-		margin: 5px;
+		width: 100%;
+		margin: 5px auto;
 	}
 	.linkWrapper {
 		min-height: 175px;

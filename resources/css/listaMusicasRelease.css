@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+.main.table {
+	width: 100%;
+	padding: 0px 7px 0px 7px;
+}
+
+.main.table tr, .main.table td {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+	border-bottom: 1px groove #E0E0E0;
+	padding: 7px 0px 7px 0px;
+}
+
+.release.main {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.trad-button {
+	display: block;
+	min-width: 150px;
+	text-decoration: none;
+	color: white;
+	background: #BDBDBD;
+	padding: 10px 5px 10px 5px;
+	border: 1px inset transparent;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+}
+
+.trad-button:hover, .trad-button:focus {
+	background: #757575;
+}
+
+.trad-button:active {
+	border: 1px inset black;
+}
+
+.album.table {
+	border-radius: 7px;
+	width: 100%;
+	float: left;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	float: left;
+	width: 75%;
+}
+
+.album.table.asideless {
+	width: 100%;
+}
+
+.release.main {
+	overflow: hidden;
+	padding: 10px !important;
+}
+
+.aside.table {
+	background: #EEEEEE;
+	color: black;
+	border: 1px solid #424242 !important;
+	border-radius: 3px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 100%;
+	font-size: 14px;
+	text-shadow: 1px 1px 3px white;
+}
+
+.aside.table td {
+	padding-left: 7px;
+	padding-right: 7px;
+	border-bottom: 1px groove #BDBDBD;
+}
+
+.aside.table .main {
+	text-weight: bold;
+	font-weight: bold;
+}
+
+.release.image {
+	width: 100%;
+	border-radius: 5px;
+	border: 1px groove #BDBDBD;
+}
+
+.release.aside {
+	float: right;
+	width: 24%
+}
+
+@media all and (max-width: 480px) {
+	.album.table {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.main.table td {
+		border: none;
+		position: relative;
+	}
+	.main.table tr {
+		border-bottom: 1px groove #eee;
+		padding: 15px;		
+	}
+	.main.table table, .main.table thead, .main.table tbody, .main.table th,
+		.main.table td, .main.table tr {
+		display: block;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.release.aside {
+		float: none;
+		width: 100%;
+		margin: 10px auto;
+	}
+	.aside.table {
+		font-size: 15px;
+	}
+	.album.table {
+		float: none;
+		width: 100%;
+	}
+	.main.table {
+		padding: 0px 7px 0px 7px;
+		margin: 0;
+	}
+	.main.table td {
+		width: auto;
+		text-align: center;
+	}
+}

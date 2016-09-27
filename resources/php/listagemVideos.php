@@ -16,8 +16,10 @@ class listagemVideos {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
+		$ano = key ( $releaseArray );
+		
 		foreach ( $releaseArray as $url => $release ) {
-			$caminho = $url;
+			$caminho = $ano . DIRECTORY_SEPARATOR . $url;
 			$titulo = $release ['title'];
 			$imagem = $release ['thumbnail'] [$tamanhoThumb];
 			$data = $release ['data'];

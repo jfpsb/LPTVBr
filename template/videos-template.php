@@ -1,13 +1,23 @@
 <?php
-$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $_GET ['tipo'] . ".json" );
+$tipo = $_GET ['tipo'];
+$video = $_GET ['video'];
+
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $tipo . ".json" );
 $sourceVideoFile = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/videoSource.json" );
 $str = utf8_encode ( $str );
 $sourceVideoFile = utf8_encode ( $sourceVideoFile );
 $release = json_decode ( $str, true );
 $videoSrc = json_decode ( $sourceVideoFile, true );
 
-$video = $_GET ['video'];
-$ano = $_GET ['ano'];
+$videoSelecionado = null;
+
+include_once '../resources/php/LoopArrayClass.php';
+
+$objLoopArray = new LoopArrayClass;
+
+$objLoopArray->loopArray($release, $video, $videoSelecionado);
+
+echo ">>>>>>>>>" . $videoSelecionado['title'];
 
 if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $release [$ano] )) {
 	header ( 'HTTP/1.0 404 Not Found' );
@@ -26,7 +36,7 @@ if ($isSourceSet) {
 }
 
 if ($isThumbnailSet) {
-	$thumbnail = $_SERVER['SERVER_NAME'] . $release [$ano] [$video] ['thumbnail'];
+	$thumbnail = $_SERVER ['SERVER_NAME'] . $release [$ano] [$video] ['thumbnail'];
 } else {
 	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
 }
@@ -78,16 +88,7 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <title><?php echo $page_title ?></title>
 </head>
 <body>
-	<?php
-	include_once 'header.php';
-	if ($_SERVER ['HTTP_HOST'] === "linkinparktvbr.com" || $_SERVER ['HTTP_HOST'] === "www.linkinparktvbr.com") {
-		if (@$_COOKIE ["LPTVBrCookie"] !== "1124") {
-			include_once ("../analyticstracking.php");
-		}
-	}
-	?>
-	
-	<section id="main-section" class="body-section">
+	<section class="mainSection">
 		<h1 class="descricao texto"><?php echo $nomeVideo ?></h1>
 		<div>
 			<!-- Se uma lista de imagens estiver configurada,

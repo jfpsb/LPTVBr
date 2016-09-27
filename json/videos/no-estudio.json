@@ -1,66 +1,74 @@
 {
-	"inside-living-things": {
-		"title": "Inside Living Things",
-		"videoId": "156157944",
-		"descricao": "Inside Living Things é um documentário lançado em 2012 que mostra o processo de criação do álbum Living Things, da banda Linkin Park. <br><br>A legenda pode ser baixada <a class=\"video-link\" href=\"/legendas/inside-living-things.srt\">neste link</a>",
-		"source": "vimeo",
-		"thumbnail": {
-			"large": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-large.jpg",
-			"medium": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-medium.jpg",
-			"small": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-small.jpg"
-		},
-		"data": {
-			"dia": "13",
-			"mes": "02",
-			"ano": "2016"
+	"2012": {
+		"inside-living-things": {
+			"title": "Inside Living Things",
+			"videoId": "156157944",
+			"descricao": "Inside Living Things é um documentário lançado em 2012 que mostra o processo de criação do álbum Living Things, da banda Linkin Park. <br><br>A legenda pode ser baixada <a class=\"video-link\" href=\"/legendas/inside-living-things.srt\">neste link</a>",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-large.jpg",
+				"medium": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-medium.jpg",
+				"small": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-small.jpg"
+			},
+			"data": {
+				"dia": "13",
+				"mes": "02",
+				"ano": "2016"
+			}
 		}
 	},
-	"meeting-of-a-thousand-suns": {
-		"title": "Meeting Of A Thousand Suns",
-		"videoId": "157024456",
-		"descricao": "O The Meeting A Thousand Suns, ou também conhecido como The Making of A Thousand Suns, é o oitavo DVD oficial do Linkin Park. Ele traz bastidores das gravações do quarto álbum de estúdio da banda, A Thousand Sun. Além também de trazer a produção das DEMOS, Dingleberry, Meadowlands, Pac Manny e Violent Lullaby, que inclusive ainda nem foram lançadas pela LP Underground. O DVD foi lançado como uma edição super limitada, para os fãs que compraram o CD do A Thousand Suns na pré venda na época.",
-		"source": "vimeo",
-		"thumbnail": {
-			"large": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-large.jpg",
-			"medium": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-medium.jpg",
-			"small": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-small.jpg"
-		},
-		"data": {
-			"dia": "28",
-			"mes": "02",
-			"ano": "2016"
+	"2010": {
+		"meeting-of-a-thousand-suns": {
+			"title": "Meeting Of A Thousand Suns",
+			"videoId": "157024456",
+			"descricao": "O The Meeting A Thousand Suns, ou também conhecido como The Making of A Thousand Suns, é o oitavo DVD oficial do Linkin Park. Ele traz bastidores das gravações do quarto álbum de estúdio da banda, A Thousand Sun. Além também de trazer a produção das DEMOS, Dingleberry, Meadowlands, Pac Manny e Violent Lullaby, que inclusive ainda nem foram lançadas pela LP Underground. O DVD foi lançado como uma edição super limitada, para os fãs que compraram o CD do A Thousand Suns na pré venda na época.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-large.jpg",
+				"medium": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-medium.jpg",
+				"small": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-small.jpg"
+			},
+			"data": {
+				"dia": "28",
+				"mes": "02",
+				"ano": "2016"
+			}
 		}
 	},
-	"making-of-minutes-to-midnight": {
-		"title": "The Making of Minutes To Midnight",
-		"videoId": "157918438",
-		"descricao": "O vídeo mostra o processo de criação álbum Minutes To Midnight, desde o começo, na escolha do produtor; até o final, na escolha do título do álbum.",
-		"source": "vimeo",
-		"thumbnail": {
-			"large": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-large.jpg",
-			"medium": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-medium.jpg",
-			"small": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-small.jpg"
-		},
-		"data": {
-			"dia": "06",
-			"mes": "03",
-			"ano": "2016"
+	"2007": {
+		"making-of-minutes-to-midnight": {
+			"title": "The Making of Minutes To Midnight",
+			"videoId": "157918438",
+			"descricao": "O vídeo mostra o processo de criação álbum Minutes To Midnight, desde o começo, na escolha do produtor; até o final, na escolha do título do álbum.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-large.jpg",
+				"medium": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-medium.jpg",
+				"small": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-small.jpg"
+			},
+			"data": {
+				"dia": "06",
+				"mes": "03",
+				"ano": "2016"
+			}
 		}
 	},
-	"making-of-meteora": {
-		"title": "The Making of Meteora",
-		"videoId": "jkKk9cN-n20",
-		"descricao": "O vídeo mostra o processo de criação álbum Meteora, mostrando a escolha de produtor e também problemas que ocorreram durante o processo.",
-		"source": "youtube",
-		"thumbnail": {
-			"large": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-large.jpg",
-			"medium": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-medium.jpg",
-			"small": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-small.jpg"
-		},
-		"data": {
-			"dia": "09",
-			"mes": "04",
-			"ano": "2016"
+	"2003": {
+		"making-of-meteora": {
+			"title": "The Making of Meteora",
+			"videoId": "jkKk9cN-n20",
+			"descricao": "O vídeo mostra o processo de criação álbum Meteora, mostrando a escolha de produtor e também problemas que ocorreram durante o processo.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-large.jpg",
+				"medium": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-medium.jpg",
+				"small": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-small.jpg"
+			},
+			"data": {
+				"dia": "09",
+				"mes": "04",
+				"ano": "2016"
+			}
 		}
 	}
 }

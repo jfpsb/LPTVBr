@@ -43,7 +43,7 @@ $objListagemVideo = new listagemVideos ();
 					<div>
 						<div id="dois-mil-catorze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2014'], true, "medium", false );
+							$objListagemVideo->listaVideos ( $release ['2014'], "2014", true, "medium", false );
 							?>	
 						</div>
 					</div>

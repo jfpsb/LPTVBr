@@ -10,8 +10,7 @@
 }
 
 .powered-by {
-	font-family: "Courier New", Courier, monospace;
-	text-shadow: 1px 1px 1px black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	padding: 0 !important;
@@ -19,26 +18,40 @@
 }
 
 .video-link {
-	color: white !important;
-}
-
-.descricao {
-	max-width: 93%;
-	margin: 20px auto;
+	color: blue !important;
 }
 
 .descricao.texto {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 20px;
-	padding-bottom: 15px;
 	text-align: center;
-	color: white;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
 }
 
-@media all and (max-width: 600px) {
+.titulo {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+.midia-container {
+	padding: 0px 35px 0px 35px;
+}
+
+@media all and (max-width: 768px) {
 	.galleria {
 		width: 97%;
 		height: 300px;
 		margin: 5px auto;
+	}
+	.midia-container {
+		padding: 0;
+	}
+	
+	.descricao.texto {
+		padding: 0;
 	}
 }

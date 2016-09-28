@@ -28,10 +28,10 @@ $objListagemVideo = new listagemVideos ();
 <section class="mainSection">
 		<article class="abas-tabView">
 			<?php
-			$objListagemVideo->listaVideos ( $release ['2012'], false, "medium", false );
-			$objListagemVideo->listaVideos ( $release ['2010'], false, "medium", false );
-			$objListagemVideo->listaVideos ( $release ['2007'], false, "medium", false );
-			$objListagemVideo->listaVideos ( $release ['2003'], false, "medium", false );
+			$objListagemVideo->listaVideos ( $release ['2012'], "2012", false, "medium", false );
+			$objListagemVideo->listaVideos ( $release ['2010'], "2010", false, "medium", false );
+			$objListagemVideo->listaVideos ( $release ['2007'], "2007", false, "medium", false );
+			$objListagemVideo->listaVideos ( $release ['2003'], "2003", false, "medium", false );
 			?>
 		</article>
 	</section>

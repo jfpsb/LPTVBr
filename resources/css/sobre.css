@@ -2,12 +2,12 @@
 
 #titulo {
 	font-size: 200%;
-	text-align:center;
+	text-align: center;
 }
 
 p {
 	padding: 0px 25px 0px 25px;
-	font-size: 125%;
+	font-size: 105%;
 	align: center;
 	text-align: center;
 }
@@ -15,27 +15,48 @@ p {
 #rodape1 {
 	color: red;
 	margin-top: 30px;
-	font-size: 80%;
+	font-size: 75%;
 	width: 70%;
 }
 
 #img-ev-logo {
 	align: center;
-	width: 60%
+	width: 50%
 }
 
-#sobre-article {	
-	color: white;
-	font-family: "Courier New", Courier, monospace;
-  	margin:	0px 0px 15px 0px;
-  	padding: 15px 0px 0px 0px;
+#sobre-article {
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0px 0px 15px 0px;
+	padding: 15px 0px 0px 0px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
 	p {
 		font-size: 100%;
 	}
-	
+	#img-ev-logo {
+		width: 90%
+	}
+	#sobre-article>h1 {
+		margin: 0 !important;
+		padding-bottom: 5px
+	}
+	#sobre-article>p {
+		padding: 3px;
+	}
+	#sobre-article {
+		margin: 0 !important;
+		padding: 5px !important;
+	}
+	#sobre-footer>p {
+		padding: 0;
+		margin: 0;
+		width: 100%
+	}
+	p {
+		font-size: 100%;
+	}
 	#img-ev-logo {
 		width: 90%
 	}

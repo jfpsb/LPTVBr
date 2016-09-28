@@ -1,6 +1,7 @@
 <?php
 $tipo = $_GET ['tipo'];
 $video = $_GET ['video'];
+$ano = $_GET ['ano'];
 
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $tipo . ".json" );
 $sourceVideoFile = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/videoSource.json" );
@@ -11,14 +12,6 @@ $videoSrc = json_decode ( $sourceVideoFile, true );
 
 $videoSelecionado = null;
 
-include_once '../resources/php/LoopArrayClass.php';
-
-$objLoopArray = new LoopArrayClass;
-
-$objLoopArray->loopArray($release, $video, $videoSelecionado);
-
-echo ">>>>>>>>>" . $videoSelecionado['title'];
-
 if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $release [$ano] )) {
 	header ( 'HTTP/1.0 404 Not Found' );
 	readfile ( '../notfound.php' );
@@ -28,18 +21,8 @@ if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $relea
 $videoId = null;
 $imgList = null;
 
-// Recupera a url para incorporar vídeo
-$isSourceSet = isset ( $release [$ano] [$video] ['source'] );
-$isThumbnailSet = isset ( $release [$ano] [$video] ['thumbnail'] );
-if ($isSourceSet) {
-	$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
-}
-
-if ($isThumbnailSet) {
-	$thumbnail = $_SERVER ['SERVER_NAME'] . $release [$ano] [$video] ['thumbnail'];
-} else {
-	$thumbnail = 'http://www.linkinparktvbr.com/resources/imagens/banner.jpg';
-}
+$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
+$thumbnail = $release [$ano] [$video] ['thumbnail'] ['medium'];
 
 if (isset ( $release [$ano] [$video] ['videoId'] )) {
 	$videoId = $release [$ano] [$video] ['videoId'];
@@ -52,7 +35,11 @@ if (isset ( $release [$ano] [$video] ['imgList'] )) {
 $nomeVideo = $release [$ano] [$video] ['title'];
 $descricao = $release [$ano] [$video] ['descricao'];
 
-$page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
+$page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
+
+include_once '../resources/php/CarregaIframe.php';
+
+$objCarregaIframe = new CarregaIframe ();
 
 ?>
 
@@ -70,8 +57,6 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" href="/resources/css/video-template.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/template.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
@@ -88,44 +73,18 @@ $page_title = $nomeVideo . ' : ' . $release ['secao'] . ' (Legendado)';
 <title><?php echo $page_title ?></title>
 </head>
 <body>
+	<?php include_once '../template/header.php';?>
+		
 	<section class="mainSection">
-		<h1 class="descricao texto"><?php echo $nomeVideo ?></h1>
-		<div>
-			<!-- Se uma lista de imagens estiver configurada,
-		será carregada a galeria; senão, o iframe do Youtube -->
-		<?php if(isset($imgList)) { ?>
-			<div class="galleria">
-				<?=$imgList?>
-			</div>
-			<h5 class="powered-by">
-				Powered By <a class="video-link" target="_blank"
-					href="http://galleria.io/">Galleria</a>
-			</h5>	
-		<?php
-		} else {
+		<h1 class="titulo"><?php echo $nomeVideo ?></h1>
+		<div class="midia-container">
+			<!-- Se uma lista de imagens estiver configurada, será carregada a galeria; senão, o iframe do Youtube -->
+			<?php
+			$objCarregaIframe->carregaVideoIframe ( $imgList, $embedSrc, $videoId, $descricao );
 			?>
-			<div class="video-container" style="margin-top: 5px !important;">
-				<iframe src="<?php echo $embedSrc . $videoId ?>"
-					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>		
-		<?php }?>
-
-		<article class="descricao">
-				<p class="descricao texto">
-				<?=$descricao?>
-			</p>
-			</article>
 		</div>
-	<?php if(isset($imgList)) { ?>
-	<script>
-    	Galleria.loadTheme('/resources/galleria/themes/classic/galleria.classic.min.js');
-        Galleria.run('.galleria');
-    </script>
-    <?php } ?>
-    </section>
+	</section>
     
-    	<?php
-					include_once 'footer.php';
-					?>
+    <?php include_once '../template/footer.php';?>
 </body>
 </html>

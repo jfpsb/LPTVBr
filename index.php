@@ -23,7 +23,7 @@ include_once 'youtube/meus_uploads.php';
 			<article class="contentArticle">
 				<article class="innerContentArticle">
 					<article class="panel header">
-						<h3>Vídeos Recentes</h3>
+						<h2>Vídeos Recentes</h2>
 					</article>
 					<div class="videosRecentes" align="center">
 					<?=$htmlBody?>

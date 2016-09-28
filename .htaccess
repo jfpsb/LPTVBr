@@ -8,6 +8,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [R=301,L]
 
+RewriteRule ^sobre/?$ sobre.php [NC,L]
+
 #musicas
 RewriteRule ^musica/?$ musicas/musicas.php [NC,L]
 RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/listaMusicasRelease.php?tipo=$1&album=$2 [NC,L]
@@ -15,4 +17,4 @@ RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/listaMusicasRelease.
 #videos
 RewriteRule ^video/?$ videos/videos.php [NC,L]
 RewriteRule ^video/([a-z-0-9-]+)/?$ videos/$1/$1.php [NC,L]
-RewriteRule ^video/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/videos-template.php?tipo=$1&video=$2 [NC,L]
+RewriteRule ^video/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/video-template.php?tipo=$1&ano=$2&video=$3 [NC,L]

@@ -45,21 +45,21 @@ $objListagemVideo = new listagemVideos ();
 					<div>
 						<div id="dois-mil-dez" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2010'], true, "medium", false );
+							$objListagemVideo->listaVideos ( $release ['2010'], "2010", true, "medium", false );
 							?>
 						</div>
 					</div>
 					<div>
 						<div id="dois-mil-catorze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2014'], true, "medium", false );
+							$objListagemVideo->listaVideos ( $release ['2014'], "2014", true, "medium", false );
 							?>
 						</div>
 					</div>
 					<div>
 						<div id="dois-mil-quinze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2015'], true, "medium", false );
+							$objListagemVideo->listaVideos ( $release ['2015'], "2015", true, "medium", false );
 							?>
 						</div>
 					</div>

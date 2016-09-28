@@ -35,7 +35,7 @@ try {
 		
 		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet', array (
 				'playlistId' => $uploadsListId,
-				'maxResults' => 24 
+				'maxResults' => 18
 		) );
 		
 		foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {

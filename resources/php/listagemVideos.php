@@ -12,14 +12,12 @@ class listagemVideos {
 	 * @param boolean $lancado
 	 *        	Se True, irá no mostrar "Lançado" no campo de data
 	 */
-	public function listaVideos(array $releaseArray, $invertido, $tamanhoThumb, $lancado) {
+	public function listaVideos(array $releaseArray, $anoArray, $invertido, $tamanhoThumb, $lancado) {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
-		$ano = key ( $releaseArray );
-		
 		foreach ( $releaseArray as $url => $release ) {
-			$caminho = $ano . DIRECTORY_SEPARATOR . $url;
+			$caminho = $anoArray . DIRECTORY_SEPARATOR . $url;
 			$titulo = $release ['title'];
 			$imagem = $release ['thumbnail'] [$tamanhoThumb];
 			$data = $release ['data'];

@@ -51,8 +51,6 @@ $objCarregaIframe = new CarregaIframe ();
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" href="/resources/css/video-template.css">

@@ -13,6 +13,7 @@ RewriteRule ^sobre/?$ sobre.php [NC,L]
 #musicas
 RewriteRule ^musica/?$ musicas/musicas.php [NC,L]
 RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/listaMusicasRelease.php?tipo=$1&album=$2 [NC,L]
+RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?tipo=$1&album=$2&musica=$3 [NC,L]
 
 #videos
 RewriteRule ^video/?$ videos/videos.php [NC,L]

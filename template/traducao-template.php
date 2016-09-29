@@ -1,9 +1,12 @@
 <?php
+session_start();
+
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET ['tipo'] . ".json" );
 $str = utf8_encode ( $str );
 $release = json_decode ( $str, true );
 
-$album = $_GET ['album'];
+$album = $_GET['album'];
+$albumSelecionado = $_SESSION['albumSelecionado'];
 $musica = $_GET ['musica'];
 
 if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $release [$album] )) {

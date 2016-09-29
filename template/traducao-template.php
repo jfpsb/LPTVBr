@@ -1,12 +1,12 @@
 <?php
-session_start();
+session_start ();
 
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET ['tipo'] . ".json" );
 $str = utf8_encode ( $str );
 $release = json_decode ( $str, true );
 
-$album = $_GET['album'];
-$albumSelecionado = $_SESSION['albumSelecionado'];
+$album = $_GET ['album'];
+$albumSelecionado = $_SESSION ['albumSelecionado'];
 $musica = $_GET ['musica'];
 
 if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $release [$album] )) {
@@ -39,6 +39,9 @@ if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricTitle'] )) {
 }
 
 include_once '../youtube/search.php';
+include_once '../resources/php/listagemMusicas.php';
+
+$objListagemMusicas = new listagemMusicas ();
 ?>
 <!-- TEMPLATE PARA LETRAS DE MÚSICAS -->
 <!DOCTYPE html>
@@ -49,13 +52,11 @@ include_once '../youtube/search.php';
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
 <link rel="stylesheet" type="text/css"
-	href="/resources/css/template.css">
+	href="/resources/css/traducao-template.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
@@ -65,7 +66,7 @@ include_once '../youtube/search.php';
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
-	content="http://www.linkinparktvbr.com/resources/imagens/banner.jpg" />
+	content="<?php echo $albumSelecionado['thumbnail']['medium']?>" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeMusica ?>" />
 <meta property="og:type" content="website" />
@@ -81,15 +82,8 @@ include_once '../youtube/search.php';
 </script>
 </head>
 <body>
-		<?php
-		include_once 'header.php';
-		if ($_SERVER ['HTTP_HOST'] === "linkinparktvbr.com" || $_SERVER ['HTTP_HOST'] === "www.linkinparktvbr.com") {
-			if (@$_COOKIE ["LPTVBrCookie"] !== "1124") {
-				include_once ("../analyticstracking.php");
-			}
-		}
-		?>
-		<section id="main-section" class="body-section">
+<?php include_once '../template/header.php';?>
+	<section class="mainSection">
 		<article class="wrapper">
 			<div class="letra-div">
 				<article class="letra-article">
@@ -153,13 +147,30 @@ include_once '../youtube/search.php';
 				</article>
 			</div>
 
-			<aside class="album-aside"><?php
-			include_once 'aside/aside-template.php';
-			?></aside>
+			<aside class="album-aside">
+				<div class="album-panel">
+					<img src="<?php echo $albumSelecionado['thumbnail']['medium']?>"
+						class="album-cover">
+					<div align="center">
+						<a class="album-link" href="/musica/albuns/<?php echo $album ?>">Voltar
+							ao The Hunting Party</a>
+					</div>
+					<ol class="album-lista">
+					<?php
+					$objListagemMusicas->listaMusicas ( $albumSelecionado );
+					?>
+					</ol>
+				</div>			
+				<?php
+				// include_once 'aside/aside-template.php';
+				
+				?>
+			
+			</aside>
 		</article>
 	</section>
 	<?php
-	include_once 'footer.php';
+	include_once '../template/footer.php';
 	?>
 </body>
 </html>

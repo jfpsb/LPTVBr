@@ -7,6 +7,10 @@
 	padding-bottom: 10px;
 }
 
+.mainSection {
+	overflow: auto;
+}
+
 .wrapper {
 	margin: 10px;
 }
@@ -72,10 +76,6 @@
 	padding: 10px;
 	border: 1px groove white;
 	border-radius: 3px;
-}
-
-.body-section {
-	overflow: auto;
 }
 
 .letra-div {

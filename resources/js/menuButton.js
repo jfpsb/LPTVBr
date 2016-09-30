@@ -1,15 +1,16 @@
-$(document).ready(function() {
-	$(".botao.mobile").click(function() {
-		$(".menu").toggle();
-	});
+$(document).ready( function() {
+	var menuMobileVisible = false;
 
-	document.onclick = function(event) {
-		var isVisible = $(".menu").is(":visible");
-		var buttonClicked = event.target.matches(".botao");
-		var imageClicked = event.target.matches("#btn-img");
-		var width = $(window).width();
-		if (!buttonClicked && isVisible && !imageClicked && width <= 650) {
-			$(".menu").toggle();
+	$("#menu-mobile-botao").click(function() {
+		if (!menuMobileVisible) {
+			document.getElementById('menu-mobile-wrapper').style.left = "0px";
+			document.getElementById('menu-mobile-botao').style.backgroundImage = "url('/resources/imagens/menu-arrow-left.png')";
+			menuMobileVisible = true;
 		}
-	};
+		else {
+			document.getElementById('menu-mobile-wrapper').style.left = "-247px";
+			document.getElementById('menu-mobile-botao').style.backgroundImage = "url('/resources/imagens/menu-arrow-right.png')";
+			menuMobileVisible = false;
+		}
+	});
 });

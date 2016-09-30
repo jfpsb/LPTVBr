@@ -1,15 +1,92 @@
 @CHARSET "ISO-8859-1";
 
-.menu.link, .menu.link li {
+.menu.wrapper {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	z-index: 200;
+	width: 320px;
+	left: -247px;
+	height: 100%;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+}
+
+.botao-mobile {
+	background-color: orange;
+	background-image: url("/resources/imagens/menu-arrow-right.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-origin: content-box;
+	width: 55px;
+	height: 55px;
+	left: -50px;
+	border: 1px solid white;
+	border-left: none;
+	border-radius: 0px 7px 7px 0px;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+}
+
+.botao-mobile p {
+	font-size: 15px;
+	padding-top: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.menu.wrapper .botao-mobile:active {
+	outline: 0 !important;
+	outline: none !important;
+}
+
+.inner {
+	float: left;
+	background-color: orange;
+	height: 100%;
+	top: 0;
+	width: 250px;
+	z-index: 100;
+	border: 1px solid white;
+	border-right: none;
+}
+
+.link.mobile {
+	color: black;
+	transform: none !important;
+	-webkit-transform: none !important;
+	-moz-transform: none !important;
+}
+
+.link:active {
+	border: none !important;
+}
+
+.tabela td {
+	border-bottom: 1px orange groove !important;
+}
+
+.tabela tr {
+	padding-left: 10px;
+}
+
+.tabela {
+	width: 100%;
+}
+
+.tabela a {
+	padding: 15px;
+}
+
+.header-lista, .header-lista li {
 	display: inline-block !important;
 	list-style-type: none;
 	padding: 0px;
 	margin: 5px;
-}
-
-.menu {
-	text-align: center;
-	max-height: 50px;
 }
 
 .header {
@@ -17,7 +94,72 @@
 	border-radius: 5px;
 }
 
-.button {
+.header-menu {
+	margin: 5px auto;
+}
+
+.header-lista .link, .link.mobile {
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 17px;
+	min-width: 80px;
+	letter-spacing: 2px;
+	color: black;
+	background: none;
+	text-align: center !important;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+
+.header-lista .link:hover {
+	border: 1px solid black;
+	transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+}
+
+.header-lista .link:active {
+	border: 1px inset white;
+}
+
+.header {
+	max-width: 1366px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.header .banner {
+	display: block;
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.header-nav {
+	text-align: center;
+	max-height: 50px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.header {
+	background-color: #BDBDBD;
+	border-radius: 5px;
+}
+
+.header-menu {
+	margin: 5px auto;
+}
+
+.header-lista .link, .link
+.mobile {
 	display: block;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 17px;
@@ -27,6 +169,7 @@
 	background: none;
 	text-align: center !important;
 	padding: 5px;
+	border-radius: 5px;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -34,28 +177,20 @@
 	-ms-transition: all 0.2s ease-in-out;
 }
 
-.button:hover {
+.header-lista .link:hover {
 	border: 1px solid black;
-	border-radius: 5px;
 	transform: scale(1.1, 1.1);
 	-webkit-transform: scale(1.1, 1.1);
 	-moz-transform: scale(1.1, 1.1);
 }
 
-.button:active {
+.header-lista .link:active {
 	border: 1px inset white;
 }
 
-#container-header {
+.header {
 	max-width: 1366px;
 	margin: 0 auto;
-	border-radius: 5px;
-}
-
-#container-nav {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.7);
 	border-radius: 5px;
 }
 
@@ -66,7 +201,9 @@
 	padding: 0 !important;
 }
 
-.header.nav {
+.header-nav {
+	text-align: center;
+	max-height: 50px;
 	position: relative;
 	margin: 0;
 	padding: 0;
@@ -76,50 +213,28 @@
 	display: none;
 }
 
-.botao.mobile {
-	position: absolute;
-	display: none;
-	padding: 8px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 20px;
-	bottom: 5px;
-	left: 5px;
-	border-radius: 3px;
-	border: 1px groove gray;
-}
-
 @media all and (max-width: 768px) {
+	.header-nav {
+		display: none;
+	}
+	.menu.wrapper {
+		display: block;
+	}
 	body {
 		padding: 0;
 	}
-	.button {
-		color: white;
-	}
-	.menu {
-		position: absolute;
-		font-size: 35px;
-		text-align: left;
-		display: none;
-		padding: 0 !important;
-		margin: 0 !important;
-		z-index: 50;
-		width: 70%;
-	}
-	.botao.mobile {
-		display: block;
-	}
-	.menu.link, .menu.link li {
+	.header-lista, .header-lista li {
 		display: block !important;
 		padding-left: 5px !important;
 		margin: 0 !important;
 		top: -5px;
 		left: -5px;
 	}
-	.menu.link li a {
-		font-size: 15px !important;
+	.header-lista .link, .link.mobile {
+		font-size: 20px !important;
 		font-weight: bold;
 	}
-	.menu.link li a {
+	.header-lista li a {
 		border: 1px groove gray;
 		text-align: left;
 		border-radius: 3px;

@@ -22,6 +22,14 @@ $objListagemVideo = new listagemVideos ();
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <title>No Estúdio Legendado - LPTVBr</title>
+<meta property="og:title" content="No Estúdio Legendado - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/videos/no-estudio/no-estudio-medium.jpg" />
+<meta property="og:description" content="No Estúdio Legendado." />
+<meta name="description" content="No Estúdio Legendado.">
 </head>
 <body>
 <?php include_once '../../template/header.php';?>

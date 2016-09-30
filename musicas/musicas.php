@@ -43,6 +43,14 @@ $objListagemMusicas = new listagemMusicas ();
 	});
 </script>
 <title>Músicas Legendadas - LPTVBr</title>
+<meta property="og:title" content="Músicas Legendadas - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/banner.jpg" />
+<meta property="og:description" content="Músicas Legendadas." />
+<meta name="description" content="Músicas Legendadas.">
 </head>
 <body>
 

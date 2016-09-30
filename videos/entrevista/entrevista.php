@@ -27,6 +27,14 @@ $objListagemVideo = new listagemVideos ();
 	});
 </script>
 <title>Entrevistas Legendadas - LPTVBr</title>
+<meta property="og:title" content="Entrevistas Legendadas - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/videos/entrevista/entrevista-medium.jpg" />
+<meta property="og:description" content="Entrevistas legendados." />
+<meta name="description" content="Entrevistas legendados.">
 </head>
 <body>
 	<?php include_once '../../template/header.php';?>

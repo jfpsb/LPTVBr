@@ -34,7 +34,7 @@ class listagemMusicas {
 	public function listaMusicas($albumSelecionado) {
 		$numero = 1;
 		foreach ( $albumSelecionado as $url => $musica ) {
-			if (isset ( $musica ['title'] )) {
+			if (isset ( $musica ['title'] ) && (is_array ( $musica ))) {
 				$title = $musica ['title'];
 				echo "<tr>";
 				echo "<td>$numero.</td>";
@@ -49,7 +49,7 @@ class listagemMusicas {
 	public function listaMusicasAlbumAside($albumSelecionado, $tipo, $urlAlbum) {
 		$numero = 1;
 		foreach ( $albumSelecionado as $url => $musica ) {
-			if (isset ( $musica ['title'] )) {
+			if (isset ( $musica ['title'] ) && (is_array ( $musica ))) {
 				$title = $musica ['title'];
 				echo "<li class=\"traducao-li\">";
 				echo "<a class=\"album-text\" href=\"/musica/$tipo/$urlAlbum/$url/\">$numero. $title</a>";

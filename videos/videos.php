@@ -12,6 +12,16 @@
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <title>Vídeos Legendadas - LPTVBr</title>
+<meta property="og:title" content="Vídeos Legendadas - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/banner.jpg" />
+<meta property="og:description"
+	content="Entrevistas, LPTVs, Shows e mais legendados." />
+<meta name="description"
+	content="Entrevistas, LPTVs, Shows e mais legendados.">
 </head>
 <body>
 
@@ -51,8 +61,8 @@
 			</div>
 			<div class="panel">
 				<a class="link" href="outros/"> <img class="linkImg"
-					src="/resources/imagens/videos/outros/outros-medium.jpg" alt="Outros" /> <label
-					class="nomeLink">Outros</label>
+					src="/resources/imagens/videos/outros/outros-medium.jpg"
+					alt="Outros" /> <label class="nomeLink">Outros</label>
 				</a>
 			</div>
 		</article>

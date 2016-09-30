@@ -27,6 +27,14 @@ $objListagemVideo = new listagemVideos ();
 	});
 </script>
 <title>Linkin Logs Legendados - LPTVBr</title>
+<meta property="og:title" content="Linkin Logs Legendados - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/videos/linkin-logs/linkin-log-medium.jpg" />
+<meta property="og:description" content="Linkin Logs Legendados." />
+<meta name="description" content="Linkin Logs Legendados.">
 </head>
 <body>
 <?php include_once '../../template/header.php';?>

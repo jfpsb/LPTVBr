@@ -61,15 +61,17 @@ $objListagemMusicas = new listagemMusicas ();
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
+<title><?php echo $page_title ?></title>
+<meta property="og:type" content="website" />
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
-	content="<?php echo $albumSelecionado['thumbnail']['medium']?>" />
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $albumSelecionado['thumbnail']['medium']?>" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="600" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeMusica ?>" />
-<meta property="og:type" content="website" />
-<title><?php echo $page_title ?></title>
 <script type="text/javascript">	
 	$(function() {
 		$('.tabView').puitabview();

@@ -22,7 +22,7 @@ $videoId = null;
 $imgList = null;
 
 $embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
-$thumbnail = $release [$ano] [$video] ['thumbnail'] ['medium'];
+$thumbnail = $release [$ano] [$video] ['thumbnail'];
 
 if (isset ( $release [$ano] [$video] ['videoId'] )) {
 	$videoId = $release [$ano] [$video] ['videoId'];
@@ -63,7 +63,10 @@ $objCarregaIframe = new CarregaIframe ();
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
-<meta property="og:image" content="<?php echo $thumbnail ?>" />
+<meta property="og:image"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $thumbnail['medium'] ?>" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="600" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeVideo ?>" />
 <meta property="og:type" content="website" />

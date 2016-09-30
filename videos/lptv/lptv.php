@@ -28,6 +28,14 @@ $objListagemVideo = new listagemVideos ();
 	});
 </script>
 <title>LPTVs Legendados - LPTVBr</title>
+<meta property="og:title" content="LPTVs Legendados - LPTVBr" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/videos/lptv/lptv-logo-medium.jpg" />
+<meta property="og:description" content="LPTVs legendados." />
+<meta name="description" content="LPTVs legendados.">
 </head>
 <body>
 <?php include_once '../../template/header.php';?>

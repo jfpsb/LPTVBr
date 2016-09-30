@@ -17,9 +17,9 @@ if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $re
 
 $nomeMusica = $release [$album] [$musica] ['title'];
 
-$page_title = $nomeMusica . ' : ' . $release [$album] ['album'] . ' (Tradução)';
+$page_title = $nomeMusica . ' - ' . $albumSelecionado ['album'] . ' (Tradução)';
 
-$videoId = $release [$album] [$musica] ['videoId'];
+$videoId = $albumSelecionado [$musica] ['videoId'];
 
 $aside = $_GET ['tipo'] . DIRECTORY_SEPARATOR . $album;
 
@@ -61,7 +61,6 @@ $objListagemMusicas = new listagemMusicas ();
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
-<script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
@@ -73,7 +72,7 @@ $objListagemMusicas = new listagemMusicas ();
 <title><?php echo $page_title ?></title>
 <script type="text/javascript">	
 	$(function() {
-		$('#traducao-tabView').puitabview();
+		$('.tabView').puitabview();
 	});
 
 	$(document).ready(function(){
@@ -87,7 +86,7 @@ $objListagemMusicas = new listagemMusicas ();
 		<article class="wrapper">
 			<div class="letra-div">
 				<article class="letra-article">
-					<div id="traducao-tabView">
+					<div class="tabView">
 						<ul class="album-tabs">
 							<li><a href="#traducao">Tradução</a></li>
 							<li><a href="#original">Original</a></li>
@@ -107,8 +106,8 @@ $objListagemMusicas = new listagemMusicas ();
 							<div id="videos">
 								<article class="video-article">
 									<div class="destaque-panel">
-										<div class="panel-header">
-											<h2 class="header">Em Destaque</h2>
+										<div class="panel header">
+											<h2>Em Destaque</h2>
 										</div>
 
 										<div class="video-container">
@@ -130,8 +129,8 @@ $objListagemMusicas = new listagemMusicas ();
 
 								<article class="video-article">
 									<div>
-										<div class="panel-header">
-											<h2 class="header">Vídeos Relacionados</h2>
+										<div class="panel header">
+											<h2>Vídeos Relacionados</h2>
 										</div>
 										<div class="rel-panel">
 											<div style="padding: 5px;">
@@ -152,20 +151,15 @@ $objListagemMusicas = new listagemMusicas ();
 					<img src="<?php echo $albumSelecionado['thumbnail']['medium']?>"
 						class="album-cover">
 					<div align="center">
-						<a class="album-link" href="/musica/albuns/<?php echo $album ?>">Voltar
-							ao The Hunting Party</a>
+						<a class="album-link" href="/musica/albuns/<?php echo $album ?>/">Voltar
+							ao <?php echo $albumSelecionado['album']?></a>
 					</div>
 					<ol class="album-lista">
 					<?php
-					$objListagemMusicas->listaMusicas ( $albumSelecionado );
+					$objListagemMusicas->listaMusicasAlbumAside ( $albumSelecionado, $_GET ['tipo'], $_GET ['album'] );
 					?>
 					</ol>
-				</div>			
-				<?php
-				// include_once 'aside/aside-template.php';
-				
-				?>
-			
+				</div>
 			</aside>
 		</article>
 	</section>

@@ -25,6 +25,12 @@ class listagemMusicas {
 			echo "<label class=\"nomeLink\">$titulo</label></a></div>";
 		}
 	}
+	/**
+	 * Lista as músicas dos álbuns para a tela de álbum, colocando o botão "Tradução" ao lado.
+	 *
+	 * @param unknown $albumSelecionado
+	 *        	Álbum selecionado na página.
+	 */
 	public function listaMusicas($albumSelecionado) {
 		$numero = 1;
 		foreach ( $albumSelecionado as $url => $musica ) {
@@ -33,9 +39,21 @@ class listagemMusicas {
 				echo "<tr>";
 				echo "<td>$numero.</td>";
 				echo "<td>$title</td>";
-				echo "<td id=\"button-td\"><a class=\"trad-button\" href=\"$url\">Tradução</a></td>";
+				echo "<td id=\"button-td\"><a class=\"trad-button\" href=\"$url/\">Tradução</a></td>";
 				echo "</tr>";
 				
+				$numero ++;
+			}
+		}
+	}
+	public function listaMusicasAlbumAside($albumSelecionado, $tipo, $urlAlbum) {
+		$numero = 1;
+		foreach ( $albumSelecionado as $url => $musica ) {
+			if (isset ( $musica ['title'] )) {
+				$title = $musica ['title'];
+				echo "<li class=\"traducao-li\">";
+				echo "<a class=\"album-text\" href=\"/musica/$tipo/$urlAlbum/$url/\">$numero. $title</a>";
+				echo "</li>";
 				$numero ++;
 			}
 		}

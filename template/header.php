@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"
-	href="/resources/css/header-footer.css">
+	href="/resources/css/header.css">
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 </head>
 <body>
@@ -18,7 +18,7 @@
 					alt="Banner" />
 				<button class="botao mobile">
 					<img id="btn-img" width="24px" align="left" style="padding: 0px;"
-						src="/resources/imagens/menu-arrow.png"> Menu
+						src="/resources/imagens/menu-arrow.png">Menu
 				</button>
 				<div class="menu">
 					<ul id="top" class="menu link">

@@ -14,6 +14,10 @@ include_once 'youtube/meus_uploads.php';
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <title>LinkinParkTVBr - Início</title>
+<meta property="og:title" content="LinkinParkTVBr - Início" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="<?php echo $_SERVER['SERVER_NAME'] ?>" />
+<meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/banner.jpg" />
 </head>
 <body>
 	<?php include_once 'template/header.php';?>
@@ -23,7 +27,7 @@ include_once 'youtube/meus_uploads.php';
 			<article class="contentArticle">
 				<article class="innerContentArticle">
 					<article class="panel header">
-						<h2>Vídeos Recentes</h2>
+						<h1>Vídeos Recentes</h1>
 					</article>
 					<div class="videosRecentes" align="center">
 					<?=$htmlBody?>

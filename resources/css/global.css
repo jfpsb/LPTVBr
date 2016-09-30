@@ -1,5 +1,11 @@
 @CHARSET "ISO-8859-1";
 
+body {
+	background-color: #9E9E9E;
+	background-repeat: repeat;
+	padding: 10px 0px 0px 0px;
+}
+
 .mainSection {
 	margin: 5px auto 5px auto;
 	max-width: 1366px;
@@ -18,9 +24,10 @@
 	padding: 5px 0px 5px 0px;
 }
 
-.panel.header > h2 {
+.panel.header>h2, .panel.header>h1 {
 	padding: 0 !important;
 	margin: 0 !important;
+	font-size: 2em;
 }
 
 pre {

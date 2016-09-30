@@ -33,8 +33,9 @@ body {
 .linkWrapper {
 	min-height: 250px;
 	margin: 5px;
-	flex-basis: 25%;
+	flex-basis: 30%;
 	flex-grow: 1;
+	flex-shrink: 0;
 }
 
 .videoLink {
@@ -59,12 +60,19 @@ body {
 	font-size: 15px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
+	.linkWrapper {
+		flex-basis: 50%;
+	}
+}
+
+@media all and (max-width: 768px) and (min-width: 480px) {
 	.innerContentArticle {
 		width: 100%;
 		margin: 5px auto;
 	}
 	.linkWrapper {
 		min-height: 175px;
+		flex-basis: 40%;
 	}
 }

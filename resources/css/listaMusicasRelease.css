@@ -20,7 +20,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100%;
+	padding: 10px !important;
+	overflow: hidden;
 }
 
 .trad-button {
@@ -61,11 +62,6 @@
 	width: 100%;
 }
 
-.release.main {
-	overflow: hidden;
-	padding: 10px !important;
-}
-
 .aside.table {
 	background: #EEEEEE;
 	color: black;
@@ -86,6 +82,8 @@
 .aside.table .main {
 	text-weight: bold;
 	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .release.image {
@@ -96,7 +94,8 @@
 
 .release.aside {
 	float: right;
-	width: 24%
+	width: 24%;
+	overflow: hidden;
 }
 
 @media all and (max-width: 480px) {
@@ -110,7 +109,7 @@
 	}
 	.main.table tr {
 		border-bottom: 1px groove #eee;
-		padding: 15px;		
+		padding: 15px;
 	}
 	.main.table table, .main.table thead, .main.table tbody, .main.table th,
 		.main.table td, .main.table tr {

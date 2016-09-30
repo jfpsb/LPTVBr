@@ -49,7 +49,6 @@ include_once '../resources/php/listagemMusicas.php';
 $objListagemMusicas = new listagemMusicas ();
 
 ?>
-<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -57,8 +56,6 @@ $objListagemMusicas = new listagemMusicas ();
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link id="favicon" href="/favicon.ico" rel="shortcut icon"
 	type="image/vnd.microsoft.icon"></link>
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/letra-musica.css">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
@@ -66,16 +63,20 @@ $objListagemMusicas = new listagemMusicas ();
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript" src="/resources/js/letramusica.js"></script>
-<script type="text/javascript" src="/resources/js/menuButton.js"></script>
 <link rel="stylesheet" type="text/css"
 	href="/resources/css/listaMusicasRelease.css">
 <title><?php echo $page_title ?></title>
+<meta property="og:image"
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'].$thumbnail['medium'] ?>" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="600" />
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
-<meta property="og:image" content="<?php echo $thumbnail['medium'] ?>" />
 <meta property="og:description"
 	content="Músicas traduzidas de <?php echo $release[$album]['album'] ?>" />
+<meta name="description"
+	content="Músicas traduzidas de <?php echo $release[$album]['album'] ?>">
 <meta property="og:type" content="website" />
 <style>
 .release.main {
@@ -95,8 +96,8 @@ $objListagemMusicas = new listagemMusicas ();
 	<section class="mainSection">
 		<article class="release main">
 			<div class="album table">
-				<div class="album header">
-					<h2 class="panel header"><?php echo $albumName ?></h2>
+				<div class="panel header">
+					<h1><?php echo $albumName ?></h1>
 				</div>
 				<table class="main table">
 					<?php
@@ -106,8 +107,7 @@ $objListagemMusicas = new listagemMusicas ();
 			</div>
 
 			<aside class="release aside">
-				<div itemscope itemtype=”http://schema.org/MusicRelease”
-					style="text-align: center">
+				<div itemscope itemtype=”http://schema.org/MusicRelease">
 					<img alt="Capa <?php echo $albumName?>" class="release image"
 						src="<?php echo $thumbnail['medium'] ?>">
 					<table style="text-align: center; margin: 0 auto;"

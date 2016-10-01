@@ -595,6 +595,22 @@
 				"mes": "09",
 				"ano": "2016"
 			}
+		},
+		"south-american-tour": {
+			"title": "2010 South American Tour",
+			"videoId": "185133033",
+			"descricao": "Neste LPTV a banda é mostrada em sua turnê do álbum A Thousand Suns, na Argentina e Chile.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/south-american-tour-2010/south-american-tour-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/south-american-tour-2010/south-american-tour-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/south-american-tour-2010/south-american-tour-small.jpg"
+			},
+			"data": {
+				"dia": "01",
+				"mes": "10",
+				"ano": "2016"
+			}
 		}
 	},
 	"secao": "LPTV"

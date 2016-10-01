@@ -1,4 +1,6 @@
 <?php
+include_once '../resources/php/checaLPTVBrCookie.php';
+
 // Se algum álbum estiver na sessão ele é removido e a sessão é fechada
 session_start ();
 session_unset ();
@@ -24,7 +26,6 @@ include_once '../resources/php/listagemMusicas.php';
 $objListagemMusicas = new listagemMusicas ();
 
 ?>
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />

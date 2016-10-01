@@ -4,7 +4,6 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/footer.css">
 </head>
 <body>
-	<!-- 
 	<div align="center" class="ads">
 		<script async
 			src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -15,7 +14,6 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 	</div>
-	 -->
 	<div class="container-footer">
 		<div>
 			<div align="center">

@@ -10,11 +10,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/mike-first-carnivores-tour-vlog/mike-first-carnivores-tour-vlog-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/mike-first-carnivores-tour-vlog/mike-first-carnivores-tour-vlog-small.jpg"
 			},
-			"data": {
-				"dia": "08",
-				"mes": "08",
-				"ano": "2014"
-			}
+			"postado": "2014-08-08 00:00:00",
+			"lancado": "2014-08-08 00:00:00"
 		},
 		"mike-second-carnivores-tour-vlog-2": {
 			"title": "Mike's Second Carnivores Tour Vlog | Linkin Log #2",
@@ -26,11 +23,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/mike-second-carnivores-tour-vlog-2/mike-second-carnivores-tour-vlog-2-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/mike-second-carnivores-tour-vlog-2/mike-second-carnivores-tour-vlog-2-small.jpg"
 			},
-			"data": {
-				"dia": "16",
-				"mes": "08",
-				"ano": "2014"
-			}
+			"postado": "2014-08-16 00:00:00",
+			"lancado": "2014-08-15 00:00:00"
 		},
 		"carnivores-tour-vlog-3": {
 			"title": "Carnivores Tour | Linkin Log #3",
@@ -42,11 +36,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3/carnivores-tour-vlog-3-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/carnivores-tour-vlog-3/carnivores-tour-vlog-3-small.jpg"
 			},
-			"data": {
-				"dia": "23",
-				"mes": "08",
-				"ano": "2014"
-			}
+			"postado": "2014-08-23 00:00:00",
+			"lancado": "2014-08-22 00:00:00"
 		},
 		"ask-brad": {
 			"title": "\"Ask Brad\" | Linkin Log #4",
@@ -58,11 +49,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/ask-brad/ask-brad-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/ask-brad/ask-brad-small.jpg"
 			},
-			"data": {
-				"dia": "30",
-				"mes": "08",
-				"ano": "2014"
-			}
+			"postado": "2014-08-30 00:00:00",
+			"lancado": "2014-08-29 00:00:00"
 		},
 		"beat-making-demo": {
 			"title": "Beat Making Demo | Linkin Log #5",
@@ -74,11 +62,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/beat-making-demo/beat-making-demo-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/beat-making-demo/beat-making-demo-small.jpg"
 			},
-			"data": {
-				"dia": "05",
-				"mes": "09",
-				"ano": "2014"
-			}
+			"postado": "2014-09-05 00:00:00",
+			"lancado": "2014-09-05 00:00:00"
 		},
 		"basketball": {
 			"title": "Basketball Q&A | Linkin Log #6",
@@ -90,11 +75,8 @@
 				"medium": "/resources/imagens/videos/linkin-logs/basketball/basketball-medium.jpg",
 				"small": "/resources/imagens/videos/linkin-logs/basketball/basketball-small.jpg"
 			},
-			"data": {
-				"dia": "20",
-				"mes": "09",
-				"ano": "2014"
-			}
+			"postado": "2014-09-20 00:00:00",
+			"lancado": "2014-09-13 00:00:00"
 		},
 		"end-of-carnivores-tour": {
 			"title": "End of Carnivores Tour | Linkin Log #7",
@@ -110,7 +92,9 @@
 				"dia": "03",
 				"mes": "10",
 				"ano": "2014"
-			}
+			},
+			"postado": "2014-10-03 00:00:00",
+			"lancado": "2014-09-22 00:00:00"
 		}
 	},
 	"secao": "Linkin Log"

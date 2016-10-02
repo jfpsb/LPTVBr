@@ -10,11 +10,8 @@
 				"medium": "/resources/imagens/videos/outros/iridescent-american-girl/iridescent-american-girl-medium.jpg",
 				"small": "/resources/imagens/videos/outros/iridescent-american-girl/iridescent-american-girl-small.jpg"
 			},
-			"data": {
-				"dia": "27",
-				"mes": "03",
-				"ano": "2016"
-			}
+			"postado": "2016-03-27 00:00:00",
+			"lancado": "2012-07-09 00:00:00"
 		}
 	},
 	"2016": {
@@ -28,11 +25,8 @@
 				"medium": "/resources/imagens/videos/outros/dji-tour-diary/dji-tour-diary-medium.jpg",
 				"small": "/resources/imagens/videos/outros/dji-tour-diary/dji-tour-diary-small.jpg"
 			},
-			"data": {
-				"dia": "30",
-				"mes": "01",
-				"ano": "2016"
-			}
+			"postado": "2016-01-30 00:00:00",
+			"lancado": "2016-01-25 00:00:00"
 		},
 		"lpu-15-bundle-unboxing": {
 			"title": "LPU 15 Bundle Unboxing Video with Mike Shinoda",
@@ -44,11 +38,8 @@
 				"medium": "/resources/imagens/videos/outros/lpu-15-bundle-unboxing/lpu-15-bundle-unboxing-medium.jpg",
 				"small": "/resources/imagens/videos/outros/lpu-15-bundle-unboxing/lpu-15-bundle-unboxing-small.jpg"
 			},
-			"data": {
-				"dia": "27",
-				"mes": "01",
-				"ano": "2016"
-			}
+			"postado": "2016-01-27 00:00:00",
+			"lancado": "2016-01-26 00:00:00"
 		}
 	},
 	"secao": "Outros"

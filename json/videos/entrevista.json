@@ -10,11 +10,8 @@
 				"medium": "/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction/guitar-center-rockwalk-induction-medium.jpg",
 				"small": "/resources/imagens/videos/entrevista/guitar-center-rockwalk-induction/guitar-center-rockwalk-induction-small.jpg"
 			},
-			"data": {
-				"dia": "05",
-				"mes": "07",
-				"ano": "2014"
-			}
+			"postado": "2014-07-05 00:00:00",
+			"lancado": "2014-07-01 00:00:00"
 		},
 		"lightning-round-red-bull": {
 			"title": "Linkin Park Lightning Round In The Red Bull Sound Space At KROQ",
@@ -26,11 +23,8 @@
 				"medium": "/resources/imagens/videos/entrevista/lightning-round-red-bull/lightning-round-red-bull-medium.jpg",
 				"small": "/resources/imagens/videos/entrevista/lightning-round-red-bull/lightning-round-red-bull-small.jpg"
 			},
-			"data": {
-				"dia": "07",
-				"mes": "09",
-				"ano": "2014"
-			}
+			"postado": "2014-09-07 00:00:00",
+			"lancado": "2014-07-09 00:00:00"
 		}
 	},
 	"secao": "Entrevista"

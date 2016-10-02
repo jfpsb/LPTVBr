@@ -30,11 +30,8 @@
 				"medium": "/resources/imagens/albuns/live-in-texas/live-in-texas-medium.jpg",
 				"small": "/resources/imagens/albuns/live-in-texas/live-in-texas-small.jpg"
 			},
-			"data": {
-				"dia": "18",
-				"mes": "11",
-				"ano": "2003"
-			}
+			"postado": "2016-01-01 00:00:00",
+			"lancado": "2003-11-18 00:00:00"
 		},
 		"road-to-revolution": {
 			"title": "Road To Revolution (Live At Milton Keynes)",
@@ -72,11 +69,8 @@
 				"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
 				"small": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-small.jpg"
 			},
-			"data": {
-				"dia": "24",
-				"mes": "11",
-				"ano": "2008"
-			}
+			"postado": "2016-01-01 00:00:00",
+			"lancado": "2008-11-24 00:00:00"
 		}
 	},
 	"nao-oficial": {
@@ -111,11 +105,8 @@
 				"medium": "/resources/imagens/videos/shows/itunes-festival/itunes-festival-medium.jpg",
 				"small": "/resources/imagens/videos/shows/itunes-festival/itunes-festival-small.jpg"
 			},
-			"data": {
-				"dia": "04",
-				"mes": "07",
-				"ano": "2011"
-			}
+			"postado": "2016-01-01 00:00:00",
+			"lancado": "2011-07-04 00:00:00"
 		},
 		"rock-in-rio-2015": {
 			"title": "Rock In Rio Las Vegas 2015",
@@ -143,11 +134,8 @@
 				"medium": "/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio-2015-medium.jpg",
 				"small": "/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio-2015-small.jpg"
 			},
-			"data": {
-				"dia": "09",
-				"mes": "05",
-				"ano": "2015"
-			}
+			"postado": "2016-01-01 00:00:00",
+			"lancado": "2015-05-09 00:00:00"
 		}
 	},
 	"secao": "Shows"

@@ -12,7 +12,7 @@ class listagemVideos {
 	 * @param boolean $lancado
 	 *        	Se True, irá no mostrar "Lançado" no campo de data
 	 */
-	public function listaVideos(array $releaseArray, $anoArray, $invertido, $tamanhoThumb, $lancado) {
+	public function listaVideos(array $releaseArray, $anoArray, $invertido, $tamanhoThumb) {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
@@ -20,16 +20,9 @@ class listagemVideos {
 			$caminho = $anoArray . DIRECTORY_SEPARATOR . $url;
 			$titulo = $release ['title'];
 			$imagem = $release ['thumbnail'] [$tamanhoThumb];
-			$data = $release ['data'];
-			
-			$header = "Postado:";
-			
-			if ($lancado)
-				$header = "Lançado:";
-			
-			$dia = $data ['dia'];
-			$mes = $data ['mes'];
-			$ano = $data ['ano'];
+			// Variáveis de data são usadas em postDataTemplate
+			$dataPostado = new DateTime ( $release ['postado'] );
+			$dataLancado = new DateTime ( $release ['lancado'] );
 			
 			echo "<div class=\"panel\">";
 			echo "<a href=\"$caminho/\" class=\"link\">";

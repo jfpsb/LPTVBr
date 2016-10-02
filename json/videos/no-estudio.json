@@ -10,11 +10,8 @@
 				"medium": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-medium.jpg",
 				"small": "/resources/imagens/videos/no-estudio/inside-living-things/inside-living-things-small.jpg"
 			},
-			"data": {
-				"dia": "13",
-				"mes": "02",
-				"ano": "2016"
-			}
+			"postado": "2016-02-13 00:00:00",
+			"lancado": "2012-06-19 00:00:00"
 		}
 	},
 	"2010": {
@@ -28,11 +25,8 @@
 				"medium": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-medium.jpg",
 				"small": "/resources/imagens/videos/no-estudio/meeting-of-a-thousand-suns/meeting-of-a-thousand-suns-small.jpg"
 			},
-			"data": {
-				"dia": "28",
-				"mes": "02",
-				"ano": "2016"
-			}
+			"postado": "2016-02-28 00:00:00",
+			"lancado": "2010-09-08 00:00:00"
 		}
 	},
 	"2007": {
@@ -46,11 +40,8 @@
 				"medium": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-medium.jpg",
 				"small": "/resources/imagens/videos/no-estudio/making-of-minutes-to-midnight/making-of-minutes-to-midnight-small.jpg"
 			},
-			"data": {
-				"dia": "06",
-				"mes": "03",
-				"ano": "2016"
-			}
+			"postado": "2016-03-06 00:00:00",
+			"lancado": "2007-05-14 00:00:00"
 		}
 	},
 	"2003": {
@@ -64,11 +55,8 @@
 				"medium": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-medium.jpg",
 				"small": "/resources/imagens/videos/no-estudio/making-of-meteora/making-of-meteora-small.jpg"
 			},
-			"data": {
-				"dia": "09",
-				"mes": "04",
-				"ano": "2016"
-			}
+			"postado": "2016-04-09 00:00:00",
+			"lancado": "2003-03-25 00:00:00"
 		}
 	},
 	"secao": "No Estúdio"

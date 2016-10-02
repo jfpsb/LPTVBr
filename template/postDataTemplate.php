@@ -1,9 +1,10 @@
 <div class="postData">
 	<p class="dataTexto">
-
-
-		<?php echo $header ?><br>
-		<?php echo $dia?><br class="dataBr"> <?php echo $mes?><br
-			class="dataBr"> <?php echo $ano?><br class="dataBr">
+		<?php
+		$dataLancadoString = $dataLancado->format ( "d/m/Y" );
+		$dataPostadoString = $dataPostado->format ( "d/m/Y" );
+		echo "Lançado: " . $dataLancadoString . "<br>";
+		echo "Postado Trad.: " . $dataPostadoString;
+		?>
 	</p>
 </div>

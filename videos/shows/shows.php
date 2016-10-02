@@ -50,14 +50,14 @@ $objListagemVideo = new listagemVideos ();
 					<div>
 						<div id="oficiais" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['oficial'], "oficial", true, "medium", true );
+							$objListagemVideo->listaVideos ( $release ['oficial'], "oficial", true, "medium" );
 							?>
 						</div>
 					</div>
 					<div>
 						<div id="outros" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['nao-oficial'], "nao-oficial", true, "medium", true );
+							$objListagemVideo->listaVideos ( $release ['nao-oficial'], "nao-oficial", true, "medium" );
 							?>
 						</div>
 					</div>

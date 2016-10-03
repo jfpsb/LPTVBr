@@ -209,10 +209,6 @@
 	padding: 0;
 }
 
-.header.banner.mobile {
-	display: none;
-}
-
 @media all and (max-width: 768px) {
 	.header-nav {
 		display: none;
@@ -241,10 +237,7 @@
 		background: black;
 		padding: 10px;
 	}
-	.header.banner.default {
+	.banner-padrao {
 		display: none;
-	}
-	.header.banner.mobile {
-		display: block;
 	}
 }

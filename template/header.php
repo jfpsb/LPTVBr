@@ -35,13 +35,9 @@
 		</div>
 	</div>
 	<header class="header">
-		<div id="container-nav" class="header nav wrapper">
-
-			<img class="header banner default"
-				src="/resources/imagens/banner.jpg" alt="Banner" /> <img
-				class="header banner mobile" src="/resources/imagens/banner320.jpg"
-				alt="Banner" />
-
+		<div id="container-nav" class="padrao">
+			<img class="banner-padrao"
+				src="/resources/imagens/banner.jpg" alt="Banner" />
 			<nav class="header-nav">
 				<div class="header-menu">
 					<ul class="header-lista">

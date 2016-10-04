@@ -6,56 +6,34 @@
 <script type="text/javascript" src="/resources/js/menuButton.js"></script>
 </head>
 <body>
-	<div id="menu-mobile-wrapper" class="menu wrapper">
-		<button id="menu-mobile-botao" class="botao-mobile">
-			<p>Menu</p>
-		</button>
-		<div class="inner">
-			<table class="tabela mobile">
-				<tr>
-					<td><a class="link mobile"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>">Página
-							Inicial</a></td>
-				</tr>
-				<tr>
-					<td><a class="link mobile"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musica/'?>">Músicas
-							Legendadas</a></td>
-				</tr>
-				<tr>
-					<td><a class="link mobile"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>">Vídeos
-							Legendados</a></td>
-				</tr>
-				<tr>
-					<td><a class="link mobile"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>">Sobre</a></td>
-				</tr>
-			</table>
-		</div>
-	</div>
 	<header class="header">
-		<div id="container-nav" class="padrao">
-			<img class="banner-padrao"
-				src="/resources/imagens/banner.jpg" alt="Banner" />
-			<nav class="header-nav">
-				<div class="header-menu">
-					<ul class="header-lista">
-						<li><a class="link"
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>">Página
-								Inicial</a></li>
-						<li><a class="link"
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musica/'?>">Músicas
-								Traduzidas</a></li>
-						<li><a class="link"
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>">Vídeos
-								Legendados</a></li>
-						<li><a class="link"
-							href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>">Sobre</a></li>
-					</ul>
-				</div>
-			</nav>
+		<div style="position: fixed; z-index: 5; width: 100%; top: 0;">
+			<div class="mobile">
+				<button id="menu-mobile-botao" class="botao-mobile"></button>
+				<div>LinkinParkTVBr</div>
+			</div>
 		</div>
+		<div id="container-nav" class="padrao">
+			<img class="banner-padrao" src="/resources/imagens/banner.jpg"
+				alt="Banner" />
+		</div>
+		<nav class="nav-lista" style="display: none">
+			<div class="lista-wrapper">
+				<ul class="lista">
+					<li><a class="link"
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>">Página
+							Inicial</a></li>
+					<li><a class="link"
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musica/'?>">Músicas
+							Traduzidas</a></li>
+					<li><a class="link"
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>">Vídeos
+							Legendados</a></li>
+					<li><a class="link"
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>">Sobre</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 	<div class="ads" align="center">
 		<script async

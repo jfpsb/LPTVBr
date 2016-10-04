@@ -1,16 +1,34 @@
-$(document).ready( function() {
+$(document).ready(function() {
 	var menuMobileVisible = false;
 
 	$("#menu-mobile-botao").click(function() {
 		if (!menuMobileVisible) {
-			document.getElementById('menu-mobile-wrapper').style.left = "0px";
-			document.getElementById('menu-mobile-botao').style.backgroundImage = "url('/resources/imagens/menu-arrow-left.png')";
+			$('.lista').animate({
+				top : "260px"
+			}, 200);
+			
+			$('.mainSection').animate({
+				top : "230px"
+			}, 200);
+			
+			$('.container-footer').animate({
+				bottom : "-230px"
+			}, 200);
+			
 			menuMobileVisible = true;
-		}
-		else {
-			document.getElementById('menu-mobile-wrapper').style.left = "-247px";
-			document.getElementById('menu-mobile-botao').style.backgroundImage = "url('/resources/imagens/menu-arrow-right.png')";
+		} else {
+			$('.lista').animate({
+				top : "0px"
+			}, 200);
+			
+			$('.mainSection').animate({
+				top : "60px"
+			}, 200);
 			menuMobileVisible = false;
+			
+			$('.container-footer').animate({
+				bottom : "-60px"
+			}, 200);
 		}
 	});
 });

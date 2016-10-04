@@ -11,7 +11,7 @@ body {
 	max-width: 1366px;
 	background-color: white;
 	border-radius: 5px;
-	margin-top: 80px;
+	position: relative;
 }
 
 .panel.header {
@@ -37,4 +37,16 @@ pre {
 	white-space: -pre-wrap;
 	white-space: -o-pre-wrap;
 	word-wrap: break-word;
+}
+
+@media all and (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Move mainSection 60px para baixo para dar espaço a barra menu mobile */
+	.mainSection {
+		top: 60px;
+	}
 }

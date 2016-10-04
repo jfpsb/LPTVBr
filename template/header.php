@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,17 +6,17 @@
 </head>
 <body>
 	<header class="header">
-		<div style="position: fixed; z-index: 5; width: 100%; top: 0;">
+		<div class="mobile-wrapper">
 			<div class="mobile">
 				<button id="menu-mobile-botao" class="botao-mobile"></button>
-				<div>LinkinParkTVBr</div>
+				<p>LinkinParkTV<span>B</span><span>r</span></p>
 			</div>
 		</div>
 		<div id="container-nav" class="padrao">
 			<img class="banner-padrao" src="/resources/imagens/banner.jpg"
 				alt="Banner" />
 		</div>
-		<nav class="nav-lista" style="display: none">
+		<nav id="lista-link" class="nav-lista">
 			<div class="lista-wrapper">
 				<ul class="lista">
 					<li><a class="link"

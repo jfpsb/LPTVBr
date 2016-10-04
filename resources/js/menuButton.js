@@ -8,11 +8,15 @@ $(document).ready(function() {
 			}, 200);
 			
 			$('.mainSection').animate({
-				top : "230px"
+				top : "240px"
 			}, 200);
 			
 			$('.container-footer').animate({
-				bottom : "-230px"
+				bottom : "-240px"
+			}, 200);
+			
+			$('.ads').animate({
+				top: "240px"
 			}, 200);
 			
 			menuMobileVisible = true;
@@ -22,13 +26,18 @@ $(document).ready(function() {
 			}, 200);
 			
 			$('.mainSection').animate({
-				top : "60px"
+				top : "65px"
 			}, 200);
-			menuMobileVisible = false;
 			
 			$('.container-footer').animate({
 				bottom : "-60px"
 			}, 200);
+			
+			$('.ads').animate({
+				top : "65px"
+			}, 200);
+			
+			menuMobileVisible = false;
 		}
 	});
 });

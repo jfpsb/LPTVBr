@@ -14,6 +14,11 @@ body {
 	position: relative;
 }
 
+.ads {
+	position: relative;
+	top: 65px;
+}
+
 .panel.header {
 	background-color: #BDBDBD;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -47,6 +52,6 @@ pre {
 
 	/* Move mainSection 60px para baixo para dar espaço a barra menu mobile */
 	.mainSection {
-		top: 60px;
+		top: 65px;
 	}
 }

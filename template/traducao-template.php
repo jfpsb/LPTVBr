@@ -6,7 +6,13 @@ $str = utf8_encode ( $str );
 $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
-$albumSelecionado = $_SESSION ['albumSelecionado'];
+
+if (isset ( $_SESSION ['albumSelecionado'] ))
+	$albumSelecionado = $_SESSION ['albumSelecionado'];
+else {
+	$albumSelecionado = $release [$album];
+}
+
 $musica = $_GET ['musica'];
 
 if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $release [$album] )) {

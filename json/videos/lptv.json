@@ -614,6 +614,19 @@
 			},
 			"postado": "2016-10-01 12:00:00",
 			"lancado": "2010-11-11 00:00:00"
+		},
+		"european-tour": {
+			"title": "2010 European Tour",
+			"videoId": "185221181",
+			"descricao": "Este LPTV mostra a passagem da turnê do álbum A Thousand Suns pela Europa em 2010.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/european-tour-2010/european-tour-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/european-tour-2010/european-tour-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/european-tour-2010/european-tour-small.jpg"
+			},
+			"postado": "2016-10-02 18:00:00",
+			"lancado": "2010-12-13 00:00:00"
 		}
 	},
 	"secao": "LPTV"

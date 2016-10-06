@@ -52,6 +52,6 @@ pre {
 
 	/* Move mainSection 60px para baixo para dar espaço a barra menu mobile */
 	.mainSection {
-		top: 65px;
+		top: 60px;
 	}
 }

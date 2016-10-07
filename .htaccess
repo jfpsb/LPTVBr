@@ -3,6 +3,12 @@ ErrorDocument 404 /notfound.php
 Options +FollowSymLinks
 RewriteEngine on
 
+#Redirecionando urls antigas do site
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^musicas/(.*)$ /musica/$1 [R=301,NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^videos/(.*)$ /video/$1 [R=301,NC,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$

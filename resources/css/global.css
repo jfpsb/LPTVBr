@@ -16,7 +16,6 @@ body {
 
 .ads {
 	position: relative;
-	top: 65px;
 }
 
 .panel.header {
@@ -51,8 +50,10 @@ pre {
 	}
 
 	/* Move mainSection 55px para baixo para dar espaço a barra menu mobile */
-	.mainSection, .container-footer {
+	.mainSection, .container-footer, .ads {
 		top: 55px;
+		border-radius: none;
+		margin: 0;
 		border-radius: none;
 	}
 }

@@ -3,14 +3,15 @@ $(document).ready(function() {
 
 	$("#menu-mobile-botao").click(function() {
 		if (!menuMobileVisible) {
+
 			$('.lista').animate({
-				top: "60px"
+				top : "55px"
 			}, 200);
 
 			menuMobileVisible = true;
 		} else {
 			$('.lista').animate({
-				top: "-200px"
+				top : "-200px"
 			}, 200);
 
 			menuMobileVisible = false;

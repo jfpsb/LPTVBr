@@ -50,8 +50,9 @@ pre {
 		padding: 0;
 	}
 
-	/* Move mainSection 60px para baixo para dar espaço a barra menu mobile */
-	.mainSection {
-		top: 60px;
+	/* Move mainSection 55px para baixo para dar espaço a barra menu mobile */
+	.mainSection, .container-footer {
+		top: 55px;
+		border-radius: none;
 	}
 }

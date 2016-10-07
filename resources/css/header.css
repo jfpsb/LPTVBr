@@ -72,8 +72,6 @@
 	list-style-type: none;
 	padding: 0px;
 	margin: 5px;
-	top: -200px;
-	z-index: 99;
 }
 
 .header {
@@ -93,7 +91,7 @@
 	color: black;
 	background: none;
 	text-align: center !important;
-	padding: 10px;
+	padding: 7px;
 	border-radius: 5px;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -129,29 +127,35 @@
 }
 
 .nav-lista {
-	background-color: #BDBDBD;
-	border-radius: 5px;
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	max-height: 54px;
 }
 
 @media all and (max-width: 768px) {
 	.mobile {
 		display: block;
+		z-index: 2;
 	}
 	.lista {
-		background: gray;
 		display: block;
 		position: fixed;
 		width: 100%;
 		margin: 0;
-		top: 60px;
+		top: -200px;
+		z-index: 2;
 	}
 	.lista li {
-		background: gray; display : block;
-		z-index: 9000;
+		background: gray;
+		border-bottom: 1px groove white;
+		margin: 0;
 		display: block;
+		display: block;
+		padding: 7px 0px 7px 0px;
+	}
+	.lista li:nth-child(1) {
+		border-top: 1px groove white;
 	}
 	body {
 		padding: 0;

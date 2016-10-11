@@ -71,15 +71,11 @@
 	display: inline-block;
 	list-style-type: none;
 	padding: 0px;
-	margin: 5px;
+	margin-top: 5px;
 }
 
 .header {
 	border-radius: 5px;
-}
-
-.lista-wrapper {
-	margin: 5px auto;
 }
 
 .lista .link {

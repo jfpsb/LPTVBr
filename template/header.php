@@ -9,7 +9,9 @@
 		<div class="mobile-wrapper">
 			<div class="mobile">
 				<button id="menu-mobile-botao" class="botao-mobile"></button>
-				<p>LinkinParkTV<span>B</span><span>r</span></p>
+				<p>
+					LinkinParkTV<span>B</span><span>r</span>
+				</p>
 			</div>
 		</div>
 		<div id="container-nav" class="padrao">
@@ -28,6 +30,8 @@
 					<li><a class="link"
 						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>">Vídeos
 							Legendados</a></li>
+					<li><a class="link"
+						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'contato/'?>">Contato</a></li>
 					<li><a class="link"
 						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>">Sobre</a></li>
 				</ul>

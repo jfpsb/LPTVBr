@@ -11,40 +11,94 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/contato.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resources/js/contatoScript.js"></script>
 <title>Contato - LPTVBr</title>
 </head>
 <body>
 	<?php include_once 'template/header.php';?>
 	
 	<section class="mainSection">
-		<h1 class="contato-header">Contate-nos</h1>
+		<?php
+		
+		if (isset ( $_POST ['submit'] )) {
+			$para = "linkinparktvbr@gmail.com";
+			$nome = $_POST ['nome'];
+			$email = $_POST ['email'];
+			$titulo = $_POST ['titulo'];
+			$assunto = $_POST ['assuntoSelected'];
+			$mensagem = $_POST ['mensagem'];
+			
+			require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+			
+			$mail = new PHPMailer ();
+			
+			$mail->isSMTP ();
+			$mail->SMTPAuth = true;
+			$mail->Host = "smtp.gmail.com";
+			$mail->Username = 'lptvbremail@gmail.com';
+			$mail->Password = 'jfpsb5982jf';
+			$mail->SMTPSecure = 'ssl';
+			$mail->Port = 465;
+			
+			$mail->From = "lptvbremail@gmail.com";
+			$mail->FromName = "LPTVBr - Site";
+			$mail->addAddress ( 'linkinparktvbr@gmail.com', 'LinkinParkTVBr' );
+			$mail->addReplyTo ( $email, $nome );
+			
+			$mail->Subject = $assunto;
+			$mail->Body = $mensagem;
+			
+			$result = $mail->send ();
+			
+			if ($result) {
+				echo "<h1 class=\"mensagem\">Sua mensagem foi enviada com sucesso! <a href=\"/contato/\">Enviar mais uma!</a></h1>";
+			} else {
+				echo "<h1 class=\"mensagem\">Sua mensagem não foi enviada!</h1><br>
+    				<p class=\"mensagem\">Volte a tela para tentar novamente.</p><br>
+    				<div class=\"botao-wrapper\"><button onclick=\"voltarTela()\">Voltar Para Formulário</button></div>";
+			}
+		} else {
+			?>
+		<h1 class="contato-header">Contato</h1>
 		<article class="contato-texto">
 			<p>
 				Sinta-se a vontade para mandar mensagens para nós sobre qualquer
-				assunto: pedidos de legenda,<br>erros em nomes de músicas e/ou
+				assunto: pedidos de legenda, erros em nomes de músicas e/ou
 				vídeos, erros em links, erros em imagens, datas e etc.
 			</p>
 			<p>
 				Esta seção também pode ser usada para mandar mensagens sobre
-				aspectos do site como: qualquer tipo de<br>erro de layout em
+				aspectos do site como: qualquer tipo de erro de layout em
 				computadores e/ou mobile, sugestões de cores, posicionamento de
 				elementos e etc.
 			</p>
 		</article>
 		<article class="contato-main">
-			<form class="contato-form" action="contato-send.php">
-				Título:<input type="text" name="titulo"><br> Assunto:<select>
+			<form class="contato-form" action="<?php $_SERVER['PHP_SELF']?>" method="post">
+				Título:<input required type="text" name="titulo"><br>
+				Seu nome:<input required type="text" name="nome"><br>
+				Seu e-mail:<input required type="text" name="email"><br>
+				Assunto:<select required name="assunto" id="assuntoSelect" 
+						onchange="document.getElementById('idAssuntoSelected').value=this.options[this.selectedIndex].text">
 					<option value="erro-musica">Erro em músicas</option>
-					<!-- (título, tradução, etc) -->
 					<option value="erro-video">Erro em vídeos</option>
-					<!-- (título, tradução, etc) -->
 					<option value="erro-site">Erro no site</option>
-					<!-- (página carregando errado, layout, links, imagens, datas, etc) -->
 					<option value="pedido-legenda">Pedido de legendas</option>
+					<option value="outros">Outros</option>
 				</select><br>
-				Mensagem: <br><textarea rows="4" cols="50"></textarea>
+				<div class="assuntoTextoWrapper">
+					<label id="assuntoSelectedTexto"></label>
+				</div>
+				<!-- Guarda texto selecionado na ComboBox -->
+				<input type="hidden" name="assuntoSelected" id="idAssuntoSelected"></input>
+				Mensagem:<br>
+				<textarea required rows="10" cols="75" name="mensagem"></textarea>
+				<br>
+				<input id="botao-submit" type="submit" name="submit" value="Enviar Mensagem">
 			</form>
 		</article>
+		<?php
+		} // fechando ELSE ?>
 	</section>
 	
 	<?php include_once 'template/footer.php';?>

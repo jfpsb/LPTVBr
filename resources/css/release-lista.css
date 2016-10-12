@@ -1,11 +1,5 @@
 @CHARSET "ISO-8859-1";
 
-.lista {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0;
-}
-
 .panelGrid {
 	margin: 0 auto;
 	table-layout: fixed;

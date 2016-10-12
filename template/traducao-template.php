@@ -70,10 +70,10 @@ $objListagemMusicas = new listagemMusicas ();
 <title><?php echo $page_title ?></title>
 <meta property="og:type" content="website" />
 <meta property="og:url"
-	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+	content="<?php echo 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
-	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $albumSelecionado['thumbnail']['medium']?>" />
+	content="<?php echo 'https://' . $_SERVER['SERVER_NAME'] . $albumSelecionado['thumbnail']['medium']?>" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="600" />
 <meta property="og:description"

@@ -22,18 +22,14 @@
 			<div class="lista-wrapper">
 				<ul class="lista">
 					<li><a class="link"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/'?>">Página
-							Inicial</a></li>
-					<li><a class="link"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'musica/'?>">Músicas
+						href="<?php echo $_SERVER['SERVER_NAME'] . '/'?>">Página Inicial</a></li>
+					<li><a class="link" href="<?php echo '/musica/'?>">Músicas
 							Traduzidas</a></li>
+					<li><a class="link" href="<?php echo '/video/'?>">Vídeos Legendados</a></li>
+					<!-- 
 					<li><a class="link"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'video/'?>">Vídeos
-							Legendados</a></li>
-					<li><a class="link"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'contato/'?>">Contato</a></li>
-					<li><a class="link"
-						href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . '/' . 'sobre/'?>">Sobre</a></li>
+						href="<?php echo '/contato/'?>">Contato</a></li> -->
+					<li><a class="link" href="<?php echo '/sobre/'?>">Sobre</a></li>
 				</ul>
 			</div>
 		</nav>

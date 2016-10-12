@@ -2,6 +2,9 @@ ErrorDocument 404 /notfound.php
 
 Options +FollowSymLinks
 RewriteEngine on
+RewriteCond %{HTTP_HOST} !^localhost [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://linkinparktvbr.com/$1 [R,L]
 
 #Redirecionando urls antigas do site
 RewriteCond %{REQUEST_FILENAME} !-f

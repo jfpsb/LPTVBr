@@ -35,8 +35,8 @@
 			$mail->isSMTP ();
 			$mail->SMTPAuth = true;
 			$mail->SMTPDebug = 2;
-			$mail->Host = "smtp.gmail.com";
-			$mail->Username = 'lptvbremail@gmail.com';
+			$mail->Host = "linkinparktvbr.com";
+			$mail->Username = 'lptvbremail@linkinparktvbr.com';
 			$mail->Password = 'jfpsb5982jf';
 			$mail->SMTPSecure = 'ssl';
 			$mail->Port = 465;

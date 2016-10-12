@@ -34,6 +34,7 @@
 			
 			$mail->isSMTP ();
 			$mail->SMTPAuth = true;
+			$mail->SMTPDebug = 2;
 			$mail->Host = "smtp.gmail.com";
 			$mail->Username = 'lptvbremail@gmail.com';
 			$mail->Password = 'jfpsb5982jf';

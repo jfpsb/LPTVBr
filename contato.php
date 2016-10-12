@@ -32,16 +32,17 @@
 			
 			$mail = new PHPMailer ();
 			
+			$mail->CharSet = "UTF-8";
+			
 			$mail->isSMTP ();
 			$mail->SMTPAuth = true;
-			$mail->SMTPDebug = 2;
 			$mail->Host = "linkinparktvbr.com";
 			$mail->Username = 'lptvbremail@linkinparktvbr.com';
 			$mail->Password = 'jfpsb5982jf';
 			$mail->SMTPSecure = 'ssl';
 			$mail->Port = 465;
 			
-			$mail->From = "lptvbremail@gmail.com";
+			$mail->From = "lptvbremail@linkinparktvbr.com";
 			$mail->FromName = "LPTVBr - Site";
 			$mail->addAddress ( 'linkinparktvbr@gmail.com', 'LinkinParkTVBr' );
 			$mail->addReplyTo ( $email, $nome );

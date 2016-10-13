@@ -14,10 +14,10 @@ class listagemMusicas {
 		if ($invertido)
 			$releaseArray = array_reverse ( $releaseArray, true );
 		
-		foreach ( $releaseArray as $url => $release ) {
+		foreach ( $releaseArray as $url => $itemRelease ) {
 			$caminho = $url;
-			$titulo = $release ['album'];
-			$imagem = $release ['thumbnail'] [$tamanhoThumb];
+			$titulo = $itemRelease ['album'];
+			$imagem = $itemRelease ['thumbnail'] [$tamanhoThumb];
 			
 			echo "<div class=\"panel\">";
 			echo "<a href=\"$tipo/$caminho/\" class=\"link\">";
@@ -33,9 +33,9 @@ class listagemMusicas {
 	 */
 	public function listaMusicas($albumSelecionado) {
 		$numero = 1;
-		foreach ( $albumSelecionado as $url => $musica ) {
-			if (isset ( $musica ['title'] ) && (is_array ( $musica ))) {
-				$title = $musica ['title'];
+		foreach ( $albumSelecionado as $url => $itemMusica ) {
+			if (isset ( $itemMusica ['title'] ) && (is_array ( $itemMusica ))) {
+				$title = $itemMusica ['title'];
 				echo "<tr>";
 				echo "<td>$numero.</td>";
 				echo "<td>$title</td>";
@@ -48,9 +48,9 @@ class listagemMusicas {
 	}
 	public function listaMusicasAlbumAside($albumSelecionado, $tipo, $urlAlbum) {
 		$numero = 1;
-		foreach ( $albumSelecionado as $url => $musica ) {
-			if (isset ( $musica ['title'] ) && (is_array ( $musica ))) {
-				$title = $musica ['title'];
+		foreach ( $albumSelecionado as $url => $itemMusica ) {
+			if (isset ( $itemMusica ['title'] ) && (is_array ( $itemMusica ))) {
+				$title = $itemMusica ['title'];
 				echo "<li class=\"traducao-li\">";
 				echo "<a class=\"album-text\" href=\"/musica/$tipo/$urlAlbum/$url/\">$numero. $title</a>";
 				echo "</li>";

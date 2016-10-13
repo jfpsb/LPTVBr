@@ -47,7 +47,7 @@
 			$mail->addAddress ( 'linkinparktvbr@gmail.com', 'LinkinParkTVBr' );
 			$mail->addReplyTo ( $email, $nome );
 			
-			$mail->Subject = $assunto;
+			$mail->Subject = $assunto . " : " . $titulo;
 			$mail->Body = $mensagem;
 			
 			$result = $mail->send ();

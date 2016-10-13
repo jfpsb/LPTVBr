@@ -23,7 +23,7 @@ if (! array_key_exists ( $album, $release )) {
 
 $albumName = $albumSelecionado ['album'];
 
-$thumbnail = $albumSelecionado ['thumbnail'];
+$resultThumbnail = $albumSelecionado ['thumbnail'];
 
 $page_title = $albumName . ' - LPTVBr';
 
@@ -70,7 +70,7 @@ $objListagemMusicas = new listagemMusicas ();
 	href="/resources/css/listaMusicasRelease.css">
 <title><?php echo $page_title ?></title>
 <meta property="og:image"
-	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'].$thumbnail['medium'] ?>" />
+	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'].$resultThumbnail['medium'] ?>" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="600" />
 <meta property="og:url"
@@ -83,12 +83,12 @@ $objListagemMusicas = new listagemMusicas ();
 <meta property="og:type" content="website" />
 <style>
 .release.main {
-	background-image: url(<?php echo $thumbnail [ 'large' ]?>);
+	background-image: url(<?php echo $resultThumbnail [ 'large' ]?>);
 }
 
 @media all and (max-width: 768px) {
 	.release.main {
-		background-image: url(<?php echo $thumbnail [ 'medium' ] ?>);
+		background-image: url(<?php echo $resultThumbnail [ 'medium' ] ?>);
 	}
 }
 </style>
@@ -112,7 +112,7 @@ $objListagemMusicas = new listagemMusicas ();
 			<aside class="release aside">
 				<div itemscope itemtype=”http://schema.org/MusicRelease">
 					<img alt="Capa <?php echo $albumName?>" class="release image"
-						src="<?php echo $thumbnail['medium'] ?>">
+						src="<?php echo $resultThumbnail['medium'] ?>">
 					<table style="text-align: center; margin: 0 auto;"
 						class="aside table">
 						<tr>

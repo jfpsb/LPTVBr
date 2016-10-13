@@ -32,7 +32,7 @@ try {
 		
 		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet', array (
 				'playlistId' => $uploadsListId,
-				'maxResults' => 18
+				'maxResults' => 12
 		) );
 		
 		foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {

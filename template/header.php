@@ -21,12 +21,11 @@
 		<nav id="lista-link" class="nav-lista">
 			<div class="lista-wrapper">
 				<ul class="lista">
-					<li><a class="link" href="<?php '/'?>">Página Inicial</a></li>
-					<li><a class="link" href="<?php echo '/musica/'?>">Músicas
-							Traduzidas</a></li>
-					<li><a class="link" href="<?php echo '/video/'?>">Vídeos Legendados</a></li>
-					<li><a class="link" href="<?php echo '/contato/'?>">Contato</a></li>
-					<li><a class="link" href="<?php echo '/sobre/'?>">Sobre</a></li>
+					<li><a class="link" href="/">Página Inicial</a></li>
+					<li><a class="link" href="/musica/">Músicas Traduzidas</a></li>
+					<li><a class="link" href="/video/">Vídeos Legendados</a></li>
+					<li><a class="link" href="/contato/">Contato</a></li>
+					<li><a class="link" href="/sobre/">Sobre</a></li>
 				</ul>
 			</div>
 		</nav>

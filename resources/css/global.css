@@ -7,7 +7,7 @@ body {
 }
 
 .mainSection {
-	margin: 5px auto 5px auto;
+	margin: 0 auto;
 	max-width: 1366px;
 	background-color: white;
 	border-radius: 5px;
@@ -17,7 +17,6 @@ body {
 .ads {
 	position: relative;
 	width: 100%;
-	height: 100px;
 }
 
 .panel.header {
@@ -51,7 +50,7 @@ pre {
 		padding: 0;
 	}
 
-	/* Move mainSection 55px para baixo para dar espaço a barra menu mobile */
+	/* Move mainSection 60px para baixo para dar espaço a barra menu mobile */
 	.mainSection, .container-footer, .ads {
 		top: 60px;
 		border-radius: 0;

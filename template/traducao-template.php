@@ -27,8 +27,6 @@ $page_title = $nomeMusica . ' - ' . $albumSelecionado ['album'] . ' (Tradução)
 
 $videoId = $albumSelecionado [$musica] ['videoId'];
 
-$aside = $_GET ['tipo'] . DIRECTORY_SEPARATOR . $album;
-
 // Aqui são usados $_GET para prevenir de bugs na troca dos valores.
 // Assim eu sempre pego os parâmetros originais que são os corretos para pesquisar os valores no array
 
@@ -74,8 +72,8 @@ $objListagemMusicas = new listagemMusicas ();
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
 	content="<?php echo 'https://' . $_SERVER['SERVER_NAME'] . $albumSelecionado['thumbnail']['medium']?>" />
-<meta property="og:image:width" content="600" />
-<meta property="og:image:height" content="600" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="500" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeMusica ?>" />
 <script type="text/javascript">	
@@ -118,17 +116,13 @@ $objListagemMusicas = new listagemMusicas ();
 											<h2>Em Destaque</h2>
 										</div>
 
+
 										<div class="video-container">
 											<?php
 											if ($videoId == "empty") {
 												echo "<h2 style=\"text-align: center\">Não há vídeo disponível.</h2>";
 											} else {
-												?>
-											<iframe width="560" height="315"
-												src="https://www.youtube.com/embed/<?php echo $videoId?>"
-												allowfullscreen> </iframe>
-											<?php
-												// Fechando else
+												echo "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$videoId\" allowfullscreen></iframe>";
 											}
 											?>
 										</div>
@@ -140,10 +134,9 @@ $objListagemMusicas = new listagemMusicas ();
 										<div class="panel header">
 											<h2>Vídeos Relacionados</h2>
 										</div>
+										<!-- "rel" = relacionados -->
 										<div class="rel-panel">
-											<div style="padding: 5px;">
-												<?=$htmlBody?>
-											</div>
+											<?=$htmlBody?>
 										</div>
 									</div>
 
@@ -168,18 +161,15 @@ $objListagemMusicas = new listagemMusicas ();
 					?>
 					</ol>
 				</div>
+				<?php
+				if (isset ( $albumSelecionado ['copyright'] )) {
+					$copyright = $albumSelecionado ['copyright'];
+					echo "<p class=\"album-copyright\" align=\"center\">$copyright</p>";
+				}
+				?>
+				<!-- 				<p class="album-copyright" align="center">Linkin Park Jun 17, 2014 -->
+				<!-- 					Ⓟ: Warner Bros. Records Inc.</p> -->
 			</aside>
-			<div align="center" class="ads">
-				<script async
-					src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- aside -->
-				<ins class="adsbygoogle"
-					style="display: inline-block; width: 234px; height: 60px"
-					data-ad-client="ca-pub-6000666154877778" data-ad-slot="1769310433"></ins>
-				<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-			</div>
 		</article>
 	</section>
 	<?php

@@ -22,6 +22,7 @@
 
 .traducao-li {
 	text-align: center;
+	padding: 3px 0px 3px 0px;
 }
 
 .videos-lista {
@@ -33,13 +34,27 @@
 	padding: 0;
 }
 
-.videosLi {
-	height: 250px;
+.rel-panel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+
+.videoContainer {
+	min-height: 250px;
 	text-align: center;
+	flex-basis: 30%;
+	flex-grow: 1;
+	flex-shrink: 0;
 }
 
 .videoLink {
 	text-decoration: none;
+}
+
+.videoLink p {
+	color: black;
 }
 
 .videoLink:hover, .videoLi:hover {
@@ -48,6 +63,8 @@
 
 .videoImg {
 	max-width: 100%;
+	border-radius: 5px;
+	border: 1px groove white;
 }
 
 .album-lista {
@@ -57,7 +74,7 @@
 }
 
 .album-text {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: bold;
 	text-shadow: 2px 2px 3px white;
@@ -67,10 +84,9 @@
 }
 
 .album-copyright {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px white;
 	color: black;
 	font-weight: bold;
 	padding: 10px;
@@ -99,7 +115,7 @@
 
 .album-link {
 	width: 100%;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;
 	font-size: 15px;
@@ -137,7 +153,7 @@
 }
 
 .tabView {
-	background: none !important;	
+	background: none !important;
 	border: none !important;
 }
 
@@ -185,20 +201,23 @@
 	background: #E0E0E0 !important;
 }
 
-@media all and (max-width: 900px) and (min-width: 600px) {
-	.videos-lista {
-		columns: 2;
-		-webkit-columns: 2;
-		-moz-columns: 2;
+@media all and (max-width: 480px) {
+	.videoContainer {
+		flex-basis: 100%;
+	}
+	.pui-tabview-nav {
+		font-size: 15px;
+	}
+}
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+	.videoContainer {
+		min-height: 175px;
+		flex-basis: 50%;
 	}
 }
 
 @media all and (max-width: 768px) {
-	.videos-lista {
-		columns: 1;
-		-webkit-columns: 1;
-		-moz-columns: 1;
-	}
 	.wrapper {
 		margin: 0;
 	}

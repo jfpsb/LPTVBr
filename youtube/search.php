@@ -22,23 +22,24 @@ try {
 	// query term.
 	$searchResponse = $youtube->search->listSearch ( 'id,snippet', array (
 			'q' => 'Linkin Park ' . $nomeMusica,
-			'maxResults' => 12 
+			'maxResults' => 9
 	) );
 	
 	$videos = '';
 	// Add each result to the appropriate list, and then display the lists of
 	// matching videos, channels, and playlists.
 	foreach ( $searchResponse ['items'] as $searchResult ) {
-		switch ($searchResult ['id'] ['kind']) {
-			case 'youtube#video' :
-				$videos .= sprintf ( "<li class='videosLi'><div><a class='videoLink' href='http://www.youtube.com/watch/%s' target='_blank'>
-						<img src='%s'class='videoImg'/><p>%s</p></a></div></li>", $searchResult ['id'] ['videoId'], $searchResult ['snippet'] ['thumbnails'] ['medium'] ['url'], $searchResult ['snippet'] ['title'] );
-				break;
+		if ($searchResult ['id'] ['kind'] == 'youtube#video') {
+			$resultVideoId = $searchResult ['id'] ['videoId'];
+			$resultThumbnail = $searchResult ['snippet'] ['thumbnails'] ['medium'] ['url'];
+			$resultTitulo = $searchResult ['snippet'] ['title'];
+			
+			$videos .= "<div class='videoContainer'><a class='videoLink' href='http://www.youtube.com/watch/$resultVideoId' target='_blank'>
+						<img src='$resultThumbnail'class='videoImg'/><p>$resultTitulo</p></a></div>";
 		}
 	}
-	$htmlBody .= <<<END
-    <ul class="videos-lista">$videos</ul>
-END;
+	
+	$htmlBody = $videos;
 } catch ( Google_Service_Exception $e ) {
 	$htmlBody .= sprintf ( '<p>A service error occurred: <code>%s</code></p>', htmlspecialchars ( $e->getMessage () ) );
 } catch ( Google_Exception $e ) {

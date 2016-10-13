@@ -1,6 +1,4 @@
 <?php
-include_once '../resources/php/checaLPTVBrCookie.php';
-
 // Start the session
 session_start ();
 

@@ -1,5 +1,4 @@
 <?php
-include_once 'resources/php/checaLPTVBrCookie.php';
 include_once 'youtube/meus_uploads.php';
 ?>
 <!DOCTYPE html>

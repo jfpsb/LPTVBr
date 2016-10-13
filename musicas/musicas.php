@@ -1,6 +1,4 @@
 <?php
-include_once '../resources/php/checaLPTVBrCookie.php';
-
 // Se algum álbum estiver na sessão ele é removido e a sessão é fechada
 session_start ();
 session_unset ();

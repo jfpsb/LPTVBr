@@ -1,3 +1,6 @@
+<?php
+include_once 'resources/php/checaLPTVBrCookie.php';
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -13,9 +16,8 @@
 			indisponível.</h2>
 		<h2>
 			Houve uma recente mudança em nossos links, mas nossos conteúdos estão
-			todos lá. Acesse por nossa
-			<a href="/">Página
-				Inicial</a> e navegue normalmente.
+			todos lá. Acesse por nossa <a href="/">Página Inicial</a> e navegue
+			normalmente.
 		</h2>
 	</div>
 </body>

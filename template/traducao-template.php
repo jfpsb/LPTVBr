@@ -1,4 +1,6 @@
 <?php
+include_once '../resources/php/checaLPTVBrCookie.php';
+
 session_start ();
 
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET ['tipo'] . ".json" );

@@ -1,4 +1,6 @@
 <?php
+include_once '../resources/php/checaLPTVBrCookie.php';
+
 $tipo = $_GET ['tipo'];
 $video = $_GET ['video'];
 $ano = $_GET ['ano'];
@@ -18,14 +20,14 @@ if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $relea
 	exit ();
 }
 
-$$resultVideoId = null;
+$resultVideoId = null;
 $imgList = null;
 
 $embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
 $resultThumbnail = $release [$ano] [$video] ['thumbnail'];
 
 if (isset ( $release [$ano] [$video] ['videoId'] )) {
-	$$resultVideoId = $release [$ano] [$video] ['videoId'];
+	$resultVideoId = $release [$ano] [$video] ['videoId'];
 }
 
 if (isset ( $release [$ano] [$video] ['imgList'] )) {
@@ -79,7 +81,7 @@ $objCarregaIframe = new CarregaIframe ();
 		<div class="midia-container">
 			<!-- Se uma lista de imagens estiver configurada, será carregada a galeria; senão, o iframe do Youtube -->
 			<?php
-			$objCarregaIframe->carregaVideoIframe ( $imgList, $embedSrc, $$resultVideoId, $descricao );
+			$objCarregaIframe->carregaVideoIframe ( $imgList, $embedSrc, $resultVideoId, $descricao );
 			?>
 		</div>
 	</section>

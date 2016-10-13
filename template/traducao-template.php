@@ -161,7 +161,7 @@ $objListagemMusicas = new listagemMusicas ();
 					</div>
 					<ol class="album-lista">
 					<?php
-					$objListagemMusicas->listaMusicasAlbumAside ( $albumSelecionado, $_GET ['tipo'], retornaAlbumLyric ( false, $album, $musica ) );
+					$objListagemMusicas->listaMusicasAlbumAside ( $albumSelecionado, $_GET ['tipo'], retornaAlbumLyric ( false, $album, $release ) );
 					?>
 					</ol>
 				</div>

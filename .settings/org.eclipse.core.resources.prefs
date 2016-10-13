@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+encoding//json/musicas/albuns.json=UTF-8
+encoding//json/musicas/lpu.json=UTF-8
+encoding//json/musicas/remixes.json=UTF-8
+encoding//json/musicas/singles.json=UTF-8
 encoding//json/videos/entrevista.json=ISO-8859-1
 encoding//json/videos/linkin-logs.json=ISO-8859-1
 encoding//json/videos/lptv.json=ISO-8859-1

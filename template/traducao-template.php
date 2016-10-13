@@ -167,8 +167,6 @@ $objListagemMusicas = new listagemMusicas ();
 					echo "<p class=\"album-copyright\" align=\"center\">$copyright</p>";
 				}
 				?>
-				<!-- 				<p class="album-copyright" align="center">Linkin Park Jun 17, 2014 -->
-				<!-- 					Ⓟ: Warner Bros. Records Inc.</p> -->
 			</aside>
 		</article>
 	</section>

@@ -71,7 +71,8 @@
 			"large": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-large.jpg",
 			"medium": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-medium.jpg",
 			"small": "/resources/imagens/albuns/the-hunting-party/the-hunting-party-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Jun 17, 2014 \u24C5 Warner Bros. Records Inc."
 	},
 	"living-things": {
 		"burn-it-down": {
@@ -133,7 +134,8 @@
 			"large": "/resources/imagens/albuns/living-things/living-things-large.jpg",
 			"medium": "/resources/imagens/albuns/living-things/living-things-medium.jpg",
 			"small": "/resources/imagens/albuns/living-things/living-things-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Jun 26, 2012 \u24C5 Warner Bros. Records Inc."
 	},
 	"a-thousand-suns": {
 		"blackout": {
@@ -207,7 +209,8 @@
 			"large": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-large.jpg",
 			"medium": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-medium.jpg",
 			"small": "/resources/imagens/albuns/a-thousand-suns/a-thousand-suns-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Sep 14, 2010 \u24C5 Warner Bros. Records Inc."
 	},
 	"road-to-revolution": {
 		"bleed-it-out": {
@@ -311,7 +314,8 @@
 			"large": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-large.jpg",
 			"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
 			"small": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Nov 24, 2008 \u24C5 Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S."
 	},
 	"minutes-to-midnight": {
 		"bleed-it-out": {
@@ -373,7 +377,8 @@
 			"large": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-large.jpg",
 			"medium": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-medium.jpg",
 			"small": "/resources/imagens/albuns/minutes-to-midnight/minutes-to-midnight-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park May 17, 2007 \u24C5 Warner Bros. Records Inc."
 	},
 	"collision-course": {
 		"big-pimpin": {
@@ -411,7 +416,8 @@
 			"large": "/resources/imagens/albuns/collision-course/collision-course-large.jpg",
 			"medium": "/resources/imagens/albuns/collision-course/collision-course-medium.jpg",
 			"small": "/resources/imagens/albuns/collision-course/collision-course-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Nov 30, 2004 \u24C5 Warner Bros. Records Inc. and Roc-A-Fella Records, LLC."
 	},
 	"live-in-texas": {
 		"crawling": {
@@ -485,7 +491,8 @@
 			"large": "/resources/imagens/albuns/live-in-texas/live-in-texas-large.jpg",
 			"medium": "/resources/imagens/albuns/live-in-texas/live-in-texas-medium.jpg",
 			"small": "/resources/imagens/albuns/live-in-texas/live-in-texas-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Nov 18, 2003 \u24C5 Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S."
 	},
 	"meteora": {
 		"breaking-the-habit": {
@@ -551,7 +558,8 @@
 			"large": "/resources/imagens/albuns/meteora/meteora-large.jpg",
 			"medium": "/resources/imagens/albuns/meteora/meteora-medium.jpg",
 			"small": "/resources/imagens/albuns/meteora/meteora-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Mar 25, 2003 \u24C5 Warner Bros. Records Inc."
 	},
 	"hybrid-theory": {
 		"a-place-for-my-head": {
@@ -613,6 +621,7 @@
 			"large": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-large.jpg",
 			"medium": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-medium.jpg",
 			"small": "/resources/imagens/albuns/hybrid-theory/hybrid-theory-small.jpg"
-		}
+		},
+		"copyright": "Linkin Park Oct 24, 2000 \u24C5 Warner Bros. Records Inc."
 	}
 }

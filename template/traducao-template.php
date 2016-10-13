@@ -27,19 +27,22 @@ $page_title = $nomeMusica . ' - ' . $albumSelecionado ['album'] . ' (Tradução)
 
 $videoId = $albumSelecionado [$musica] ['videoId'];
 
-// Aqui são usados $_GET para prevenir de bugs na troca dos valores.
-// Assim eu sempre pego os parâmetros originais que são os corretos para pesquisar os valores no array
-
-if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'] )) {
-	// Se o álbum onde está contida a letra for diferente do álbum original
-	// da música, o álbum se altera para o original para pesquisar a letra corretamente
-	$album = $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'];
+// Testa se há um lyricAlbum
+function retornaAlbumLyric($boolRetornaLyric, $album, $release) {
+	if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'] ) && $boolRetornaLyric) {
+		return $release [$_GET ['album']] [$_GET ['musica']] ['lyricAlbum'];
+	}
+	
+	return $album;
 }
 
-if (isset ( $release [$_GET ['album']] [$_GET ['musica']] ['lyricTitle'] )) {
-	// Se o título da música for diferente do original, mas a letra é a mesma,
-	// eu substituo o título para o correto, assim recuperando a letra da música corretamente
-	$musica = $release [$_GET ['album']] [$_GET ['musica']] ['lyricTitle'];
+// Testa se há um lyricTitle
+function retornaAlbumTitle($boolRetornaTitle, $musica, $release) {
+	if (isset ( $release [$_GET ['album']] [$musica] ['lyricTitle'] ) && $boolRetornaTitle) {
+		return $release [$_GET ['album']] [$musica] ['lyricTitle'];
+	}
+	
+	return $musica;
 }
 
 include_once '../youtube/search.php';
@@ -82,7 +85,7 @@ $objListagemMusicas = new listagemMusicas ();
 	});
 
 	$(document).ready(function(){
-		loadLetra('<?php echo $album ?>', '<?php echo $musica ?>');
+		loadLetra('<?php echo retornaAlbumLyric(true, $album, $release); ?>', '<?php echo retornaAlbumTitle(true, $musica, $release); ?>');
 	});
 </script>
 </head>
@@ -152,12 +155,13 @@ $objListagemMusicas = new listagemMusicas ();
 					<img src="<?php echo $albumSelecionado['thumbnail']['medium']?>"
 						class="album-cover">
 					<div align="center">
-						<a class="album-link" href="/musica/albuns/<?php echo $album ?>/">Voltar
+						<a class="album-link"
+							href="/musica/albuns/<?php echo retornaAlbumLyric(false, $album, $release); ?>/">Voltar
 							ao <?php echo $albumSelecionado['album']?></a>
 					</div>
 					<ol class="album-lista">
 					<?php
-					$objListagemMusicas->listaMusicasAlbumAside ( $albumSelecionado, $_GET ['tipo'], $_GET ['album'] );
+					$objListagemMusicas->listaMusicasAlbumAside ( $albumSelecionado, $_GET ['tipo'], retornaAlbumLyric ( false, $album, $musica ) );
 					?>
 					</ol>
 				</div>

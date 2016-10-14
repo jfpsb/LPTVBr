@@ -12,30 +12,40 @@ $sourceVideoFile = utf8_encode ( $sourceVideoFile );
 $release = json_decode ( $str, true );
 $videoSrc = json_decode ( $sourceVideoFile, true );
 
-$videoSelecionado = null;
-
 if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $release [$ano] )) {
 	header ( 'HTTP/1.0 404 Not Found' );
 	readfile ( '../notfound.php' );
 	exit ();
 }
 
+$videoSelecionado = $release [$ano] [$video];
+
+date_default_timezone_set ( "America/Fortaleza" );
+$dataHoraAtual = date ( "Y-m-d H:i:s" );
+$dataPostado = new DateTime ( $videoSelecionado ['postado'] );
+
+if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" )) {
+	header ( 'HTTP/1.0 302' );
+	include_once '../video-yetToBeReleased.php';
+	exit ();
+}
+
 $resultVideoId = null;
 $imgList = null;
 
-$embedSrc = $videoSrc [$release [$ano] [$video] ['source']];
-$resultThumbnail = $release [$ano] [$video] ['thumbnail'];
+$embedSrc = $videoSrc [$videoSelecionado ['source']];
+$resultThumbnail = $videoSelecionado ['thumbnail'];
 
-if (isset ( $release [$ano] [$video] ['videoId'] )) {
-	$resultVideoId = $release [$ano] [$video] ['videoId'];
+if (isset ( $videoSelecionado ['videoId'] )) {
+	$resultVideoId = $videoSelecionado ['videoId'];
 }
 
-if (isset ( $release [$ano] [$video] ['imgList'] )) {
-	$imgList = join ( '\n', $release [$ano] [$video] ['imgList'] );
+if (isset ( $videoSelecionado ['imgList'] )) {
+	$imgList = join ( '\n', $videoSelecionado ['imgList'] );
 }
 
-$nomeVideo = $release [$ano] [$video] ['title'];
-$descricao = $release [$ano] [$video] ['descricao'];
+$nomeVideo = $videoSelecionado ['title'];
+$descricao = $videoSelecionado ['descricao'];
 
 $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
 

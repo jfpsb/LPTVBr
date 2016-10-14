@@ -22,8 +22,7 @@ class listagemVideos {
 			// Variáveis de data são usadas em postDataTemplate
 			$dataPostado = new DateTime ( $release ['postado'] );
 			
-			if ($dataHoraAtual >= $dataPostado->format ( "Y-m-d H:i:s" )) {
-				
+			if ($dataHoraAtual >= $dataPostado->format ( "Y-m-d H:i:s" )) {				
 				$caminho = $anoArray . DIRECTORY_SEPARATOR . $url;
 				$titulo = $release ['title'];
 				$imagem = $release ['thumbnail'] [$tamanhoThumb];

@@ -642,5 +642,20 @@
 			"lancado": "2010-12-20 00:00:00"
 		}
 	},
+	"2011": {
+		"middle-eastern-tour": {
+			"title": "LPTV #49 | 2010 Middle Eastern Tour",
+			"videoId": "187364981",
+			"descricao": "Neste LPTV são mostrados trechos da turnê no Oriente Médio de 2010 e a visita da banda à Jerusalém.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/middle-eastern-tour-2011/middle-eastern-tour-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/middle-eastern-tour-2011/middle-eastern-tour-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/middle-eastern-tour-2011/middle-eastern-tour-small.jpg"
+			},
+			"postado": "2016-10-14 18:00:00",
+			"lancado": "2011-01-07 00:00:00"
+		}
+	},
 	"secao": "LPTV"
 }

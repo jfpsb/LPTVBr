@@ -1,6 +1,6 @@
 <div class="postData">
 	<p class="dataTexto">
-		<?php
+		<?php		
 		$dataLancadoString = $dataLancado->format ( "d/m/Y" );
 		$dataPostadoString = $dataPostado->format ( "d/m/Y" );
 		echo "Lançado: " . $dataLancadoString . "<br>";

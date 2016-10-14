@@ -63,6 +63,6 @@ include_once 'resources/php/checaLPTVBrCookie.php';
 		</article>
 	</section>
 	
-	<?php include_once 'template/footer.php';?>S
+	<?php include_once 'template/footer.php';?>
 </body>
 </html>

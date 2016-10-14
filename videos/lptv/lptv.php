@@ -44,6 +44,7 @@ $objListagemVideo = new listagemVideos ();
 			<div id="lptv-tabView" class="tabView">
 				<ul class="tabs-lptv">
 					<li><a href="#dois-mil-dez">2010</a></li>
+					<li><a href="#dois-mil-onze">2011</a></li>
 					<li><a href="#dois-mil-catorze">2014</a></li>
 					<li><a href="#dois-mil-quinze">2015</a></li>
 					<li><a href="#dois-mil-dezesseis">2016</a></li>
@@ -53,30 +54,36 @@ $objListagemVideo = new listagemVideos ();
 					<div>
 						<div id="dois-mil-dez" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2010'], "2010", true, "medium" );
+							@$objListagemVideo->listaVideos ( $release ['2010'], "2010", true, "medium" );
+							?>
+						</div>
+					</div>
+					<div>
+						<div id="dois-mil-onze" class="abas-tabView">
+							<?php
+							@$objListagemVideo->listaVideos ( $release ['2011'], "2011", true, "medium" );
 							?>
 						</div>
 					</div>
 					<div>
 						<div id="dois-mil-catorze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2014'], "2014", true, "medium", false );
+							@$objListagemVideo->listaVideos ( $release ['2014'], "2014", true, "medium", false );
 							?>
 						</div>
 					</div>
 					<div>
 						<div id="dois-mil-quinze" class="abas-tabView">
 							<?php
-							$objListagemVideo->listaVideos ( $release ['2015'], "2015", true, "medium", false );
+							@$objListagemVideo->listaVideos ( $release ['2015'], "2015", true, "medium", false );
 							?>
 						</div>
 					</div>
-					<div id="dois-mil-dezesseis" class="abas-tabView">
-						<div align="center">
-							<h2
-								style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: black;">
-								Esperando os LPTVs de 2016, Linkin Park!<br>Volte em breve.
-							</h2>
+					<div>
+						<div id="dois-mil-dezesseis" class="abas-tabView">
+							<?php
+							@$objListagemVideo->listaVideos ( $release ['2016'], "2016", true, "medium", false );
+							?>
 						</div>
 					</div>
 				</div>

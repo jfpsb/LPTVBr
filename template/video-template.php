@@ -32,6 +32,7 @@ if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" )) {
 
 $resultVideoId = null;
 $imgList = null;
+$embedSrc = null;
 
 if (isset ( $videoSelecionado ['source'] )) {
 	$embedSrc = $videoSrc [$videoSelecionado ['source']];

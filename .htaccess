@@ -12,7 +12,7 @@ RewriteRule ^LPTVBr/(.*)$ /$1 [R=301,NC,L]
 
 #Remove antigo sufixo mus de urls
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-z-0-9-/-]+)-mus(.*)$ /$1 [R=301,NC,L]
+RewriteRule ^([a-z-0-9-/-_\.]+)-mus(/)$ /$1 [R=301,NC,L]
 
 #Adiciona "musica" em urls antigas
 RewriteCond %{REQUEST_URI} ^/albuns [OR]
@@ -37,8 +37,8 @@ RewriteRule ^contato/?$ contato.php [NC,L]
 
 #musicas
 RewriteRule ^musica/?$ musicas/musicas.php [NC,L]
-RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/listaMusicasRelease.php?tipo=$1&album=$2 [NC,L]
-RewriteRule ^musica/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/traducao-template.php?tipo=$1&album=$2&musica=$3 [NC,L]
+RewriteRule ^musica/([a-z-0-9-_\.]+)/([a-z-0-9-_\.]+)/?$ template/listaMusicasRelease.php?tipo=$1&album=$2 [NC,L]
+RewriteRule ^musica/([a-z-0-9-_\.]+)/([a-z-0-9-_\.]+)/([a-z-0-9-_\.]+)/?$ template/traducao-template.php?tipo=$1&album=$2&musica=$3 [NC,L]
 
 #videos
 RewriteRule ^video/?$ videos/videos.php [NC,L]

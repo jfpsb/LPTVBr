@@ -25,7 +25,7 @@ if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $re
 	exit ();
 }
 
-$nomeMusica = $release [$album] [$musica] ['title'];
+$nomeMusica = $albumSelecionado [$musica] ['title'];
 
 $page_title = $nomeMusica . ' - ' . $albumSelecionado ['album'] . ' (Tradução)';
 

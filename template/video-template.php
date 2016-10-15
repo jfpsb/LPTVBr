@@ -33,7 +33,10 @@ if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" )) {
 $resultVideoId = null;
 $imgList = null;
 
-$embedSrc = $videoSrc [$videoSelecionado ['source']];
+if (isset ( $videoSelecionado ['source'] )) {
+	$embedSrc = $videoSrc [$videoSelecionado ['source']];
+}
+
 $resultThumbnail = $videoSelecionado ['thumbnail'];
 
 if (isset ( $videoSelecionado ['videoId'] )) {
@@ -69,7 +72,7 @@ $objCarregaIframe = new CarregaIframe ();
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="/resources/galleria/galleria-1.4.2.min.js"></script>
 <meta property="og:url"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />

@@ -3,7 +3,9 @@ include_once '../resources/php/checaLPTVBrCookie.php';
 
 session_start ();
 
-$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $_GET ['tipo'] . ".json" );
+$tipo = $_GET ['tipo'];
+
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $tipo . ".json" );
 $str = utf8_encode ( $str );
 $release = json_decode ( $str, true );
 
@@ -158,7 +160,7 @@ $objListagemMusicas = new listagemMusicas ();
 						class="album-cover">
 					<div align="center">
 						<a class="album-link"
-							href="/musica/albuns/<?php echo retornaAlbumLyric(false, $album, $release); ?>/">Voltar
+							href="/musica/<?php echo $tipo . DIRECTORY_SEPARATOR . retornaAlbumLyric(false, $album, $release); ?>/">Voltar
 							ao <?php echo $albumSelecionado['album']?></a>
 					</div>
 					<ol class="album-lista">

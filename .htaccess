@@ -6,7 +6,22 @@ RewriteCond %{HTTP_HOST} !^localhost [NC]
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://linkinparktvbr.com/$1 [R,L]
 
-#Redirecionando urls antigas do site
+#REDIRECIONANDO URLS ANTIGAS
+#Remove antigo caminho LPTVBr de urls
+RewriteRule ^LPTVBr/(.*)$ /$1 [R=301,NC,L]
+
+#Remove antigo sufixo mus de urls
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-z-0-9-/-]+)-mus(.*)$ /$1 [R=301,NC,L]
+
+#Adiciona "musica" em urls antigas
+RewriteCond %{REQUEST_URI} ^/albuns [OR]
+RewriteCond %{REQUEST_URI} ^/lpu [OR]
+RewriteCond %{REQUEST_URI} ^/remixes [OR]
+RewriteCond %{REQUEST_URI} ^/singles
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /musica%{REQUEST_URI} [R=301,NC,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^musicas/(.*)$ /musica/$1 [R=301,NC,L]
 RewriteCond %{REQUEST_FILENAME} !-f

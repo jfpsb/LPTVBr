@@ -75,33 +75,33 @@
 		"copyright": "Linkin Park Jun 17, 2014 \u24C5 Warner Bros. Records Inc."
 	},
 	"living-things": {
-		"burn-it-down": {
-			"title": "Burn It Down",
-			"videoId": "dxytyRy-O1k"
-		},
-		"castle-of-glass": {
-			"title": "Castle Of Glass",
-			"videoId": "ScNNfyq3d_w"
-		},
-		"ill-be-gone": {
-			"title": "I'll Be Gone",
-			"videoId": "Y1wM5ljye28"
+		"lost-in-the-echo": {
+			"title": "Lost In The Echo",
+			"videoId": "co4YpHTqmfQ"
 		},
 		"in-my-remains": {
 			"title": "In My Remains",
 			"videoId": "QLFiuNdQrzI"
 		},
+		"burn-it-down": {
+			"title": "Burn It Down",
+			"videoId": "dxytyRy-O1k"
+		},
 		"lies-greed-misery": {
 			"title": "Lies Greed Misery",
 			"videoId": "9Dq9q6afIP8"
 		},
-		"lost-in-the-echo": {
-			"title": "Lost In The Echo",
-			"videoId": "co4YpHTqmfQ"
+		"ill-be-gone": {
+			"title": "I'll Be Gone",
+			"videoId": "Y1wM5ljye28"
 		},
-		"powerless": {
-			"title": "Powerless",
-			"videoId": "32BOmle7Z6w"
+		"castle-of-glass": {
+			"title": "Castle Of Glass",
+			"videoId": "ScNNfyq3d_w"
+		},
+		"victimized": {
+			"title": "Victimized",
+			"videoId": "-6eUCOFXuxo"
 		},
 		"roads-untraveled": {
 			"title": "Roads Untraveled",
@@ -111,17 +111,17 @@
 			"title": "Skin To Bone",
 			"videoId": "NwK4mxK7c2w"
 		},
-		"tinfoil": {
-			"title": "Tinfoil",
-			"videoId": "M2YPuL-niQg"
-		},
 		"until-it-breaks": {
 			"title": "Until It Breaks",
 			"videoId": "ZEQJm49_9OE"
 		},
-		"victimized": {
-			"title": "Victimized",
-			"videoId": "-6eUCOFXuxo"
+		"tinfoil": {
+			"title": "Tinfoil",
+			"videoId": "M2YPuL-niQg"
+		},
+		"powerless": {
+			"title": "Powerless",
+			"videoId": "32BOmle7Z6w"
 		},
 		"album": "Living Things",
 		"lancamento": "26 de junho de 2012",
@@ -138,9 +138,13 @@
 		"copyright": "Linkin Park Jun 26, 2012 \u24C5 Warner Bros. Records Inc."
 	},
 	"a-thousand-suns": {
-		"blackout": {
-			"title": "Blackout",
-			"videoId": "CpfRXSHb-6Y"
+		"the-requiem": {
+			"title": "The Requiem",
+			"videoId": "M4KSZQYmuMQ"
+		},
+		"the-radiance": {
+			"title": "The Radiance",
+			"videoId": "m4AI6kHHyWs"
 		},
 		"burning-in-the-skies": {
 			"title": "Burning In The Skies",
@@ -150,21 +154,41 @@
 			"title": "Empty Spaces",
 			"videoId": "9fn8gXGuYEM"
 		},
-		"fallout": {
-			"title": "Fallout",
-			"videoId": "o5MKTdQG7Js"
+		"when-they-come-for-me": {
+			"title": "When They Come For Me",
+			"videoId": "2cC4LQV2tf8"
 		},
-		"iridescent": {
-			"title": "Iridescent",
-			"videoId": "xLYiIBCN9ec"
+		"robot-boy": {
+			"title": "Robot Boy",
+			"videoId": "Wbt59pmT26E"
 		},
 		"jornada-del-muerto": {
 			"title": "Jornada Del Muerto",
 			"videoId": "YiZcMUxewUI"
 		},
-		"robot-boy": {
-			"title": "Robot Boy",
-			"videoId": "Wbt59pmT26E"
+		"waiting-for-the-end": {
+			"title": "Waiting For The End",
+			"videoId": "5qF_qbaWt3Q"
+		},
+		"blackout": {
+			"title": "Blackout",
+			"videoId": "CpfRXSHb-6Y"
+		},
+		"wretches-and-kings": {
+			"title": "Wretches And Kings",
+			"videoId": "er-TinIKvCw"
+		},
+		"wisdow-justice-and-love": {
+			"title": "Wisdow, Justice And Love",
+			"videoId": "sqQvAoT82wg"
+		},
+		"iridescent": {
+			"title": "Iridescent",
+			"videoId": "xLYiIBCN9ec"
+		},
+		"fallout": {
+			"title": "Fallout",
+			"videoId": "o5MKTdQG7Js"
 		},
 		"the-catalyst": {
 			"title": "The Catalyst",
@@ -173,30 +197,6 @@
 		"the-messenger": {
 			"title": "The Messenger",
 			"videoId": "ec2RlGgNIUs"
-		},
-		"the-radiance": {
-			"title": "The Radiance",
-			"videoId": "m4AI6kHHyWs"
-		},
-		"the-requiem": {
-			"title": "The Requiem",
-			"videoId": "M4KSZQYmuMQ"
-		},
-		"waiting-for-the-end": {
-			"title": "Waiting For The End",
-			"videoId": "5qF_qbaWt3Q"
-		},
-		"when-they-come-for-me": {
-			"title": "When They Come For Me",
-			"videoId": "2cC4LQV2tf8"
-		},
-		"wisdow-justice-and-love": {
-			"title": "Wisdow, Justice And Love",
-			"videoId": "sqQvAoT82wg"
-		},
-		"wretches-and-kings": {
-			"title": "Wretches And Kings",
-			"videoId": "er-TinIKvCw"
 		},
 		"album": "A Thousand Suns",
 		"lancamento": "14 de setembro de 2010",
@@ -213,19 +213,9 @@
 		"copyright": "Linkin Park Sep 14, 2010 \u24C5 Warner Bros. Records Inc."
 	},
 	"road-to-revolution": {
-		"bleed-it-out": {
-			"title": "Bleed It Out",
-			"videoId": "LrGgr9tcLuw",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"breaking-the-habit": {
-			"title": "Breaking The Habit",
-			"videoId": "mztKdkWbPF8",
-			"lyricAlbum": "meteora"
-		},
-		"crawling": {
-			"title": "Crawling",
-			"videoId": "yURtHbEp4b8",
+		"one-step-closer": {
+			"title": "One Step Closer",
+			"videoId": "YzoO5pRVuUI",
 			"lyricAlbum": "hybrid-theory"
 		},
 		"from-the-inside": {
@@ -233,29 +223,14 @@
 			"videoId": "YC56GtIwBDQ",
 			"lyricAlbum": "meteora"
 		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow",
+			"videoId": "6ILbGSInwdo",
+			"lyricAlbum": "minutes-to-midnight"
+		},
 		"given-up": {
 			"title": "Given Up",
 			"videoId": "_KRmlrPzfYM",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"hands-held-high": {
-			"title": "Hands Held High",
-			"videoId": "g-R9DiWDTVo",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"in-the-end": {
-			"title": "In The End",
-			"videoId": "gl30eSQuPE0",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"jigga-what": {
-			"title": "Jigga What/Faint",
-			"videoId": "91PD0DyQuXU",
-			"lyricAlbum": "collision-course"
-		},
-		"leave-out-all-the-rest": {
-			"title": "Leave Out All The Rest",
-			"videoId": "LvbxMAYkKlw",
 			"lyricAlbum": "minutes-to-midnight"
 		},
 		"lying-from-you": {
@@ -263,24 +238,44 @@
 			"videoId": "eji4Nj5_zYo",
 			"lyricAlbum": "meteora"
 		},
-		"no-more-sorrow": {
-			"title": "No More Sorrow",
-			"videoId": "6ILbGSInwdo",
+		"hands-held-high": {
+			"title": "Hands Held High",
+			"videoId": "g-R9DiWDTVo",
 			"lyricAlbum": "minutes-to-midnight"
 		},
-		"numb-encore": {
-			"title": "Numb/Encore",
-			"videoId": "eVG6m_AZbDk",
-			"lyricAlbum": "collision-course"
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "LvbxMAYkKlw",
+			"lyricAlbum": "minutes-to-midnight"
 		},
 		"numb": {
 			"title": "Numb",
 			"videoId": "3m7kVpACuJs",
 			"lyricAlbum": "meteora"
 		},
-		"one-step-closer": {
-			"title": "One Step Closer",
-			"videoId": "YzoO5pRVuUI",
+		"the-little-things-give-you-away": {
+			"title": "The Little Things Give You Away",
+			"videoId": "00jUu5uxvvk",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "mztKdkWbPF8",
+			"lyricAlbum": "meteora"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "VJYxkLgKLNU",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "yURtHbEp4b8",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "gl30eSQuPE0",
 			"lyricAlbum": "hybrid-theory"
 		},
 		"pushing-me-away": {
@@ -288,19 +283,24 @@
 			"videoId": "b5jlBER8CVM",
 			"lyricAlbum": "hybrid-theory"
 		},
-		"shadow-of-the-day": {
-			"title": "Shadow Of The Day",
-			"videoId": "VJYxkLgKLNU",
-			"lyricAlbum": "minutes-to-midnight"
-		},
-		"the-little-things-give-you-away": {
-			"title": "The Little Things Give You Away",
-			"videoId": "00jUu5uxvvk",
-			"lyricAlbum": "minutes-to-midnight"
-		},
 		"what-ive-done": {
 			"title": "What I've Done",
 			"videoId": "VVCT_k_X9Tg",
+			"lyricAlbum": "minutes-to-midnight"
+		},
+		"numb-encore": {
+			"title": "Numb/Encore",
+			"videoId": "eVG6m_AZbDk",
+			"lyricAlbum": "collision-course"
+		},
+		"jigga-what": {
+			"title": "Jigga What/Faint",
+			"videoId": "91PD0DyQuXU",
+			"lyricAlbum": "collision-course"
+		},
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "LrGgr9tcLuw",
 			"lyricAlbum": "minutes-to-midnight"
 		},
 		"album": "Road To Revolution",
@@ -318,17 +318,41 @@
 		"copyright": "Linkin Park Nov 24, 2008 \u24C5 Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S."
 	},
 	"minutes-to-midnight": {
-		"bleed-it-out": {
-			"title": "Bleed It Out",
-			"videoId": "OnuuYcqhzCE"
+		"wake": {
+			"title": "Wake",
+			"videoId": "Me7TJDHCELk"
 		},
 		"given-up": {
 			"title": "Given Up",
 			"videoId": "0xyxtzD54rM"
 		},
+		"leave-out-all-the-rest": {
+			"title": "Leave Out All The Rest",
+			"videoId": "yZIummTz9mM"
+		},
+		"bleed-it-out": {
+			"title": "Bleed It Out",
+			"videoId": "OnuuYcqhzCE"
+		},
+		"shadow-of-the-day": {
+			"title": "Shadow Of The Day",
+			"videoId": "n1PCW0C1aiM"
+		},
+		"what-ive-done": {
+			"title": "What I've Done",
+			"videoId": "8sgycukafqQ"
+		},
 		"hands-held-high": {
 			"title": "Hands Held High",
 			"videoId": "G4P3ayBzVY"
+		},
+		"no-more-sorrow": {
+			"title": "No More Sorrow",
+			"videoId": "rW4uBvP2Dqc"
+		},
+		"valentines-day": {
+			"title": "Valentine's Day",
+			"videoId": "KAFOpywZbMM"
 		},
 		"in-between": {
 			"title": "In Between",
@@ -338,33 +362,9 @@
 			"title": "In Pieces",
 			"videoId": "NaRBn6QIMcQ"
 		},
-		"leave-out-all-the-rest": {
-			"title": "Leave Out All The Rest",
-			"videoId": "yZIummTz9mM"
-		},
-		"no-more-sorrow": {
-			"title": "No More Sorrow",
-			"videoId": "rW4uBvP2Dqc"
-		},
-		"shadow-of-the-day": {
-			"title": "Shadow Of The Day",
-			"videoId": "n1PCW0C1aiM"
-		},
 		"the-little-things-give-you-away": {
 			"title": "The Little Things Give You Away",
 			"videoId": "Gs0t8LXH6lw"
-		},
-		"valentines-day": {
-			"title": "Valentine's Day",
-			"videoId": "KAFOpywZbMM"
-		},
-		"wake": {
-			"title": "Wake",
-			"videoId": "Me7TJDHCELk"
-		},
-		"what-ive-done": {
-			"title": "What I've Done",
-			"videoId": "8sgycukafqQ"
 		},
 		"album": "Minutes To Midnight",
 		"lancamento": "14 de maio de 2007",
@@ -381,17 +381,13 @@
 		"copyright": "Linkin Park May 17, 2007 \u24C5 Warner Bros. Records Inc."
 	},
 	"collision-course": {
-		"big-pimpin": {
-			"title": "Big Pimpin'/Papercut",
-			"videoId": "uRB7p7GRgkA"
-		},
 		"dirt-off-your-shoulder": {
 			"title": "Dirt Off Your Shoulder/Lying From You",
 			"videoId": "Z_4VOhahkkk"
 		},
-		"izzo": {
-			"title": "Izzo/In The End",
-			"videoId": "IOZACGVr32Q"
+		"big-pimpin": {
+			"title": "Big Pimpin'/Papercut",
+			"videoId": "uRB7p7GRgkA"
 		},
 		"jigga-what": {
 			"title": "Jigga What/Faint",
@@ -400,6 +396,10 @@
 		"numb-encore": {
 			"title": "Numb/Encore",
 			"videoId": "yNPECkESPbU"
+		},
+		"izzo": {
+			"title": "Izzo/In The End",
+			"videoId": "IOZACGVr32Q"
 		},
 		"points": {
 			"title": "Points Of Authority/99 Problems/One Step Closer",
@@ -420,9 +420,29 @@
 		"copyright": "Linkin Park Nov 30, 2004 \u24C5 Warner Bros. Records Inc. and Roc-A-Fella Records, LLC."
 	},
 	"live-in-texas": {
-		"crawling": {
-			"title": "Crawling",
-			"videoId": "KJ9izvo96LU",
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "ukFZN8QKPUw",
+			"lyricAlbum": "meteora"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "c-oDYS9Aw74",
+			"lyricAlbum": "meteora"
+		},
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "1l9RY2Jhyo0",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"points-of-authority": {
+			"title": "Points Of Authority",
+			"videoId": "giTJkBzaRvw",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"runaway": {
+			"title": "Runaway",
+			"videoId": "nWWeTIc1l6s",
 			"lyricAlbum": "hybrid-theory"
 		},
 		"faint": {
@@ -435,50 +455,30 @@
 			"videoId": "iflr2S12N5w",
 			"lyricAlbum": "meteora"
 		},
-		"in-the-end": {
-			"title": "In The End",
-			"videoId": "UqBMuFjk17so",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"lying-from-you": {
-			"title": "Lying From You",
-			"videoId": "c-oDYS9Aw74",
-			"lyricAlbum": "meteora"
+		"pushing-me-away": {
+			"title": "P5hng Me A*wy",
+			"videoId": "lL-h12cu1H8",
+			"lyricAlbum": "reanimation"
 		},
 		"numb": {
 			"title": "Numb",
 			"videoId": "ufMDVe1DTGA",
 			"lyricAlbum": "meteora"
 		},
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "KJ9izvo96LU",
+			"lyricAlbum": "hybrid-theory"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "UqBMuFjk17so",
+			"lyricAlbum": "hybrid-theory"
+		},
 		"one-step-closer": {
 			"title": "One Step Closer",
 			"videoId": "4a3gjWP9E4M",
 			"lyricAlbum": "hybrid-theory"
-		},
-		"papercut": {
-			"title": "Papercut",
-			"videoId": "1l9RY2Jhyo0",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"points-of-authority": {
-			"title": "Points Of Authority",
-			"videoId": "giTJkBzaRvw",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"pushing-me-away": {
-			"title": "P5hng Me A*wy",
-			"videoId": "lL-h12cu1H8",
-			"lyricAlbum": "reanimation"
-		},
-		"runaway": {
-			"title": "Runaway",
-			"videoId": "nWWeTIc1l6s",
-			"lyricAlbum": "hybrid-theory"
-		},
-		"somewhere-i-belong": {
-			"title": "Somewhere I Belong",
-			"videoId": "ukFZN8QKPUw",
-			"lyricAlbum": "meteora"
 		},
 		"album": "Live In Texas",
 		"lancamento": "18 de novembro de 2003",
@@ -495,13 +495,25 @@
 		"copyright": "Linkin Park Nov 18, 2003 \u24C5 Warner Bros. Records Inc. for the U.S. and WEA International Inc. for the world outside the U.S."
 	},
 	"meteora": {
-		"breaking-the-habit": {
-			"title": "Breaking The Habit",
-			"videoId": "v2H4l9RpkwM"
+		"foreword": {
+			"title": "Foreword",
+			"videoId": "U6R-twDkrcI"
 		},
 		"dont-stay": {
 			"title": "Don't Stay",
 			"videoId": "oWfGOVWrueo"
+		},
+		"somewhere-i-belong": {
+			"title": "Somewhere I Belong",
+			"videoId": "zsCD5XCu6CM"
+		},
+		"lying-from-you": {
+			"title": "Lying From You",
+			"videoId": "5cNdDuNKrx0"
+		},
+		"hit-the-floor": {
+			"title": "Hit The Floor",
+			"videoId": "oMals9XXQY8"
 		},
 		"easier-to-run": {
 			"title": "Easier To Run",
@@ -515,37 +527,25 @@
 			"title": "Figure.09",
 			"videoId": "o1uESZ2_p2s"
 		},
-		"foreword": {
-			"title": "Foreword",
-			"videoId": "U6R-twDkrcI"
+		"breaking-the-habit": {
+			"title": "Breaking The Habit",
+			"videoId": "v2H4l9RpkwM"
 		},
 		"from-the-inside": {
 			"title": "From The Inside",
 			"videoId": "YLHpvjrFpe0"
 		},
-		"hit-the-floor": {
-			"title": "Hit The Floor",
-			"videoId": "oMals9XXQY8"
-		},
-		"lying-from-you": {
-			"title": "Lying From You",
-			"videoId": "5cNdDuNKrx0"
-		},
 		"nobodys-listening": {
 			"title": "Nobody's Listening",
 			"videoId": "QJ87793QXes"
-		},
-		"numb": {
-			"title": "Numb",
-			"videoId": "kXYiU_JCYtU"
 		},
 		"session": {
 			"title": "Session",
 			"videoId": "J1KqQYsUYIk"
 		},
-		"somewhere-i-belong": {
-			"title": "Somewhere I Belong",
-			"videoId": "zsCD5XCu6CM"
+		"numb": {
+			"title": "Numb",
+			"videoId": "kXYiU_JCYtU"
 		},
 		"album": "Meteora",
 		"lancamento": "18 de novembro de 2003",
@@ -562,53 +562,53 @@
 		"copyright": "Linkin Park Mar 25, 2003 \u24C5 Warner Bros. Records Inc."
 	},
 	"hybrid-theory": {
-		"a-place-for-my-head": {
-			"title": "A Place For My Head",
-			"videoId": "3t2WkCudwfY"
-		},
-		"by-myself": {
-			"title": "By Myself",
-			"videoId": "wWBp-nlGX1o"
-		},
-		"crawling": {
-			"title": "Crawling",
-			"videoId": "Gd9OhYroLN0"
-		},
-		"cure-for-the-itch": {
-			"title": "Cure For The Itch",
-			"videoId": "u6z5U83lfrQ"
-		},
-		"forgotten": {
-			"title": "Forgotten",
-			"videoId": "HNCgBuI2eJc"
-		},
-		"in-the-end": {
-			"title": "In The End",
-			"videoId": "eVTXPUF4Oz4"
+		"papercut": {
+			"title": "Papercut",
+			"videoId": "vjVkXlxsO8Q"
 		},
 		"one-step-closer": {
 			"title": "One Step Closer",
 			"videoId": "4qlCC1GOwFw"
 		},
-		"papercut": {
-			"title": "Papercut",
-			"videoId": "vjVkXlxsO8Q"
+		"with-you": {
+			"title": "With You",
+			"videoId": "M8UTS2iFXOo"
 		},
 		"points-of-authority": {
 			"title": "Points Of Authority",
 			"videoId": "jZSPAp8kCl4"
 		},
-		"pushing-me-away": {
-			"title": "Pushing Me Away",
-			"videoId": "Ve1LNJEIKUE"
+		"crawling": {
+			"title": "Crawling",
+			"videoId": "Gd9OhYroLN0"
 		},
 		"runaway": {
 			"title": "Runaway",
 			"videoId": "ig-fyQqf510"
 		},
-		"with-you": {
-			"title": "With You",
-			"videoId": "M8UTS2iFXOo"
+		"by-myself": {
+			"title": "By Myself",
+			"videoId": "wWBp-nlGX1o"
+		},
+		"in-the-end": {
+			"title": "In The End",
+			"videoId": "eVTXPUF4Oz4"
+		},
+		"a-place-for-my-head": {
+			"title": "A Place For My Head",
+			"videoId": "3t2WkCudwfY"
+		},
+		"forgotten": {
+			"title": "Forgotten",
+			"videoId": "HNCgBuI2eJc"
+		},
+		"cure-for-the-itch": {
+			"title": "Cure For The Itch",
+			"videoId": "u6z5U83lfrQ"
+		},
+		"pushing-me-away": {
+			"title": "Pushing Me Away",
+			"videoId": "Ve1LNJEIKUE"
 		},
 		"album": "Hybrid Theory",
 		"lancamento": "24 de outubro de 2000",

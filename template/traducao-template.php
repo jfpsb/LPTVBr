@@ -1,8 +1,6 @@
 <?php
 include_once '../resources/php/checaLPTVBrCookie.php';
 
-session_start ();
-
 $tipo = $_GET ['tipo'];
 
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/musicas/" . $tipo . ".json" );
@@ -11,11 +9,7 @@ $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
 
-if (isset ( $_SESSION ['albumSelecionado'] ))
-	$albumSelecionado = $_SESSION ['albumSelecionado'];
-else {
-	$albumSelecionado = $release [$album];
-}
+$albumSelecionado = $release [$album];
 
 $musica = $_GET ['musica'];
 

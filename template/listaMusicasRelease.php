@@ -1,7 +1,5 @@
 <?php
 include_once '../resources/php/checaLPTVBrCookie.php';
-// Start the session
-session_start ();
 
 $tipo = $_GET ['tipo'];
 $album = $_GET ['album'];
@@ -42,8 +40,6 @@ if (isset ( $albumSelecionado ['icone'] ))
 	$icone = $albumSelecionado ['icone'];
 if (isset ( $albumSelecionado ['datetime'] ))
 	$datetime = $albumSelecionado ['datetime'];
-
-$_SESSION ['albumSelecionado'] = $albumSelecionado;
 
 include_once '../resources/php/listagemMusicas.php';
 

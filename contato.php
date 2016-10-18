@@ -1,5 +1,8 @@
 <?php
 include_once 'resources/php/checaLPTVBrCookie.php';
+
+$smtpConfig = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . "/../" . "lptvbr_config.ini");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,11 +50,11 @@ include_once 'resources/php/checaLPTVBrCookie.php';
 			
 			$mail->isSMTP ();
 			$mail->SMTPAuth = true;
-			$mail->Host = "linkinparktvbr.com";
-			$mail->Username = 'lptvbremail@linkinparktvbr.com';
-			$mail->Password = 'jfpsb5982jf';
-			$mail->SMTPSecure = 'ssl';
-			$mail->Port = 465;
+			$mail->Host = $smtpConfig['host'];
+			$mail->Username = $smtpConfig['username'];
+			$mail->Password = $smtpConfig['password'];
+			$mail->SMTPSecure = $smtpConfig['secure'];
+			$mail->Port = $smtpConfig['port'];
 			
 			$mail->From = "lptvbremail@linkinparktvbr.com";
 			$mail->FromName = "LPTVBr - Site";

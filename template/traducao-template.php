@@ -9,8 +9,6 @@ $release = json_decode ( $str, true );
 
 $album = $_GET ['album'];
 
-$albumSelecionado = $release [$album];
-
 $musica = $_GET ['musica'];
 
 if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $release [$album] )) {
@@ -18,6 +16,8 @@ if (! array_key_exists ( $album, $release ) || ! array_key_exists ( $musica, $re
 	readfile ( '../notfound.php' );
 	exit ();
 }
+
+$albumSelecionado = $release [$album];
 
 $nomeMusica = $albumSelecionado [$musica] ['title'];
 

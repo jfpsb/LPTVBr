@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once 'resources/php/checaLPTVBrCookie.php';
 ?>
 <!DOCTYPE html>
@@ -15,6 +15,14 @@ include_once 'resources/php/checaLPTVBrCookie.php';
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/contatoScript.js"></script>
+<meta property="og:url"
+	content="<?php echo 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']?>" />
+<meta property="og:title" content="Contato - LPTVBr" />
+<meta property="og:image"
+	content="http://<?php echo $_SERVER['SERVER_NAME']?>/resources/imagens/banner.jpg" />
+<meta property="og:description"
+	content="Entre em contato com a LinkinParkTVBr sobre músicas, vídeos e outros" />
+<meta property="og:type" content="website" />
 <title>Contato - LPTVBr</title>
 </head>
 <body>
@@ -66,25 +74,22 @@ include_once 'resources/php/checaLPTVBrCookie.php';
 			?>
 		<h1 class="contato-header">Contato</h1>
 		<article class="contato-texto">
-			<p>
-				Sinta-se a vontade para mandar mensagens para nós sobre qualquer
-				assunto: pedidos de legenda, erros em nomes de músicas e/ou
-				vídeos, erros em links, erros em imagens, datas e etc.
-			</p>
-			<p>
-				Esta seção também pode ser usada para mandar mensagens sobre
+			<p>Sinta-se a vontade para mandar mensagens para nós sobre qualquer
+				assunto: pedidos de legenda, erros em nomes de músicas e/ou vídeos,
+				erros em links, erros em imagens, datas e etc.</p>
+			<p>Esta seção também pode ser usada para mandar mensagens sobre
 				aspectos do site como: qualquer tipo de erro de layout em
 				computadores e/ou mobile, sugestões de cores, posicionamento de
-				elementos e etc.
-			</p>
+				elementos e etc.</p>
 		</article>
 		<article class="contato-main">
-			<form class="contato-form" action="<?php $_SERVER['PHP_SELF']?>" method="post">
-				Título:<input required type="text" name="titulo"><br>
-				Seu nome:<input required type="text" name="nome"><br>
-				Seu e-mail:<input required type="text" name="email"><br>
-				Assunto:<select required name="assunto" id="assuntoSelect" 
-						onchange="document.getElementById('idAssuntoSelected').value=this.options[this.selectedIndex].text">
+			<form class="contato-form" action="<?php $_SERVER['PHP_SELF']?>"
+				method="post">
+				Título:<input required type="text" name="titulo"><br> Seu nome:<input
+					required type="text" name="nome"><br> Seu e-mail:<input required
+					type="text" name="email"><br> Assunto:<select required
+					name="assunto" id="assuntoSelect"
+					onchange="document.getElementById('idAssuntoSelected').value=this.options[this.selectedIndex].text">
 					<option value="erro-musica">Erro em músicas</option>
 					<option value="erro-video">Erro em vídeos</option>
 					<option value="erro-site">Erro no site</option>
@@ -98,8 +103,8 @@ include_once 'resources/php/checaLPTVBrCookie.php';
 				<input type="hidden" name="assuntoSelected" id="idAssuntoSelected"></input>
 				Mensagem:<br>
 				<textarea required rows="10" cols="75" name="mensagem"></textarea>
-				<br>
-				<input id="botao-submit" type="submit" name="submit" value="Enviar Mensagem">
+				<br> <input id="botao-submit" type="submit" name="submit"
+					value="Enviar Mensagem">
 			</form>
 		</article>
 		<?php

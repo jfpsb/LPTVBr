@@ -24,7 +24,7 @@ date_default_timezone_set ( "America/Fortaleza" );
 $dataHoraAtual = date ( "Y-m-d H:i:s" );
 $dataPostado = new DateTime ( $videoSelecionado ['postado'] );
 
-if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" )) {
+if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" ) && @$_COOKIE ["LPTVBrCookie"] !== "1124" && $_SERVER ['HTTP_HOST'] !== "localhost") {
 	header ( 'HTTP/1.0 302' );
 	include_once '../video-yetToBeReleased.php';
 	exit ();

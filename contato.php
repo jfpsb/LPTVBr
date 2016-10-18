@@ -1,7 +1,7 @@
 <?php
 include_once 'resources/php/checaLPTVBrCookie.php';
 
-$smtpConfig = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . "/../" . "lptvbr_config.ini");
+$smtpConfig = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . "/../../" . "lptvbr_config.ini");
 
 ?>
 <!DOCTYPE html>

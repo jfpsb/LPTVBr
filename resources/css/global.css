@@ -75,6 +75,12 @@ pre {
 	font-size: 15px;
 }
 
+@media all and (max-width: 480px) {
+	.linkWrapper {
+		flex-basis: 50%;
+	}
+}
+
 @media all and (max-width: 768px) {
 	body {
 		margin: 0;
@@ -86,5 +92,16 @@ pre {
 		top: 60px;
 		border-radius: 0;
 		margin: 0;
+	}
+}
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+	.innerContentArticle {
+		width: 100%;
+		margin: 5px auto;
+	}
+	.linkWrapper {
+		min-height: 175px;
+		flex-basis: 40%;
 	}
 }

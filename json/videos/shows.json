@@ -2,6 +2,7 @@
 	"oficial": {
 		"live-in-texas": {
 			"title": "Live In Texas",
+			"descricao": "Live in Texas é um álbum ao vivo gravado pela banda Linkin Park, este concerto foi filmado e transformado em DVD. O DVD foi gravado em dois concertos diferentes, em Houston e em Dallas, no Texas. Depois foi editado, juntando imagens dos dois. O DVD tem as dezessete canções tocadas, enquanto o CD tem doze faixas.<br><br> A lista de músicas, vídeos e traduções podem ser encontradas <a class=\"video-link\" href=\"../../../../musica/albuns/live-in-texas/\">clicando aqui</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/live-in-texas.srt\">neste link</a>. <br>Não sabe o que fazer com o arquivo? Aperte <a class=\"video-link\" href=\"https://www.todoespacoonline.com/w/2015/04/como-usar-legendas-srt/\" target=\"_blank\">neste link</a> para saber mais.",
 			"imgList": [
 				"<img src=\"/resources/imagens/videos/shows/live-in-texas/live-in-texas.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/live-in-texas/live-in-texas1.jpg\">",
@@ -24,17 +25,70 @@
 				"<img src=\"/resources/imagens/videos/shows/live-in-texas/live-in-texas19.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/live-in-texas/live-in-texas20.jpg\">"
 			],
-			"descricao": "Live in Texas é um álbum ao vivo gravado pela banda Linkin Park, este concerto foi filmado e transformado em DVD. O DVD foi gravado em dois concertos diferentes, em Houston e em Dallas, no Texas. Depois foi editado, juntando imagens dos dois. O DVD tem as dezessete canções tocadas, enquanto o CD tem doze faixas.<br><br> A lista de músicas, vídeos e traduções podem ser encontradas <a class=\"video-link\" href=\"../../../../musica/albuns/live-in-texas/\">clicando aqui</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/live-in-texas.srt\">neste link</a>. <br>Não sabe o que fazer com o arquivo? Aperte <a class=\"video-link\" href=\"https://www.todoespacoonline.com/w/2015/04/como-usar-legendas-srt/\" target=\"_blank\">neste link</a> para saber mais.",
 			"thumbnail": {
 				"large": "/resources/imagens/albuns/live-in-texas/live-in-texas-large.jpg",
 				"medium": "/resources/imagens/albuns/live-in-texas/live-in-texas-medium.jpg",
 				"small": "/resources/imagens/albuns/live-in-texas/live-in-texas-small.jpg"
+			},
+			"setlist": {
+				"dont-stay": {
+					"title": "Don't Stay"
+				},
+				"somewhere-i-belong": {
+					"title": "Somewhere I Belong"
+				},
+				"lying-from-you": {
+					"title": "Lying From You"
+				},
+				"papercut": {
+					"title": "Papercut"
+				},
+				"points-of-authority": {
+					"title": "Points Of Authority"
+				},
+				"runaway": {
+					"title": "Runaway"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"from-the-inside": {
+					"title": "From The Inside"
+				},
+				"figure09": {
+					"title": "Figure.09"
+				},
+				"with-you": {
+					"title": "With You"
+				},
+				"by-my-self": {
+					"title": "By Myself"
+				},
+				"pushing-me-away": {
+					"title": "P5hng Me A*wy"
+				},
+				"numb": {
+					"title": "Numb"
+				},
+				"crawling": {
+					"title": "Crawling"
+				},
+				"in-the-end": {
+					"title": "In The End"
+				},
+				"a-place-for-my-head": {
+					"title": "A Place For My Head"
+				},
+				"one-step-closer": {
+					"title": "One Step Closer"
+				}
 			},
 			"postado": "2016-01-01 00:00:00",
 			"lancado": "2003-11-18 00:00:00"
 		},
 		"road-to-revolution": {
 			"title": "Road To Revolution (Live At Milton Keynes)",
+			"descricao": "Road to Revolution: Live at Milton Keynes é o segundo álbum ao vivo da banda americana Linkin Park. Este álbum foi gravado durante o Projekt Revolution e conta com a colaboração do rapper Jay-Z, e contém músicas dos álbuns já lançados pela banda.<br><br>A lista de músicas, vídeos e traduções podem ser encontradas <a class=\"video-link\" href=\"../../../../musica/albuns/road-to-revolution/\">clicando aqui</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/road-to-revolution.rar\">neste link</a>.",
 			"imgList": [
 				"<img src=\"/resources/imagens/videos/shows/road-to-revolution/rtr1.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/road-to-revolution/rtr3.jpg\">",
@@ -63,7 +117,6 @@
 				"<img src=\"/resources/imagens/videos/shows/road-to-revolution/rtr26.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/road-to-revolution/rtr27.jpg\">"
 			],
-			"descricao": "Road to Revolution: Live at Milton Keynes é o segundo álbum ao vivo da banda americana Linkin Park. Este álbum foi gravado durante o Projekt Revolution e conta com a colaboração do rapper Jay-Z, e contém músicas dos álbuns já lançados pela banda.<br><br>A lista de músicas, vídeos e traduções podem ser encontradas <a class=\"video-link\" href=\"../../../../musica/albuns/road-to-revolution/\">clicando aqui</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/road-to-revolution.rar\">neste link</a>.",
 			"thumbnail": {
 				"large": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-large.jpg",
 				"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
@@ -71,76 +124,58 @@
 			},
 			"setlist": {
 				"one-step-closer": {
-					"title": "One Step Closer",
-					"videoId": "YzoO5pRVuUI"
+					"title": "One Step Closer"
 				},
 				"from-the-inside": {
-					"title": "From The Inside",
-					"videoId": "YC56GtIwBDQ"
+					"title": "From The Inside"
 				},
 				"no-more-sorrow": {
-					"title": "No More Sorrow",
-					"videoId": "6ILbGSInwdo"
+					"title": "No More Sorrow"
 				},
 				"given-up": {
-					"title": "Given Up",
-					"videoId": "_KRmlrPzfYM"
+					"title": "Given Up"
 				},
 				"lying-from-you": {
-					"title": "Lying From You",
-					"videoId": "eji4Nj5_zYo"
+					"title": "Lying From You"
 				},
 				"hands-held-high": {
-					"title": "Hands Held High",
-					"videoId": "g-R9DiWDTVo"
+					"title": "Hands Held High"
 				},
 				"leave-out-all-the-rest": {
-					"title": "Leave Out All The Rest",
-					"videoId": "LvbxMAYkKlw"
+					"title": "Leave Out All The Rest"
 				},
 				"numb": {
-					"title": "Numb",
-					"videoId": "3m7kVpACuJs"
+					"title": "Numb"
 				},
 				"the-little-things-give-you-away": {
-					"title": "The Little Things Give You Away",
-					"videoId": "00jUu5uxvvk"
+					"title": "The Little Things Give You Away"
 				},
 				"breaking-the-habit": {
-					"title": "Breaking The Habit",
-					"videoId": "mztKdkWbPF8"
+					"title": "Breaking The Habit"
 				},
 				"shadow-of-the-day": {
-					"title": "Shadow Of The Day",
-					"videoId": "VJYxkLgKLNU"
+					"title": "Shadow Of The Day"
 				},
 				"crawling": {
-					"title": "Crawling",
-					"videoId": "yURtHbEp4b8"
+					"title": "Crawling"
 				},
 				"in-the-end": {
-					"title": "In The End",
-					"videoId": "gl30eSQuPE0"
+					"title": "In The End"
 				},
 				"pushing-me-away": {
-					"title": "Pushing Me Away",
-					"videoId": "b5jlBER8CVM"
+					"title": "Pushing Me Away"
 				},
 				"what-ive-done": {
-					"title": "What I've Done",
-					"videoId": "VVCT_k_X9Tg"
+					"title": "What I've Done"
 				},
 				"numb-encore": {
-					"title": "Numb/Encore",
-					"videoId": "eVG6m_AZbDk"
+					"title": "Numb/Encore"
 				},
 				"jigga-what": {
-					"title": "Jigga What/Faint",
-					"videoId": "91PD0DyQuXU"
+					"title": "Jigga What/Faint"
 				},
 				"bleed-it-out": {
-					"title": "Bleed It Out",
-					"videoId": "LrGgr9tcLuw"
+					"title": "Bleed It Out"
 				}
 			},
 			"postado": "2016-01-01 00:00:00",
@@ -150,6 +185,7 @@
 	"nao-oficial": {
 		"itunes-festival": {
 			"title": "iTunes Festival 2011",
+			"descricao": "Apple Music Festival (anteriormente conhecido como iTunes Festival) é um festival de música anual que acontece ao decorrer de um mês em Londres. Patrocinado pela Apple Inc., teve sua primeira edição em 2007. As apresentações também são apresentadas ao vivo de graça e disponível para visualização por tempo limitado na loja da iTunes e pelo Aplicativo oficial, assim como através da Apple TV.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2011/20110704\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/itunes-festival-2011.srt\">neste link</a>.",
 			"imgList": [
 				"<img src=\"/resources/imagens/videos/shows/itunes-festival/itunes-festival.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/itunes-festival/itunes-festival1.jpg\">",
@@ -173,17 +209,198 @@
 				"<img src=\"/resources/imagens/videos/shows/itunes-festival/itunes-festival19.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/itunes-festival/itunes-festival20.jpg\">"
 			],
-			"descricao": "Apple Music Festival (anteriormente conhecido como iTunes Festival) é um festival de música anual que acontece ao decorrer de um mês em Londres. Patrocinado pela Apple Inc., teve sua primeira edição em 2007. As apresentações também são apresentadas ao vivo de graça e disponível para visualização por tempo limitado na loja da iTunes e pelo Aplicativo oficial, assim como através da Apple TV.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2011/20110704\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/itunes-festival-2011.srt\">neste link</a>.",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/shows/itunes-festival/itunes-festival-large.jpg",
 				"medium": "/resources/imagens/videos/shows/itunes-festival/itunes-festival-medium.jpg",
 				"small": "/resources/imagens/videos/shows/itunes-festival/itunes-festival-small.jpg"
 			},
+			"setlist": {
+				"the-requiem": {
+					"title": "The Requiem"
+				},
+				"the-radiance": {
+					"title": "The Radiance"
+				},
+				"papercut": {
+					"title": "Papercut"
+				},
+				"lying-from-you": {
+					"title": "Lying From You"
+				},
+				"given-up": {
+					"title": "Given Up"
+				},
+				"what-ive-done": {
+					"title": "What I've Done"
+				},
+				"empty-spaces": {
+					"title": "Empty Spaces"
+				},
+				"when-they-come-for-me": {
+					"title": "When They Come For Me"
+				},
+				"no-more-sorrow": {
+					"title": "No More Sorrow"
+				},
+				"jornada-del-muerto": {
+					"title": "Jornada Del Muerto"
+				},
+				"waiting-for-the-end": {
+					"title": "Waiting For The End"
+				},
+				"burning-in-the-skies": {
+					"title": "Burning In The Skies"
+				},
+				"numb": {
+					"title": "Numb"
+				},
+				"breaking-the-habit": {
+					"title": "Breaking The Habit"
+				},
+				"fallout": {
+					"title": "Fallout"
+				},
+				"the-catalyst": {
+					"title": "The Catalyst"
+				},
+				"crawling": {
+					"title": "Crawling"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"one-step-closer": {
+					"title": "One Step Closer"
+				},
+				"rolling-in-the-deep": {
+					"title": "Rolling In The Deep"
+				},
+				"wisdow-justice-love": {
+					"title": "Wisdom, Justice, And Love"
+				},
+				"iridescent": {
+					"title": "Iridescent"
+				},
+				"new-divide": {
+					"title": "New Divide"
+				},
+				"in-the-end": {
+					"title": "In The End"
+				},
+				"bleed-it-out": {
+					"title": "Bleed It Out"
+				}
+			},
 			"postado": "2016-01-01 00:00:00",
 			"lancado": "2011-07-04 00:00:00"
 		},
+		"rock-am-ring-2014": {
+			"title": "Rock Am Ring 2014",
+			"descricao": "Rock Am Ring (Nürburgring) é um festival de música que acontece anualmente no Autódromo de Nürburgring, Nürburg, oeste da Alemanha.<br><br>O Rock Am Ring 2014 está disponível legendado em nosso canal no Youtube, você pode checar os vídeos disponíveis na seção abaixo.",
+			"imgList": [
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-1.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-2.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-3.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-4.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-5.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-6.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-7.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-8.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-9.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-10.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-11.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-12.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-13.jpg\">"
+			],
+			"thumbnail": {
+				"large": "/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-large.jpg",
+				"medium": "/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-medium.jpg",
+				"small": "/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-small.jpg"
+			},
+			"setlist": {
+				"the-requiem": {
+					"title": "The Requiem"
+				},
+				"the-radiance": {
+					"title": "The Radiance"
+				},
+				"papercut": {
+					"title": "Papercut"
+				},
+				"lying-from-you": {
+					"title": "Lying From You"
+				},
+				"given-up": {
+					"title": "Given Up"
+				},
+				"what-ive-done": {
+					"title": "What I've Done"
+				},
+				"empty-spaces": {
+					"title": "Empty Spaces"
+				},
+				"when-they-come-for-me": {
+					"title": "When They Come For Me"
+				},
+				"no-more-sorrow": {
+					"title": "No More Sorrow"
+				},
+				"jornada-del-muerto": {
+					"title": "Jornada Del Muerto"
+				},
+				"waiting-for-the-end": {
+					"title": "Waiting For The End"
+				},
+				"burning-in-the-skies": {
+					"title": "Burning In The Skies"
+				},
+				"numb": {
+					"title": "Numb"
+				},
+				"breaking-the-habit": {
+					"title": "Breaking The Habit"
+				},
+				"fallout": {
+					"title": "Fallout"
+				},
+				"the-catalyst": {
+					"title": "The Catalyst"
+				},
+				"crawling": {
+					"title": "Crawling"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"one-step-closer": {
+					"title": "One Step Closer"
+				},
+				"rolling-in-the-deep": {
+					"title": "Rolling In The Deep"
+				},
+				"wisdow-justice-love": {
+					"title": "Wisdom, Justice, And Love"
+				},
+				"iridescent": {
+					"title": "Iridescent"
+				},
+				"new-divide": {
+					"title": "New Divide"
+				},
+				"in-the-end": {
+					"title": "In The End"
+				},
+				"bleed-it-out": {
+					"title": "Bleed It Out"
+				}
+			},
+			"youtube-playlist": "PLVVQj4LCMs-FKzXrt3XwddQjlxBb0n5WB",
+			"postado": "2016-01-01 00:00:00",
+			"lancado": "2014-06-07 00:00:00"
+		},
 		"rock-in-rio-2015": {
 			"title": "Rock In Rio Las Vegas 2015",
+			"descricao": "Rock in Rio é um festival de música idealizado pelo empresário Roberto Medina pela primeira vez em 1985, sendo, desde sua criação, reconhecidamente, o maior festival musical do mundo latino e o maior do planeta. Foi originalmente organizado no Rio de Janeiro, de onde vem o nome, tornou-se um evento de repercussão mundial e, em 2004, teve a sua primeira edição fora do país em Lisboa, Portugal.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2015/20150509\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/rock-in-rio-2015.srt\">neste link</a>.",
 			"imgList": [
 				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio2015.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio20151.jpg\">",
@@ -202,11 +419,69 @@
 				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201514.jpg\">",
 				"<img src=\"/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio201515.jpg\">"
 			],
-			"descricao": "Rock in Rio é um festival de música idealizado pelo empresário Roberto Medina pela primeira vez em 1985, sendo, desde sua criação, reconhecidamente, o maior festival musical do mundo latino e o maior do planeta. Foi originalmente organizado no Rio de Janeiro, de onde vem o nome, tornou-se um evento de repercussão mundial e, em 2004, teve a sua primeira edição fora do país em Lisboa, Portugal.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2015/20150509\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/rock-in-rio-2015.srt\">neste link</a>.",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio-2015-large.jpg",
 				"medium": "/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio-2015-medium.jpg",
 				"small": "/resources/imagens/videos/shows/rock-in-rio-2015/rock-in-rio-2015-small.jpg"
+			},
+			"setlist" : {
+				"papercut": {
+					"title": "Papercut"
+				},
+				"given-up": {
+					"title": "Given Up"
+				},
+				"one-step-closer": {
+					"title": "One Step Closer"
+				},
+				"a-line-in-the-sand": {
+					"title": "A Line In The Sand"
+				},
+				"runaway": {
+					"title": "Runaway"
+				},
+				"wastelands": {
+					"title": "Wastelands"
+				},
+				"castle-of-glass": {
+					"title": "Castle Of Glass"
+				},
+				"loatr-sotd-iridescent": {
+					"title": "LOATR/SOTD/Iridescent"
+				},
+				"robot-boy": {
+					"title": "Robot Boy"
+				},
+				"joe-solo-medley": {
+					"title": "Joe Solo Medley"
+				},
+				"new-divide": {
+					"title": "New Divide"
+				},
+				"burn-it-down": {
+					"title": "Burn It Down"
+				},
+				"mike-solo": {
+					"title": "Mike Solo Medley (w/ Joe)"
+				},
+				"numb": {
+					"title": "Numb"
+				},
+				"in-the-end": {
+					"title": "In The End"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"waiting-for-the-end": {
+					"title": "Waiting For The End"
+				},
+				"what-ive-done": {
+					"title": "What I've Done"
+				},
+				"bleed-it-out": {
+					"title": "Bleed It Out"
+				}
 			},
 			"postado": "2016-01-01 00:00:00",
 			"lancado": "2015-05-09 00:00:00"

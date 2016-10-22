@@ -3,7 +3,7 @@ include_once '../resources/php/checaLPTVBrCookie.php';
 
 $tipo = $_GET ['tipo'];
 $video = $_GET ['video'];
-$oficial = $_GET ['ano'];
+$ano = $_GET ['ano'];
 
 $str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $tipo . ".json" );
 $sourceVideoFile = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/videoSource.json" );
@@ -12,13 +12,13 @@ $sourceVideoFile = utf8_encode ( $sourceVideoFile );
 $release = json_decode ( $str, true );
 $videoSrc = json_decode ( $sourceVideoFile, true );
 
-if (! array_key_exists ( $oficial, $release ) || ! array_key_exists ( $video, $release [$oficial] )) {
+if (! array_key_exists ( $ano, $release ) || ! array_key_exists ( $video, $release [$ano] )) {
 	header ( 'HTTP/1.0 404 Not Found' );
 	readfile ( '../notfound.php' );
 	exit ();
 }
 
-$videoSelecionado = $release [$oficial] [$video];
+$videoSelecionado = $release [$ano] [$video];
 
 date_default_timezone_set ( "America/Fortaleza" );
 $dataHoraAtual = date ( "Y-m-d H:i:s" );
@@ -31,7 +31,6 @@ if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" ) && @$_COOKIE ["LPTVB
 }
 
 $resultVideoId = null;
-$imgList = null;
 $embedSrc = null;
 
 if (isset ( $videoSelecionado ['source'] )) {
@@ -44,18 +43,10 @@ if (isset ( $videoSelecionado ['videoId'] )) {
 	$resultVideoId = $videoSelecionado ['videoId'];
 }
 
-if (isset ( $videoSelecionado ['imgList'] )) {
-	$imgList = join ( '\n', $videoSelecionado ['imgList'] );
-}
-
 $nomeVideo = $videoSelecionado ['title'];
 $descricao = $videoSelecionado ['descricao'];
 
 $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
-
-include_once '../resources/php/CarregaIframe.php';
-
-$objCarregaIframe = new CarregaIframe ();
 
 ?>
 <!DOCTYPE html>
@@ -80,8 +71,8 @@ $objCarregaIframe = new CarregaIframe ();
 <meta property="og:title" content="<?php echo $page_title ?>" />
 <meta property="og:image"
 	content="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . $resultThumbnail['medium'] ?>" />
-<meta property="og:image:width" content="600" />
-<meta property="og:image:height" content="600" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="500" />
 <meta property="og:description"
 	content="Tradução de <?php echo $nomeVideo ?>" />
 <meta property="og:type" content="website" />
@@ -93,10 +84,13 @@ $objCarregaIframe = new CarregaIframe ();
 	<section class="mainSection">
 		<h1 class="titulo"><?php echo $nomeVideo ?></h1>
 		<div class="midia-container">
-			<!-- Se uma lista de imagens estiver configurada, será carregada a galeria; senão, o iframe do Youtube -->
-			<?php
-			$objCarregaIframe->carregaVideoIframe ( $imgList, $embedSrc, $resultVideoId, $descricao );
-			?>
+			<div class="video-container">
+				<iframe src="<?php echo $embedSrc . $resultVideoId; ?>"
+					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<article class="descricao">
+				<p class="descricao texto"><?php echo $descricao; ?></p>
+			</article>
 		</div>
 	</section>
     

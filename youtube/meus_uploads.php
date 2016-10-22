@@ -1,9 +1,10 @@
 <?php
 $htmlBody = <<<END
 END;
-require_once 'vendor/autoload.php';
-require_once 'vendor/google/apiclient/src/Google/Client.php';
-require_once 'vendor/google/apiclient/src/Google/Service/YouTube.php';
+$path = $_SERVER['DOCUMENT_ROOT'];
+require_once $path . '/vendor/autoload.php';
+require_once $path . '/vendor/google/apiclient/src/Google/Client.php';
+require_once $path . '/vendor/google/apiclient/src/Google/Service/YouTube.php';
 /*
  * Set $DEVELOPER_KEY to the "API key" value from the "Access" tab of the
  * {{ Google Cloud Console }} <{{ https://cloud.google.com/console }}>
@@ -28,11 +29,15 @@ try {
 		// Extract the unique playlist ID that identifies the list of videos
 		// uploaded to the channel, and then call the playlistItems.list method
 		// to retrieve that list.
-		$uploadsListId = $channel ['contentDetails'] ['relatedPlaylists'] ['uploads'];
+		if (! isset ( $uploadsListId ))
+			$uploadsListId = $channel ['contentDetails'] ['relatedPlaylists'] ['uploads'];
+		
+		if(! isset($maxResults))
+			$maxResults = 12;
 		
 		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet', array (
 				'playlistId' => $uploadsListId,
-				'maxResults' => 12
+				'maxResults' => $maxResults
 		) );
 		
 		foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {

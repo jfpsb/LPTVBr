@@ -29,37 +29,6 @@ body {
 	overflow: hidden;
 }
 
-/*Os elementos até a tag @media estão no arquivo meus_uploads.php */
-.linkWrapper {
-	min-height: 250px;
-	margin: 5px;
-	flex-basis: 30%;
-	flex-grow: 1;
-	flex-shrink: 0;
-}
-
-.videoLink {
-	text-decoration: none;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color: black;
-}
-
-.videoThumb {
-	max-width: 100%;
-	max-height: 100%;
-	border-radius: 5px;
-	margin: none;
-	padding: none;
-	width: 100%;
-	border: 1px groove white;
-}
-
-.videoTitle {
-	text-align: center;
-	font-weight: bold;
-	font-size: 15px;
-}
-
 @media all and (max-width: 480px) {
 	.linkWrapper {
 		flex-basis: 50%;

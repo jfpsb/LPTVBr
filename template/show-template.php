@@ -18,7 +18,8 @@ $showSelecionado = $release [$oficial] [$video];
 
 $resultThumbnail = $showSelecionado ['thumbnail'];
 
-$setlist = $showSelecionado ['setlist'];
+if (isset ( $showSelecionado ['setlist'] ))
+	$setlist = $showSelecionado ['setlist'];
 
 $imgList = join ( '\n', $showSelecionado ['imgList'] );
 
@@ -27,8 +28,15 @@ $descricao = $showSelecionado ['descricao'];
 
 $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
 
-?>
+if (isset ( $showSelecionado ['youtube-playlist'] ))
+	$uploadsListId = $showSelecionado ['youtube-playlist'];
 
+if (isset ( $uploadsListId )) {
+	$maxResults = 49;
+	include_once '../youtube/meus_uploads.php';
+}
+
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -61,7 +69,9 @@ $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
 <body>
 	<?php include_once '../template/header.php';?>
 	
-	<section class="mainSection">
+	<div class="mainSection">
+
+		<h1 class="titulo"><?php echo $nomeVideo ?></h1>
 
 		<article class="showInfo">
 			<article class="imagens">
@@ -78,17 +88,45 @@ $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
 			</script>
 			</article>
 			<article class="descricao">
-				<p><?php echo $descricao; ?></p>
-				
-				<h1>Setlist:</h1>
-				<?php foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; ?>		
-					<p><?php echo $titulo; ?></p>		
-				<?php } ?>
+				<p class="descricao texto"><?php echo $descricao; ?></p>
+				<?php if(isset($setlist)) { ?>
+					<h1 class="descricao texto">Setlist:</h1>
+					<?php $numero = 1; foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; ?>		
+						<p class="setlist"><?php echo $numero. ". " .$titulo; ?></p>		
+					<?php
+						$numero ++;
+					}
+				} // FECHANDO IF
+				?>
 			</article>
 		</article>
-	</section>
+		<article class="showVideos">
+			<article class="panel header">
+				<h1>Legendados no Canal</h1>
+			</article>
+			<?php if(isset($uploadsListId)) {?>
+				<div class="videosWrapper">
+					<?=$htmlBody?>
+				</div>
+			<?php } else { ?>
+				<h1>Não há vídeos deste show legendados em nosso canal.</h1>
+			<h2>
+				Mande-nos uma mensagem <a href="/contato/">aqui</a> ou aguarde até
+				estar disponível. =)
+			</h2>			
+			<?php } //FECHANDO IF ELSE ?>
+		</article>
+	</div>
 		
 	<?php include_once '../template/footer.php';?>
+
+
+
+
+
+
+
+
 
 
 

@@ -17,10 +17,54 @@
 	margin: 0 !important;
 }
 
+.descricao {
+	padding: 7px;
+}
+
+.descricao.texto {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+}
+
+.setlist {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 1px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.titulo, .showVideos h1, .showVideos h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+.showVideos {
+	margin: 15px 15px 0px 15px;
+	border: 1px black solid;
+}
+
+.videosWrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 @media all and (max-width: 768px) {
 	.galleria {
 		width: 97%;
 		height: 300px;
 		margin: 5px auto;
+	}
+	.descricao {
+		padding: 0;
+	}
+	.showVideos {
+		margin: 0;
 	}
 }

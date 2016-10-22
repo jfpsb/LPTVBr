@@ -69,6 +69,80 @@
 				"medium": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-medium.jpg",
 				"small": "/resources/imagens/albuns/road-to-revolution/road-to-revolution-small.jpg"
 			},
+			"setlist": {
+				"one-step-closer": {
+					"title": "One Step Closer",
+					"videoId": "YzoO5pRVuUI"
+				},
+				"from-the-inside": {
+					"title": "From The Inside",
+					"videoId": "YC56GtIwBDQ"
+				},
+				"no-more-sorrow": {
+					"title": "No More Sorrow",
+					"videoId": "6ILbGSInwdo"
+				},
+				"given-up": {
+					"title": "Given Up",
+					"videoId": "_KRmlrPzfYM"
+				},
+				"lying-from-you": {
+					"title": "Lying From You",
+					"videoId": "eji4Nj5_zYo"
+				},
+				"hands-held-high": {
+					"title": "Hands Held High",
+					"videoId": "g-R9DiWDTVo"
+				},
+				"leave-out-all-the-rest": {
+					"title": "Leave Out All The Rest",
+					"videoId": "LvbxMAYkKlw"
+				},
+				"numb": {
+					"title": "Numb",
+					"videoId": "3m7kVpACuJs"
+				},
+				"the-little-things-give-you-away": {
+					"title": "The Little Things Give You Away",
+					"videoId": "00jUu5uxvvk"
+				},
+				"breaking-the-habit": {
+					"title": "Breaking The Habit",
+					"videoId": "mztKdkWbPF8"
+				},
+				"shadow-of-the-day": {
+					"title": "Shadow Of The Day",
+					"videoId": "VJYxkLgKLNU"
+				},
+				"crawling": {
+					"title": "Crawling",
+					"videoId": "yURtHbEp4b8"
+				},
+				"in-the-end": {
+					"title": "In The End",
+					"videoId": "gl30eSQuPE0"
+				},
+				"pushing-me-away": {
+					"title": "Pushing Me Away",
+					"videoId": "b5jlBER8CVM"
+				},
+				"what-ive-done": {
+					"title": "What I've Done",
+					"videoId": "VVCT_k_X9Tg"
+				},
+				"numb-encore": {
+					"title": "Numb/Encore",
+					"videoId": "eVG6m_AZbDk"
+				},
+				"jigga-what": {
+					"title": "Jigga What/Faint",
+					"videoId": "91PD0DyQuXU"
+				},
+				"bleed-it-out": {
+					"title": "Bleed It Out",
+					"videoId": "LrGgr9tcLuw"
+				}
+			},
 			"postado": "2016-01-01 00:00:00",
 			"lancado": "2008-11-24 00:00:00"
 		}

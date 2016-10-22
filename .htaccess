@@ -43,4 +43,5 @@ RewriteRule ^musica/([a-z-0-9-_\.]+)/([a-z-0-9-_\.]+)/([a-z-0-9-_\.]+)/?$ templa
 #videos
 RewriteRule ^video/?$ videos/videos.php [NC,L]
 RewriteRule ^video/([a-z-0-9-]+)/?$ videos/$1/$1.php [NC,L]
+RewriteRule ^video/shows/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/show-template.php?tipo=shows&oficial=$1&video=$2 [NC,L]
 RewriteRule ^video/([a-z-0-9-]+)/([a-z-0-9-]+)/([a-z-0-9-]+)/?$ template/video-template.php?tipo=$1&ano=$2&video=$3 [NC,L]

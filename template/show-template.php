@@ -1,16 +1,12 @@
 <?php
 include_once '../resources/php/checaLPTVBrCookie.php';
 
-$tipo = $_GET ['tipo'];
 $video = $_GET ['video'];
-$oficial = $_GET ['ano'];
+$oficial = $_GET ['oficial'];
 
-$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/" . $tipo . ".json" );
-$sourceVideoFile = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/videoSource.json" );
+$str = file_get_contents ( 'http://' . $_SERVER ['SERVER_NAME'] . "/json/videos/shows.json" );
 $str = utf8_encode ( $str );
-$sourceVideoFile = utf8_encode ( $sourceVideoFile );
 $release = json_decode ( $str, true );
-$videoSrc = json_decode ( $sourceVideoFile, true );
 
 if (! array_key_exists ( $oficial, $release ) || ! array_key_exists ( $video, $release [$oficial] )) {
 	header ( 'HTTP/1.0 404 Not Found' );
@@ -18,47 +14,22 @@ if (! array_key_exists ( $oficial, $release ) || ! array_key_exists ( $video, $r
 	exit ();
 }
 
-$videoSelecionado = $release [$oficial] [$video];
+$showSelecionado = $release [$oficial] [$video];
 
-date_default_timezone_set ( "America/Fortaleza" );
-$dataHoraAtual = date ( "Y-m-d H:i:s" );
-$dataPostado = new DateTime ( $videoSelecionado ['postado'] );
+$resultThumbnail = $showSelecionado ['thumbnail'];
 
-if ($dataHoraAtual < $dataPostado->format ( "Y-m-d H:i:s" ) && @$_COOKIE ["LPTVBrCookie"] !== "1124" && $_SERVER ['HTTP_HOST'] !== "localhost") {
-	header ( 'HTTP/1.0 302' );
-	include_once '../video-yetToBeReleased.php';
-	exit ();
-}
+$setlist = $showSelecionado ['setlist'];
 
-$resultVideoId = null;
-$imgList = null;
-$embedSrc = null;
+$imgList = join ( '\n', $showSelecionado ['imgList'] );
 
-if (isset ( $videoSelecionado ['source'] )) {
-	$embedSrc = $videoSrc [$videoSelecionado ['source']];
-}
-
-$resultThumbnail = $videoSelecionado ['thumbnail'];
-
-if (isset ( $videoSelecionado ['videoId'] )) {
-	$resultVideoId = $videoSelecionado ['videoId'];
-}
-
-if (isset ( $videoSelecionado ['imgList'] )) {
-	$imgList = join ( '\n', $videoSelecionado ['imgList'] );
-}
-
-$nomeVideo = $videoSelecionado ['title'];
-$descricao = $videoSelecionado ['descricao'];
+$nomeVideo = $showSelecionado ['title'];
+$descricao = $showSelecionado ['descricao'];
 
 $page_title = $nomeVideo . ' - ' . $release ['secao'] . ' (Legendado)';
 
-include_once '../resources/php/CarregaIframe.php';
-
-$objCarregaIframe = new CarregaIframe ();
-
 ?>
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -68,7 +39,7 @@ $objCarregaIframe = new CarregaIframe ();
 	type="image/vnd.microsoft.icon"></link>
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
-<link rel="stylesheet" href="/resources/css/video-template.css">
+<link rel="stylesheet" href="/resources/css/show-template.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/global.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
@@ -89,17 +60,51 @@ $objCarregaIframe = new CarregaIframe ();
 </head>
 <body>
 	<?php include_once '../template/header.php';?>
-		
+	
 	<section class="mainSection">
-		<h1 class="titulo"><?php echo $nomeVideo ?></h1>
-		<div class="midia-container">
-			<!-- Se uma lista de imagens estiver configurada, será carregada a galeria; senão, o iframe do Youtube -->
-			<?php
-			$objCarregaIframe->carregaVideoIframe ( $imgList, $embedSrc, $resultVideoId, $descricao );
-			?>
-		</div>
+
+		<article class="showInfo">
+			<article class="imagens">
+				<div class="galleria"><?php echo $imgList?></div>
+
+				<h5 class="powered-by">
+					Powered By <a class="video-link" target="_blank"
+						href="http://galleria.io/">Galleria</a>
+				</h5>
+
+				<script>
+			Galleria.loadTheme('/resources/galleria/themes/classic/galleria.classic.min.js');
+			Galleria.run('.galleria');
+			</script>
+			</article>
+			<article class="descricao">
+				<p><?php echo $descricao; ?></p>
+				
+				<h1>Setlist:</h1>
+				<?php foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; ?>		
+					<p><?php echo $titulo; ?></p>		
+				<?php } ?>
+			</article>
+		</article>
 	</section>
-    
-    <?php include_once '../template/footer.php';?>
-</body>
+		
+	<?php include_once '../template/footer.php';?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>

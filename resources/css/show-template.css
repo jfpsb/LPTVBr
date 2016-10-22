@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+.galleria {
+	width: 90%;
+	height: 550px;
+	background: white;
+	margin: 15px auto;
+	margin-bottom: 3px;
+	border: 1px groove white;
+}
+
+.powered-by {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+@media all and (max-width: 768px) {
+	.galleria {
+		width: 97%;
+		height: 300px;
+		margin: 5px auto;
+	}
+}

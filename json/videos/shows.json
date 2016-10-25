@@ -318,77 +318,83 @@
 				"small": "/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-small.jpg"
 			},
 			"setlist": {
-				"the-requiem": {
-					"title": "The Requiem"
+				"mashup": {
+					"title": "Mashup Intro #1"
 				},
-				"the-radiance": {
-					"title": "The Radiance"
-				},
-				"papercut": {
-					"title": "Papercut"
-				},
-				"lying-from-you": {
-					"title": "Lying From You"
+				"guilty-all-the-same": {
+					"title": "Guilty All The Same"
 				},
 				"given-up": {
 					"title": "Given Up"
 				},
-				"what-ive-done": {
-					"title": "What I've Done"
-				},
-				"empty-spaces": {
-					"title": "Empty Spaces"
-				},
-				"when-they-come-for-me": {
-					"title": "When They Come For Me"
-				},
-				"no-more-sorrow": {
-					"title": "No More Sorrow"
-				},
-				"jornada-del-muerto": {
-					"title": "Jornada Del Muerto"
-				},
-				"waiting-for-the-end": {
-					"title": "Waiting For The End"
-				},
-				"burning-in-the-skies": {
-					"title": "Burning In The Skies"
-				},
-				"numb": {
-					"title": "Numb"
-				},
-				"breaking-the-habit": {
-					"title": "Breaking The Habit"
-				},
-				"fallout": {
-					"title": "Fallout"
-				},
-				"the-catalyst": {
-					"title": "The Catalyst"
-				},
-				"crawling": {
-					"title": "Crawling"
-				},
-				"faint": {
-					"title": "Faint"
+				"points-of-authority": {
+					"title": "Points Of Authority"
 				},
 				"one-step-closer": {
 					"title": "One Step Closer"
 				},
-				"rolling-in-the-deep": {
-					"title": "Rolling In The Deep"
+				"blackout": {
+					"title": "Blackout"
 				},
-				"wisdow-justice-love": {
-					"title": "Wisdom, Justice, And Love"
+				"papercut": {
+					"title": "Papercut"
 				},
-				"iridescent": {
-					"title": "Iridescent"
+				"with-you": {
+					"title": "With You"
+				},
+				"runaway": {
+					"title": "Runaway"
+				},
+				"wastelands": {
+					"title": "Wastelands"
+				},
+				"castle-of-glass": {
+					"title": "Castle Of Glass"
+				},
+				"loatr-sotd-iridescent": {
+					"title": "LOATR/SOTD/Iridescent"
+				},
+				"robot-boy": {
+					"title": "Robot Boy"
+				},
+				"joe-solo": {
+					"title": "Joe Solo Medley"
+				},
+				"burn-it-down": {
+					"title": "Burn It Down"
+				},
+				"waiting-for-the-end": {
+					"title": "Waiting For The End"
+				},
+				"mike-solo": {
+					"title": "Mike Solo Medley (w/ Joe)"
+				},
+				"numb": {
+					"title": "Numb"
+				},
+				"in-the-end": {
+					"title": "In The End"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"until-its-gone": {
+					"title": "Until It's Gone"
+				},
+				"a-light-that-never-comes": {
+					"title": "A Light That Never Comes"
+				},
+				"lost-in-the-echo": {
+					"title": "Lost In The Echo"
+				},
+				"crawling": {
+					"title": "Crawling"
 				},
 				"new-divide": {
 					"title": "New Divide"
 				},
-				"in-the-end": {
-					"title": "In The End"
+				"what-ive-done": {
+					"title": "What I've Done"
 				},
 				"bleed-it-out": {
 					"title": "Bleed It Out"

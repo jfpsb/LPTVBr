@@ -91,8 +91,9 @@ if (isset ( $uploadsListId )) {
 				<p class="descricao texto"><?php echo $descricao; ?></p>
 				<?php if(isset($setlist)) { ?>
 					<h1 class="descricao texto">Setlist:</h1>
-					<?php $numero = 1; foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; ?>		
-						<p class="setlist"><?php echo $numero. ". " .$titulo; ?></p>		
+					<?php $numero = 1; foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; @$note = $item['note']; ?>		
+						<p class="setlist"><?php echo "<span>" . $numero . ". " .  $titulo . "</span>";
+						if(isset($note)) { echo " " . $note; }; ?></p>
 					<?php
 						$numero ++;
 					}
@@ -119,6 +120,8 @@ if (isset ( $uploadsListId )) {
 	</div>
 		
 	<?php include_once '../template/footer.php';?>
+
+
 
 
 

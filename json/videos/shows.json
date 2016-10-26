@@ -319,85 +319,112 @@
 			},
 			"setlist": {
 				"mashup": {
-					"title": "Mashup Intro #1"
+					"title": "Mashup Intro #1",
+					"note": "(w/ The Catalyst, The Requiem, 1stp Klosr)"
 				},
 				"guilty-all-the-same": {
-					"title": "Guilty All The Same"
+					"title": "Guilty All The Same",
+					"note": ""
 				},
 				"given-up": {
-					"title": "Given Up"
+					"title": "Given Up",
+					"note": "(Ext. Outro w/ Extra Note)"
 				},
 				"points-of-authority": {
-					"title": "Points Of Authority"
+					"title": "Points Of Authority",
+					"note": "(Shortened Intro)"
 				},
 				"one-step-closer": {
-					"title": "One Step Closer"
+					"title": "One Step Closer",
+					"note": "(Ext. Outro)"
 				},
 				"blackout": {
-					"title": "Blackout"
+					"title": "Blackout",
+					"note": "(Shortened (Intro and Partial Outro Instrumental Only); Ext. Papercut Beat Outro Transition)"
 				},
 				"papercut": {
-					"title": "Papercut"
+					"title": "Papercut",
+					"note": "(Shortened (No Second Verse or Second Chorus))"
 				},
 				"with-you": {
-					"title": "With You"
+					"title": "With You",
+					"note": "(Shortened (No First Chorus or Second Verse))"
 				},
 				"runaway": {
-					"title": "Runaway"
+					"title": "Runaway",
+					"note": "(Shortened (Intro/First Verse/Chorus Only); Ext. Outro Transition w/ Wastelands Verse 1)"
 				},
 				"wastelands": {
-					"title": "Wastelands"
+					"title": "Wastelands",
+					"note": ""
 				},
 				"castle-of-glass": {
-					"title": "Castle Of Glass"
+					"title": "Castle Of Glass",
+					"note": "(Experience Version; Piano Transition Outro)"
 				},
 				"loatr-sotd-iridescent": {
-					"title": "LOATR/SOTD/Iridescent"
+					"title": "LOATR/SOTD/Iridescent",
+					"note": "(Ballad Medley)"
 				},
 				"robot-boy": {
-					"title": "Robot Boy"
+					"title": "Robot Boy",
+					"note": "(Shortened (Intro, Synth Bridge, and Ending Instrumental Only))"
 				},
 				"joe-solo": {
-					"title": "Joe Solo Medley"
+					"title": "Joe Solo Medley",
+					"note": "(w/ Wretches And Kings, Victimized Remix, Buy Myself, Cure For The Itch, Session, Plc.4 Mie Hæd)"
 				},
 				"burn-it-down": {
-					"title": "Burn It Down"
+					"title": "Burn It Down",
+					"note": ""
 				},
 				"waiting-for-the-end": {
-					"title": "Waiting For The End"
+					"title": "Waiting For The End",
+					"note": "(Apaches Intro w/ Until It Breaks Verse 3; Wall Of Noise Outro)"
 				},
 				"mike-solo": {
-					"title": "Mike Solo Medley (w/ Joe)"
+					"title": "Mike Solo Medley",
+					"note": "(w/ Joe) (w/ Wretches And Kings, Remember The Name, Hands Held High; Ext. Outro Transition)"
 				},
 				"numb": {
-					"title": "Numb"
+					"title": "Numb",
+					"note": "(Numb/Encore Intro/Outro + Verse 1 Guitar)"
 				},
 				"in-the-end": {
-					"title": "In The End"
+					"title": "In The End",
+					"note": ""
 				},
 				"faint": {
-					"title": "Faint"
+					"title": "Faint",
+					"note": "(Ext. Outro)"
 				},
 				"until-its-gone": {
-					"title": "Until It's Gone"
+					"title": "Until It's Gone",
+					"note": "(Ext. The Catalyst + No More Sorrow Mashup Intro; Ext. Outro Transition)"
 				},
 				"a-light-that-never-comes": {
-					"title": "A Light That Never Comes"
+					"title": "A Light That Never Comes",
+					"note": "(Shortened (No Second Verse, Second Chorus, or Bridge))"
 				},
 				"lost-in-the-echo": {
-					"title": "Lost In The Echo"
+					"title": "Lost In The Echo",
+					"note": "(Shortened (No First Chorus or Second Verse); Drum Transition Outro)"
 				},
 				"crawling": {
-					"title": "Crawling"
+					"title": "Crawling",
+					"note": "(Shortened (Through First Chorus Only); w/ Faster Tempo)"
 				},
 				"new-divide": {
-					"title": "New Divide"
+					"title": "New Divide",
+					"note": "(Shortened (No First Chorus or Second Verse))"
 				},
 				"what-ive-done": {
-					"title": "What I've Done"
+					"title": "What I've Done",
+					"note": "(Short Ticking Intro; Ext. Guitar Solo Bridge; Sing-a-long Outro)"
 				},
 				"bleed-it-out": {
-					"title": "Bleed It Out"
+					"title": "Bleed It Out",
+					"note": "(Ext. Intro; Ext. Bridge w/ Drum Solo + The Catalyst Sing-a-long; Ext. Ending)"
 				}
 			},
 			"youtube-playlist": "PLVVQj4LCMs-FKzXrt3XwddQjlxBb0n5WB",

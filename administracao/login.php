@@ -1,3 +1,8 @@
+<?php
+// Destrói se a sessão se estiver aberta.
+if (session_status () === PHP_SESSION_ACTIVE)
+	session_destroy ();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>

@@ -49,7 +49,6 @@ $objListagemVideo = new listagemVideos ();
 					<li><a href="#dois-mil-quinze">2015</a></li>
 					<li><a href="#dois-mil-dezesseis">2016</a></li>
 				</ul>
-
 				<div>
 					<div>
 						<div id="dois-mil-dez" class="abas-tabView">

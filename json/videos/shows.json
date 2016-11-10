@@ -183,6 +183,96 @@
 		}
 	},
 	"nao-oficial": {
+		"rock-am-ring-2004": {
+			"title": "Rock Am Ring 2004",
+			"descricao": "Rock Am Ring (Nürburgring) é um festival de música que acontece anualmente no Autódromo de Nürburgring, Nürburg, oeste da Alemanha.<br><br>O Rock Am Ring 2004 está disponível legendado em nosso canal no Youtube, você pode checar os vídeos disponíveis na seção abaixo.",
+			"imgList": [
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-1.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-2.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-3.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-4.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-5.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-6.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-7.jpg\">",
+				"<img src=\"/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-8.jpg\">"
+			],
+			"thumbnail": {
+				"large": "/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-large.jpg",
+				"medium": "/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-medium.jpg",
+				"small": "/resources/imagens/videos/shows/rock-am-ring-2004/rock-am-ring-2004-small.jpg"
+			},
+			"setlist": {
+				"dont-stay": {
+					"title": "Don't Stay",
+					"note": "Gacela Intro"
+				},
+				"lying-from-you": {
+					"title": "Lying From You"
+				},
+				"papercut": {
+					"title": "Papercut",
+					"note": "Short Intro"
+				},
+				"points-of-authority": {
+					"title": "Points Of Authority",
+					"note": "Reanimated Intro"
+				},
+				"with-you": {
+					"title": "With You",
+					"note": "Short Reanimated Intro; Reanimation-style"
+				},
+				"runaway": {
+					"title": "Runaway",
+					"note": "Transition Intro"
+				},
+				"step-up-nobodys-listening-its-going-down": {
+					"title": "Step Up/Nobody's Listening/It's Goin' Down",
+					"note": "Hip-Hop Medley"
+				},
+				"somewhere-i-belong": {
+					"title": "Somewhere I Belong",
+					"note": "Short Intro"
+				},
+				"from-the-inside": {
+					"title": "From The Inside",
+					"note": "Ext. Intro"
+				},
+				"breaking-the-habit": {
+					"title": "Breaking The Habit",
+					"note": "Long Piano Intro"
+				},
+				"numb": {
+					"title": "Numb",
+					"note": "Guitar Intro"
+				},
+				"faint": {
+					"title": "Faint"
+				},
+				"in-the-end": {
+					"title": "In The End",
+					"note": "Short Ambient Intro; Ext. Bridge"
+				},
+				"a-place-for-my-head": {
+					"title": "A Place For My Head",
+					"note": "Ext. Intro & Bridge"
+				},
+				"crawling": {
+					"title": "Crawling",
+					"note": "Long Krwlng Intro"
+				},
+				"wish": {
+					"title": "Wish",
+					"note": "Nine Inch Nails cover"
+				},
+				"one-step-closer": {
+					"title": "One Step Closer",
+					"note": "Reanimated Intro & Bridge"
+				}
+			},
+			"youtube-playlist": "PLVVQj4LCMs-GLNjELUg_eNHTlJn67pS_S",
+			"postado": "2016-11-02 00:00:00",
+			"lancado": "2004-06-06 00:00:00"
+		},
 		"itunes-festival": {
 			"title": "iTunes Festival 2011",
 			"descricao": "Apple Music Festival (anteriormente conhecido como iTunes Festival) é um festival de música anual que acontece ao decorrer de um mês em Londres. Patrocinado pela Apple Inc., teve sua primeira edição em 2007. As apresentações também são apresentadas ao vivo de graça e disponível para visualização por tempo limitado na loja da iTunes e pelo Aplicativo oficial, assim como através da Apple TV.<br><br> Você pode checar a lista de músicas <a target=\"_blank\"href=\"http://lplive.net/shows/db/2011/20110704\">neste link</a>.<br><br>O download da legenda está disponível <a class=\"video-link\" href=\"/legendas/itunes-festival-2011.srt\">neste link</a>.",
@@ -318,84 +408,117 @@
 				"small": "/resources/imagens/videos/shows/rock-am-ring-2014/rock-am-ring-2014-small.jpg"
 			},
 			"setlist": {
-				"the-requiem": {
-					"title": "The Requiem"
+				"mashup": {
+					"title": "Mashup Intro #1",
+					"note": "w/ The Catalyst, The Requiem, 1stp Klosr"
 				},
-				"the-radiance": {
-					"title": "The Radiance"
-				},
-				"papercut": {
-					"title": "Papercut"
-				},
-				"lying-from-you": {
-					"title": "Lying From You"
+				"guilty-all-the-same": {
+					"title": "Guilty All The Same",
+					"note": ""
 				},
 				"given-up": {
-					"title": "Given Up"
+					"title": "Given Up",
+					"note": "Ext. Outro w/ Extra Note"
 				},
-				"what-ive-done": {
-					"title": "What I've Done"
-				},
-				"empty-spaces": {
-					"title": "Empty Spaces"
-				},
-				"when-they-come-for-me": {
-					"title": "When They Come For Me"
-				},
-				"no-more-sorrow": {
-					"title": "No More Sorrow"
-				},
-				"jornada-del-muerto": {
-					"title": "Jornada Del Muerto"
-				},
-				"waiting-for-the-end": {
-					"title": "Waiting For The End"
-				},
-				"burning-in-the-skies": {
-					"title": "Burning In The Skies"
-				},
-				"numb": {
-					"title": "Numb"
-				},
-				"breaking-the-habit": {
-					"title": "Breaking The Habit"
-				},
-				"fallout": {
-					"title": "Fallout"
-				},
-				"the-catalyst": {
-					"title": "The Catalyst"
-				},
-				"crawling": {
-					"title": "Crawling"
-				},
-				"faint": {
-					"title": "Faint"
+				"points-of-authority": {
+					"title": "Points Of Authority",
+					"note": "Shortened Intro"
 				},
 				"one-step-closer": {
-					"title": "One Step Closer"
+					"title": "One Step Closer",
+					"note": "Ext. Outro"
 				},
-				"rolling-in-the-deep": {
-					"title": "Rolling In The Deep"
+				"blackout": {
+					"title": "Blackout",
+					"note": "Shortened (Intro and Partial Outro Instrumental Only); Ext. Papercut Beat Outro Transition"
 				},
-				"wisdow-justice-love": {
-					"title": "Wisdom, Justice, And Love"
+				"papercut": {
+					"title": "Papercut",
+					"note": "Shortened (No Second Verse or Second Chorus)"
 				},
-				"iridescent": {
-					"title": "Iridescent"
+				"with-you": {
+					"title": "With You",
+					"note": "Shortened (No First Chorus or Second Verse)"
 				},
-				"new-divide": {
-					"title": "New Divide"
+				"runaway": {
+					"title": "Runaway",
+					"note": "Shortened (Intro/First Verse/Chorus Only); Ext. Outro Transition w/ Wastelands Verse 1"
+				},
+				"wastelands": {
+					"title": "Wastelands",
+					"note": ""
+				},
+				"castle-of-glass": {
+					"title": "Castle Of Glass",
+					"note": "Experience Version; Piano Transition Outro"
+				},
+				"loatr-sotd-iridescent": {
+					"title": "LOATR/SOTD/Iridescent",
+					"note": "Ballad Medley"
+				},
+				"robot-boy": {
+					"title": "Robot Boy",
+					"note": "Shortened (Intro, Synth Bridge, and Ending Instrumental Only)"
+				},
+				"joe-solo": {
+					"title": "Joe Solo Medley",
+					"note": "w/ Wretches And Kings, Victimized Remix, Buy Myself, Cure For The Itch, Session, Plc.4 Mie Hæd"
+				},
+				"burn-it-down": {
+					"title": "Burn It Down",
+					"note": ""
+				},
+				"waiting-for-the-end": {
+					"title": "Waiting For The End",
+					"note": "Apaches Intro w/ Until It Breaks Verse 3; Wall Of Noise Outro"
+				},
+				"mike-solo": {
+					"title": "Mike Solo Medley",
+					"note": "w/ Joe) (w/ Wretches And Kings, Remember The Name, Hands Held High; Ext. Outro Transition"
+				},
+				"numb": {
+					"title": "Numb",
+					"note": "Numb/Encore Intro/Outro + Verse 1 Guitar"
 				},
 				"in-the-end": {
-					"title": "In The End"
+					"title": "In The End",
+					"note": ""
+				},
+				"faint": {
+					"title": "Faint",
+					"note": "Ext. Outro"
+				},
+				"until-its-gone": {
+					"title": "Until It's Gone",
+					"note": "Ext. The Catalyst + No More Sorrow Mashup Intro; Ext. Outro Transition"
+				},
+				"a-light-that-never-comes": {
+					"title": "A Light That Never Comes",
+					"note": "Shortened (No Second Verse, Second Chorus, or Bridge)"
+				},
+				"lost-in-the-echo": {
+					"title": "Lost In The Echo",
+					"note": "Shortened (No First Chorus or Second Verse); Drum Transition Outro"
+				},
+				"crawling": {
+					"title": "Crawling",
+					"note": "Shortened (Through First Chorus Only); w/ Faster Tempo"
+				},
+				"new-divide": {
+					"title": "New Divide",
+					"note": "Shortened (No First Chorus or Second Verse)"
+				},
+				"what-ive-done": {
+					"title": "What I've Done",
+					"note": "Short Ticking Intro; Ext. Guitar Solo Bridge; Sing-a-long Outro"
 				},
 				"bleed-it-out": {
-					"title": "Bleed It Out"
+					"title": "Bleed It Out",
+					"note": "Ext. Intro; Ext. Bridge w/ Drum Solo + The Catalyst Sing-a-long; Ext. Ending"
 				}
 			},
 			"youtube-playlist": "PLVVQj4LCMs-FKzXrt3XwddQjlxBb0n5WB",
-			"postado": "2016-01-01 00:00:00",
+			"postado": "2016-10-22 12:00:00",
 			"lancado": "2014-06-07 00:00:00"
 		},
 		"rock-in-rio-2015": {

@@ -40,5 +40,20 @@
 			"lancado": "2014-08-20 00:00:00"
 		}
 	},
+	"2015": {
+		"chester-sobre-som-banda-warped-tour-mais": {
+			"title": "Chester Bennington sobre o som da banda, Warped Tour e mais",
+			"videoId": "Yrw9RUwTqJo",
+			"descricao": "Nesta entrevista de 2015 Chester fala sobre a The Hunting Party Tour, sobre o som da banda ao longo dos anos e como foi participar na Warped Tour em parceria com outros artistas.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/chester-sobre-som-banda-warped-tour-mais/chester-sobre-som-banda-warped-tour-mais-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/chester-sobre-som-banda-warped-tour-mais/chester-sobre-som-banda-warped-tour-mais-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/chester-sobre-som-banda-warped-tour-mais/chester-sobre-som-banda-warped-tour-mais-small.jpg"
+			},
+			"postado": "2016-11-03 19:00:00",
+			"lancado": "2015-02-03 00:00:00"
+		}
+	},
 	"secao": "Entrevista"
 }

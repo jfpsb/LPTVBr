@@ -1,7 +1,7 @@
 <?php
 $htmlBody = <<<END
 END;
-$path = $_SERVER['DOCUMENT_ROOT'];
+$path = $_SERVER ['DOCUMENT_ROOT'];
 require_once $path . '/vendor/autoload.php';
 require_once $path . '/vendor/google/apiclient/src/Google/Client.php';
 require_once $path . '/vendor/google/apiclient/src/Google/Service/YouTube.php';
@@ -32,28 +32,33 @@ try {
 		if (! isset ( $uploadsListId ))
 			$uploadsListId = $channel ['contentDetails'] ['relatedPlaylists'] ['uploads'];
 		
-		if(! isset($maxResults))
+		if (! isset ( $maxResults ))
 			$maxResults = 12;
 		
-		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet', array (
+		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet, status', array (
 				'playlistId' => $uploadsListId,
-				'maxResults' => $maxResults
+				'maxResults' => $maxResults 
 		) );
 		
 		foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {
-			$tituloVideo = $playlistItem ['snippet'] ['title'];
-			$thumbnailVideo = $playlistItem ['snippet'] ['thumbnails'] ['medium'] ['url'];
-			$linkVideo = "http://www.youtube.com/watch/" . $playlistItem ['snippet'] ['resourceId'] ['videoId'];
+			$statusVideo = $playlistItem ['status'] ['privacyStatus'];
 			
-			$output = "<div class='linkWrapper'>";
-			
-			$link = "<a href='" . $linkVideo . "' class='videoLink' target='_blank'>";
-			$link .= "<img src='" . $thumbnailVideo . "' alt='" . $tituloVideo . "' class='videoThumb' />";
-			$link .= "<p class='videoTitle'>" . $tituloVideo . "</p></a>";
-			
-			$output = $output . $link . "</div>";
-			
-			$htmlBody = $htmlBody . $output;
+			// Não coloca na lista vídeos privados e não listados
+			if ($statusVideo === "public") {
+				$tituloVideo = $playlistItem ['snippet'] ['title'];
+				$thumbnailVideo = $playlistItem ['snippet'] ['thumbnails'] ['medium'] ['url'];
+				$linkVideo = "http://www.youtube.com/watch/" . $playlistItem ['snippet'] ['resourceId'] ['videoId'];
+				
+				$output = "<div class='linkWrapper'>";
+				
+				$link = "<a href='" . $linkVideo . "' class='videoLink' target='_blank'>";
+				$link .= "<img src='" . $thumbnailVideo . "' alt='" . $tituloVideo . "' class='videoThumb' />";
+				$link .= "<p class='videoTitle'>" . $tituloVideo . "</p></a>";
+				
+				$output = $output . $link . "</div>";
+				
+				$htmlBody = $htmlBody . $output;
+			}
 		}
 	}
 } catch ( Google_Service_Exception $e ) {

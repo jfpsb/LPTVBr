@@ -35,6 +35,13 @@
 	margin: 1px;
 	text-align: center;
 	font-size: 18px;
+	padding: 5px 0px 5px 0px;
+    border-bottom: 1px groove black;
+    margin: 0px 150px 0px 150px;
+}
+
+.setlist span {
+	font-weight: bold;
 }
 
 .titulo, .showVideos h1, .showVideos h2 {
@@ -47,6 +54,7 @@
 .showVideos {
 	margin: 15px 15px 0px 15px;
 	border: 1px black solid;
+	border-radius: 5px;
 }
 
 .videosWrapper {
@@ -65,6 +73,9 @@
 		padding: 0;
 	}
 	.showVideos {
+		margin: 0;
+	}
+	.setlist {
 		margin: 0;
 	}
 }

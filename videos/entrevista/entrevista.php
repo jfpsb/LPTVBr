@@ -53,24 +53,21 @@ $objListagemVideo = new listagemVideos ();
 						<div id="dois-mil-catorze" class="abas-tabView">
 							<?php
 							$objListagemVideo->listaVideos ( $release ['2014'], "2014", true, "medium" );
+							?>
+						</div>
+					</div>
+					<div>
+						<div id="dois-mil-quinze" class="abas-tabView">
+							<?php
+								$objListagemVideo->listaVideos ( $release ['2015'], "2015", true, "medium" );
 							?>	
 						</div>
 					</div>
-					<div id="dois-mil-quinze" class="abas-tabView">
-						<div align="center">
-							<h2
-								style="font-family: 'Courier New', Courier, monospace; color: black;">
-								Ainda não disponíveis!<br>Volte em breve.
-							</h2>
-						</div>
-					</div>
-
-					<div id="dois-mil-dezesseis" class="abas-tabView">
-						<div align="center">
-							<h2
-								style="font-family: 'Courier New', Courier, monospace; color: black;">
-								Ainda não disponíveis!<br>Volte em breve.
-							</h2>
+					<div>
+						<div id="dois-mil-dezesseis" class="abas-tabView">
+							<?php
+								$objListagemVideo->listaVideos ( $release ['2016'], "2016", true, "medium" );
+							?>	
 						</div>
 					</div>
 				</div>

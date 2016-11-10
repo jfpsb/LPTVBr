@@ -93,7 +93,7 @@ if (isset ( $uploadsListId )) {
 					<h1 class="descricao texto">Setlist:</h1>
 					<?php $numero = 1; foreach ( $setlist as $url => $item ) { $titulo = $item ['title']; @$note = $item['note']; ?>		
 						<p class="setlist"><?php echo "<span>" . $numero . ". " .  $titulo . "</span>";
-						if(isset($note)) { echo " " . $note; }; ?></p>
+						if(isset($note)) { echo " " . "(" . $note . ")"; }; ?></p>
 					<?php
 						$numero ++;
 					}

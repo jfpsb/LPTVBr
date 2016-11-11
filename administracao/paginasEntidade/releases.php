@@ -3,17 +3,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-	<article>
+	<article class="adminArticle">
 		<div class="adminListaWrapper">
-			<ol id="releasesLista" class="adminListas">
-				<li><a href="#" id="releaseCadastrar" class="linksLista">Cadastrar</a></li>
-				<li><a href="#" id="releaseAtualizar" class="linksLista">Atualizar</a></li>
-				<li><a href="#" id="releaseRemover" class="linksLista">Remover</a></li>
-			</ol>
+			<ul id="releasesLista" class="adminListas">
+				<li><button id="releaseCadastrar" class="linksLista">Cadastrar</button></li>
+				<li><button id="releaseAtualizar" class="linksLista">Atualizar</button></li>
+				<li><button id="releaseRemover" class="linksLista">Remover</button></li>
+			</ul>
 		</div>
-		<div class="adminOpcaoContent">
-			ESCOLHA AO LADO
-		</div>
+		<div class="adminOpcaoContent">ESCOLHA AO LADO</div>
 	</article>
 </body>
 </html>

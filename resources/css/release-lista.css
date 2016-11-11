@@ -82,62 +82,6 @@
 	margin: 0 !important;
 }
 
-.tabs.mobile {
-	display: block !important;
-}
-
-.div.mobile {
-	position: relative;
-	display: inline-block;
-}
-
-.musica.menu {
-	display: none;
-	font-size: 18px !important;
-	padding: 3px !important;
-	margin: 3px !important;
-	padding: 5px !important;
-	position: relative !important;
-	top: 0 !important;
-	font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-	border-radius: 3px !important;
-	background: white !important;
-	right: 15px;
-	font-size: 18px !important;
-}
-
-.tabs-mobile {
-	display: none;
-	list-style-type: none;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 20px;
-	padding: 3px !important;
-	position: absolute;
-	z-index: 45;
-}
-
-.tabs-mobile.pui-tabview-nav {
-	border: none !important;
-	background: none !important;
-	left: -13px !important;
-}
-
-.tabs-mobile li {
-	border: 1px solid white !important;
-	margin-bottom: 2px;
-	padding: 7px;
-	border-radius: 3px;
-	background: black !important;
-	left: 1px;
-	min-width: 200px;
-}
-
-.tabs-mobile a {
-	text-decoration: none;
-	text-shadow: 1px 1px 1px black;
-	color: white !important;
-}
-
 .tabView {
 	background: none !important;
 	padding-top: 10px !important;

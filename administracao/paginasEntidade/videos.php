@@ -3,17 +3,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-	<article>
+	<article class="adminArticle">
 		<div class="adminListaWrapper">
-			<ol id="videosLista" class="adminListas">
-				<li><a href="#" id="videoCadastrar" class="linksLista">Cadastrar</a></li>
-				<li><a href="#" id="videoAtualizar" class="linksLista">Atualizar</a></li>
-				<li><a href="#" id="videoRemover" class="linksLista">Remover</a></li>
-			</ol>
+			<ul id="videosLista" class="adminListas">
+				<li><button id="videoCadastrar" class="linksLista">Cadastrar</button></li>
+				<li><button id="videoAtualizar" class="linksLista">Atualizar</button></li>
+				<li><button id="videoRemover" class="linksLista">Remover</button></li>
+			</ul>
 		</div>
-		<div class="adminOpcaoContent">
-			ESCOLHA AO LADO
-		</div>
+		<div class="adminOpcaoContent">ESCOLHA AO LADO</div>
 	</article>
 </body>
 </html>

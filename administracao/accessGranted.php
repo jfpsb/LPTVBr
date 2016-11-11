@@ -12,24 +12,17 @@ $_SESSION ['senhaGranted'] = $senha;
 
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
+<link rel="stylesheet"
+	href="/resources/css/administracao/accessGranted.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
-<script>
-	$(function() {
-		$('#admin-tabView').puitabview();
-	});
-
-	$(document).ready( function() {
-	    $(".linksLista").on("click", function() {
-		    var id = $(this).attr('id');
-	        $(".adminOpcaoContent").load("paginasCRUD/"+ id + ".php");
-	    });
-	});
-</script>
+<script type="text/javascript"
+	src="/resources/js/administracao/accessGranted.js"></script>
 </head>
 <body>
 	<article class="adminArticle">

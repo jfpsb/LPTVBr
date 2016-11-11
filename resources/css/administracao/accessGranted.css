@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+.abas-tabView {
+	margin: 0 auto;
+	background: #E0E0E0;
+	padding-top: 25px;
+}
+
+.pui-tabview .pui-tabview-panel {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.tabView {
+	background: none !important;
+	padding-top: 10px !important;
+	border: none !important;
+}
+
+.pui-tabview-nav {
+	background: #9E9E9E !important;
+	border: 1px inset gray !important;
+	padding: 5px 3px 0px 3px !important;
+	border-bottom: none !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
+	{
+	color: black !important;
+	border: 1px inset black !important;
+	border-bottom: none !important;
+	background: #E0E0E0 !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active a
+	{
+	color: black !important;
+}
+
+.adminArticle {
+	overflow: hidden;
+	text-align: center;
+	border: 1px groove gray;
+}
+
+.adminArticle h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.adminListas {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.adminListaWrapper {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.adminListaWrapper li {
+	margin: 0;
+}
+
+.linksLista {
+	width: 100%;
+	padding: 15px;
+}
+
+.adminOpcaoContent {
+	float: right;
+	width: 79%;
+}

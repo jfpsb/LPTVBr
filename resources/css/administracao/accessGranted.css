@@ -17,6 +17,10 @@
 	border: none !important;
 }
 
+.tabView article {
+	overflow: hidden;
+}
+
 .pui-tabview-nav {
 	background: #9E9E9E !important;
 	border: 1px inset gray !important;
@@ -40,7 +44,8 @@
 .adminArticle {
 	overflow: hidden;
 	text-align: center;
-	border: 1px groove gray;
+	max-width: 1368px;
+	margin: 0 auto;
 }
 
 .adminArticle h1 {

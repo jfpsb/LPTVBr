@@ -29,8 +29,8 @@ $_SESSION ['senhaGranted'] = $senha;
 		<h1>Administração de LPTVBr</h1>
 		<div id="admin-tabView" class="tabView">
 			<ul class="tabs-admin">
-				<li><a href="#releases">Álbuns/LPUs/Singles/Remixes</a></li>
-				<li><a href="#videos">Vídeos</a></li>
+				<li><a class="tabViewLink" href="#releases">Álbuns/LPUs/Singles/Remixes</a></li>
+				<li><a class="tabViewLink" href="#videos">Vídeos</a></li>
 			</ul>
 			<div>
 				<div>

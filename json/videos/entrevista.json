@@ -55,5 +55,20 @@
 			"lancado": "2015-02-03 00:00:00"
 		}
 	},
+	"2016": {
+		"mike-shinoda-novo-album-music-for-relief": {
+			"title": "Mike Shinoda sobre novo álbum e Music For Relief com Robert Herrera",
+			"videoId": "FYmS6N93IFI",
+			"descricao": "Nesta entrevista de 2016 para o canal FrontRowLive, Mike Shinoda fala sobre Music For Relief e o novo álbum da banda.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/mike-shinoda-novo-album-music-for-relief/mike-shinoda-novo-album-music-for-relief-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/mike-shinoda-novo-album-music-for-relief/mike-shinoda-novo-album-music-for-relief-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/mike-shinoda-novo-album-music-for-relief/mike-shinoda-novo-album-music-for-relief-small.jpg"
+			},
+			"postado": "2016-11-20 22:00:00",
+			"lancado": "2016-04-01 00:00:00"
+		}
+	},
 	"secao": "Entrevista"
 }

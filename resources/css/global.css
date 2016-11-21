@@ -50,7 +50,6 @@ pre {
 	margin: 5px;
 	flex-basis: 30%;
 	flex-grow: 1;
-	flex-shrink: 0;
 }
 
 .videoLink {

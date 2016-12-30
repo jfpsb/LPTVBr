@@ -1,5 +1,18 @@
 {
 	"2014": {
+		"mike-shinoda-o-que-o-irrita": {
+			"title": "Guitar Center Rockwalk Induction",
+			"videoId": "lG75gl68-j4",
+			"descricao": "Mike Shinoda conta a Bill Maher o que inspira a banda depois de tantos anos, iniciativas de sustentabilidade e apoio a desastres naturais e mais.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/mike-shinoda-o-que-o-irrita/mike-shinoda-o-que-o-irrita-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/mike-shinoda-o-que-o-irrita/mike-shinoda-o-que-o-irrita-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/mike-shinoda-o-que-o-irrita/mike-shinoda-o-que-o-irrita-small.jpg"
+			},
+			"postado": "2016-12-28 21:00:00",
+			"lancado": "2014-06-21 00:00:00"
+		},
 		"guitar-center-rockwalk-induction": {
 			"title": "Guitar Center Rockwalk Induction",
 			"videoId": "oPXgSBzCnzs",
@@ -25,6 +38,19 @@
 			},
 			"postado": "2014-09-07 00:00:00",
 			"lancado": "2014-07-09 00:00:00"
+		},
+		"chester-carreira-linkin-park-criatividade": {
+			"title": "Chester Bennington sobre início de sua carreira, Linkin Park e processo criativo",
+			"videoId": "CKHP9oFZcZM",
+			"descricao": "Chester conta como conheceu o resto da banda, problemas com a gravadora, processo criativo e mais.",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/chester-carreira-linkin-park-criatividade/chester-carreira-linkin-park-criatividade-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/chester-carreira-linkin-park-criatividade/chester-carreira-linkin-park-criatividade-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/chester-carreira-linkin-park-criatividade/chester-carreira-linkin-park-criatividade-small.jpg"
+			},
+			"postado": "2016-12-29 21:00:00",
+			"lancado": "2014-07-18 00:00:00"
 		},
 		"perdemos-fas-intencionalmente": {
 			"title": "Mike Shinoda: \"Nós perdemos fãs ao longo do tempo intencionalmente\"",

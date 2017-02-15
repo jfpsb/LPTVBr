@@ -1,4 +1,23 @@
 {
+	"heavy": {
+		"heavy": {
+			"title": "Heavy",
+			"videoId": "empty",
+			"lyricAlbum": ""
+		},
+		"album": "Heavy",
+		"lancamento": "Alguma data em 2017",
+		"datetime": "2017-01-01",
+		"duracaoiso": "",
+		"duracao": "",
+		"numMus": "1",
+		"gravadora": "Warner Bros.",
+		"thumbnail": {
+			"large": "/resources/imagens/singles/heavy/heavy-large.jpg",
+			"medium": "/resources/imagens/singles/heavy/heavy-medium.jpg",
+			"small": "/resources/imagens/singles/heavy/heavy-small.jpg"
+		}
+	},
 	"final-masquerade": {
 		"final-masquerade": {
 			"title": "Final Masquerade",

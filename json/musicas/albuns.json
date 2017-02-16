@@ -1,4 +1,79 @@
 {
+	"one-more-light": {
+		"nobody-can-save-me": {
+			"numero": "1",
+			"title": "Nobody Can Save Me",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"good-goodbye": {
+			"numero": "2",
+			"title": "Good Goodbye",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"talking-to-myself": {
+			"numero": "3",
+			"title": "Talking To Myself",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"battle-symphony": {
+			"numero": "4",
+			"title": "Battle Symphony",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"invisible": {
+			"numero": "5",
+			"title": "Invisible",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"heavy": {
+			"numero": "6",
+			"title": "Heavy",
+			"videoId": "lp00DMy3aVw",
+			"disabled": "false"
+		},
+		"sorry-for-now": {
+			"numero": "7",
+			"title": "Sorry For Now",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"halfway-right": {
+			"numero": "8",
+			"title": "Halfway Right",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"one-more-light": {
+			"numero": "9",
+			"title": "One More Light",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"sharp-edges": {
+			"numero": "10",
+			"title": "Sharp Edges",
+			"videoId": "empty",
+			"disabled": "true"
+		},
+		"album": "One More Light",
+		"lancamento": "19 de maio de 2017",
+		"datetime": "2017-05-19",
+		"duracaoiso": "Unknown",
+		"duracao": "Unknown",
+		"numMus": "10",
+		"gravadora": "Warner Bros.",
+		"thumbnail": {
+			"large": "/resources/imagens/albuns/one-more-light/one-more-light-large.jpg",
+			"medium": "/resources/imagens/albuns/one-more-light/one-more-light-medium.jpg",
+			"small": "/resources/imagens/albuns/one-more-light/one-more-light-small.jpg"
+		},
+		"copyright": "Linkin Park May 19, 2017 \u24C5 Warner Bros. Records Inc."
+	},
 	"the-hunting-party": {
 		"keys-to-the-kingdom": {
 			"numero": "1",

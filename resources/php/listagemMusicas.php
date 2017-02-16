@@ -36,10 +36,20 @@ class listagemMusicas {
 		foreach ( $albumSelecionado as $url => $itemMusica ) {
 			if (isset ( $itemMusica ['title'] ) && (is_array ( $itemMusica ))) {
 				$title = $itemMusica ['title'];
+				$class = "trad-button";
+				$href = "href=\"$url/\"";
+				$tooltip = "Tradução de $title";
+				
+				if(isset($itemMusica['disabled']) && $itemMusica['disabled'] === "true") {
+					$class = $class." disabled";
+					$href = "";
+					$tooltip = "Não há nada sobre essa música ainda.";
+				}
+				
 				echo "<tr>";
 				echo "<td>$numero.</td>";
 				echo "<td>$title</td>";
-				echo "<td id=\"button-td\"><a class=\"trad-button\" href=\"$url/\">Tradução</a></td>";
+				echo "<td id=\"button-td\"><a class=\"$class\" $href title=\"$tooltip\">Tradução</a></td>";
 				echo "</tr>";
 				
 				$numero ++;
@@ -51,8 +61,18 @@ class listagemMusicas {
 		foreach ( $albumSelecionado as $url => $itemMusica ) {
 			if (isset ( $itemMusica ['title'] ) && (is_array ( $itemMusica ))) {
 				$title = $itemMusica ['title'];
+				$class = "album-text";
+				$href = "href=\"/musica/$tipo/$urlAlbum/$url/\"";
+				$tooltip = "Tradução de $title";
+				
+				if(isset($itemMusica['disabled']) && $itemMusica['disabled'] === "true") {
+					$class = $class." disabled";
+					$href = "";
+					$tooltip = "Não há nada sobre essa música ainda.";
+				}
+				
 				echo "<li class=\"traducao-li\">";
-				echo "<a class=\"album-text\" href=\"/musica/$tipo/$urlAlbum/$url/\">$numero. $title</a>";
+				echo "<a class=\"$class\" $href title=\"$tooltip\">$numero. $title</a>";
 				echo "</li>";
 				$numero ++;
 			}

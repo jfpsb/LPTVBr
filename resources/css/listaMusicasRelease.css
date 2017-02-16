@@ -40,6 +40,15 @@
 	-moz-transition-duration: 0.3s;
 }
 
+#button-td .disabled {
+	opacity: 0.5;
+	background: #BDBDBD;
+}
+
+#button-td .disabled:active {
+	border: 1px inset transparent;
+}
+
 .trad-button:hover, .trad-button:focus {
 	background: #757575;
 }

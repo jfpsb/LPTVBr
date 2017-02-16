@@ -80,7 +80,10 @@
 	text-shadow: 2px 2px 3px white;
 	color: black;
 	text-decoration: none;
-	font-weight: bold;
+}
+
+.album-text.disabled {
+	opacity: 0.5;
 }
 
 .album-copyright {

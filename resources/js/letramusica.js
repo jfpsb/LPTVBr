@@ -20,6 +20,7 @@ function loadTraducao(album, musica) {
 	};
 
 	xhttp.open("GET", letraPathTrad + album + "/" + musica + ".txt", true);
+	xhttp.setRequestHeader('Cache-Control', 'no-cache');
 	xhttp.send();
 }
 
@@ -37,5 +38,6 @@ function loadOriginal(album, musica) {
 	};
 
 	xhttp.open("GET", letraPathOrig + album + "/" + musica + ".txt", true);
+	xhttp.setRequestHeader('Cache-Control', 'no-cache');
 	xhttp.send();
 }

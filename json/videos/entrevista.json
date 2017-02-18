@@ -96,5 +96,20 @@
 			"lancado": "2016-04-01 00:00:00"
 		}
 	},
+	"2017": {
+		"chester-e-mike-sobre-heavy-e-one-more-light": {
+			"title": "Mike e Chester sobre \"Heavy\" e processo criativo de One More Light",
+			"videoId": "204633220",
+			"descricao": "Nesta entrevista Mike e Chester falam um pouco sobre como conheceram Kiiara, o single \"Heavy\" e o processo criativo do álbum One More Light.",
+			"source": "vimeo",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/entrevista/chester-e-mike-sobre-heavy-e-one-more-light/chester-e-mike-sobre-heavy-e-one-more-light-large.jpg",
+				"medium": "/resources/imagens/videos/entrevista/chester-e-mike-sobre-heavy-e-one-more-light/chester-e-mike-sobre-heavy-e-one-more-light-medium.jpg",
+				"small": "/resources/imagens/videos/entrevista/chester-e-mike-sobre-heavy-e-one-more-light/chester-e-mike-sobre-heavy-e-one-more-light-small.jpg"
+			},
+			"postado": "2017-2-18 00:00:00",
+			"lancado": "2017-02-17 00:00:00"
+		}
+	},
 	"secao": "Entrevista"
 }

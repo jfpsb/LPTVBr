@@ -46,6 +46,7 @@ $objListagemVideo = new listagemVideos ();
 					<li><a href="#dois-mil-catorze">2014</a></li>
 					<li><a href="#dois-mil-quinze">2015</a></li>
 					<li><a href="#dois-mil-dezesseis">2016</a></li>
+					<li><a href="#dois-mil-dezessete">2017</a></li>
 				</ul>
 
 				<div>
@@ -67,6 +68,13 @@ $objListagemVideo = new listagemVideos ();
 						<div id="dois-mil-dezesseis" class="abas-tabView">
 							<?php
 								$objListagemVideo->listaVideos ( $release ['2016'], "2016", true, "medium" );
+							?>	
+						</div>
+					</div>
+					<div>
+						<div id="dois-mil-dezessete" class="abas-tabView">
+							<?php
+								$objListagemVideo->listaVideos ( $release ['2017'], "2017", true, "medium" );
 							?>	
 						</div>
 					</div>

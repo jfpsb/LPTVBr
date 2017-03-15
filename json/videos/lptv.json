@@ -657,5 +657,20 @@
 			"lancado": "2011-01-07 00:00:00"
 		}
 	},
+	"2017": {
+		"behind-the-scenes-of-the-heavy-music-video": {
+			"title": "Behind The Scenes of the \"Heavy\" Music Video - Linkin Park (feat. Kiiara)",
+			"videoId": "FbFh0Zv0izk",
+			"descricao": "Neste Behind The Scenes é mostrado um pouco do processo de gravação do clipe de \"Heavy\".",
+			"source": "youtube",
+			"thumbnail": {
+				"large": "/resources/imagens/videos/lptv/behind-the-scenes-of-the-heavy-music-video/behind-the-scenes-of-the-heavy-music-video-large.jpg",
+				"medium": "/resources/imagens/videos/lptv/behind-the-scenes-of-the-heavy-music-video/behind-the-scenes-of-the-heavy-music-video-medium.jpg",
+				"small": "/resources/imagens/videos/lptv/behind-the-scenes-of-the-heavy-music-video/behind-the-scenes-of-the-heavy-music-video-small.jpg"
+			},
+			"postado": "2017-03-15 18:00:00",
+			"lancado": "2017-03-15 16:00:00"
+		}
+	},
 	"secao": "LPTV"
 }

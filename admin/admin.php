@@ -12,7 +12,7 @@ $senha = $_POST['senha'];
 // Vai checar se usuário informado existe
 if (isset ( $_POST ['submit'] ) && $login === "admin") {
 	if($senha === "12345") {		
-		include_once 'accessGranted.php';
+		include_once 'acessoConcedido.php';
 	}
 	else {
 		include_once 'wrongPassword.html';

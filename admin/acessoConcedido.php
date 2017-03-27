@@ -17,12 +17,12 @@ $_SESSION ['senhaGranted'] = $senha;
 <link rel="stylesheet" href="/resources/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/resources/css/primeui-2.2-min.css">
 <link rel="stylesheet"
-	href="/resources/css/administracao/acessoConcedido.css">
+	href="/resources/css/admin/acessoConcedido.css">
 <script type="text/javascript" src="/resources/js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/resources/js/primeui-2.2-min.js"></script>
 <script type="text/javascript"
-	src="/resources/js/administracao/accessGranted.js"></script>
+	src="/resources/js/admin/acessoConcedido.js"></script>
 </head>
 <body>
 	<article class="adminArticle">

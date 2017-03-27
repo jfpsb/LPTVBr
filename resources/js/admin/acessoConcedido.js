@@ -1,7 +1,3 @@
-/**
- * 
- */
-
 $(function() {
 	$('#admin-tabView').puitabview();
 });

@@ -65,7 +65,7 @@ table {
 	padding: 5px 0px 5px 0px;
 }
 
-#tipo_pesquisa {
+#tipo_pesquisa, #link_cadastrar {
 	font-size: 25px;
 	margin: 10px;
 }

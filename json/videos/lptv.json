@@ -49,14 +49,14 @@
 				"medium": "/resources/imagens/videos/lptv/europe-tour-pt1-2014/europe-tour-pt1-medium.jpg",
 				"small": "/resources/imagens/videos/lptv/europe-tour-pt1-2014/europe-tour-pt1-small.jpg"
 			},
-			"postado": "2014-07-16 00:00:00",
+			"postado": "2999-07-16 00:00:00",
 			"lancado": "2014-07-15 00:00:00"
 		},
 		"europe-tour-pt2": {
 			"title": "LPTV #111 | 2014 European Tour (Part 2 of 3)",
-			"videoId": "xKUjGwbD0QU",
+			"videoId": "198139392",
 			"descricao": "A turnê europeia de 2014 continua com dois shows na Rússia seguido por um show na Polônia.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/europe-tour-pt2-2014/europe-tour-pt2-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/europe-tour-pt2-2014/europe-tour-pt2-medium.jpg",
@@ -67,9 +67,9 @@
 		},
 		"making-of-final-masquerade": {
 			"title": "LPTV #112 | Making Of The Final Masquerade Music Video",
-			"videoId": "2KLQt-ZATuI",
+			"videoId": "198140353",
 			"descricao": "Making Of de 'Final Masquerade' do álbum The Hunting Party.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/making-of-final-masquerade/making-of-final-masquerade-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/making-of-final-masquerade/making-of-final-masquerade-medium.jpg",
@@ -80,9 +80,9 @@
 		},
 		"europe-tour-pt3": {
 			"title": "LPTV #113 | 2014 European Tour (Part 3 of 3)",
-			"videoId": "z-E2vMJ2Po4",
+			"videoId": "198684721",
 			"descricao": "A turnê The Hunting Party volta à Europa em novembro, aproveite o último episódio na recapitulação na passagem europeia neste verão.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/europe-tour-pt3-2014/europe-tour-pt3-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/europe-tour-pt3-2014/europe-tour-pt3-medium.jpg",
@@ -93,35 +93,35 @@
 		},
 		"carnivores-tour-pt1": {
 			"title": "LPTV #114 | Carnivores Tour 2014 (Part 1 of 4)",
-			"videoId": "",
+			"videoId": "198139510",
 			"descricao": "",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt1/carnivores-tour-pt1-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt1/carnivores-tour-pt1-medium.jpg",
 				"small": "/resources/imagens/videos/lptv/carnivores-tour-pt1/carnivores-tour-pt1-small.jpg"
 			},
-			"postado": "2999-12-12 00:00:00",
+			"postado": "2017-04-09 12:00:00",
 			"lancado": "2014-09-24 00:00:00"
 		},
 		"carnivores-tour-pt2": {
 			"title": "LPTV #115 | Carnivores Tour 2014 (Part 2 of 4)",
-			"videoId": "",
+			"videoId": "198140089",
 			"descricao": "",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt2/carnivores-tour-pt2-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt2/carnivores-tour-pt2-medium.jpg",
 				"small": "/resources/imagens/videos/lptv/carnivores-tour-pt2/carnivores-tour-pt2-small.jpg"
 			},
-			"postado": "2999-12-12 00:00:00",
+			"postado": "2017-04-09 12:00:00",
 			"lancado": "2014-10-07 00:00:00"
 		},
 		"carnivores-tour-pt3": {
 			"title": "LPTV #116 | Carnivores Tour 2014 (Part 3 of 4)",
-			"videoId": "VU_nnq9vG6w",
+			"videoId": "198685537",
 			"descricao": "A parte três da Carnivores Tour nos leva ao décimo segundo LPU Summit em The Woodlands, Texas. A banda encontra membros da IAVA, Chester inicia uma guerra de colônias e Darion Malakian se junta à banda para tocar Rebellion no Hollywood Bowl.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt3/carnivores-tour-pt3-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt3/carnivores-tour-pt3-medium.jpg",
@@ -132,9 +132,9 @@
 		},
 		"carnivores-tour-pt4": {
 			"title": "LPTV #117 | Carnivores Tour 2014 (Part 4 of 4)",
-			"videoId": "KDf-CI2uA60",
+			"videoId": "198686134",
 			"descricao": "No quarto e último episódio dos LPTVs da Carnivores Tour, Jared Leto se junta ao Chester, Mike e Rob em seus camirins para uma improvisação e durante a última apresentação da turnê a banda agradece à banda AFI, Thirty Seconds To Mars, os fãs e a equipe por fazerem a turnê ser um sucesso.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/carnivores-tour-pt4/carnivores-tour-pt4-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/carnivores-tour-pt4/carnivores-tour-pt4-medium.jpg",
@@ -145,9 +145,9 @@
 		},
 		"beast-astray": {
 			"title": "LPTV #118 | Beast Astray Art Show - Joe Hahn",
-			"videoId": "fhDToinSVl8",
+			"videoId": "198139859",
 			"descricao": "No LPTV desta semana, a mostra Beast Astray de Joe Hahn para o filme Mall acontece na Known Gallery, em Los Angeles.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/beast-astray/beast-astray-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/beast-astray/beast-astray-medium.jpg",
@@ -158,9 +158,9 @@
 		},
 		"brazil": {
 			"title": "LPTV #119 | BRAZIL 2014",
-			"videoId": "yRAfBdP4gVA",
+			"videoId": "198685133",
 			"descricao": "Neste episódio do LPTV, Linkin Park é a atração principal das duas noites do festival Circuito Banco do Brasil. O técnico de guitarra do Brad se apresenta para tocar nestes shows.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/brazil-2014/brazil-2014-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/brazil-2014/brazil-2014-medium.jpg",
@@ -171,9 +171,9 @@
 		},
 		"the-hunting-party-tour-europe-part1": {
 			"title": "LPTV #120 | The Hunting Party Tour Europe 2014 (Part 1 of 3)",
-			"videoId": "YI8leBHh8bQ",
+			"videoId": "199756941",
 			"descricao": "Neste primeiro episódio da série de LPTVs da turnê The Hunting Party na Europa, Linkin Park começa a turnê na Suíça e Alemanha. Austin e Aaron do Of Mice & Men conversam com Mike e Chester nos bastidores. Mike e Joe participam em um evento especial de arte em Berlim para celebrar a queda do muro de Berlim através de arte feita em partes ainda de pé do muro.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1/the-hunting-party-tour-europe-part1-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part1/the-hunting-party-tour-europe-part1-medium.jpg",
@@ -184,9 +184,9 @@
 		},
 		"the-hunting-party-tour-europe-part2": {
 			"title": "LPTV #121 | The Hunting Party Tour Europe 2014 (Part 2 of 3)",
-			"videoId": "_981TTfWVxI",
+			"videoId": "199757223",
 			"descricao": "A turnê The Hunting Party continua pela Europa. Neste episódio a turnê para em Amsterdã, onde o décimo segundo LPU Summit intercional acontece e o adesivo LINE do Linkin Park é lançado mundialmente. Austin do Of Mice & Men se junta à banda no palco em Faint.",
-			"source": "youtube",
+			"source": "vimeo",
 			"thumbnail": {
 				"large": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2/the-hunting-party-tour-europe-part2-large.jpg",
 				"medium": "/resources/imagens/videos/lptv/the-hunting-party-tour-europe-part2/the-hunting-party-tour-europe-part2-medium.jpg",

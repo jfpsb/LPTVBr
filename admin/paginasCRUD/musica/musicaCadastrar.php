@@ -53,12 +53,17 @@ if (isset ( $_POST ['submit'] )) {
 	<h1>CADASTRO DE MÚSICA</h1>
 	<form action="<?php $_SERVER['PHP_SELF']?>" class="formulario"
 		method="post">
-		<label>Escreva o nome da música: </label> <input type="text"
-			name="musicaname" required> <br> <label>Informe a id do vídeo: </label>
-		<input type="text" name="videoid" required> <br> <label>Informe se a
-			música está desativada:</label> <input type="checkbox"
-			name="disabled"><br> <input name="submit" type="submit"
-			value="Cadastrar" class="btnFinalizar">
+		<label>Escreva o nome da música: </label>
+		<input type="text" name="musicaname" required> <br>
+		<label>Informe a id do vídeo: </label>
+		<input type="text" name="videoid" required> <br>
+		<label>Escolha o .txt da letra original: </label>
+		<input type="file" name="letraoriginal" accept=".txt"><br>
+		<label>Escolha o .txt da letra tradução: </label>
+		<input type="file" name="letratraducao" accept=".txt"><br>
+		<label>Informe se a música está desativada:</label>
+		<input type="checkbox" name="disabled"><br>
+		<input name="submit" type="submit" value="Cadastrar" class="btnFinalizar">
 	</form>
 </body>
 </html>

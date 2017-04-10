@@ -36,6 +36,7 @@ $(document).ready(function() {
 				<li><a class="tabViewLink" href="#releases">Releases</a></li>
 				<li><a class="tabViewLink" href="#videos">Vídeos</a></li>
 				<li><a class="tabViewLink" href="#musica">Música</a></li>
+				<li><a class="tabViewLink" href="#admin">Admin</a></li>
 			</ul>
 			<div>
 				<div>
@@ -150,6 +151,12 @@ $(document).ready(function() {
 							<a href="#" onclick="getDadosParaTabela('tabelaMusicas', 'paginasCRUD/musica/retornaMusicasParaTable.php')">Atualizar lista</a>
 						<table id="tabelaMusicas" style="width: 100%">
 						</table>
+					</div>
+				</div>
+				<div>
+					<div id="admin" class="abas-tabView">
+						<a href="paginasCRUD/admin/adminCadastrar/php" target="_blank">Cadastrar Novo Administrador</a>
+						<table id="tabelaAdmin" style="width: 100%"></table>
 					</div>
 				</div>
 			</div>

@@ -1,29 +1,53 @@
 <?php
 include_once '/../conexao.php';
 include_once 'DAOletra.php';
+include_once '../../arquivo/gerenciaArquivo.php';
+
 class DAOMusica {
 	private $objConexao;
 	function __construct() {
 		$this->objConexao = new conexaoMySql ();
 	}
-	function insertMusica($musica, $letra) {
+	function insertMusica($musica, $letra, $arquivos) {
 		$conn = $this->objConexao->abreConexao ();
-		$objLetra = new DAOletra ( true );
+		$objDaoLetra = new DAOletra ( true );
+		$objGerenciaArquivo = new gerenciaArquivo();
+		$resultLetraArray; // Array que recebe resultado do cadastro da letra em método separado
+		$resultArray = [ ]; // Array que recebe resultado do cadastro da música
 		
-		$resultadoLetra = $objLetra->insertLetra ( $letra, $conn );
+		if (isset ( $letra->idletra )) {
+			$resultLetraArray ['result'] = true;
+			$resultLetraArray ['insert_id'] = $letra->idletra;
+		} else {
+			$resultLetraArray = $objDaoLetra->insertLetraComConn ( $letra, $conn );
+		}
 		
-		if ($resultadoLetra !== null) {
+		// Se a letra foi adicionada com sucesso
+		if ($resultLetraArray ['result'] === true) {
 			
-			$sql = "INSERT INTO musica (fk_letra, titulo, videoid, disabled) VALUES ('$resultadoLetra', $musica->titulo', '$musica->videoid', $musica->disabled)";
+			if(count($arquivos) > 0) {
+ 				$objGerenciaArquivo->enviarArquivo($arquivos['original'], $letra->original);
+ 				$objGerenciaArquivo->enviarArquivo($arquivos['traducao'], $letra->traducao);
+			}
+			
+			$sql = "INSERT INTO musica (fk_letra, titulo, videoId, disabled) VALUES ('" . $resultLetraArray ['insert_id'] . "', \"$musica->titulo\", \"$musica->videoid\", $musica->disabled)";
 			
 			$result = $conn->query ( $sql );
 			
-			$conn->close ();
-			
-			return $result;
+			if ($result === TRUE) {
+				$resultArray ['result'] = true; // Se a música foi cadastrado com sucesso
+			} else {
+				$resultArray ['result'] = false;
+				$resultArray ['error'] = $conn->error;
+			}
+		} else {
+			$resultArray ['result'] = false;
+			$resultArray ['error'] = $resultLetraArray ['error']; // Se o erro foi no cadastro da letra
 		}
 		
-		return "ERRO AO INSERIR ARQUIVOS DE LETRA";
+		$conn->close ();
+		
+		return $resultArray;
 	}
 	function selectTodasMusicas() {
 		$conn = $this->objConexao->abreConexao ();

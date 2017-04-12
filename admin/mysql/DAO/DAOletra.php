@@ -25,16 +25,22 @@ class DAOletra {
 		return "ERRO AO INSERIR LETRA -- " . $conn->error;
 	}
 	
-	function insertLetra($letra, $conn) {		
+	function insertLetraComConn($letra, $conn) {
+		$resultArray = [];
+		
 		$sql = "INSERT INTO letra (original, traducao) VALUES ('$letra->original', '$letra->traducao')";
 		
 		$result = $conn->query ( $sql );
 		
 		if($result === TRUE) {
-			return $conn->insert_id;
+			$resultArray['result'] = true;
+			$resultArray['insert_id'] = $conn->insert_id;
+		} else {
+			$resultArray['result'] = false;
+			$resultArray['error'] = $conn->error;
 		}
 		
-		return "ERRO AO INSERIR LETRA -- " . $conn->error;
+		return $resultArray;
 	}
 	
 	function selectTodasLetras() {
@@ -51,6 +57,12 @@ class DAOletra {
 		}
 		
 		return null;
+	}
+	
+	function deletarLetra($id, $conn) {
+		$sql = "DELETE FROM letra WHERE idletra=$id";
+		
+		$conn->query($sql);
 	}
 }
 

@@ -42,9 +42,8 @@
 			<legend>Músicas:</legend>
 			<div class="musicasWrapper">
 				<div class="selectWrapper">
-					<label class="musIndex">1. </label> <select id="musica_1"
-						class="comboboxMusica">
-						<option value="0">Selecione a Música</option>
+					<label class="musIndex">1. </label>
+					<select id="musica_1" class="comboboxMusica">
 					</select>
 				</div>
 			</div>

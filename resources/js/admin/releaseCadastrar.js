@@ -61,6 +61,6 @@ function getOpcoes() {
 			}
         }
     };
-    xmlhttp.open("GET","getOpcoesComboBox.php",true);
+    xmlhttp.open("GET","retornaMusicaParaComboBoxCadastroRelease.php",true);
     xmlhttp.send();
 }

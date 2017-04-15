@@ -1,6 +1,6 @@
 <?php
 	class conexaoMySql {
-		private $servername = "localhost";
+		private $servername = "localhost:3306";
 		private $username = "root";
 		private $password = "1124";
 		private $bancodedados = "lptvbr";

@@ -5,7 +5,8 @@ $(document).ready(function() {
     var vetorComboBox;
     
     // Carrega opcoes em combobox ao carregar página
-    getOpcoes();
+    getOpcoesMusica();
+    getOpcoesTipoRelease();
     
     $(add_button).click(function(e){ //on add input button click
         e.preventDefault();
@@ -14,7 +15,7 @@ $(document).ready(function() {
         
         $(wrapper).append('<div><label class="musIndex">' + x + '. </label><select id="musica_' + x + '" class="comboboxMusica"></select><a href="#" class="link_remover">Remover</a></div>');
         
-        gerenciaOpcoesAoAdicionarComboBox(x);
+        getOpcoesMusica();
     });
     
     $(wrapper).on("click",".link_remover", function(e){ //user click on remove text
@@ -32,11 +33,7 @@ $(document).ready(function() {
     });
 });
 
-function gerenciaOpcoesAoAdicionarComboBox(index) {	
-	getOpcoes();
-};
-
-function getOpcoes() {
+function getOpcoesMusica() {
 	if (window.XMLHttpRequest) {
         // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
@@ -62,5 +59,24 @@ function getOpcoes() {
         }
     };
     xmlhttp.open("GET","retornaMusicaParaComboBoxCadastroRelease.php",true);
+    xmlhttp.send();
+}
+
+function getOpcoesTipoRelease() {
+	if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var combobox = document.getElementById("tipoRelease");
+            
+            combobox.innerHTML = this.responseText;
+        }
+    };
+    xmlhttp.open("GET","retornaTipoReleaseComboBox.php",true);
     xmlhttp.send();
 }

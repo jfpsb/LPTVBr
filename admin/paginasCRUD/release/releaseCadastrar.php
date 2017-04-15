@@ -1,3 +1,52 @@
+<?php 
+	include_once '../../mysql/manager/ReleaseManager.php';
+	include_once '../../mysql/entidade/release.php';
+	include_once '../../mysql/entidade/thumbnail.php';
+	
+	if(isset($_POST['submit'])) {
+		// Após cadastro a página é redirecionada para ela mesma e mostra o resultado
+		if (isset ( $_GET ['status'] )) {
+			$status = $_GET ['status'];
+			$titulo = $_GET ['titulo'];
+			
+			if ($status === "sucesso") {
+				echo "<div class='resultado'>CADASTRO REALIZADO COM SUCESSO DE $titulo.<br><a class='link_remover' href='#'>Remover mensagem</a></div>";
+			} else {
+				$log = $_GET ['log'];
+				echo "<div class='resultado'>HOUVE UM ERRO AO CADASTRAR $titulo. TENTE NOVAMENTE. LOG: $log <br><a class='link_remover' href='#'>Remover mensagem</a></div>";
+			}
+		}
+	}
+
+	if(isset($_POST['submit'])) {
+		$objRelease = new release();
+		$objThumbnail = new thumbnail();
+		$objReleaseManager = new ReleaseManager();
+		
+		$objRelease->fk_tipo_release = $_POST['tipoRelease'];
+		$objRelease->caminho = $_POST['caminho'];
+		$objRelease->nome = $_POST['nome'];
+		$objRelease->lancamento = $_POST['lancamento'];
+		$objRelease->duracao = $_POST['duracao'];
+		$objRelease->gravadora = $_POST['gravadora'];
+		$objRelease->copyright = $_POST['copyright'];
+		
+		$objThumbnail->large = $_FILES['thumbnail']['tmp_name'];
+		$objThumbnail->medium = $_FILES['thumbnail']['tmp_name'];
+		$objThumbnail->small = $_FILES['thumbnail']['tmp_name'];
+		
+		$result = $objReleaseManager->inserirReleaseManager($objRelease, $objThumbnail);
+		
+		if(! is_array($result)) {
+			echo "AEHOOO";
+		}
+		else {
+			echo "DEU RUIM";
+		}
+	}
+
+?>
+
 <html>
 <head>
 <title>Cadastro de Release</title>
@@ -12,29 +61,26 @@
 </head>
 <body>
 	<h1>CADASTRO DE RELEASE</h1>
-	<form action="<?php $_SERVER['PHP_SELF']?>" class="formulario"
-		method="post" enctype="multipart/form-data">
-		<label for="urlfield">Digite o caminho que será usado para esse
-			release: </label> <input type="text" name="urlfield"> <br> <label>Escolha
-			o tipo do release: </label> <select>
-			<option value="op1">Opcao 1</option>
-			<option value="op2">Opcao 2</option>
-			<option value="op3">Opcao 3</option>
-			<option value="op4">Opcao 4</option>
-		</select> <br> <label>Escreva o nome do release: </label> <input
-			type="text" name="releasename"> <br> <label>Informe a data do
-			lançamento: </label> <input type="datetime-local"
-			name="releaselancamento"> <br> <label>Informe a duração (em
-			segundos):</label> <input type="text" name="releaseduracao"><br> <label>Informe
-			a gravadora, se souber: </label> <input type="text"
-			name="releasegravadora"> <br> <label>Informe as informações de
-			copyright, se possuir: </label> <input type="text"
-			name="releasecopyright"> <br>
+	<form action="<?php $_SERVER['PHP_SELF']?>" class="formulario" method="post" enctype="multipart/form-data">
+		<label for="urlfield">Digite o caminho que será usado para esse release: </label>
+		<input type="text" name="caminho"> <br>
+		<label>Escolha o tipo do release: </label>
+		<select id="tipoRelease" name="tipoRelease"></select> <br>
+		<label>Escreva o nome do release: </label>
+		<input type="text" name="nome"> <br>
+		<label>Informe a data do lançamento: </label>
+		<input type="date" name="lancamento"> <br>
+		<label>Informe a duração (em segundos):</label>
+		<input type="text" name="duracao"><br>
+		<label>Informe a gravadora, se souber: </label>
+		<input type="text" name="gravadora"> <br>
+		<label>Informe as informações de copyright, se possuir: </label>
+		<input type="text" name="copyright"> <br>
 
 		<fieldset>
 			<legend>Thumbnail:</legend>
 			<label>Informe a imagem: </label> <input type="file"
-				name="releaseThumbUpload" accept="image/*"> <br> <br>
+				name="thumbnail" accept="image/*"> <br> <br>
 			<!-- Para usar input file $_FILES['releaseThumbUpload']['tmp_name'] -->
 		</fieldset>
 
@@ -48,7 +94,7 @@
 				</div>
 			</div>
 			<br> <a href="#grupoMusicasId" class="link_atualizar"
-				onclick="getOpcoes()">Atualizar Lista</a> <a href="#grupoMusicasId"
+				onclick="getOpcoesMusica()">Atualizar Lista</a> <a href="#grupoMusicasId"
 				class="add_combobox">Adicionar Outra Música</a>
 		</fieldset>
 

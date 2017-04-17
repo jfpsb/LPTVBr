@@ -17,6 +17,9 @@ class DAORelease {
 		
 		if ($result === false) {
 			$resultArray ['error'] = $this->conn->error;
+		} 
+		else {
+			$resultArray['insert_id'] = $this->conn->insert_id;
 		}
 		
 		return $resultArray;

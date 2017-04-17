@@ -1,4 +1,4 @@
-<h2>Wretches And Kings</h2>
+﻿<h2>Wretches And Kings</h2>
 <pre>"Chega um tempo em que a operação do maquinário se torna tão odiosa 
 — faz tão mal ao coração — 
 que você não pode fazer parte.
@@ -21,7 +21,7 @@ Não lute contra o poder
 Ninguém se machuca
 Não há nada que não façamos 
 Se você ainda não ouviu, vou te contar agora
-Não há nada que não controlamos quando as armas estão descarregadas
+Não há nada que não controlamos quando as armas descarregam
 E ninguém faz nada até que meu pessoal permita
 Perdi todo o controle
 Agora todos vão

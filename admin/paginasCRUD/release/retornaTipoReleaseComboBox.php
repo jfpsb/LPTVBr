@@ -14,7 +14,7 @@ $option = "<option value='0'>Selecione o tipo</option>";
 
 if($arrayTipoRelease!== null) {
 	while($row = $arrayTipoRelease->fetch_assoc()) {
-		$option .= "<option value='" . $row['idtipo_release'] . "'>" . $row['nome'] . "</option>";
+		$option .= "<option value='" . $row['idtipo_release']. "|" . $row['nome']. "'>" . $row['nome'] . "</option>";
 	}
 }
 

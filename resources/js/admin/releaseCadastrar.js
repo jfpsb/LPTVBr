@@ -1,6 +1,8 @@
 $(document).ready(function() {
     var wrapper         = $(".musicasWrapper"); //Fields wrapper
     var add_button      = $(".add_combobox"); //Add button ID
+    var resultado = $(".resultado");
+	var link = $(".link_remover_resultado");
     var i, x = 1;
     var vetorComboBox;
     
@@ -11,15 +13,24 @@ $(document).ready(function() {
     $(add_button).click(function(e){ //on add input button click
         e.preventDefault();
         
-        x++; //text box increment
+        x++;
         
-        $(wrapper).append('<div><label class="musIndex">' + x + '. </label><select id="musica_' + x + '" class="comboboxMusica"></select><a href="#" class="link_remover">Remover</a></div>');
+        $(wrapper).append('<div><label class="musIndex">' + x + '. </label><select id="musica_' + x + '" name="mus_' + x + '" class="comboboxMusica"></select><a href="#" class="link_remover">Remover</a></div>');
         
         getOpcoesMusica();
     });
     
+    $(link).click(function(e) {
+		e.preventDefault();
+
+		$(resultado).html("");
+	});
+
+    
     $(wrapper).on("click",".link_remover", function(e){ //user click on remove text
-        e.preventDefault(); $(this).parent('div').remove();
+        e.preventDefault();
+        
+        $(this).parent('div').remove();
         
         x--;
         

@@ -1,5 +1,5 @@
 <?php
-include_once '../../mysql/DAO/DAOmusica.php';
+include_once '../../mysql/manager/MusicaManager.php';
 include_once '../../mysql/entidade/musica.php';
 include_once '../../mysql/entidade/letra.php';
 
@@ -20,10 +20,8 @@ if (isset ( $_GET ['status'] )) {
 if (isset ( $_POST ['submit'] )) {
 	$objMusica = new musica ();
 	$objLetra = new letra ();
-	$objDaoMusica = new DAOMusica ();
+	$objMusicaManager = new MusicaManager();
 	$arquivos= [ ];
-	
-	$escolhaUpload = $_POST ['escolhaLetra'];
 	
 	if (isset ( $_POST ['comboBoxEscolhaMusica'] )) {
 		$objLetra->idletra = $_POST ['comboBoxEscolhaMusica'];
@@ -45,11 +43,11 @@ if (isset ( $_POST ['submit'] )) {
 	$objMusica->videoid = $_POST ['videoid'];
 	$objMusica->disabled = (isset ( $_POST ['disabled'] ) ? 1 : 0);
 	
-	$result = $objDaoMusica->insertMusica ( $objMusica, $objLetra, $arquivos );
+	$result = $objMusicaManager->inserirMusicaManager($objMusica, $objLetra, $arquivos);
 	
 	$getinfo = "?titulo=$objMusica->titulo";
 	
-	if ($result ['result'] === TRUE) {
+	if (! is_array($result)) {
 		$getinfo .= "&status=sucesso";
 	} else {
 		$getinfo .= "&status=erro&log=" . $result ['error'];

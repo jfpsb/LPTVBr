@@ -1,9 +1,9 @@
 <?php
-include_once '../../mysql/DAO/DAOmusica.php';
+include_once '../../mysql/manager/MusicaManager.php';
 
-$objMusica = new DAOMusica ();
+$objMusicaManager = new MusicaManager();
 
-$arrayMusica = $objMusica->selectTodasMusicas ();
+$arrayMusica = $objMusicaManager->selectMusicaManager();
 
 if($arrayMusica !== null) {
 	$conteudoTable = "<tr><th>ID</th><th>Título</th><th>VídeoID</th><th>Disabled</th><th>Opções</th></tr>";

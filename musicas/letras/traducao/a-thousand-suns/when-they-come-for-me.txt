@@ -1,4 +1,4 @@
-<h2>When They Come For Me</h2>
+﻿<h2>When They Come For Me</h2>
 <pre>Eu não sou / Um padrão a ser seguido
 A pílula que uso é uma difícil de se engolir
 Não sou criminoso / Não sou um papel a seguir
@@ -13,7 +13,7 @@ Porque uma vez que você arruma uma teoria de como as coisas funcionam
 Todos querem que a próxima coisa seja igual à primeira
 Não sou um robô
 Não sou um macaquinho
-Não dançarei nem mesmo se a batida for legal
+Não dançarei nem mesmo se a batida for dançante
 Oposto de preguiçoso / Longe de um punk
 Vocês deveriam parar de falar e tentar me alcançar, filhos da puta
 E todos dizem

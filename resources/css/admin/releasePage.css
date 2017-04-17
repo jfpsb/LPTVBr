@@ -27,7 +27,7 @@ form {
 	margin: 5px;
 }
 
-.link_remover {
+.link_remover_resultado, .link_remover {
 	padding: 5px;
 	text-decoration: none;
 	margin-left: 2px;

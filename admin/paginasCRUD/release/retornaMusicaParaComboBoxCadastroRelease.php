@@ -1,9 +1,9 @@
 <?php
-include_once '../../mysql/DAO/DAOmusica.php';
+include_once '../../mysql/manager/MusicaManager.php';
 
-$objMusica = new DAOMusica ();
+$objMusicaManager = new MusicaManager();
 
-$arrayMusica = $objMusica->selectTodasMusicas ();
+$arrayMusica = $objMusicaManager->selectMusicaManager();
 
 $option = "<option value='0'>Selecione a música</option>";
 

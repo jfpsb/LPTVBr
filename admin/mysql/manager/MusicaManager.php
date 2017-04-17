@@ -29,7 +29,7 @@ class MusicaManager {
 		if ($resultadoArrayLetra ['result'] === true) {
 			if (count ( $arquivos ) === 2) {
 				$objArquivos->enviarArquivo ( $arquivos ['original'], $letra->original );
-				$objArquivos->enviarArquivo ( $arquivos ['original'], $letra->traducao );
+				$objArquivos->enviarArquivo ( $arquivos ['traducao'], $letra->traducao );
 			}
 			
 			$musica->fkletra = $resultadoArrayLetra ['insert_id'];

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var resultado = $(".resultado");
-	var link = $(".link_remover");
+	var link = $(".link_remover_resultado");
 
 	$(link).click(function(e) {
 		e.preventDefault();

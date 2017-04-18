@@ -37,7 +37,7 @@ if (isset ( $_POST ['submit'] )) {
 	$objRelease->copyright = $_POST ['copyright'];
 	
 	// Constroi diretório onde ficará thumbnail de release
-	$caminhoDestino = "/resources/imagens/" . removeAcentos ( $tipoReleaseArray [1] ) . "/$objRelease->caminho/";
+	$caminhoDestino = "/resources/imagens/releases/" . removeAcentos ( $tipoReleaseArray [1] ) . "/$objRelease->caminho/";
 	
 	// Cria diretório se não existir
 	if(! is_dir($caminhoDestino))
@@ -79,7 +79,7 @@ if (isset ( $_POST ['submit'] )) {
 <head>
 <title>Cadastro de Release</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="/resources/css/admin/releasePage.css">
+<link rel="stylesheet" href="/resources/css/admin/telaCadastrar.css">
 <script type="text/javascript"
 	src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
 <script type="text/javascript"
@@ -94,7 +94,7 @@ if (isset ( $_POST ['submit'] )) {
 		<label for="urlfield">Digite o caminho que será usado para esse
 			release: </label> <input type="text" name="caminho"> <br> <label>Escolha
 			o tipo do release: </label> <select id="tipoRelease"
-			name="tipoRelease"></select> <br> <label>Escreva o nome do release: </label>
+			name="tipoRelease" class="comboBox"></select> <br> <label>Escreva o nome do release: </label>
 		<input type="text" name="nome"> <br> <label>Informe a data do
 			lançamento: </label> <input type="date" name="lancamento"> <br> <label>Informe
 			a duração (em segundos):</label> <input type="text" name="duracao"><br>

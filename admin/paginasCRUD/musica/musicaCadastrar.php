@@ -9,10 +9,10 @@ if (isset ( $_GET ['status'] )) {
 	$titulo = $_GET ['titulo'];
 	
 	if ($status === "sucesso") {
-		echo "<div class='resultado'>CADASTRO REALIZADO COM SUCESSO DE $titulo.<br><a class='link_remover' href='#'>Remover mensagem</a></div>";
+		echo "<div class='resultado'>CADASTRO REALIZADO COM SUCESSO DE $titulo.<br><a class='link_remover_resultado' href='#'>Remover mensagem</a></div>";
 	} else {
 		$log = $_GET ['log'];
-		echo "<div class='resultado'>HOUVE UM ERRO AO CADASTRAR $titulo. TENTE NOVAMENTE. LOG: $log <br><a class='link_remover' href='#'>Remover mensagem</a></div>";
+		echo "<div class='resultado'>HOUVE UM ERRO AO CADASTRAR $titulo. TENTE NOVAMENTE. LOG: $log <br><a class='link_remover_resultado' href='#'>Remover mensagem</a></div>";
 	}
 }
 

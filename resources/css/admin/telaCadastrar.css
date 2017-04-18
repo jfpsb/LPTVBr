@@ -12,17 +12,15 @@ form {
 	max-width: 50%;
 	margin: 0 auto;
 }
+
 .btnFinalizar {
 	font-size: 30px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding: 10px;
 }
 
-.comboboxMusica, .add_combobox, .link_atualizar {
+.link_atualizar, .comboBox {
 	font-size: 20px;
-}
-
-.comboboxMusica {
 	padding: 3px;
 	margin: 5px;
 }

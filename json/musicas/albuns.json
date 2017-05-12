@@ -9,7 +9,7 @@
 		"good-goodbye": {
 			"numero": "2",
 			"title": "Good Goodbye",
-			"videoId": "DW44aPjOMvI",
+			"videoId": "phVQZrb2AdA",
 			"disabled": "false"
 		},
 		"talking-to-myself": {
@@ -27,8 +27,8 @@
 		"invisible": {
 			"numero": "5",
 			"title": "Invisible",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "n9_gWiwAWrA",
+			"disabled": "false"
 		},
 		"heavy": {
 			"numero": "6",
@@ -63,8 +63,8 @@
 		"album": "One More Light",
 		"lancamento": "19 de maio de 2017",
 		"datetime": "2017-05-19",
-		"duracaoiso": "Unknown",
-		"duracao": "Unknown",
+		"duracaoiso": "P35M19S",
+		"duracao": "35:19",
 		"numMus": "10",
 		"gravadora": "Warner Bros.",
 		"thumbnail": {

@@ -23,43 +23,47 @@ try {
 			'forUsername' => 'lptvbrasil' 
 	) );
 	
-	$htmlBody = '';
+	$htmlBody = "";
 	
-	foreach ( $channelsResponse ['items'] as $channel ) {
-		// Extract the unique playlist ID that identifies the list of videos
-		// uploaded to the channel, and then call the playlistItems.list method
-		// to retrieve that list.
-		if (! isset ( $uploadsListId ))
-			$uploadsListId = $channel ['contentDetails'] ['relatedPlaylists'] ['uploads'];
-		
-		if (! isset ( $maxResults ))
-			$maxResults = 12;
-		
-		$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet, status', array (
-				'playlistId' => $uploadsListId,
-				'maxResults' => $maxResults 
-		) );
-		
-		foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {
-			$statusVideo = $playlistItem ['status'] ['privacyStatus'];
+	if (count ( $channelsResponse ['items'] ) > 0) {
+		foreach ( $channelsResponse ['items'] as $channel ) {
+			// Extract the unique playlist ID that identifies the list of videos
+			// uploaded to the channel, and then call the playlistItems.list method
+			// to retrieve that list.
+			if (! isset ( $uploadsListId ))
+				$uploadsListId = $channel ['contentDetails'] ['relatedPlaylists'] ['uploads'];
 			
-			// Não coloca na lista vídeos privados e não listados
-			if ($statusVideo === "public") {
-				$tituloVideo = $playlistItem ['snippet'] ['title'];
-				$thumbnailVideo = $playlistItem ['snippet'] ['thumbnails'] ['medium'] ['url'];
-				$linkVideo = "http://www.youtube.com/watch/" . $playlistItem ['snippet'] ['resourceId'] ['videoId'];
+			if (! isset ( $maxResults ))
+				$maxResults = 12;
+			
+			$playlistItemsResponse = $youtube->playlistItems->listPlaylistItems ( 'snippet, status', array (
+					'playlistId' => $uploadsListId,
+					'maxResults' => $maxResults 
+			) );
+			
+			foreach ( $playlistItemsResponse ['items'] as $playlistItem ) {
+				$statusVideo = $playlistItem ['status'] ['privacyStatus'];
 				
-				$output = "<div class='linkWrapper'>";
-				
-				$link = "<a href='" . $linkVideo . "' class='videoLink' target='_blank'>";
-				$link .= "<img src='" . $thumbnailVideo . "' alt='" . $tituloVideo . "' class='videoThumb' />";
-				$link .= "<p class='videoTitle'>" . $tituloVideo . "</p></a>";
-				
-				$output = $output . $link . "</div>";
-				
-				$htmlBody = $htmlBody . $output;
+				// Não coloca na lista vídeos privados e não listados
+				if ($statusVideo === "public") {
+					$tituloVideo = $playlistItem ['snippet'] ['title'];
+					$thumbnailVideo = $playlistItem ['snippet'] ['thumbnails'] ['medium'] ['url'];
+					$linkVideo = "http://www.youtube.com/watch/" . $playlistItem ['snippet'] ['resourceId'] ['videoId'];
+					
+					$output = "<div class='linkWrapper'>";
+					
+					$link = "<a href='" . $linkVideo . "' class='videoLink' target='_blank'>";
+					$link .= "<img src='" . $thumbnailVideo . "' alt='" . $tituloVideo . "' class='videoThumb' />";
+					$link .= "<p class='videoTitle'>" . $tituloVideo . "</p></a>";
+					
+					$output = $output . $link . "</div>";
+					
+					$htmlBody = $htmlBody . $output;
+				}
 			}
 		}
+	} else {
+		$htmlBody = "<h2 style='width: 100%; text-align: center;'>Oops. Não há vídeos no momento. Aguarde.</h2>";
 	}
 } catch ( Google_Service_Exception $e ) {
 	$htmlBody = sprintf ( '<p>A service error occurred: <code>%s</code></p>', htmlspecialchars ( $e->getMessage () ) );

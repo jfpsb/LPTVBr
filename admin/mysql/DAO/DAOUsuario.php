@@ -1,14 +1,14 @@
 <?php
 include_once '/../conexao.php';
-class DAOLetra {
+class DAOUsuario {
 	private $conn;
 	function __construct($conn) {
 		$this->conn = $conn;
 	}
-	function insertLetra($letra) {
+	function insertUsuario($usuario) {
 		$resultadoArray = [ ];
 		
-		$sql = "INSERT INTO letra (original, traducao) VALUES ('$letra->original', '$letra->traducao')";
+		$sql = "INSERT INTO usuario (fk_tipo_usuario, login, senha, nome) VALUES ('$usuario->tipousuario', '$usuario->login', '$usuario->nome', '$usuario->senha')";
 		
 		$result = $this->conn->query ( $sql );
 		
@@ -22,8 +22,8 @@ class DAOLetra {
 		
 		return $resultadoArray;
 	}
-	function selectTodasLetras() {
-		$sql = "SELECT * FROM letra";
+	function selectTodosUsuarios() {
+		$sql = "SELECT usuario.idusuario as idusuario, tipo_usuario.nome as tiponome, usuario.login as login, usuario.nome as nome, login FROM usuario, tipo_usuario WHERE fk_tipo_usuario = idtipo_usuario";
 		
 		$result = $this->conn->query ( $sql );
 		
@@ -33,11 +33,10 @@ class DAOLetra {
 		
 		return null;
 	}
-	function deletarLetra($id) {
-		$sql = "DELETE FROM letra WHERE idletra=$id";
+	function deletarUsuario($id) {
+		$sql = "DELETE FROM usuario WHERE idusuario=$id";
 		
 		$this->conn->query ( $sql );
 	}
 }
-
 ?>

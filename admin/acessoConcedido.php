@@ -25,6 +25,7 @@ $_SESSION ['senhaGranted'] = $senha;
 <script>
 $(document).ready(function() {
 	getDadosParaTabela("tabelaMusicas", "paginasCRUD/musica/retornaMusicasParaTable.php");
+	getDadosParaTabela("tabelaUsuario", "paginasCRUD/usuario/retornaUsuarioParaTable.php");
 });
 </script>
 </head>
@@ -36,7 +37,7 @@ $(document).ready(function() {
 				<li><a class="tabViewLink" href="#releases">Releases</a></li>
 				<li><a class="tabViewLink" href="#videos">Vídeos</a></li>
 				<li><a class="tabViewLink" href="#musica">Música</a></li>
-				<li><a class="tabViewLink" href="#admin">Admin</a></li>
+				<li><a class="tabViewLink" href="#usuario">Usuário</a></li>
 			</ul>
 			<div>
 				<div>
@@ -154,9 +155,10 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<div>
-					<div id="admin" class="abas-tabView">
-						<a href="paginasCRUD/admin/adminCadastrar/php" target="_blank">Cadastrar Novo Administrador</a>
-						<table id="tabelaAdmin" style="width: 100%"></table>
+					<div id="usuario" class="abas-tabView">
+						<a href="paginasCRUD/usuario/usuarioCadastrar.php" target="_blank">Cadastrar Novo Administrador</a>
+						<a href="#" onclick="getDadosParaTabela('tabelaUsuario', 'paginasCRUD/usuario/retornaUsuarioParaTable.php')">Atualizar lista</a>
+						<table id="tabelaUsuario" style="width: 100%"></table>
 					</div>
 				</div>
 			</div>

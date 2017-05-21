@@ -3,12 +3,12 @@ include_once '../../mysql/manager/MusicaManager.php';
 
 $objMusicaManager = new MusicaManager();
 
-$arrayMusica = $objMusicaManager->selectMusicaManager();
+$arrayUsuario = $objMusicaManager->selectMusicaManager();
 
-if($arrayMusica !== null) {
+if($arrayUsuario !== null) {
 	$conteudoTable = "<tr><th>ID</th><th>Título</th><th>VídeoID</th><th>Disabled</th><th>Opções</th></tr>";
 	
-	while ( $row = $arrayMusica->fetch_assoc () ) {
+	while ( $row = $arrayUsuario->fetch_assoc () ) {
 		$conteudoTable .= "<tr>";
 		$conteudoTable .= "<td>" . $row['idmusica'] . "</td>";
 		$conteudoTable .= "<td>" . $row['titulo'] . "</td>";

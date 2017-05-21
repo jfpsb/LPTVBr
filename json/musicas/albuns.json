@@ -3,8 +3,8 @@
 		"nobody-can-save-me": {
 			"numero": "1",
 			"title": "Nobody Can Save Me",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "FY9v147BZuE",
+			"disabled": "false"
 		},
 		"good-goodbye": {
 			"numero": "2",
@@ -15,8 +15,8 @@
 		"talking-to-myself": {
 			"numero": "3",
 			"title": "Talking To Myself",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "JiCHPjrlUzk",
+			"disabled": "false"
 		},
 		"battle-symphony": {
 			"numero": "4",
@@ -33,32 +33,32 @@
 		"heavy": {
 			"numero": "6",
 			"title": "Heavy",
-			"videoId": "lp00DMy3aVw",
+			"videoId": "5dmQ3QWpy1Q",
 			"disabled": "false"
 		},
 		"sorry-for-now": {
 			"numero": "7",
 			"title": "Sorry For Now",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "ylj0Xiiw1pM",
+			"disabled": "false"
 		},
 		"halfway-right": {
 			"numero": "8",
 			"title": "Halfway Right",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "ivSihne3rO8",
+			"disabled": "false"
 		},
 		"one-more-light": {
 			"numero": "9",
 			"title": "One More Light",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "3kaUvGSLMew",
+			"disabled": "false"
 		},
 		"sharp-edges": {
 			"numero": "10",
 			"title": "Sharp Edges",
-			"videoId": "empty",
-			"disabled": "true"
+			"videoId": "M5Ni_LskhFc",
+			"disabled": "false"
 		},
 		"album": "One More Light",
 		"lancamento": "19 de maio de 2017",

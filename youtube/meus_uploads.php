@@ -20,7 +20,7 @@ try {
 	// Call the channels.list method to retrieve information about the
 	// currently authenticated user's channel.
 	$channelsResponse = $youtube->channels->listChannels ( 'contentDetails', array (
-			'forUsername' => 'lptvbrasil' 
+			'forUsername' => 'linkinparktvbr'
 	) );
 	
 	$htmlBody = "";
@@ -67,6 +67,8 @@ try {
 	}
 } catch ( Google_Service_Exception $e ) {
 	$htmlBody = sprintf ( '<p>A service error occurred: <code>%s</code></p>', htmlspecialchars ( $e->getMessage () ) );
+	$htmlBody = "<p>A service error occurred: <code>%s</code></p>";
 } catch ( Google_Exception $e ) {
 	$htmlBody = sprintf ( '<p>An client error occurred: <code>%s</code></p>', htmlspecialchars ( $e->getMessage () ) );
+	$htmlBody = "<p>An client error occurred: <code>%s</code></p>";
 }

@@ -20,7 +20,7 @@ try {
 	// Call the channels.list method to retrieve information about the
 	// currently authenticated user's channel.
 	$channelsResponse = $youtube->channels->listChannels ( 'contentDetails', array (
-			'forUsername' => 'linkinparktvbr'
+			'id' => 'UCEOPMMVdPVYvawg1KfjDQ0w'
 	) );
 	
 	$htmlBody = "";
